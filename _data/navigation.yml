@@ -1,7 +1,7 @@
 - label: Home
   url: /
 - label: Instruments
-  url: /lab.html
+  url: /instruments/
 - label: Reservations
   url: /reservations.html
 - label: Training
