@@ -22,12 +22,9 @@
         <br>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
        
-        <a href="https://breakerspace.mit.edu/index.html">Home</a><br>
-        <a href="https://breakerspace.mit.edu/lab.html">Lab</a><br>
-        <a href="https://breakerspace.mit.edu/sop.html">SOPs and tutorials</a><br>
-        <a href="https://breakerspace.mit.edu/lounge.html">Lounge</a><br>
-        <a href="https://breakerspace.mit.edu/resources.html">Resources</a><br>
-        <a href="https://breakerspace.mit.edu/team.html">Team</a><br>
+        {% for item in site.data.navigation %}
+        <a href="{{ item.url | relative_url }}">{{ item.label }}</a><br>
+        {% endfor %}
         <br>
 
       </header>

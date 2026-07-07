@@ -1,0 +1,14 @@
+- label: Home
+  url: /
+- label: Instruments
+  url: /lab.html
+- label: Reservations
+  url: /reservations.html
+- label: Training
+  url: /sop.html
+- label: Resources
+  url: /resources.html
+- label: Lounge
+  url: /lounge.html
+- label: Team
+  url: /team.html

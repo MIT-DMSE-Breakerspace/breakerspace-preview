@@ -5,7 +5,7 @@ This folder is the preview copy of the MIT DMSE Breakerspace website. It was cop
 Preview folder:
 
 ```text
-/Users/justinlavallee/Library/CloudStorage/Dropbox-MIT/DMSE Breakerspace/admin/MIT-DMSE-Breakerspace-preview
+/Users/justinlavallee/Documents/GitHub/breakerspace-preview
 ```
 
 Original production working folder:
@@ -211,7 +211,7 @@ rg
 git diff --check
 ```
 
-If a new preview repo is initialized, use normal Git status/diff commands there. Until then, this preview folder may not be a git repository.
+This renamed preview folder is now a Git repository on the `gh-pages` branch with remote `https://github.com/MIT-DMSE-Breakerspace/breakerspace-preview.git`. Use normal Git status/diff commands there.
 
 ## Working Preferences
 
@@ -220,3 +220,71 @@ The user wants practical, polished content that lab staff and students can maint
 When creating new integrated instrument pages, preserve common language for routine tasks and add a bottom exercise/to-do section.
 
 Do not edit the production folder unless explicitly asked. Work in this preview folder for the preview-site project.
+
+## Latest Chat Context - 2026-07-07
+
+The preview repo was renamed locally during this chat. The current working folder is:
+
+```text
+/Users/justinlavallee/Documents/GitHub/breakerspace-preview
+```
+
+The old thread/workspace sandbox still had write permission only for the previous folder name, so writes in this chat required per-command escalation after the rename. The user plans to create/open a new Codex project rooted at the renamed directory so normal write permission is restored.
+
+Current Git context after the rename check:
+
+* branch: `gh-pages`
+* remote: `https://github.com/MIT-DMSE-Breakerspace/breakerspace-preview.git`
+* `git diff --check` was clean before this handoff update.
+* `CODEx_HANDOFF.md` was intentionally modified to record the renamed path and this latest context.
+
+### Navigation And Structure Direction Discussed
+
+The current site navigation grew historically: `lab.md` became the instrument catalog, `sop.md` later became the tutorial/SOP index, and `resources.md` collected general lab infrastructure notes. The desired direction is to make each instrument page the canonical destination for that instrument.
+
+Recommended top-level navigation concept:
+
+* Home
+* Instruments
+* Reservations
+* Training
+* Resources
+* Lounge
+* Team
+
+`Home` should stay short and operational, with access, hours, and calendar/training visibility.
+
+`Instruments` should replace the old meaning of `Lab` as the main browsing catalog. It should link to integrated instrument pages under `instruments/` where available, and to existing tutorial pages only during transition. Instrument families can use hub pages, such as `instruments/sem.md`, while single instruments can use one landing/operating page.
+
+`Reservations` should remain top-level because instrument booking is a high-frequency user task. Specific instrument pages should use direct LibCal seat links.
+
+`Training` is preferred over the nav label `SOPs and tutorials` because it is clearer for students. During the transition, `sop.md` can become a training index that points to integrated instrument pages first and legacy tutorial pages only where needed.
+
+`Resources` should be reorganized around general lab support tasks rather than instrument-specific operating information. A proposed order is:
+
+* Getting access: MIT Kerberos, workstation groups, who to contact.
+* Files and data: Breakerspace Files drive, Dropbox team, suggested folder structure.
+* Communication: Slack and email.
+* Safety and lab use: general material rules, cleanup expectations, and when to ask staff.
+* Reference materials: sample library and general docs that are not instrument-specific.
+
+Most instrument-specific manuals, operating instructions, troubleshooting, exercises, and reservation links should live on the relevant instrument page instead of `resources.md`.
+
+### Integrated Instrument Page Model
+
+The preferred page order for integrated instrument pages is:
+
+1. Title and instrument name.
+2. Overview: what it does and what it is good for.
+3. Quick actions: reserve, get trained, open manual, contact staff.
+4. Access requirements.
+5. Compatible samples and limitations.
+6. Quick operating reference for trained users.
+7. Detailed training guide for new users.
+8. Data export and file handling.
+9. Troubleshooting.
+10. Manuals and supporting docs.
+11. Exercises.
+12. Tutorial to-do list.
+
+Old `tutorials/` pages should not be deleted abruptly. Treat them as compatibility pages during migration so existing links keep working while new navigation points users toward `instruments/` pages.
