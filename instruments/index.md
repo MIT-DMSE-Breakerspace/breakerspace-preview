@@ -16,6 +16,7 @@ During the transition, use this page as the instrument landing page. Updated ins
 | [Phenom XL SEM](./phenom-xl.html) | Operating the XL SEM, including large samples, multiple stubs, and EDS. | Updated operating page |
 | [Phenom Pure SEM](./phenom-pure.html) | Operating the Pure SEM, including the single-stub holder and cold-stage workflows. | Updated operating page |
 | [Technoorg-Linda SEMPrep 2 Broad Beam Ion Mill](./ion-mill.html) | Preparing samples for SEM imaging with surface polishing, final cleaning, and slope cutting. | Updated operating page |
+| [Olympus DSX-1000 Digital Optical Microscope](./optical.html) | Full-color optical imaging, 2D/3D capture, stitching, and basic measurement workflows. | Updated operating page |
 
 ## Instruments Awaiting Consolidation
 
@@ -23,7 +24,6 @@ These links go to the current tutorial/SOP pages. As each tutorial is revised, i
 
 | Instrument | Current page |
 | --- | --- |
-| Olympus DSX-1000 Digital Optical Microscope | [Optical microscope tutorial/SOP](../tutorials/optical.html) |
 | Panalytical Aeris Research XRD | [XRD tutorial/SOP](../tutorials/xrd.html) |
 | Horiba Duetta Fluorescence and Absorbance Spectrometer | [Duetta tutorial/SOP](../tutorials/uv-vis.html) |
 | Nicolet iS5 FTIR Spectrometer | [FTIR tutorial/SOP](../tutorials/ftir.html) |
