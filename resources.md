@@ -39,7 +39,7 @@ Breakerspace Files (I:)\_USERS\your-folder
 ```
 
 ```text
-Breakerspace Files (I:)\instrument\projects\your-folder
+Breakerspace Files (I:)\courses\subject_folder\your-folder
 ```
 
 If the shared folder becomes untidy or confusing, Breakerspace staff may reorganize files as needed to improve usability.
