@@ -4,7 +4,7 @@ layout: default
 
 # Reservations
 
-Breakerspace instrument reservations are managed in LibCal, MIT Libraries' reservation system. Use LibCal to check instrument availability, reserve trained-user time, and manage or cancel your bookings.
+Breakerspace instrument reservations are managed in LibCal. Use LibCal to check instrument availability, reserve trained-user time, and manage or cancel your bookings.
 
 <p><a href="https://breakerspace.libcal.com/space/168610" target="_blank" rel="noopener noreferrer">Open Breakerspace instrument reservations in LibCal</a></p>
 
