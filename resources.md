@@ -46,7 +46,7 @@ If the shared folder becomes untidy or confusing, Breakerspace staff may reorgan
 
 ## Communication
 
-The Breakerspace Slack workspace is [mit-dmse-breakerspace.slack.com](https://mit-dmse-breakerspace.slack.com). It includes channels for individual instruments and is a good place to ask questions, share tips and results, and connect with DMSE faculty, instructors, staff, and other users.
+The Breakerspace Slack workspace is [mit-dmse-breakerspace.slack.com](https://mit-dmse-breakerspace.slack.com). It includes a #breakerspace-help channel that is a good place to ask questions, share tips and results, and connect with DMSE faculty, instructors, staff, and other users. We are happy to make other channels upon request.
 
 You should receive an invitation at your `@mit.edu` email after you complete training. If you did not receive an invitation, contact [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
 
