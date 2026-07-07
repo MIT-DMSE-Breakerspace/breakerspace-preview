@@ -8,7 +8,7 @@ layout: default
 
 The Breakerspace Lab is a growing suite of materials characterization instruments, located in 8-102A (accessed through the Breakerspace Lounge). In addition to the instruments, we have cameras, microphones, tripods, lighting, and other equipment that can be used to document projects.
 
-**Hours:** The Breakerspace Lab is open 10 AM to 10 PM weekdays, and 12 PM to 5 PM weekends for trained users.
+**Hours:** The Breakerspace Lab is open 8 AM to midnight, seven days/week for trained users.
 
 ### Thermofisher Phenom XL SEM
 
@@ -116,4 +116,3 @@ ___
 This instrument gives particle size distribution data for dry powder samples with particles between 0.24 and 2,000 microns using laser diffraction. 
 
 [Microtrac Sync Particle Size Analyzer Tutorial/SOP](./tutorials/psa.html)  
-
