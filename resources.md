@@ -18,9 +18,7 @@ For lounge access, use the [lounge access request form](https://docs.google.com/
 
 ## Files And Data
 
-When you log in to a Breakerspace workstation, you should see a shared network drive in "My Computer" called "Breakerspace Files", usually mapped to drive letter `I:`.
-
-[![screenshot of Breakerspace files drive](./assets/img/breakerspace-files.JPG)](./assets/img/breakerspace-files.JPG){:target="_blank"}
+When you log in to a Breakerspace workstation, you should see a shared network drive in "My Computer" called "Breakerspace Files", usually mapped to drive letter `I:`. If you are not sure what this looks like, see a [screenshot of the Breakerspace Files drive](./assets/img/breakerspace-files.JPG).
 
 The shared drive is hosted on a file server in the Breakerspace and is also the Dropbox Team folder for the "DMSE Breakerspace" Dropbox Team. Files saved here are accessible to other users logged in to Breakerspace workstations and to members of the DMSE Breakerspace Dropbox Team. Do not use this shared folder for private or sensitive files.
 
