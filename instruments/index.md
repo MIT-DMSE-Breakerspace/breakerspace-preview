@@ -12,9 +12,7 @@ During the transition, use this page as the instrument landing page. Updated ins
 
 | Instrument | Use this page for | Status |
 | --- | --- | --- |
-| [Thermo Fisher Phenom SEMs](./sem.html) | Choose between the Phenom XL and Phenom Pure, review shared SEM concepts, and find the correct SEM operating page. | Updated SEM hub |
-| [Phenom XL SEM](./phenom-xl.html) | Operating the XL SEM, including large samples, multiple stubs, and EDS. | Updated operating page |
-| [Phenom Pure SEM](./phenom-pure.html) | Operating the Pure SEM, including the single-stub holder and cold-stage workflows. | Updated operating page |
+| [Thermo Fisher Phenom SEMs](./sem.html) | Choose between the [Phenom XL](./phenom-xl.html) and [Phenom Pure](./phenom-pure.html), review shared SEM concepts, and find the correct operating page. | Updated SEM hub |
 | [Technoorg-Linda SEMPrep 2 Broad Beam Ion Mill](./ion-mill.html) | Preparing samples for SEM imaging with surface polishing, final cleaning, and slope cutting. | Updated operating page |
 | [Olympus DSX-1000 Digital Optical Microscope](./optical.html) | Full-color optical imaging, 2D/3D capture, stitching, and basic measurement workflows. | Updated operating page |
 
