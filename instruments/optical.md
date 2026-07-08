@@ -51,6 +51,13 @@ Different lighting modes can make different features stand out. Brightfield ofte
 
 In a normal 2D image, look first for shape, color, scale, and texture. Ask: are features isolated or connected, smooth or rough, random or patterned, uniform or changing across the sample?
 
+<figure style="margin-left:0; margin-right:0;">
+  <a href="../assets/img/instruments/optical/bee-optical-color.jpg" target="_parent"><img src="../assets/img/instruments/optical/bee-optical-color.jpg" alt="Color optical microscope image of a bee surface." style="width:32%; margin:0"></a>
+  <a href="../assets/img/instruments/optical/bee-height-map.jpg" target="_parent"><img src="../assets/img/instruments/optical/bee-height-map.jpg" alt="Height map of the same bee surface." style="width:32%; margin:0"></a>
+  <a href="../assets/img/instruments/optical/scored-glass-fracture.jpg" target="_parent"><img src="../assets/img/instruments/optical/scored-glass-fracture.jpg" alt="Optical microscope image of a scored glass fracture surface." style="width:32%; margin:0"></a>
+  <figcaption>Optical microscopy can show color and texture, estimate surface height, and document materials features such as the fracture surface of scored glass.</figcaption>
+</figure>
+
 In a stitched image, look for larger-scale organization. A single high-magnification image may show detail, while a stitched image can show whether that detail is common across the sample or only appears in one local region.
 
 In a 3D image or height profile, look for surface relief. A scratch, pit, bump, fiber, printed trace, or worn region may be easier to understand when you can measure height or compare cross sections instead of relying on color and shadow alone.
@@ -285,7 +292,7 @@ For useful records:
 * Add photos or GIFs showing objective exchange and how to choose between long-working-distance and extra-long-working-distance objectives.
 * Add a screenshot or GIF showing the recommended save-location workflow.
 * Add example image sets comparing brightfield, oblique, darkfield, brightfield/darkfield mix, polarization, and DIC on the same sample.
-* Add annotated example results for a 2D image, stitched image, 3D height map, and measurement/profile workflow.
+* Add more annotated example results for stitched imaging and measurement/profile workflows.
 * Add a GIF of 2D acquisition, 3D acquisition, and stitching setup.
 * Add example measurement outputs for profile, volume, roughness, and STL export.
 * Add common sample-prep examples for flat samples, tall samples, fragile samples, and liquid-containing samples.
