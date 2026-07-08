@@ -15,6 +15,7 @@ During the transition, use this page as the instrument landing page. Updated ins
 | [Thermo Fisher Phenom SEMs](./sem.html) | Choose between the [Phenom XL](./phenom-xl.html) and [Phenom Pure](./phenom-pure.html), review shared SEM concepts, and find the correct operating page. | Updated SEM hub |
 | [Technoorg-Linda SEMPrep 2 Broad Beam Ion Mill](./ion-mill.html) | Preparing samples for SEM imaging with surface polishing, final cleaning, and slope cutting. | Updated operating page |
 | [Olympus DSX-1000 Digital Optical Microscope](./optical.html) | Full-color optical imaging, 2D/3D capture, stitching, and basic measurement workflows. | Updated operating page |
+| [Thermo Scientific Nicolet iS5 FTIR Spectrometer](./ftir.html) | Molecular material identification and comparison using ATR infrared spectroscopy. | Updated operating page |
 
 ## Instruments Awaiting Consolidation
 
@@ -24,7 +25,6 @@ These links go to the current tutorial/SOP pages. As each tutorial is revised, i
 | --- | --- |
 | Panalytical Aeris Research XRD | [XRD tutorial/SOP](../tutorials/xrd.html) |
 | Horiba Duetta Fluorescence and Absorbance Spectrometer | [Duetta tutorial/SOP](../tutorials/uv-vis.html) |
-| Nicolet iS5 FTIR Spectrometer | [FTIR tutorial/SOP](../tutorials/ftir.html) |
 | Instron 68TM-50 Universal Testing System | [Instron tutorial/SOP](../tutorials/instron.html) |
 | Horiba XploRA Confocal Raman Microscope | [Raman tutorial/SOP](../tutorials/raman.html) |
 | Innovatest Nemesis 5100G2 Hardness Tester | [Hardness tester tutorial/SOP](../tutorials/hardness-tester.html) |
