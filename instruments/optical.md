@@ -25,9 +25,47 @@ This page is the operating page for the optical microscope. It combines the quic
 | Need manufacturer documentation | [Manufacturer manuals](#manuals) |
 | Need practice tasks | [Exercises](#exercises) |
 
+<a name="science"></a>
+### What This Instrument Shows You
+
+#### The Basic Idea
+
+An optical microscope uses visible light to make small features easier to see. In the simplest case, light reflects off a sample, passes through lenses, and forms a magnified image on a camera. That is similar to what your eye does, but the microscope gives you controlled lighting, interchangeable lenses, stable focusing, digital capture, and software tools for measurement.
+
+The DSX-1000 is a digital optical microscope, so it is especially good at turning "I can see something interesting here" into images and measurements that can be saved, compared, and shared. It can also combine many images. For example, a 3D acquisition captures images at different focus heights and keeps the sharpest parts from each height, building a view where more of the sample appears in focus. A stitched image captures neighboring regions and joins them into a larger map.
+
+Different lighting modes can make different features stand out. Brightfield often looks the most natural. Darkfield can make edges, dust, scratches, and particles glow against a dark background. Oblique and DIC lighting can make shallow texture easier to notice. Polarized light can reveal structure in crystals, fibers, plastics, minerals, and other materials that interact with light differently depending on direction.
+
+#### What Scientists Use It For
+
+* A biologist might inspect the shape, color, and texture of a plant surface, insect part, tissue scaffold, or bio-inspired material before deciding whether higher magnification is needed.
+* A mechanical engineer might look at a fracture surface, scratch, worn coating, or printed part to ask where damage started and whether the feature is wide, deep, rough, or repeating.
+* A materials scientist might compare polished metals, ceramics, polymers, composites, or coatings to look for grains, pores, cracks, layers, fibers, or contamination.
+* An architect, artist, designer, or conservator might examine paper, pigments, textiles, printed objects, or surface finishes to understand how something was made or why it is changing.
+* A student doing an exploratory project might use the microscope as a first stop: look closely, document what is visible, then decide whether SEM, FTIR, Raman, XRD, or another instrument can answer the next question.
+
+#### What To Look For In The Results
+
+In a normal 2D image, look first for shape, color, scale, and texture. Ask: are features isolated or connected, smooth or rough, random or patterned, uniform or changing across the sample?
+
+In a stitched image, look for larger-scale organization. A single high-magnification image may show detail, while a stitched image can show whether that detail is common across the sample or only appears in one local region.
+
+In a 3D image or height profile, look for surface relief. A scratch, pit, bump, fiber, printed trace, or worn region may be easier to understand when you can measure height or compare cross sections instead of relying on color and shadow alone.
+
+When comparing observation modes, look for which mode makes the question easier to answer. The "best" image is not always the prettiest image; it is the image that makes the important feature easiest to see and explain.
+
+#### What This Instrument Cannot Tell You
+
+* It usually cannot identify chemical composition by itself. If you need chemistry, consider FTIR, Raman, SEM-EDS, or another method.
+* It cannot see details smaller than the limits of visible-light optics. If you need nanoscale structure, SEM may be a better tool.
+* It cannot see through opaque samples unless the surface or cross section is exposed.
+* 3D height measurements depend on focus, surface reflectivity, lighting, and software assumptions, so they should be treated as measurements to understand and verify, not magic truth.
+* A beautiful image is not automatically a complete answer. Good microscopy still depends on sample prep, scale bars, notes, comparison images, and a clear question.
+
 <a name="page-index"></a>
 ### Page Index
 
+* [What this instrument shows you](#science)
 * [Standard operating protocol](#sop) - ([startup](#startup), [operation](#operation), [shutdown](#shutdown))
 * [Compatible materials and quick sample prep](#materials)
 * [Quick observation mode selection](#quick-modes)
@@ -262,6 +300,7 @@ For useful records:
 * Add photos or GIFs showing objective exchange and how to choose between long-working-distance and extra-long-working-distance objectives.
 * Add a screenshot or GIF showing the recommended save-location workflow.
 * Add example image sets comparing brightfield, oblique, darkfield, brightfield/darkfield mix, polarization, and DIC on the same sample.
+* Add annotated example results for a 2D image, stitched image, 3D height map, and measurement/profile workflow.
 * Add a GIF of 2D acquisition, 3D acquisition, and stitching setup.
 * Add example measurement outputs for profile, volume, roughness, and STL export.
 * Add common sample-prep examples for flat samples, tall samples, fragile samples, and liquid-containing samples.

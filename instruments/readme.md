@@ -1,6 +1,6 @@
 # Instrument Pages README
 
-This folder is for integrated instrument pages. These pages are intended to become the main user-facing destination for each lab instrument, combining the short operational reference, training/tutorial material, reservation links, manuals, exercises, and instrument-specific to-do lists.
+This folder is for integrated instrument pages. These pages are intended to become the main user-facing destination for each lab instrument, combining the instrument overview, educational context, short operational reference, training/tutorial material, reservation links, manuals, exercises, and instrument-specific to-do lists.
 
 The older `tutorials/` pages can remain in place during the transition. The working model is:
 
@@ -16,7 +16,39 @@ Instrument pages should be complete enough to use at the instrument without requ
 
 The top of each operating page should work as a quick reference for trained users. The detailed operating instructions should work as a training guide for new users, with images, GIFs, and practical context.
 
+Each page should also include a short educational section near the top, after Quick Actions and before the SOP, aimed at curious undergraduates from any major. Assume students have completed high-school science but may not have taken university-level physics, chemistry, biology, or materials science. This section should answer what the instrument reveals, why scientists use it, what typical results look like, and what the instrument cannot tell you. Keep it satisfying but not textbook-length.
+
 Avoid mixing instrument-specific steps when confusion could cause damage. For example, the Phenom XL and Phenom Pure have different sample-height rules, so they now have separate operating pages.
+
+## Standard Page Order
+
+Use this order unless an instrument family needs a hub/split structure:
+
+1. Title and instrument name.
+2. Overview: what it does and what it is good for.
+3. Quick actions: reserve, get trained, open manuals, find exercises.
+4. What this instrument shows you: accessible educational context, use cases, example results, and limits.
+5. Page index.
+6. Standard operating protocol: startup, operation, shutdown.
+7. Compatible materials and sample preparation.
+8. Quick method, mode, or settings selection where useful.
+9. Detailed operating instructions for new users.
+10. Data processing and analysis.
+11. Common failure modes.
+12. Manufacturer manuals and links.
+13. Exercises.
+14. Tutorial to-do list.
+
+## Educational Section Format
+
+The educational section should usually be 500-900 words total, plus images or example data when available. A good default structure is:
+
+* **The basic idea:** 1-3 short paragraphs explaining the underlying principle in plain language.
+* **What scientists use it for:** 3-5 bullets with cross-disciplinary, anecdotal scenarios.
+* **What to look for in the results:** 2-4 annotated examples or plain-language descriptions of typical images, spectra, maps, curves, or measurements.
+* **What this instrument cannot tell you:** a short list of limits and common misconceptions.
+
+Use annotated images or example data when they exist, but do not block publishing a useful educational section while waiting for perfect examples. Add missing examples to the page to-do list.
 
 ## Shared Includes
 
@@ -71,7 +103,7 @@ layout: default
 ---
 ```
 
-3. Add an overview, quick actions, page index, standard operating protocol, compatible materials, detailed operating instructions, manuals, exercises, and to-do list.
+3. Follow the standard page order above: overview, quick actions, educational context, page index, standard operating protocol, compatible materials, detailed operating instructions, data processing, common failure modes, manuals, exercises, and to-do list.
 4. If several pages need the same text, create a small include under `_includes/<instrument-or-family>/`.
 5. Keep instrument-specific safety-critical steps on the instrument page itself.
 6. Validate local links and image paths before making the page live.

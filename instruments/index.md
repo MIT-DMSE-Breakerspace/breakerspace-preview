@@ -37,8 +37,9 @@ These links go to the current tutorial/SOP pages. As each tutorial is revised, i
 Future instrument pages should follow the SEM pattern:
 
 1. Start with a concise overview and quick actions for training, reservations, and operation.
-2. Put the trained-user quick reference near the top.
-3. Keep detailed training instructions, troubleshooting, manuals, exercises, and to-do notes on the same page.
-4. Split instrument families into separate operating pages when mixed instructions could confuse users or damage equipment.
+2. Add a short "What this instrument shows you" section for curious undergraduates before the SOP.
+3. Put the trained-user quick reference near the top.
+4. Keep detailed training instructions, troubleshooting, manuals, exercises, and to-do notes on the same page.
+5. Split instrument families into separate operating pages when mixed instructions could confuse users or damage equipment.
 
 For the current transition notes and authoring checklist, see the [instrument pages README](./readme.html).
