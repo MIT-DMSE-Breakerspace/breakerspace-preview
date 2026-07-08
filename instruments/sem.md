@@ -30,8 +30,53 @@ This page is the shared SEM hub. Use it to choose an instrument, review common S
 | Reserve the Phenom Pure SEM | [Open Phenom Pure SEM reservations](https://breakerspace.libcal.com/seat/174787) |
 | Operate the Phenom XL | [Open the Phenom XL operating page](./phenom-xl.html) |
 | Operate the Phenom Pure | [Open the Phenom Pure operating page](./phenom-pure.html) |
+| Need help choosing which SEM | [Interactive SEM chooser](#chooser) |
+| Learning what SEM can show you | [What this instrument shows you](#science) |
+| Need shared sample-prep guidance | [Sample prep at a glance](#prep) |
 | Need manufacturer documentation | [Manufacturer manuals](#manuals) |
 | Need practice tasks | [Exercises](#exercises) |
+
+<a name="science"></a>
+### What This Instrument Shows You
+
+#### The Basic Idea
+
+A scanning electron microscope uses electrons instead of visible light to make an image. The instrument sends a narrow beam of electrons across the sample surface, point by point, and detectors record signals that come back from each location. Software turns those signals into an image.
+
+Because electrons have much shorter wavelengths than visible light, SEM can reveal much smaller surface features than an optical microscope can. The Phenom SEMs can often show features down to the scale of hundreds of nanometers when the sample is prepared well. That is small enough to see details such as fine fibers, pores, particles, coatings, scratches, grains, and fracture textures that may be invisible or blurry in a light microscope.
+
+SEM images are usually grayscale because they are not ordinary color photographs. Brightness often comes from surface shape, edges, detector angle, and material contrast. On the Phenom XL, EDS adds another kind of information: when the electron beam hits the sample, some atoms emit X-rays with energies that can be used to estimate which elements are present.
+
+#### What Scientists Use It For
+
+* A biologist might examine the surface of pollen, insect parts, fibers, shells, or tissue scaffolds to understand shape and texture at a scale smaller than ordinary microscopy.
+* A mechanical engineer might inspect a fracture surface, worn part, coating, or printed component to ask how damage started and whether failure was brittle, ductile, layered, porous, or contaminated.
+* A materials scientist might compare metals, ceramics, polymers, composites, powders, or coatings to look for grains, pores, cracks, particles, phases, or preparation artifacts.
+* A chemist or environmental scientist might use SEM and EDS to compare particles, residues, filters, sediments, or corrosion products and ask whether different regions have different elemental signatures.
+* A student exploring an unfamiliar sample might start with the optical microscope, then use SEM when the next question is about smaller surface details, fine particles, or elemental contrast.
+
+#### What To Look For In The Results
+
+In an SEM image, look first for scale, shape, and texture. Ask whether features are smooth or rough, isolated or connected, rounded or sharp, layered or porous, and whether the same pattern repeats across the sample.
+
+<figure style="margin-left:0; margin-right:0;">
+  <a href="../assets/img/instruments/sem/particle-surface-sem.jpg" target="_parent"><img src="../assets/img/instruments/sem/particle-surface-sem.jpg" alt="SEM image of a textured pollen surface." style="width:32%; margin:0"></a>
+  <a href="../assets/img/instruments/sem/roasted-coffee-bean-sem.jpg" target="_parent"><img src="../assets/img/instruments/sem/roasted-coffee-bean-sem.jpg" alt="SEM image of porous roasted coffee bean structure." style="width:32%; margin:0"></a>
+  <a href="../assets/img/instruments/sem/unroasted-coffee-bean-sem.jpg" target="_parent"><img src="../assets/img/instruments/sem/unroasted-coffee-bean-sem.jpg" alt="SEM image of unroasted coffee bean structure." style="width:32%; margin:0"></a>
+  <figcaption>SEM can reveal fine surface texture and show how processing changes familiar materials: pollen has intricate surface structure, while roasted and unroasted coffee beans show different internal structures.</figcaption>
+</figure>
+
+Edges and steep surfaces often look bright because they send more signal toward the detector. Holes, deep pores, and shadowed regions can look dark. In backscattered-electron images, heavier elements often appear brighter than lighter elements, so two regions with similar shape may still show contrast if their composition differs.
+
+For EDS results, look for patterns rather than just labels. A useful EDS map might show that one element is concentrated in particles, another in the surrounding matrix, or a coating on only one side of a feature. EDS is most powerful when you compare it with the SEM image and with what you know about the sample.
+
+#### What This Instrument Cannot Tell You
+
+* SEM mainly shows surfaces. It cannot see through an opaque sample unless a cross section is exposed.
+* Most SEM samples must be dry, stable, and compatible with vacuum. Wet, loose, volatile, magnetic, or beam-sensitive samples need special care.
+* SEM images are not natural-color photographs. Color may be added later for presentation, but the instrument signal is usually grayscale.
+* EDS estimates elements, not molecules or crystal structure. It may miss light elements, confuse overlapping peaks, or include signal from coatings, tape, stubs, or nearby regions.
+* Sample preparation can change what you see. Polishing, cutting, coating, drying, or mounting can create artifacts as well as reveal real structure.
 
 SEM users must complete Breakerspace lab training and SEM-specific training before working independently. If your sample is hazardous, wet, very magnetic, loose, reactive, biological, vacuum-sensitive, or otherwise unusual, ask staff before bringing it to the lab.
 
@@ -90,21 +135,6 @@ Use this quick chooser if you are not sure which SEM to reserve. The recommendat
 | Frozen, wet, or beam-sensitive samples | [Phenom Pure](./phenom-pure.html) | Use the temperature-controlled cold stage after staff-approved sample prep. |
 | One small mounted stub | [Phenom Pure](./phenom-pure.html) | Useful for straightforward imaging when EDS is not needed. |
 | Non-conductive samples | Phenom XL or Phenom Pure | Use low vacuum, sputter coating, or conductive mounting depending on the goal. |
-
-<a name="page-index"></a>
-### Page Index
-
-* [Quick actions](#quick-actions)
-* [Interactive SEM chooser](#chooser)
-* [Choose an SEM](#choose)
-* [Compatible materials and shared sample rules](#materials)
-* [Sample prep at a glance](#prep)
-* [Quick imaging settings](#quick-settings)
-* [Shared sample preparation details](#prep-details)
-* [Data processing and analysis](#data)
-* [Manufacturer manuals](#manuals)
-* [Exercises](#exercises)
-* [Tutorial to-do list](#todo)
 
 {% include sem/common-safety.md %}
 
@@ -210,6 +240,7 @@ These exercises are shared SEM examples. The instrument-specific pages identify 
 * Add a complete level 1 training example using a specific material-library sample, including bin number/location once the cabinet is organized.
 * Add a level 2 EDS exercise using specific stocked samples or standards, including bin number/location once available.
 * Add a level 2 non-conductive-sample exercise using a specific material-library sample suitable for low-vacuum and sputter-coated comparison.
+* Add annotated SEM and EDS example results showing how image contrast and elemental maps answer different kinds of questions.
 * Add photos or GIFs showing a gloved hand placing a stub in a prep tray and mounting a sample with stub tweezers.
 * Add photos or GIFs showing powder transfer to carbon tape, tapping/removing loose particles, and a good vs overloaded powder stub.
 * Add before/after image examples of charging mitigation: uncoated high vacuum, low vacuum, conductive bridge, and sputter coating.
