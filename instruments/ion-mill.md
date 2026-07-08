@@ -22,22 +22,58 @@ This page is the operating page for the ion mill. It combines the quick referenc
 | --- | --- |
 | New lab user or untrained ion mill user | [Register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) |
 | Reserve instrument time | [Open ion mill reservations](https://breakerspace.libcal.com/seat/181542) |
+| Trained user operating the ion mill now | [Standard operating protocol](#sop) |
+| New user learning the full workflow | [Detailed operating instructions](#details) |
+| Need help choosing a method | [Quick method selection](#quick-method) |
+| Learning what ion milling is used for | [What this instrument is used for](#science) |
 | Need manufacturer documentation | [Manufacturer manuals](#manuals) |
 | Need practice tasks | [Exercises](#exercises) |
 
-<a name="page-index"></a>
-### Page Index
+<a name="science"></a>
+### What This Instrument Is Used For
 
-* [Standard operating protocol](#sop) - ([startup](#startup), [operation](#operation), [shutdown](#shutdown))
-* [Compatible materials and quick sample prep](#materials)
-* [Quick method selection](#quick-method)
-* [Detailed operating instructions](#details)
-* [Data processing and analysis](#data)
-* [Common failure modes](#failures)
-* [Manufacturer manuals](#manuals)
-* [Links](#links)
-* [Exercises](#exercises)
-* [Tutorial to-do list](#todo)
+#### The Basic Idea
+
+The ion mill is a sample-preparation instrument. It does not make an image or directly measure chemistry. Instead, it uses beams of argon ions to gently remove material from a sample surface. Argon is chemically inert, so the goal is mostly physical: knock away a very thin layer of material without the scratches, smearing, embedded abrasive, or mechanical damage that can come from cutting and polishing by hand.
+
+Ion milling is especially useful when the next instrument needs a clean surface or cross section. For example, SEM imaging and EBSD can both be limited by surface damage left by mechanical preparation. The ion mill can be the final step that turns a "nearly ready" sample into one where the real microstructure is easier to see.
+
+The SEMPrep 2 can also use a mask to make a controlled slope cut. That lets you expose a layer, coating, interface, or near-surface region that would be hard to reveal cleanly by cutting or grinding alone.
+
+#### What Scientists Use It For
+
+* A materials scientist might polish a metal, ceramic, composite, or coating so grains, phases, pores, or interfaces are easier to image in the SEM.
+* A mechanical engineer might prepare a fracture-adjacent cross section to look for cracks, coating failure, delamination, or damage beneath the visible surface.
+* A geologist, chemist, or environmental scientist might prepare a mineral, particle, filter, or layered sample so the surface seen in SEM is less dominated by polishing scratches.
+* A microscopist preparing for EBSD might use ion milling to remove the mechanically damaged layer that prevents clean crystallographic pattern collection.
+* A student developing a project might use the ion mill after optical microscope or SEM inspection shows that the important feature is just below the surface.
+
+#### What To Look For After Milling
+
+The ion mill's result is the prepared sample, so you usually evaluate the work with the optical microscope or SEM. Good before/after images are the best evidence that the method helped.
+
+After surface polishing, look for fewer scratches, less smeared material, sharper particles or grains, and more consistent contrast. If the surface becomes rougher, develops texture in one direction, or loses the feature you cared about, the milling conditions may be too aggressive or the mechanical preparation may need improvement first.
+
+<figure style="margin-left:0; margin-right:0;">
+  <a href="../assets/img/instruments/ion-mill/surface-before-ion-polishing.jpg" target="_parent"><img src="../assets/img/instruments/ion-mill/surface-before-ion-polishing.jpg" alt="SEM image of a mechanically prepared sample surface before ion polishing." style="width:49%; margin:0"></a>
+  <a href="../assets/img/instruments/ion-mill/surface-after-ion-polishing.jpg" target="_parent"><img src="../assets/img/instruments/ion-mill/surface-after-ion-polishing.jpg" alt="SEM image of a smoother sample surface after ion polishing." style="width:49%; margin:0"></a>
+  <figcaption>Representative fields from a surface-polishing test. Before ion polishing, the mechanically prepared surface shows scratches and rough texture; after ion polishing, the surface is smoother and easier to interpret in the SEM.</figcaption>
+</figure>
+
+After slope cutting, look for whether the cut crossed the target region. A good result should expose the feature of interest without excessive redeposited material, thermal damage, or a missed interface. The important question is not only "does the cut look clean?" but "did it reveal the structure I needed to examine?"
+
+<figure style="margin-left:0; margin-right:0;">
+  <a href="../assets/img/instruments/ion-mill/coffee-bean-slope-cut-sem.jpg" target="_parent"><img src="../assets/img/instruments/ion-mill/coffee-bean-slope-cut-sem.jpg" alt="SEM image of a coffee bean slope cut prepared by ion milling." style="width:100%; margin:0"></a>
+  <figcaption>Slope-cut example from a coffee bean. The right side is the mechanically prepared surface that sat behind the titanium mask and remained untreated; the center is the smoothly prepared slope-cut surface; the left side is beyond the finished surface and shows heavy ion-beam damage.</figcaption>
+</figure>
+
+#### What This Instrument Cannot Tell You
+
+* It cannot identify a material by itself. Use SEM-EDS, FTIR, Raman, XRD, or another method when the question is chemical or structural identification.
+* It is usually a finishing tool, not a replacement for rough cutting, mounting, grinding, or mechanical polishing.
+* It removes material, so a poor method can erase small features, round edges, change surface texture, or heat a sensitive sample.
+* It cannot make a dirty, loose, wet, volatile, or hazardous sample acceptable for the lab. Samples still need to be non-hazardous, dry, stable, and safe to handle unless staff have approved a specific method.
+* It does not guarantee a useful SEM or EBSD result. Good outcomes depend on sample choice, mounting, alignment, ion-source settings, milling time, and careful before/after comparison.
 
 <a name="sop"></a>
 ### Standard Operating Protocol
@@ -283,6 +319,7 @@ The SEMPrep 2 uses a load-lock so samples can be exchanged without fully venting
 9. Check vacuum level and stage position.
 10. Click **Finish** when the procedure completes.
 
+<a name="unloading"></a>
 ##### Unloading
 
 1. Confirm all high voltages are off.
