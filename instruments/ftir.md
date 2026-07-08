@@ -54,11 +54,17 @@ Start with the main peaks. Ask where strong absorptions appear, whether they are
 
 Then compare, rather than relying on one peak alone. FTIR is most useful when you compare a sample spectrum with a known reference, a database hit, a control sample, or before/after spectra from the same project. A good match usually means several major features line up, not just one peak.
 
+Think about how complicated the sample is before interpreting the spectrum. FTIR can be very useful for pure samples, suspected contamination on a mostly known material, or mixtures with a limited number of likely components. In those cases, you may be able to ask focused questions such as "does this look like polyethylene?", "is this residue oily?", or "did this surface pick up a silicone-like contaminant?" The answer is usually based on matching a pattern of peaks to a reasonable comparison, not on reading a chemical name from the spectrum.
+
+For chemically complex bulk mixtures, the interpretation changes. Coffee is a good example: brewed coffee, roasted beans, or coffee residues contain many different reactive compounds mixed in unknown ratios. The FTIR spectrum of the bulk material is a combined molecular fingerprint from everything the infrared beam samples. That fingerprint can still be useful for comparison, such as comparing green and roasted coffee, different extraction methods, or before/after treatment, but it usually cannot be deconvoluted into a reliable list of individual compounds or concentrations.
+
 For ATR spectra, also look for practical problems. A weak spectrum may mean poor crystal contact. Negative absorbance features can mean the crystal was dirty during background collection. Water vapor, carbon dioxide, contamination, and leftover solvent can all add features that do not belong to the sample.
 
 #### What This Instrument Cannot Tell You
 
 * FTIR usually identifies molecular features or material classes, not a complete formulation by itself.
+* It cannot turn a complex bulk mixture into a list of every chemical component. When many compounds contribute overlapping peaks, the combined spectrum may be useful for comparison but not for assigning each peak to one ingredient.
+* It is much stronger for pure samples, known materials with possible contamination, or simple mixtures than for unknown mixtures with dozens, hundreds, or thousands of components in unknown ratios.
 * It cannot reliably identify materials that do not absorb infrared light strongly.
 * It is often less direct for metals, ceramics, salts, and inorganic materials than for polymers, organics, and molecular solids.
 * A database match is evidence, not proof. Similar materials can have similar spectra, and mixtures can be difficult to interpret.
@@ -322,6 +328,7 @@ When comparing spectra:
 * Replace hand/sample-loading photos, GIFs, or videos with versions showing appropriate glove use.
 * Replace or reshoot the solid sample, powder sample, liquid sample, crystal cleaning, volatiles cover, and pressure-tip GIFs with gloved versions.
 * Add one or two annotated example spectra showing major peaks and how to compare an unknown with a known reference.
+* Add a teaching example contrasting a pure or simple sample with a complex mixture such as coffee, emphasizing when FTIR supports identification and when it mainly supports comparison.
 * Add a short database-search walkthrough using Wiley KnowItAll or another approved reference workflow.
 * Add a concise accessory-change note for iD1 transmission and EasiDiff diffuse reflectance, or mark those as staff-guided until a dedicated workflow is written.
 * Add a small set of approved training samples for repeatable FTIR exercises once the material library is ready.
