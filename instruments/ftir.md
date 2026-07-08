@@ -58,6 +58,11 @@ Think about how complicated the sample is before interpreting the spectrum. FTIR
 
 For chemically complex bulk mixtures, the interpretation changes. Coffee is a good example: brewed coffee, roasted beans, or coffee residues contain many different reactive compounds mixed in unknown ratios. The FTIR spectrum of the bulk material is a combined molecular fingerprint from everything the infrared beam samples. That fingerprint can still be useful for comparison, such as comparing green and roasted coffee, different extraction methods, or before/after treatment, but it usually cannot be deconvoluted into a reliable list of individual compounds or concentrations.
 
+<figure style="margin-left:0; margin-right:0;">
+  <a href="../assets/img/instruments/ftir/fake-spiderweb-ftir-spectrum.png" target="_parent"><img src="../assets/img/instruments/ftir/fake-spiderweb-ftir-spectrum.png" alt="FTIR absorbance spectrum of a fake spiderweb decoration." style="width:100%; margin:0"></a>
+  <figcaption>Example FTIR spectrum from a fake spiderweb decoration. The strong bands near 1712, 1240, 1094, 872, and 722 cm<sup>-1</sup> are consistent with a polyester such as PET. This is the kind of relatively simple polymer sample where FTIR can support a likely material identification.</figcaption>
+</figure>
+
 For ATR spectra, also look for practical problems. A weak spectrum may mean poor crystal contact. Negative absorbance features can mean the crystal was dirty during background collection. Water vapor, carbon dioxide, contamination, and leftover solvent can all add features that do not belong to the sample.
 
 #### What This Instrument Cannot Tell You
