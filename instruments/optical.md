@@ -22,6 +22,9 @@ This page is the operating page for the optical microscope. It combines the quic
 | --- | --- |
 | New lab user or untrained optical microscope user | [Register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) |
 | Reserve instrument time | [Open optical microscope reservations](https://breakerspace.libcal.com/seat/174788) |
+| Trained user operating the microscope now | [Standard operating protocol](#sop) |
+| New user learning the full workflow | [Detailed operating instructions](#details) |
+| Need help choosing an imaging mode | [Quick observation mode selection](#quick-modes) |
 | Need manufacturer documentation | [Manufacturer manuals](#manuals) |
 | Need practice tasks | [Exercises](#exercises) |
 
@@ -61,24 +64,6 @@ When comparing observation modes, look for which mode makes the question easier 
 * It cannot see through opaque samples unless the surface or cross section is exposed.
 * 3D height measurements depend on focus, surface reflectivity, lighting, and software assumptions, so they should be treated as measurements to understand and verify, not magic truth.
 * A beautiful image is not automatically a complete answer. Good microscopy still depends on sample prep, scale bars, notes, comparison images, and a clear question.
-
-<a name="page-index"></a>
-### Page Index
-
-* [What this instrument shows you](#science)
-* [Standard operating protocol](#sop) - ([startup](#startup), [operation](#operation), [shutdown](#shutdown))
-* [Compatible materials and quick sample prep](#materials)
-* [Quick observation mode selection](#quick-modes)
-* [Detailed operating instructions](#details)
-* [Objectives and magnification](#objectives)
-* [Observation modes](#observation-modes)
-* [Image acquisition](#acquisition)
-* [Data processing and analysis](#data)
-* [Common failure modes](#failures)
-* [Manufacturer manuals](#manuals)
-* [Links](#links)
-* [Exercises](#exercises)
-* [Tutorial to-do list](#todo)
 
 <a name="sop"></a>
 ### Standard Operating Protocol
