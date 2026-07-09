@@ -11,9 +11,66 @@ The Horiba Duetta is the Breakerspace spectrometer for measuring how liquid samp
 
 Routine Breakerspace training currently focuses on absorbance and transmission spectra using cuvette samples in EZ Spec. Fluorescence and combined molecular-fingerprint workflows are useful, but should be treated as staff-guided until the full lab workflow is documented.
 
-This draft page is the upgraded operating content for the Duetta. It focuses first on improving the SOP, detailed operating notes, sample handling, data handling, troubleshooting, exercises, and to-do list. The full integrated landing-page layer can be added after the core tutorial content is reviewed.
+This page is the operating page for the Duetta. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, exercises, and staff to-do list.
 
 <div style="clear:both;"></div>
+
+<a name="quick-actions"></a>
+### Quick Actions
+
+| Need | Use this link |
+| --- | --- |
+| New lab user or untrained Duetta user | [Register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) |
+| Reserve instrument time | [Open Duetta reservations](https://breakerspace.libcal.com/seat/174790) |
+| Trained user operating the Duetta now | [Standard operating protocol](#sop) |
+| New user learning the full workflow | [Detailed operating instructions](#details) |
+| Need help choosing a measurement type | [Quick method selection](#quick-method) |
+| Learning what UV-Vis and fluorescence can show you | [What this instrument shows you](#science) |
+| Need manufacturer documentation | [Manufacturer manuals](#manuals) |
+| Need practice tasks | [Exercises](#exercises) |
+
+<a name="science"></a>
+### What This Instrument Shows You
+
+#### The Basic Idea
+
+The Duetta uses light to ask how molecules and particles interact with different colors, including ultraviolet, visible, and near-infrared wavelengths. In an absorbance measurement, the instrument sends light through a cuvette and compares how much light gets through the sample relative to a blank or reference. If the sample absorbs strongly at a wavelength, less light reaches the detector there.
+
+That is why colored liquids have useful spectra. A blue dye looks blue because it absorbs some parts of visible light more than others. A UV-Vis absorbance spectrum turns that color behavior into a graph: wavelength on one axis, absorbance or transmission on the other. The graph can show where a sample absorbs most strongly, whether two samples look similar, and how absorbance changes with concentration.
+
+Fluorescence asks a related but different question. Some molecules absorb light and then emit light at a longer wavelength. The Duetta can excite a fluorescent sample with one wavelength and measure the light it emits at other wavelengths. Fluorescence can be extremely sensitive, but it also depends strongly on method settings, concentration, solvent, scattering, and whether the sample reabsorbs its own emitted light.
+
+#### What Scientists Use It For
+
+* A chemist might follow the concentration of a colored compound by measuring how strongly it absorbs at a known wavelength.
+* A biologist or bioengineer might measure fluorescent dyes, labels, proteins, nanoparticles, or media components, when the method has been validated for that sample.
+* An environmental scientist might compare water samples, extracts, or particle suspensions to ask whether treatment, filtration, or contamination changed the optical signal.
+* A materials researcher might compare quantum dots, dyes, films dissolved into solution, or nanoparticle suspensions by their absorbance and fluorescence behavior.
+* A student might use the Duetta for a simple first spectroscopy experiment: prepare a dilution series of food coloring, collect spectra, and see how a visible peak changes as concentration changes.
+
+#### What To Look For In The Results
+
+For absorbance spectra, start with the main peaks and the baseline. Ask where the sample absorbs most strongly, whether the peak shape changes between samples, and whether the signal is within a useful range. A concentration series should usually show stronger absorbance for more concentrated samples, but only until the sample becomes too concentrated for a reliable measurement.
+
+For transmission, look for wavelength regions where light passes through easily or is mostly blocked. This can be useful for comparing colored liquids, filters, optical materials, or samples where the question is simply "what light gets through?"
+
+For fluorescence, look at both the intensity and the emission wavelength range. A strong fluorescence signal can indicate that the sample emits light efficiently under the selected excitation conditions. But fluorescence intensity is not automatically concentration: high concentrations can quench emission or reabsorb emitted light, and method settings can change the result.
+
+<figure>
+  <a href="../assets/img/tutorials/uv-vis/Absorbance.png" target="_parent"><img src="../assets/img/tutorials/uv-vis/Absorbance.png" alt="Absorbance and transmission display in EZ Spec." style="width:70%; margin:0"></a>
+  <figcaption>EZ Spec can display absorbance and transmission data after acquisition. For a stronger teaching example, this page still needs an annotated spectrum from a simple training sample such as food coloring.</figcaption>
+</figure>
+
+Always check for practical artifacts before interpreting small differences. Bubbles, fingerprints, dirty cuvettes, scratches, particles, settling, the wrong blank, or a saturated peak can all produce misleading spectra.
+
+#### What This Instrument Cannot Tell You
+
+* UV-Vis absorbance usually shows optical behavior, not a complete chemical identity by itself.
+* A peak at a wavelength does not prove that one specific molecule is present unless the sample, blank, and comparison method support that interpretation.
+* Absorbance measurements can become unreliable when the sample is too concentrated, too turbid, or poorly blanked.
+* Fluorescence intensity depends on method settings and sample environment; it is not automatically a direct concentration measurement.
+* Particle suspensions can scatter light, settle, or aggregate, so apparent absorbance may not mean molecular absorption.
+* The Duetta does not replace FTIR, Raman, XRD, SEM-EDS, chromatography, or other methods when the question is molecular identity, crystal structure, elemental composition, or mixture separation.
 
 <a name="sop"></a>
 ### Standard Operating Protocol
@@ -35,9 +92,8 @@ This draft page is the upgraded operating content for the Duetta. It focuses fir
 * Prepare the sample and blank/reference cuvettes.
 * Create or load the appropriate EZ Spec method.
 * Click [Acquire](../assets/img/tutorials/uv-vis/Acquire.png).
-* Load and acquire the blank/reference when prompted.
-* Load and acquire the [sample](../assets/img/tutorials/uv-vis/add-in-cuvette.gif) when prompted.
-* Unload the sample and blank/reference cuvettes.
+* Load and acquire the blank/reference and [sample](../assets/img/tutorials/uv-vis/add-in-cuvette.gif) cuvettes in the order prompted by the selected method.
+* Unload all cuvettes from the sample compartment.
 * Save or export the data.
 
 <a name="shutdown"></a>
@@ -48,7 +104,7 @@ This draft page is the upgraded operating content for the Duetta. It focuses fir
 * Dispose of or store samples according to the approved plan for that material.
 * Close EZ Spec.
 * Log out of the workstation.
-* Push and hold the front power button until the light shuts off.
+* **Push and hold the front power button until the light shuts off.**
 * Leave the work area clean and remove all samples, labels, wipes, and liquid-handling supplies.
 
 <a name="materials"></a>
@@ -165,13 +221,12 @@ When comparing several samples, use the same blank strategy for all of them and 
 5. Review the wavelength range and acquisition settings.
 6. Set Mode to Both if you want both absorbance and transmission.
 7. Enter a clear sample name and choose the save location.
-8. Prepare and inspect the blank cuvette.
+8. Prepare and inspect the blank/reference cuvette.
 9. Click Acquire.
-10. Load the blank when prompted, close the lid, and collect the blank.
-11. Prepare and inspect the sample cuvette.
-12. Load the sample when prompted, close the lid, and collect the spectrum.
-13. Check the spectrum for saturation, unexpected baseline shape, or obvious artifacts.
-14. Save or export the data before moving to the next sample.
+10. Load the blank/reference and sample cuvettes in the order prompted by the selected method, closing the lid before each acquisition.
+11. Check the spectrum for saturation, unexpected baseline shape, or obvious artifacts.
+12. Unload all cuvettes from the sample compartment.
+13. Save or export the data before moving to the next sample.
 
 <figure style="margin-left:0; margin-right:0;">
   <a href="../assets/img/tutorials/uv-vis/Both.png" target="_parent"><img src="../assets/img/tutorials/uv-vis/Both.png" alt="EZ Spec mode set to Both for absorbance and transmission." style="width:49%; margin:0"></a>
@@ -201,12 +256,6 @@ Before interpreting a suspension spectrum, ask whether the sample is stable duri
 ### Data Processing And Analysis
 
 * Under the Acquire tab, you can toggle between Transmission, Absorbance, and Fluorescence views when those data are available.
-
-<figure>
-  <a href="../assets/img/tutorials/uv-vis/Absorbance.png" target="_parent"><img src="../assets/img/tutorials/uv-vis/Absorbance.png" alt="Absorbance and transmission display in EZ Spec." style="width:50%; margin:0"></a>
-  <figcaption>Use the Acquire tab to view collected absorbance and transmission data.</figcaption>
-</figure>
-
 * Use clear file names that include sample identity, concentration or dilution, date, and measurement type when useful.
 * Save the native EZ Spec file if you may need to reopen or process the method later.
 * Export text or CSV-style data when you need to plot spectra in another program.
@@ -230,7 +279,7 @@ Before shutting down, confirm that every file you need has been saved or exporte
 
 Remove all sample and blank/reference cuvettes from the instrument. Dispose of or store samples according to the approved plan for that material, then clean up spare cuvettes, wipes, labels, and liquid-handling supplies. Do not leave samples in the sample compartment or at the workstation.
 
-Close EZ Spec, log out of the workstation, and push and hold the front power button until the light shuts off. Shutting the instrument down when the session is complete helps avoid unnecessary lamp use.
+Close EZ Spec, log out of the workstation, and push and hold the front power button until the light shuts off. The lamp has a limited service life and does not automatically turn off just because the workstation is disconnected, so shutting the instrument down at the end of a session is important.
 
 <a name="failures"></a>
 ### Common Failure Modes

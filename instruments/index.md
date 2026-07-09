@@ -16,7 +16,7 @@ During the transition, use this page as the instrument landing page. Updated ins
 | [Technoorg-Linda SEMPrep 2 Broad Beam Ion Mill](./ion-mill.html) | Preparing samples for SEM imaging with surface polishing, final cleaning, and slope cutting. | Updated operating page |
 | [Olympus DSX-1000 Digital Optical Microscope](./optical.html) | Full-color optical imaging, 2D/3D capture, stitching, and basic measurement workflows. | Updated operating page |
 | [Thermo Scientific Nicolet iS5 FTIR Spectrometer](./ftir.html) | Molecular material identification and comparison using ATR infrared spectroscopy. | Updated operating page |
-| [Horiba Duetta Fluorescence and Absorbance Spectrometer](./uv-vis.html) | Measuring absorbance, transmission, and staff-guided fluorescence workflows in cuvette samples. | Tutorial content update draft |
+| [Horiba Duetta Fluorescence and Absorbance Spectrometer](./uv-vis.html) | Measuring absorbance, transmission, and staff-guided fluorescence workflows in cuvette samples. | Updated operating page |
 
 ## Instruments Awaiting Consolidation
 
