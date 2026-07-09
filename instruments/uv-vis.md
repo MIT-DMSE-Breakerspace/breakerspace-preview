@@ -324,4 +324,4 @@ Close EZ Spec, log out of the workstation, and push and hold the front power but
 * Add a fluorescence example using a safe, robust training sample if fluorescence becomes part of routine training.
 * Add a combined absorbance/fluorescence inner-filter-effect example or mark that workflow as staff-guided until documented.
 * Add a complete level 1 exercise using a specific material-library or training-kit sample, including bin number/location once the cabinet is organized.
-* Decide whether to link the current `tutorials/uv-vis.html` page to this draft after review or wait until the full integrated landing-page layer is complete.
+* Decide whether the current `tutorials/uv-vis.html` page should remain as a legacy tutorial during transition or be replaced with a link to this updated operating page.
