@@ -22,19 +22,13 @@ This draft page is the upgraded operating content for the Duetta. It focuses fir
 #### Instrument Startup
 
 * Confirm the sample compartment is empty and the lid can close normally.
-* Turn on the rear instrument power switch if the instrument is off.
-* Press the front power button.
+* Turn on the [rear instrument power switch](../assets/img/tutorials/uv-vis/duetta-back-power-switch.jpg) if the instrument is off.
+* Press the [front power button](../assets/img/tutorials/uv-vis/duetta-power-front-button.jpg).
 * Confirm that the front power button is blue before operating the instrument.
 * Log on to the instrument workstation using your MIT Kerberos.
 * Open EZ Spec software.
 * Click the EZ Spec button to enter the acquisition interface.
 * For best results, let the lamps warm up before collecting data, especially if quantitative comparison matters.
-
-<figure style="margin-left:0; margin-right:0;">
-  <a href="../assets/img/tutorials/uv-vis/duetta back power switch.jpg" target="_parent"><img src="../assets/img/tutorials/uv-vis/duetta back power switch.jpg" alt="Rear power switch on the Horiba Duetta." style="width:49%; margin:0"></a>
-  <a href="../assets/img/tutorials/uv-vis/duetta power front button.jpg" target="_parent"><img src="../assets/img/tutorials/uv-vis/duetta power front button.jpg" alt="Front power button on the Horiba Duetta." style="width:49%; margin:0"></a>
-  <figcaption>Use the rear switch and front power button to start the Duetta. The front power button must be blue before operation.</figcaption>
-</figure>
 
 <a name="operation"></a>
 #### Operation
@@ -46,30 +40,14 @@ This draft page is the upgraded operating content for the Duetta. It focuses fir
 * For routine training, choose Absorbance and Transmission.
 * Choose Spectra.
 * Check wavelength range, increment, integration/acquisition settings, and file name/location before collecting data.
-* Set Mode to Both if you want both absorbance and transmission outputs.
+* Set [Mode to Both](../assets/img/tutorials/uv-vis/Both.png) if you want both absorbance and transmission outputs.
 * Fill the cuvette with enough liquid to cover the optical beam path.
 * Check the cuvette for bubbles, fingerprints, droplets, scratches, sediment, or lint in the beam path.
 * Wipe the outside of the cuvette with a clean lint-free wipe before loading.
-* Click Acquire.
+* Click [Acquire](../assets/img/tutorials/uv-vis/Acquire.png).
 * When prompted, load the blank/reference cuvette, close the lid, and collect the blank.
-* When prompted, load the sample cuvette in the same orientation, close the lid, and collect the sample spectrum.
+* When prompted, [load the sample cuvette](../assets/img/tutorials/uv-vis/add-in-cuvette.gif) in the same orientation, close the lid, and collect the sample spectrum.
 * Save or export the data before closing the method or software.
-
-<figure>
-  <a href="../assets/img/tutorials/uv-vis/Both.png" target="_parent"><img src="../assets/img/tutorials/uv-vis/Both.png" alt="EZ Spec mode set to Both for absorbance and transmission." style="width:50%; margin:0"></a>
-  <figcaption>For routine absorbance training, set the acquisition mode to Both when absorbance and transmission are both useful.</figcaption>
-</figure>
-
-<figure>
-  <a href="../assets/img/tutorials/uv-vis/Acquire.png" target="_parent"><img src="../assets/img/tutorials/uv-vis/Acquire.png" alt="Acquire button in EZ Spec." style="width:50%; margin:0"></a>
-  <figcaption>Click Acquire after the method, file name, save location, and sample setup are ready.</figcaption>
-</figure>
-
-<figure style="margin-left:0; margin-right:0;">
-  <a href="../assets/img/tutorials/uv-vis/open uv-vis lid.gif" target="_parent"><img src="../assets/img/tutorials/uv-vis/open uv-vis lid.gif" alt="Opening the Duetta sample compartment lid." style="width:49%; margin:0"></a>
-  <a href="../assets/img/tutorials/uv-vis/add in cuvette.gif" target="_parent"><img src="../assets/img/tutorials/uv-vis/add in cuvette.gif" alt="Loading a cuvette into the Duetta sample compartment." style="width:49%; margin:0"></a>
-  <figcaption>Load cuvettes gently, keep the optical faces clean, and close the lid before acquisition.</figcaption>
-</figure>
 
 <a name="shutdown"></a>
 #### Instrument Shutdown
@@ -170,6 +148,12 @@ When comparing several samples, use the same blank strategy for all of them and 
 8. Close the sample compartment lid before acquisition.
 9. Remove the cuvette after measurement; do not leave samples in the instrument.
 
+<figure style="margin-left:0; margin-right:0;">
+  <a href="../assets/img/tutorials/uv-vis/open-uv-vis-lid.gif" target="_parent"><img src="../assets/img/tutorials/uv-vis/open-uv-vis-lid.gif" alt="Opening the Duetta sample compartment lid." style="width:49%; margin:0"></a>
+  <a href="../assets/img/tutorials/uv-vis/add-in-cuvette.gif" target="_parent"><img src="../assets/img/tutorials/uv-vis/add-in-cuvette.gif" alt="Loading a cuvette into the Duetta sample compartment." style="width:49%; margin:0"></a>
+  <figcaption>Load cuvettes gently, keep the optical faces clean, and close the lid before acquisition.</figcaption>
+</figure>
+
 #### Routine Absorbance Workflow In EZ Spec
 
 1. Start EZ Spec and click the EZ Spec button.
@@ -186,6 +170,12 @@ When comparing several samples, use the same blank strategy for all of them and 
 12. Load the sample when prompted, close the lid, and collect the spectrum.
 13. Check the spectrum for saturation, unexpected baseline shape, or obvious artifacts.
 14. Save or export the data before moving to the next sample.
+
+<figure style="margin-left:0; margin-right:0;">
+  <a href="../assets/img/tutorials/uv-vis/Both.png" target="_parent"><img src="../assets/img/tutorials/uv-vis/Both.png" alt="EZ Spec mode set to Both for absorbance and transmission." style="width:49%; margin:0"></a>
+  <a href="../assets/img/tutorials/uv-vis/Acquire.png" target="_parent"><img src="../assets/img/tutorials/uv-vis/Acquire.png" alt="Acquire button in EZ Spec." style="width:49%; margin:0"></a>
+  <figcaption>For routine absorbance training, set the mode to Both when absorbance and transmission are both useful, then click Acquire after the method, file name, save location, and sample setup are ready.</figcaption>
+</figure>
 
 #### Comparing A Series Of Samples
 
@@ -250,7 +240,7 @@ Before interpreting a suspension spectrum, ask whether the sample is stable duri
 <a name="manuals"></a>
 ### Manufacturer Manuals
 
-* [Local copy of Duetta with EZ Spec operation manual](../assets/img/tutorials/uv-vis/Duetta%20with%20EZ%20Spec%20Operation%20Manual%205700004252%20Rev%201.4.3.pdf)
+* [Local copy of Duetta with EZ Spec operation manual](../assets/img/tutorials/uv-vis/Duetta-with-EZ-Spec-Operation-Manual-5700004252-Rev-1.4.3.pdf)
 * [Dropbox copy of Duetta with EZ Spec operation manual](https://www.dropbox.com/scl/fi/9bzwitjz004xd8pl5bpyl/Duetta-with-EZ-Spec-Operation-Manual-5700004252-Rev-1.4.3.pdf?rlkey=8ekvwddzdt0pk931zwpxov43l&st=yisoc2r2&dl=0)
 
 <a name="exercises"></a>

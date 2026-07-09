@@ -5,12 +5,12 @@ layout: default
 ## Overview:
 
 <figure>
-	<img src="../assets/img/xrd.JPG" alt="XRD" style="width:32%; margin:0">  
+	<img src="../assets/img/xrd.JPG" alt="XRD" style="width:32%; margin:0">
 </figure>
 
 Use our [Panalytical Aeris Research XRD](https://www.malvernpanalytical.com/en/products/product-range/aeris-range) ([X-ray diffractometer](https://www.malvernpanalytical.com/en/products/technology/xray-analysis/x-ray-diffraction)) to analyze properties such as phase composition, crystal structure, and orientation of solid samples, with precise results in less than five minutes.
 
-### Index: 
+### Index:
 
 * [Standard operating protocol](#sop) - ([startup](#startup), [operation](#operation), [shutdown](#shutdown))
 * [Materials and sample prep](#materials)
@@ -24,11 +24,11 @@ Use our [Panalytical Aeris Research XRD](https://www.malvernpanalytical.com/en/p
 
 <a name="sop"></a>
 
-### Standard operating protocol: 
+### Standard operating protocol:
 
-<a name="startup"></a> 
+<a name="startup"></a>
 
-##### Instrument startup:  
+##### Instrument startup:
 
 * Make sure at least one position in the sample changer is free (no sample holder in place)
 * Turn the [mains power switch](../assets/img/tutorials/xrd/mains-switch.jpg) at the rear of the instrument
@@ -38,7 +38,7 @@ Use our [Panalytical Aeris Research XRD](https://www.malvernpanalytical.com/en/p
 
 <a name="operation"></a>
 
-##### Operation: 
+##### Operation:
 
 * Prepare your sample externally at the sample prep table
 * Put the sample holder in a loading position on the sample changer
@@ -57,9 +57,9 @@ Use our [Panalytical Aeris Research XRD](https://www.malvernpanalytical.com/en/p
 * Turn the HT Keyswitch counter-clockwise to switch off the HT generator
 * If the instrument will be switched off for a long period of time, you can also switch off the mains power supply
 
-<a name="materials"></a> 
+<a name="materials"></a>
 
-### Compatible materials and sample prep: 
+### Compatible materials and sample prep:
 
 The Aeris has a Cu Kα x-ray generator with penetration on the order of 100 µm. For powder samples, grain size should be on the order of 5-10 µm to ensure sufficient grains of various compounds contribute to the reflection of the beam. This source will cause fluorescence in samples with iron and manganese, and may not provide suitable results for samples with those elements.
 Panalytical provides an excellent sample preparation guide, available in paper form in the lab and here in [pdf form](https://www.dropbox.com/scl/fi/17o43bqhe52u49kkecvrf/xrd-sample-holders-preparation.pdf?rlkey=vxi65kwyeqrcr62jbcxa5rqvq&dl=0), please refer to it for instructions on use of the different types of sample holders and associated sample prep techniques.
@@ -69,9 +69,9 @@ Page 1.4 lists all the various types of sample holders that can be obtained. Of 
 * PW1813/26 for metal plates, membrane filters, pressed pellets, etc.
 XRD sample holders, mounting clay, and other small materials are stored in the black cabinet next to the sample prep table. Perform all sample loading steps at the table and transfer sample holders to the instrument on the tray once complete.
 
-<a name="details"></a> 
+<a name="details"></a>
 
-### Detailed operating instructions: 
+### Detailed operating instructions:
 
 ##### Sample loading:
 * Remove plastic sample case cover
@@ -79,8 +79,8 @@ XRD sample holders, mounting clay, and other small materials are stored in the b
 * Replace plastic sample changer cover
 
 <figure style="margin-left:0; margin-right:0;">
-	<img src="../assets/img/tutorials/xrd/removing plastic cover 2.gif" alt="Removing plastic sample case cover" style="width:50%; margin:0"> 
-	<img src="../assets/img/tutorials/xrd/add sample.gif" alt="Placing prepared sample in" style="width:50%; margin:0">
+	<img src="../assets/img/tutorials/xrd/removing-plastic-cover-2.gif" alt="Removing plastic sample case cover" style="width:50%; margin:0">
+	<img src="../assets/img/tutorials/xrd/add-sample.gif" alt="Placing prepared sample in" style="width:50%; margin:0">
 </figure>
 
 ##### Running a measurement program:
@@ -90,7 +90,7 @@ XRD sample holders, mounting clay, and other small materials are stored in the b
 * Click Add to Queue
 
 <figure style="margin-left:0; margin-right:0;">
-	<img src="../assets/img/tutorials/xrd/Queue.gif" alt="Adding a sample to the queue" style="width:50%; margin:0"> 
+	<img src="../assets/img/tutorials/xrd/Queue.gif" alt="Adding a sample to the queue" style="width:50%; margin:0">
 	<img src="../assets/img/tutorials/xrd/Export.gif" alt="Copying results to desktop folder" style="width:50%; margin:0">
 </figure>
 
@@ -98,8 +98,8 @@ XRD sample holders, mounting clay, and other small materials are stored in the b
 Data can be saved on a USB drive, or exported to a shared network drive on the XRD workstation to the right of the instrument. The workstation can be accessed using a common login. The username is xrd and the password is xrd-password. Data can be found in the folder C:\XRD\XRD data
 
 <figure style="margin-left:0; margin-right:0;">
-    <a href="../assets/img/tutorials/xrd/xrd data in folder.png" target="_parent">
-        <img src="../assets/img/tutorials/xrd/xrd data in folder.png" alt="export directory image" style="width:50%; margin:0" />
+    <a href="../assets/img/tutorials/xrd/xrd-data-in-folder.png" target="_parent">
+        <img src="../assets/img/tutorials/xrd/xrd-data-in-folder.png" alt="export directory image" style="width:50%; margin:0" />
         <figcaption>Recommended export location in Windows explorer</figcaption>
     </a>
 </figure>
@@ -115,34 +115,34 @@ Advanced mode is used to change optical components, manage data (including impor
 ### Data processing and analysis:
 
 * Data from the Aeris can be processed using [HighScore Plus 5.0](https://www.malvernpanalytical.com/en/products/category/software/x-ray-diffraction-software/highscore-with-plus-option)
-  
+
 <a name="highscore"></a>
 #### Using High Score Plus:
 
 ##### Determine background:
 * Treatment > Determine Background
 * Automatic usually does the job.
-* Granularity changes the distance between points of inflection on the background curve. 
-* Bending factor determines how bendy the background is (as the name suggests). 
+* Granularity changes the distance between points of inflection on the background curve.
+* Bending factor determines how bendy the background is (as the name suggests).
 * Click Accept.
 
 ##### Determine peaks:
 * Treatment > Search Peaks
-* Play with the significance until the peaks reflect what you think are peaks. 
-* Under Peak List, go through the peaks detected to make sure the software didn’t make any mistakes. Delete peaks by Right Click > Delete Peak. 
-Insert peaks by 
-  * Option 1: Treatment > Insert Peak (Ctrl+R). Click on the tip of each peak you want to add. 
-  * Option 2: In Peak Lists > Right Click > Add Peak…  and manually enter the data. 
+* Play with the significance until the peaks reflect what you think are peaks.
+* Under Peak List, go through the peaks detected to make sure the software didn’t make any mistakes. Delete peaks by Right Click > Delete Peak.
+Insert peaks by
+  * Option 1: Treatment > Insert Peak (Ctrl+R). Click on the tip of each peak you want to add.
+  * Option 2: In Peak Lists > Right Click > Add Peak…  and manually enter the data.
 
 ##### Determine a mystery compound:
 * After determining the background and peaks,Right Click > Search Match > (Optional) change the search settings > Search > Ok.
-* Options for improving your outcomes: 
+* Options for improving your outcomes:
   * Under the Restrictions tab > Restrictions set > Select Restriction set, you can pick your type of material from a drop down menu. For example, if you material is organic, select “Organic”
-  * Under the Restrictions tab > Edit… will give you a pop up for many ways to restrict your search. For example, under Chemistry, one can input the elements that are or are not present in the sample. 
-  * Clicking Execute Fitting > <Profile Fit> Default often improves the confidence and precision of the results. 
-* Interpreting the Matches: 
-  * Score shows the confidence of the program in the pattern match between your samples and the candidate. To check if the program was correct, click on the candidate you are interested in. Thin blue lines will show up on the graph. Check that each blue line matches up with the height and location of a peak of your sample. 
-  * Once you are confident with your match, left click and pull it to the Pattern List panel. This “accepts” it. On the graph, if any peak is not matched by the accepted candidate’s pattern, it will retain a blue downward facing arrow on it. The candidates list reorganizes to find a compound that fits the unfitted peak. 
+  * Under the Restrictions tab > Edit… will give you a pop up for many ways to restrict your search. For example, under Chemistry, one can input the elements that are or are not present in the sample.
+  * Clicking Execute Fitting > <Profile Fit> Default often improves the confidence and precision of the results.
+* Interpreting the Matches:
+  * Score shows the confidence of the program in the pattern match between your samples and the candidate. To check if the program was correct, click on the candidate you are interested in. Thin blue lines will show up on the graph. Check that each blue line matches up with the height and location of a peak of your sample.
+  * Once you are confident with your match, left click and pull it to the Pattern List panel. This “accepts” it. On the graph, if any peak is not matched by the accepted candidate’s pattern, it will retain a blue downward facing arrow on it. The candidates list reorganizes to find a compound that fits the unfitted peak.
   * Continue this process until all peaks have been matched and all compounds in your sample have been found.
 
 <a name="failures"></a>
