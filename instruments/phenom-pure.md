@@ -21,24 +21,33 @@ This page is the operating page for the Phenom Pure only. For the Phenom XL, use
 | New lab user or untrained SEM user | [Register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) |
 | Reserve instrument time | [Open Phenom Pure SEM reservations](https://breakerspace.libcal.com/seat/174787) |
 | Compare XL and Pure | [Open the shared SEM hub](./sem.html) |
+| Trained user operating the Phenom Pure now | [Standard operating protocol](#sop) |
+| New user learning the full workflow | [Detailed operating instructions](#details) |
+| Learning what is distinctive about this lab's Phenom Pure | [What makes this Phenom Pure different](#pure-different) |
+| Need sample size or loading limits | [Phenom Pure sample limits](#pure-limits) |
+| Need cold-stage guidance | [Phenom Pure cold stage](#cold-stage) |
 | Need manufacturer documentation | [Phenom Pure manuals](#manuals) |
 | Need practice tasks | [Exercises](#exercises) |
 
-<a name="page-index"></a>
-### Page Index
+<a name="pure-different"></a>
+### What Makes This Phenom Pure Different
 
-* [Standard operating protocol](#sop) - ([startup](#startup), [operation](#operation), [shutdown](#shutdown))
-* [Compatible materials and shared sample rules](#materials)
-* [Phenom Pure sample limits](#pure-limits)
-* [Sample prep at a glance](#prep)
-* [Quick imaging settings](#quick-settings)
-* [Detailed operating instructions](#details)
-* [Cold stage](#cold-stage)
-* [Data processing and analysis](#data)
-* [Common failure modes](#failures)
-* [Manufacturer manuals](#manuals)
-* [Exercises](#exercises)
-* [Tutorial to-do list](#todo)
+The shared [SEM hub](./sem.html#science) explains what scanning electron microscopy can show in general. This Phenom Pure page focuses on the capabilities that distinguish the Breakerspace Pure configuration from the Phenom XL in this lab.
+
+The Pure is the simpler choice for routine imaging of one small mounted sample when EDS is not needed. It also has the Breakerspace temperature-controlled stage, which makes it the SEM to consider when the sample may need to be cooled or frozen during imaging.
+
+#### Temperature-Controlled Stage
+
+The temperature-controlled stage can cool a small sample while it is inside the SEM. This can help with samples that might dry, deform, soften, move, or change under vacuum or under the electron beam. In practice, cold-stage SEM is often more method-development work than routine dry imaging, but it can make otherwise difficult samples possible to explore.
+
+This capability is useful for questions like:
+
+* Can a wet, soft, or hydrated sample be frozen well enough to see its surface structure?
+* Does a gel, food, biological material, polymer, or coating change shape when it dries?
+* Can cooling reduce beam damage, softening, or motion during imaging?
+* Is the feature of interest still visible after freezing, vacuum exposure, and SEM imaging?
+
+The cold stage does not make every wet sample safe or easy to image. Freezing can create artifacts, frost can hide the surface, water can sublime away in vacuum, and samples can still charge or move. Use cold-stage workflows with staff guidance until the sample behavior is understood.
 
 <a name="sop"></a>
 ### Standard Operating Protocol

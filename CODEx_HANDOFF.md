@@ -58,6 +58,19 @@ The user especially likes the FTIR tutorial as an example of this concept.
 The user also wants:
 
 * consistent wording for routine tasks, such as "Log on to the instrument workstation using your MIT Kerberos."
+* an educational section near the top of each integrated instrument page, usually titled "What This Instrument Shows You" or similar.
+* educational sections written for curious MIT first-year undergraduates from any major: assume high-school bio/chem/physics exposure, but do not assume materials-science, advanced science, or engineering background.
+* educational sections that are comprehensible without being oversimplified: plain-language instrument principle, anecdotal cross-disciplinary use cases, what results look like, and what the instrument cannot tell you.
+* a few attention-catching images or example results in the educational section when available, used to pull readers in rather than to become step-by-step tutorial content.
+* integrated instrument pages should not keep the old tutorial-style full index near the top.
+* instead, use a concise Quick Actions table near the top with practical links for common user intents.
+* Quick Actions should include separate anchor links for trained users operating now, usually to `#sop`, and new users learning the full workflow, usually to `#details`.
+* the SOP section should be the fast trained-user reference, while the detailed operating section should be the new-user training guide.
+* page titles should normally be the instrument name, not "Tutorial"; the page itself can explain that it is the operating page for that instrument.
+* the top Overview should usually use a right-floated instrument image, one or two concise paragraphs describing what the instrument is for, and a sentence explaining that the page combines quick reference, detailed training notes, reservations, manuals, exercises, and staff to-do notes.
+* where useful, add a quick method/mode/settings table between compatible materials and detailed instructions, so users can choose an operating approach without reading the whole training guide.
+* keep the standard compatibility reminder: samples/materials must be non-hazardous and safe for Breakerspace use, with an italic ask-staff note when appropriateness is uncertain.
+* normalize headings toward title case in integrated instrument pages, such as "Standard Operating Protocol," "Detailed Operating Instructions," "Data Processing And Analysis," "Common Failure Modes," and "Manufacturer Manuals."
 * exercise sections at the bottom of tutorials.
 * level 1 exercises to match the general instrument training task.
 * future level 2 and level 3 exercises to support advanced/specialist training.
@@ -91,6 +104,8 @@ The SEM content has been split into:
 * `instruments/phenom-pure.md`: Phenom Pure-only operating page.
 
 Reason for split: the Phenom XL and Phenom Pure have different safety-critical workflows, especially sample-height/loading rules. The XL page should not present Pure-specific holder-edge guidance as an operating option, and the Pure page should not present XL-specific tray/EDS guidance as an operating option.
+
+SEM split-page pattern: `instruments/sem.md` has the shared educational "What This Instrument Shows You" section for SEM as a technique. The instrument-specific Phenom XL and Phenom Pure operating pages should not repeat that full section; instead, they use shorter lab-specific sections titled "What Makes This Phenom XL Different" and "What Makes This Phenom Pure Different." This wording is intentional because it describes the Breakerspace configurations, not universal capabilities of all Phenom XL/Pure systems. For example, this lab's Phenom XL has EDS and the larger/multiple-sample tray, while this lab's Phenom Pure has the temperature-controlled stage and no EDS. The old-style `Page Index` sections have been removed from these operating pages and replaced with fuller Quick Actions links.
 
 Key SEM distinction:
 

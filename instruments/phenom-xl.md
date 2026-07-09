@@ -21,24 +21,35 @@ This page is the operating page for the Phenom XL only. For the Phenom Pure, use
 | New lab user or untrained SEM user | [Register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) |
 | Reserve instrument time | [Open Phenom XL SEM reservations](https://breakerspace.libcal.com/seat/174786) |
 | Compare XL and Pure | [Open the shared SEM hub](./sem.html) |
+| Trained user operating the Phenom XL now | [Standard operating protocol](#sop) |
+| New user learning the full workflow | [Detailed operating instructions](#details) |
+| Learning what is distinctive about this lab's Phenom XL | [What makes this Phenom XL different](#xl-different) |
+| Need sample size or loading limits | [Phenom XL sample limits](#xl-limits) |
+| Need EDS guidance | [EDS and Live EDS](#eds) |
 | Need manufacturer documentation | [Phenom XL manuals](#manuals) |
 | Need practice tasks | [Exercises](#exercises) |
 
-<a name="page-index"></a>
-### Page Index
+<a name="xl-different"></a>
+### What Makes This Phenom XL Different
 
-* [Standard operating protocol](#sop) - ([startup](#startup), [operation](#operation), [shutdown](#shutdown))
-* [Compatible materials and shared sample rules](#materials)
-* [Phenom XL sample limits](#xl-limits)
-* [Sample prep at a glance](#prep)
-* [Quick imaging settings](#quick-settings)
-* [Detailed operating instructions](#details)
-* [EDS and Live EDS](#eds)
-* [Data processing and analysis](#data)
-* [Common failure modes](#failures)
-* [Manufacturer manuals](#manuals)
-* [Exercises](#exercises)
-* [Tutorial to-do list](#todo)
+The shared [SEM hub](./sem.html#science) explains what scanning electron microscopy can show in general. This Phenom XL page focuses on the capabilities that distinguish the Breakerspace XL configuration from the Phenom Pure in this lab.
+
+The XL is the better choice when you need a larger stage, multiple mounted samples in one session, or elemental information from EDS. It accepts a 100 mm x 100 mm sample tray and can hold several stubs at once, which makes it useful for comparing related samples without repeatedly unloading the microscope.
+
+#### EDS Elemental Analysis
+
+EDS, or energy dispersive spectroscopy, uses X-rays produced when the electron beam hits the sample. Different elements tend to emit X-rays at characteristic energies, so the detector can estimate which elements are present in a spot, line, or mapped region.
+
+This is useful when the SEM image alone is not enough. A bright particle, dark inclusion, coating, residue, corrosion product, or unexpected region may look different because of shape, charging, or composition. EDS helps ask whether that region also has a different elemental signature.
+
+Common XL questions include:
+
+* Is this particle mostly metal, mineral, glass, salt, polymer filler, or something else elemental?
+* Does this coating or residue contain elements that are absent from the surrounding material?
+* Are bright and dark SEM regions different elements, or mainly topography and detector contrast?
+* Where are specific elements concentrated across a particle, fracture surface, filter, or cross section?
+
+EDS is most convincing when it is interpreted with the SEM image, sample history, mounting material, coating, voltage, and working distance. It estimates elements; it does not directly identify molecules, crystal structure, oxidation state, or exact composition without a more careful method.
 
 <a name="sop"></a>
 ### Standard Operating Protocol
