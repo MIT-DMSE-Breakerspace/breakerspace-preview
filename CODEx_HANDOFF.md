@@ -20,6 +20,8 @@ Work in the preview folder unless the user explicitly asks otherwise.
 
 The preview folder was copied from the production working tree with `.git` excluded. The user deleted `CNAME` from the preview folder so the preview GitHub Pages repo will not try to claim the live `breakerspace.mit.edu` domain.
 
+This preview repo is connected to GitHub and actively builds a static preview site when commits are pushed. It is intended for browser review and sharing with collaborators, but it is not publicly linked or discoverable from the live site. Because this is a separate preview copy, it is acceptable to modify tutorial files here without worrying that active lab users are relying on them during instrument operation.
+
 The SEM and ion mill tutorial preview files have been promoted in this preview copy:
 
 * `tutorials/sem-preview.md` was copied over `tutorials/sem.md`, then removed.
@@ -90,6 +92,10 @@ The new long-term pattern is to build integrated instrument pages under `instrum
 * tutorial to-do list
 
 The `tutorials/` pages can remain during transition, but the integrated instrument pages are intended to become the more complete user-facing destinations.
+
+For the remaining tutorial-to-instrument migrations, do not create new `*-preview.md` files by default. Instead, create the new draft page directly under `instruments/`, such as `instruments/uv-vis.md`, and treat it as the working draft in the preview site. The first pass on a new instrument page can focus on improving the tutorial substance only: SOP clarity, safety, detailed operating instructions, sample/material guidance, troubleshooting, data handling, exercises, images, and to-do notes. After the tutorial content is strong, add the broader landing-page layer: Quick Actions, educational section, method-selection tables, reservation links, overview polish, and final hierarchy cleanup.
+
+The migration should not be only a structural wrapper around old tutorial content. Each instrument page should improve the instructional material as it moves.
 
 For instruments that are single, unambiguous tools, one page such as `instruments/ftir.md` may eventually be enough.
 
