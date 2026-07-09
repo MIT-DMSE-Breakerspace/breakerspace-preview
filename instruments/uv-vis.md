@@ -22,43 +22,33 @@ This draft page is the upgraded operating content for the Duetta. It focuses fir
 #### Instrument Startup
 
 * Confirm the sample compartment is empty and the lid can close normally.
-* Turn on the [rear instrument power switch](../assets/img/tutorials/uv-vis/duetta-back-power-switch.jpg) if the instrument is off.
-* Press the [front power button](../assets/img/tutorials/uv-vis/duetta-power-front-button.jpg).
-* Confirm that the front power button is blue before operating the instrument.
+* Turn on the [rear instrument power switch](../assets/img/tutorials/uv-vis/duetta-back-power-switch.jpg), if needed.
+* Press the [front power button](../assets/img/tutorials/uv-vis/duetta-power-front-button.jpg) and confirm it is blue.
 * Log on to the instrument workstation using your MIT Kerberos.
-* Open EZ Spec software.
-* Click the EZ Spec button to enter the acquisition interface.
-* For best results, let the lamps warm up before collecting data, especially if quantitative comparison matters.
+* Open EZ Spec software and enter the acquisition interface.
+* Let the lamps warm up before collecting data when quantitative comparison matters.
 
 <a name="operation"></a>
 #### Operation
 
-* Wear nitrile gloves when handling cuvettes, samples, pipettes, wipes, or any liquid-handling supplies.
-* Prepare a clean blank/reference cuvette and a clean sample cuvette.
-* For routine absorbance work, use the same solvent or matrix for the blank that is used in the sample. Deionized water is appropriate only when the sample is water-based and contains no other background components that need to be subtracted.
-* Click New Method.
-* For routine training, choose Absorbance and Transmission.
-* Choose Spectra.
-* Check wavelength range, increment, integration/acquisition settings, and file name/location before collecting data.
-* Set [Mode to Both](../assets/img/tutorials/uv-vis/Both.png) if you want both absorbance and transmission outputs.
-* Fill the cuvette with enough liquid to cover the optical beam path.
-* Check the cuvette for bubbles, fingerprints, droplets, scratches, sediment, or lint in the beam path.
-* Wipe the outside of the cuvette with a clean lint-free wipe before loading.
+* Wear nitrile gloves when handling cuvettes, samples, pipettes, wipes, or liquid-handling supplies.
+* Prepare the sample and blank/reference cuvettes.
+* Create or load the appropriate EZ Spec method.
 * Click [Acquire](../assets/img/tutorials/uv-vis/Acquire.png).
-* When prompted, load the blank/reference cuvette, close the lid, and collect the blank.
-* When prompted, [load the sample cuvette](../assets/img/tutorials/uv-vis/add-in-cuvette.gif) in the same orientation, close the lid, and collect the sample spectrum.
-* Save or export the data before closing the method or software.
+* Load and acquire the blank/reference when prompted.
+* Load and acquire the [sample](../assets/img/tutorials/uv-vis/add-in-cuvette.gif) when prompted.
+* Unload the sample and blank/reference cuvettes.
+* Save or export the data.
 
 <a name="shutdown"></a>
 #### Instrument Shutdown
 
-* Save and export all data you need.
-* Remove your sample and blank cuvettes from the instrument.
+* Confirm all needed data are saved or exported.
+* Confirm the sample compartment is empty.
 * Dispose of or store samples according to the approved plan for that material.
-* Leave spare cuvettes, wipes, and the sample area clean.
 * Close EZ Spec.
 * Log out of the workstation.
-* Push and hold the front power button until the light shuts off. Shutting the instrument down is important so the lamp does not burn unnecessarily.
+* Push and hold the front power button until the light shuts off.
 * Leave the work area clean and remove all samples, labels, wipes, and liquid-handling supplies.
 
 <a name="materials"></a>
@@ -113,6 +103,18 @@ For fluorescence, high concentration can be especially misleading because molecu
 The sections above are meant as a quick reference for trained users. The sections below are written as a training guide for new users and include practical details, images, and troubleshooting cues that are easiest to understand at the instrument.
 
 The most common preventable Duetta problems are dirty cuvettes, mismatched blanks, samples that are too concentrated, bubbles in the beam path, unclear file names, and data that was collected but not exported before the user left.
+
+#### Instrument Startup Notes
+
+Before starting, confirm the sample compartment is empty and the lid closes normally. If the instrument is off, use the rear power switch first, then press the front power button. The front power button must be blue before operation.
+
+Log on to the instrument workstation using your MIT Kerberos, open EZ Spec, and click the EZ Spec button to enter the acquisition interface. For quick qualitative checks, you may be able to begin after the instrument is ready. For quantitative comparisons, concentration series, or measurements that need better repeatability, let the lamps warm up before collecting data.
+
+<figure style="margin-left:0; margin-right:0;">
+  <a href="../assets/img/tutorials/uv-vis/duetta-back-power-switch.jpg" target="_parent"><img src="../assets/img/tutorials/uv-vis/duetta-back-power-switch.jpg" alt="Rear power switch on the Horiba Duetta." style="width:49%; margin:0"></a>
+  <a href="../assets/img/tutorials/uv-vis/duetta-power-front-button.jpg" target="_parent"><img src="../assets/img/tutorials/uv-vis/duetta-power-front-button.jpg" alt="Front power button on the Horiba Duetta." style="width:49%; margin:0"></a>
+  <figcaption>Use the rear switch and front power button to start the Duetta. The front power button must be blue before operation.</figcaption>
+</figure>
 
 #### What Absorbance And Transmission Measure
 
@@ -221,6 +223,14 @@ Before interpreting a suspension spectrum, ask whether the sample is stable duri
 * Does a dilution series behave in the expected direction?
 * Are particles settling, scattering, or aggregating during measurement?
 * Is the file saved and exported in a format you can use later?
+
+#### Shutdown And Cleanup Notes
+
+Before shutting down, confirm that every file you need has been saved or exported. The native EZ Spec file is useful if you may need to reopen the method or processing later, while exported text or CSV-style data are usually easier to plot or analyze elsewhere.
+
+Remove all sample and blank/reference cuvettes from the instrument. Dispose of or store samples according to the approved plan for that material, then clean up spare cuvettes, wipes, labels, and liquid-handling supplies. Do not leave samples in the sample compartment or at the workstation.
+
+Close EZ Spec, log out of the workstation, and push and hold the front power button until the light shuts off. Shutting the instrument down when the session is complete helps avoid unnecessary lamp use.
 
 <a name="failures"></a>
 ### Common Failure Modes

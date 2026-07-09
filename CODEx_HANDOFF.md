@@ -68,8 +68,9 @@ The user also wants:
 * instead, use a concise Quick Actions table near the top with practical links for common user intents.
 * Quick Actions should include separate anchor links for trained users operating now, usually to `#sop`, and new users learning the full workflow, usually to `#details`.
 * the SOP section should be the fast trained-user reference, while the detailed operating section should be the new-user training guide.
-* the SOP section should stay concise enough for advanced/trained users to scan on one screen where practical: mostly bullet points and short text, with no large embedded figures or GIFs.
+* the SOP section should stay concise enough for advanced/trained users to scan on one screen where practical: mostly top-level required steps, short bullet points, and no large embedded figures or GIFs.
 * when visual reminders are useful in the SOP, link to the relevant image/GIF inline from the bullet text; put full figures, GIFs, captions, and visual walkthroughs in the detailed operating instructions.
+* details removed from the SOP for concision should still be covered in the detailed operating instructions when they are useful for training, troubleshooting, safety, or data quality.
 * page titles should normally be the instrument name, not "Tutorial"; the page itself can explain that it is the operating page for that instrument.
 * the top Overview should usually use a right-floated instrument image, one or two concise paragraphs describing what the instrument is for, and a sentence explaining that the page combines quick reference, detailed training notes, reservations, manuals, exercises, and staff to-do notes.
 * where useful, add a quick method/mode/settings table between compatible materials and detailed instructions, so users can choose an operating approach without reading the whole training guide.
