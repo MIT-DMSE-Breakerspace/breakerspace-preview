@@ -18,6 +18,21 @@ Work in the preview folder unless the user explicitly asks otherwise.
 
 ## Current State
 
+### Status Summary - 2026-07-10
+
+Migration to integrated instrument pages is roughly half complete by instrument count. Five instruments now have integrated pages under `instruments/`: FTIR, UV-Vis (Horiba Duetta), Optical (Olympus DSX-1000), Ion Mill, and the SEM family (`sem.md` hub plus `phenom-xl.md` and `phenom-pure.md`). All follow the standard page order and share the same section structure, and their in-page anchors (`#sop`, `#details`, `#science`, `#exercises`, etc.) resolve.
+
+Five instruments still use their older `tutorials/` pages and are listed under "Instruments Awaiting Consolidation" in `instruments/index.md`: XRD, Instron, Raman (Horiba XploRA), Hardness Tester (Innovatest Nemesis), and Particle Size Analyzer (Microtrac).
+
+Two items previously listed as future/likely improvements are now done:
+
+* Navigation was moved into `_data/navigation.yml` and is rendered with `relative_url` in `_layouts/default.html`. The hardcoded absolute `breakerspace.mit.edu` nav links are gone.
+* `instruments/index.md` exists as the instrument catalog, with separate "Updated Instrument Pages" and "Instruments Awaiting Consolidation" tables.
+
+The `Training` nav item and `sop.md` have been retired. The old tutorial/SOP index (`sop.md`) was deleted, the `Training` entry was removed from `_data/navigation.yml`, and the "Training index" link in `resources.md` was removed. Links to the older tutorial files remain cataloged in `instruments/index.md` for use during the transition. Current top-level navigation is: Home, Instruments, Reservations, Resources, Lounge, Team.
+
+### Original Setup Notes
+
 The preview folder was copied from the production working tree with `.git` excluded. The user deleted `CNAME` from the preview folder so the preview GitHub Pages repo will not try to claim the live `breakerspace.mit.edu` domain.
 
 This preview repo is connected to GitHub and actively builds a static preview site when commits are pushed. It is intended for browser review and sharing with collaborators, but it is not publicly linked or discoverable from the live site. Because this is a separate preview copy, it is acceptable to modify tutorial files here without worrying that active lab users are relying on them during instrument operation.
@@ -29,7 +44,7 @@ The SEM and ion mill tutorial preview files have been promoted in this preview c
 
 Existing links to `tutorials/sem.html` and `tutorials/ion-mill.html` should now reach the updated content in the preview site.
 
-`tutorials/xrd-preview.md` and `tutorials/uv-vis-preview.md` still exist but were not promoted, because they predated this work and may not be ready.
+`tutorials/xrd-preview.md` and `tutorials/uv-vis-preview.md` still exist from this early work. UV-Vis has since been built as an integrated page at `instruments/uv-vis.md`, so `tutorials/uv-vis-preview.md` is superseded. These leftover `*-preview.md` files (plus other stray files such as `index_ref.md`, `tutorials/index_ref.md`, `test.md`, and the extensionless `tutorials/xrd`) are cleanup candidates before the site goes live.
 
 ## Site Architecture Notes
 
@@ -38,15 +53,16 @@ This is a simple Jekyll/GitHub Pages site using `jekyll-theme-minimal`.
 Important files:
 
 * `_config.yml`: site title, logo, description, theme.
-* `_layouts/default.html`: global layout and current top-level navigation.
+* `_layouts/default.html`: global layout. Navigation is rendered from `_data/navigation.yml` using `relative_url`.
+* `_data/navigation.yml`: top-level navigation items (Home, Instruments, Reservations, Resources, Lounge, Team).
 * `_includes/`: shared Jekyll include snippets.
 * `index.md`: homepage.
-* `lab.md`: instrument overview page.
-* `sop.md`: existing tutorial/SOP index page.
-* `tutorials/`: current tutorial pages.
-* `instruments/`: new integrated instrument page pilot area.
+* `lab.md`: legacy instrument overview page (superseded as the catalog by `instruments/index.md`).
+* `instruments/index.md`: current instrument catalog and landing page.
+* `tutorials/`: legacy tutorial pages, kept as compatibility pages during migration.
+* `instruments/`: integrated instrument pages (the preferred user-facing destinations).
 
-The current production-style navigation in `_layouts/default.html` is hardcoded with absolute links to `https://breakerspace.mit.edu/...`. A likely preview-site improvement is to move navigation into `_data/navigation.yml` and render it with `relative_url`, so the same layout works in production, preview, and local builds.
+Navigation now lives in `_data/navigation.yml` and is rendered with `relative_url` in `_layouts/default.html`, so the same layout works in production, preview, and local builds. This replaced the old hardcoded absolute `https://breakerspace.mit.edu/...` nav links.
 
 ## Content Strategy
 
@@ -173,9 +189,11 @@ LibCal availability embedding was investigated. A direct iframe of a seat page m
 
 ## Existing Updated Tutorial Work
 
+Note: the primary destination for updated content is now the integrated pages under `instruments/` (see the Status Summary at the top). Five instruments have integrated pages: FTIR, UV-Vis, Optical, Ion Mill, and the SEM family. The improved tutorial content described below also lives in the corresponding legacy `tutorials/` pages, which remain as compatibility pages during the migration.
+
 ### SEM Tutorial
 
-`tutorials/sem.md` now contains the improved two-speed SEM tutorial content, including:
+`tutorials/sem.md` and the integrated SEM pages (`instruments/sem.md`, `instruments/phenom-xl.md`, `instruments/phenom-pure.md`) contain the improved two-speed SEM content, including:
 
 * concise SOP at top
 * compatible materials and quick sample prep
@@ -191,11 +209,11 @@ LibCal availability embedding was investigated. A direct iframe of a seat page m
 * exercises
 * tutorial to-do list
 
-The integrated SEM pages under `instruments/` may become the preferred future path, but existing tutorial links now reach improved content.
+The integrated SEM pages under `instruments/` are the preferred path; existing tutorial links continue to reach improved content.
 
 ### Ion Mill Tutorial
 
-`tutorials/ion-mill.md` now contains the improved two-speed ion mill tutorial content, including:
+`tutorials/ion-mill.md` and the integrated `instruments/ion-mill.md` contain the improved two-speed ion mill content, including:
 
 * concise SOP
 * compatible materials
@@ -211,11 +229,11 @@ The site is primarily operational. The landing page was intentionally kept short
 Possible future IA direction:
 
 * keep the homepage short and operational
-* make `lab.md` an instrument overview and browsing page
-* add integrated instrument pages under `instruments/`
-* update top-level navigation to expose lab/instruments/tutorials/resources cleanly
+* the instrument catalog now lives at `instruments/index.md` (the legacy `lab.md` is superseded as the catalog)
+* continue migrating tutorial pages into integrated pages under `instruments/`
+* top-level navigation is now data-driven via `_data/navigation.yml`
 * possibly have each instrument workstation open the relevant instrument page directly
-* keep or rework `sop.md` as a concise tutorial index during transition
+* the separate tutorial/SOP index (`sop.md`) has been retired; legacy tutorial links now live in `instruments/index.md` during transition
 * use direct single-instrument LibCal links on instrument pages
 
 The sample library page, 3.000 page, reservations page, and image contest page may be testing/development or seasonally exposed pages. Do not assume all hidden pages should be linked from navigation.
@@ -262,27 +280,26 @@ Current Git context after the rename check:
 * `git diff --check` was clean before this handoff update.
 * `CODEx_HANDOFF.md` was intentionally modified to record the renamed path and this latest context.
 
-### Navigation And Structure Direction Discussed
+### Navigation And Structure Direction
 
-The current site navigation grew historically: `lab.md` became the instrument catalog, `sop.md` later became the tutorial/SOP index, and `resources.md` collected general lab infrastructure notes. The desired direction is to make each instrument page the canonical destination for that instrument.
+The site navigation grew historically: `lab.md` became the instrument catalog, `sop.md` later became the tutorial/SOP index, and `resources.md` collected general lab infrastructure notes. The desired direction is to make each instrument page the canonical destination for that instrument.
 
-Recommended top-level navigation concept:
+Current implemented top-level navigation (in `_data/navigation.yml`):
 
 * Home
 * Instruments
 * Reservations
-* Training
 * Resources
 * Lounge
 * Team
 
 `Home` should stay short and operational, with access, hours, and calendar/training visibility.
 
-`Instruments` should replace the old meaning of `Lab` as the main browsing catalog. It should link to integrated instrument pages under `instruments/` where available, and to existing tutorial pages only during transition. Instrument families can use hub pages, such as `instruments/sem.md`, while single instruments can use one landing/operating page.
+`Instruments` replaced the old meaning of `Lab` as the main browsing catalog, via `instruments/index.md`. It links to integrated instrument pages under `instruments/` where available, and to existing tutorial pages only during transition. Instrument families can use hub pages, such as `instruments/sem.md`, while single instruments can use one landing/operating page.
 
-`Reservations` should remain top-level because instrument booking is a high-frequency user task. Specific instrument pages should use direct LibCal seat links.
+`Reservations` remains top-level because instrument booking is a high-frequency user task. Specific instrument pages should use direct LibCal seat links.
 
-`Training` is preferred over the nav label `SOPs and tutorials` because it is clearer for students. During the transition, `sop.md` can become a training index that points to integrated instrument pages first and legacy tutorial pages only where needed.
+The `Training` nav item and `sop.md` have been retired. Earlier this was proposed as a training index; instead, `instruments/index.md` now serves as the single instrument catalog, including the legacy tutorial links under "Instruments Awaiting Consolidation" during the transition. There is no longer a separate `sop.md` page or `Training` nav entry.
 
 `Resources` should be reorganized around general lab support tasks rather than instrument-specific operating information. A proposed order is:
 

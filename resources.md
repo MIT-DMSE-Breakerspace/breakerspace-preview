@@ -75,7 +75,6 @@ Dispose of sharps and glass, including glass slides, in the sharps disposal cont
 ## Reference Materials
 
 * [Instrument pages]({{ "/instruments/" | relative_url }}) for current and future integrated instrument guides.
-* [Training index]({{ "/sop.html" | relative_url }}) for tutorial/SOP pages during the transition.
 * [Sample library]({{ "/sample-library.html" | relative_url }}) for shared training and reference samples as that collection develops.
 
 The sample library is a work in progress. It is intended to support future training exercises and reference examples, but users should not rely on it as a complete or required collection yet. Return reusable sample-library materials to the cabinet, and contact [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) if a consumable sample is running low.
