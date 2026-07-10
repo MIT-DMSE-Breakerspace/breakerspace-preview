@@ -9,7 +9,7 @@ layout: default
 
 The Horiba Duetta is the Breakerspace spectrometer for measuring how liquid samples absorb and emit light. It can operate as a UV-Vis-NIR absorbance spectrometer, as a fluorometer, or as a combined absorbance and fluorescence instrument for workflows that need inner-filter-effect correction.
 
-Routine Breakerspace training currently focuses on absorbance and transmission spectra using cuvette samples in EZ Spec. Fluorescence and combined molecular-fingerprint workflows are useful, but should be treated as staff-guided until the full lab workflow is documented.
+Routine Breakerspace training currently focuses on absorbance and transmission spectra using cuvette samples in EZ Spec. The lab also has a transmission sample holder for flat transparent samples, such as quartz slides with controlled thin films. Fluorescence and combined molecular-fingerprint workflows are useful, but should be treated as staff-guided until the full lab workflow is documented.
 
 This page is the operating page for the Duetta. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, exercises, and staff to-do list.
 
@@ -52,7 +52,7 @@ Fluorescence asks a related but different question. Some molecules absorb light 
 
 For absorbance spectra, start with the main peaks and the baseline. Ask where the sample absorbs most strongly, whether the peak shape changes between samples, and whether the signal is within a useful range. A concentration series should usually show stronger absorbance for more concentrated samples, but only until the sample becomes too concentrated for a reliable measurement.
 
-For transmission, look for wavelength regions where light passes through easily or is mostly blocked. This can be useful for comparing colored liquids, filters, optical materials, or samples where the question is simply "what light gets through?"
+For transmission, look for wavelength regions where light passes through easily or is mostly blocked. This can be useful for comparing colored liquids, filters, optical materials, thin films, or samples where the question is simply "what light gets through?" For example, a student project used controlled layers of different sunscreens on quartz slides to compare how strongly different formulations blocked UV and visible light.
 
 For fluorescence, look at both the intensity and the emission wavelength range. A strong fluorescence signal can indicate that the sample emits light efficiently under the selected excitation conditions. But fluorescence intensity is not automatically concentration: high concentrations can quench emission or reabsorb emitted light, and method settings can change the result.
 
@@ -88,12 +88,12 @@ Always check for practical artifacts before interpreting small differences. Bubb
 <a name="operation"></a>
 #### Operation
 
-* Wear nitrile gloves when handling cuvettes, samples, pipettes, wipes, or liquid-handling supplies.
-* Prepare the sample and blank/reference cuvettes.
+* Wear nitrile gloves when handling cuvettes, sample holders, slides, samples, pipettes, wipes, or liquid-handling supplies.
+* Prepare the sample and blank/reference cuvettes or holders.
 * Create or load the appropriate EZ Spec method.
 * Click [Acquire](../assets/img/tutorials/uv-vis/Acquire.png).
-* Load and acquire the blank/reference and [sample](../assets/img/tutorials/uv-vis/add-in-cuvette.gif) cuvettes in the order prompted by the selected method.
-* Unload all cuvettes from the sample compartment.
+* Load and acquire the blank/reference and [sample](../assets/img/tutorials/uv-vis/add-in-cuvette.gif) in the order prompted by the selected method.
+* Unload all cuvettes, slides, or sample holders from the sample compartment.
 * Save or export the data.
 
 <a name="shutdown"></a>
@@ -112,9 +112,11 @@ Always check for practical artifacts before interpreting small differences. Bubb
 
 * Samples must be non-hazardous and safe to handle in the Breakerspace.
 * Routine samples should be liquids that can be contained safely in a clean cuvette.
+* Flat transparent samples or thin films on transparent substrates may be measured with the transmission sample holder when staff have approved the sample geometry and method.
 * Most routine training samples should be water-based, low-odor, non-volatile, non-staining, and easy to clean if spilled.
 * Do not bring hazardous solvents, reactive chemicals, biological hazards, strongly odorous liquids, staining dyes, or unknown liquids without staff approval.
 * Do not load leaking, cracked, dirty, overfilled, or unstable cuvettes.
+* Do not load sticky, wet, shedding, fragile, or poorly mounted slides unless staff have approved the workflow.
 * Do not place loose solids, powders, open containers, or uncontained wet materials in the sample compartment.
 * If a sample contains particles or sediment, decide whether the goal is to measure the dissolved material, the suspension, or scattering from particles. Those are different measurements.
 
@@ -133,6 +135,16 @@ Always check for practical artifacts before interpreting small differences. Bubb
 * Use the same cuvette orientation for blank and sample whenever possible.
 * Use matched cuvettes or the same cuvette rinsed between measurements when small differences matter.
 
+#### Transmission Holder And Slides
+
+The transmission sample holder can be used for flat samples where light passes through a transparent substrate and sample layer. This is a staff-guided workflow until the holder setup is fully documented.
+
+Good candidates include transparent slides, films, coatings, filters, or carefully prepared layers where the sample is thin, stable, and does not contaminate the holder or sample compartment. Quartz slides are useful when UV transmission matters because ordinary glass may absorb strongly in parts of the UV range.
+
+Use a matching blank/reference whenever possible. For a sunscreen comparison, for example, a blank might be a clean quartz slide or a quartz slide prepared with the same base handling but no sunscreen. The sample slides should have controlled layer thickness, consistent application area, and enough drying or stabilization time that the film will not smear, drip, or transfer into the holder.
+
+This holder is useful for questions such as comparing sunscreen formulations, checking whether a thin film blocks particular wavelengths, or measuring transmission through transparent materials. Interpretation depends strongly on sample thickness, uniformity, substrate choice, and blank selection.
+
 #### Concentration And Dilution
 
 Absorbance measurements work best when the sample absorbs some light but does not block nearly all of it. If a peak is cut off, flat at the top, noisy, or far above the useful range, the sample is probably too concentrated at that wavelength.
@@ -149,6 +161,7 @@ For fluorescence, high concentration can be especially misleading because molecu
 | Measure color, dye concentration, or visible absorption | Absorbance and Transmission, Spectra | Use an appropriate blank and check that peaks are not saturated. |
 | Compare a dilution series | Absorbance and Transmission, Spectra | Keep cuvette type, orientation, wavelength range, and blank consistent. |
 | Check whether a sample transmits or absorbs light across UV/visible/NIR wavelengths | Absorbance and Transmission, Spectra | Make sure the cuvette and solvent are appropriate for the wavelength range. |
+| Compare thin films, coatings, filters, or transparent slide samples | Absorbance and Transmission with transmission holder | Staff-guided; use a matching blank/reference substrate and controlled sample thickness. |
 | Measure fluorescence emission or excitation | Fluorescence method | Staff-guided until the Breakerspace fluorescence workflow is fully documented. |
 | Use absorbance-corrected fluorescence or molecular fingerprint workflows | Combined absorbance and fluorescence method | Staff-guided; method setup and interpretation are more specialized. |
 | Estimate relative nanoparticle or suspension behavior | Absorbance/scattering comparison | Interpret carefully: turbidity, scattering, and settling can dominate the result. |
@@ -158,7 +171,7 @@ For fluorescence, high concentration can be especially misleading because molecu
 
 The sections above are meant as a quick reference for trained users. The sections below are written as a training guide for new users and include practical details, images, and troubleshooting cues that are easiest to understand at the instrument.
 
-The most common preventable Duetta problems are dirty cuvettes, mismatched blanks, samples that are too concentrated, bubbles in the beam path, unclear file names, and data that was collected but not exported before the user left.
+The most common preventable Duetta problems are dirty cuvettes or slides, mismatched blanks, samples that are too concentrated or too thick, bubbles or nonuniform films in the beam path, unclear file names, and data that was collected but not exported before the user left.
 
 #### Instrument Startup Notes
 
@@ -234,6 +247,20 @@ When comparing several samples, use the same blank strategy for all of them and 
   <figcaption>For routine absorbance training, set the mode to Both when absorbance and transmission are both useful, then click Acquire after the method, file name, save location, and sample setup are ready.</figcaption>
 </figure>
 
+#### Transmission Holder Workflow
+
+Use the transmission holder when the sample is a flat transparent substrate, film, coating, or slide-mounted layer rather than a liquid in a cuvette. Confirm the holder, substrate, and sample preparation with staff before use.
+
+1. Choose a transparent substrate appropriate for the wavelength range. Use quartz rather than ordinary glass when UV transmission matters.
+2. Prepare a blank/reference substrate that represents the substrate and handling without the material being compared.
+3. Prepare sample slides with controlled layer thickness, coverage, and drying or stabilization time.
+4. Inspect the slide for fingerprints, dust, streaks, bubbles, scratches, or nonuniform film thickness in the beam path.
+5. Load the blank/reference and sample slides in the order prompted by the selected method.
+6. Keep slide orientation consistent between related measurements.
+7. Unload slides promptly and clean the holder or surrounding area if any transfer is observed.
+
+A recent Breakerspace project used this workflow to compare sunscreen formulations. The student applied controlled layers of different sunscreens to quartz slides, then compared absorbance and transmission spectra to ask which formulation blocked light most effectively across the measured wavelength range.
+
 #### Comparing A Series Of Samples
 
 For concentration comparisons, keep everything consistent except the concentration or treatment being tested.
@@ -277,7 +304,7 @@ Before interpreting a suspension spectrum, ask whether the sample is stable duri
 
 Before shutting down, confirm that every file you need has been saved or exported. The native EZ Spec file is useful if you may need to reopen the method or processing later, while exported text or CSV-style data are usually easier to plot or analyze elsewhere.
 
-Remove all sample and blank/reference cuvettes from the instrument. Dispose of or store samples according to the approved plan for that material, then clean up spare cuvettes, wipes, labels, and liquid-handling supplies. Do not leave samples in the sample compartment or at the workstation.
+Remove all sample and blank/reference cuvettes, slides, or holders from the instrument. Dispose of or store samples according to the approved plan for that material, then clean up spare cuvettes, slides, wipes, labels, and liquid-handling supplies. Do not leave samples in the sample compartment or at the workstation.
 
 Close EZ Spec, log out of the workstation, and push and hold the front power button until the light shuts off. The lamp has a limited service life and does not automatically turn off just because the workstation is disconnected, so shutting the instrument down at the end of a session is important.
 
@@ -291,6 +318,7 @@ Close EZ Spec, log out of the workstation, and push and hold the front power but
 | Spectrum is noisy or weak | Sample absorbs very little, integration/acquisition settings are not ideal, lamp is not warmed up, or cuvette/sample is inappropriate for the wavelength range | Let lamps warm up, check method settings, increase concentration if safe and appropriate, or ask staff about method choice. |
 | Repeat measurements do not agree | Cuvette orientation changed, bubbles moved, sample settled, cuvette was not rinsed, or file/method settings changed | Keep orientation consistent, remix gently, remove bubbles, rinse/replace cuvette, and repeat with consistent settings. |
 | Blank-corrected spectrum looks physically strange | Blank does not match the sample background or was collected with a dirty/mismatched cuvette | Prepare a better blank, clean or replace cuvettes, and recollect blank and sample. |
+| Slide or film spectra vary more than expected | Film thickness, slide orientation, substrate choice, fingerprints, or nonuniform application changed between measurements | Use a consistent blank/reference substrate, control layer thickness, keep orientation consistent, and inspect the slide before loading. |
 | Fluorescence signal is unexpectedly low | Wrong excitation/emission settings, sample does not fluoresce, photobleaching, quenching, or concentration effects | Ask staff to review the fluorescence method; try a known fluorescent standard or dilution series if appropriate. |
 | Fluorescence signal is distorted or lower at high concentration | Inner-filter effects, reabsorption, or quenching | Dilute the sample and use absorbance-corrected workflows only with staff-approved methods. |
 | Sample spills or cuvette leaks | Overfilled, cracked, poorly capped, or mishandled cuvette | Stop, keep liquid out of the instrument, notify staff, and clean only according to the approved material and spill procedure. |
@@ -310,6 +338,7 @@ Close EZ Spec, log out of the workstation, and push and hold the front power but
 * **Level 1 - Concentration series:** Prepare or use a staff-provided dilution series of a colored sample. Measure each sample with the same method and plot peak absorbance versus relative concentration.
 * **Level 2 - Saturation and dilution:** Measure a sample that is too concentrated, identify the saturated or clipped region, dilute it, and show how the spectrum improves.
 * **Level 2 - Suspension comparison:** Compare a stable dye solution with a turbid or particle-containing sample. Describe which spectral features may come from absorption and which may come from scattering.
+* **Level 2 - Transmission holder comparison:** With staff guidance, compare transmission through a clean quartz slide and a prepared thin-film or sunscreen-coated slide. Explain how the blank/reference choice affects interpretation.
 * **Level 3 - Fluorescence workflow:** With staff guidance, collect fluorescence data from a known fluorescent standard or safe fluorescent sample, then compare how excitation wavelength, concentration, or inner-filter correction changes the result.
 * **Level 3 - Method development:** With staff guidance, create a repeatable absorbance or fluorescence method for a recurring sample type, including sample prep, blank choice, method settings, export format, and acceptance checks.
 
@@ -320,7 +349,9 @@ Close EZ Spec, log out of the workstation, and push and hold the front power but
 * Add screenshots for New Method, Absorbance and Transmission, Spectra, wavelength-range setup, sample naming, save location, blank prompt, and export options.
 * Replace or supplement the cuvette-loading GIFs with versions showing appropriate glove use and clearer cuvette orientation.
 * Add photos showing clean vs dirty cuvette optical faces, bubbles in the beam path, and the correct liquid fill height.
+* Add photos of the transmission sample holder and a correctly loaded quartz slide.
 * Add a short absorbance example using a safe training dye, including the expected peak region and a dilution-series plot.
+* Add an annotated sunscreen-on-quartz-slide example showing how absorbance/transmission changes across wavelength for different formulations.
 * Add a fluorescence example using a safe, robust training sample if fluorescence becomes part of routine training.
 * Add a combined absorbance/fluorescence inner-filter-effect example or mark that workflow as staff-guided until documented.
 * Add a complete level 1 exercise using a specific material-library or training-kit sample, including bin number/location once the cabinet is organized.
