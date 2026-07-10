@@ -44,7 +44,9 @@ The SEM and ion mill tutorial preview files have been promoted in this preview c
 
 Existing links to `tutorials/sem.html` and `tutorials/ion-mill.html` should now reach the updated content in the preview site.
 
-`tutorials/xrd-preview.md` and `tutorials/uv-vis-preview.md` still exist from this early work. UV-Vis has since been built as an integrated page at `instruments/uv-vis.md`, so `tutorials/uv-vis-preview.md` is superseded. These leftover `*-preview.md` files (plus other stray files such as `index_ref.md`, `tutorials/index_ref.md`, `test.md`, and the extensionless `tutorials/xrd`) are cleanup candidates before the site goes live.
+`tutorials/xrd-preview.md` and `tutorials/uv-vis-preview.md` still exist from this early work. UV-Vis has since been built as an integrated page at `instruments/uv-vis.md`, so `tutorials/uv-vis-preview.md` is superseded. The `index_ref.md`, `tutorials/index_ref.md`, and `test.md` scaffolding files were removed on 2026-07-10, along with the unused `thumbnail.png`.
+
+The early XRD cheat-sheet material was moved on 2026-07-10 from `tutorials/xrd/` to a new top-level `handouts/` folder (now `handouts/xrd/`). See the "Handouts" section below for what this category is and how to treat it.
 
 ## Site Architecture Notes
 
@@ -119,6 +121,28 @@ The migration should not be only a structural wrapper around old tutorial conten
 For instruments that are single, unambiguous tools, one page such as `instruments/ftir.md` may eventually be enough.
 
 For instrument families or cases where mixed instructions could confuse users, split pages are better.
+
+## Handouts
+
+`handouts/` is a top-level folder for print-oriented instrument content. The defining use case: material designed to be **printed as a one-page cheat sheet and kept at the instrument** for students to reference while operating, while also being viewable on a device if helpful. This is a distinct format and audience from both the legacy `tutorials/` pages and the integrated `instruments/` operating pages, and it is kept in its own folder to avoid confusion about what the content is for.
+
+Current contents:
+
+* `handouts/xrd/` — early XRD cheat-sheet material moved here on 2026-07-10 from `tutorials/xrd/`. It contains:
+  * `index.md`: a cleaner, shorter XRD cheat-sheet draft with front matter and `permalink: /handouts/xrd/`, so it builds as a live page at that URL. The permalink was updated from the old `/tutorials/xrd/` during the move.
+  * `index2.md`: a longer, more detailed draft with no front matter (does not build as a standalone page as-is).
+  * `data/exercise_A_raw.csv`: sample data for a phase-identification exercise.
+  * `templates/report_template.md`: a student lab-report template.
+
+This XRD content is considered a good start but not necessarily fully adequate for the one-page-printed-cheat-sheet purpose. The user has not reviewed it exhaustively.
+
+Future direction for this category:
+
+* Revise the XRD handout specifically for the print/at-the-instrument cheat-sheet use case (fits usefully on one printed page, scannable while operating).
+* Create matching handout content for other instruments at a similar level of detail where a printed cheat sheet is judged helpful.
+* Keep handouts distinct from the integrated instrument pages: the instrument page is the complete online destination; the handout is the condensed printed companion.
+
+Note on the eventual XRD instrument-page migration: XRD content is now spread across `tutorials/xrd.md`, `tutorials/xrd-preview.md`, and the handout drafts in `handouts/xrd/`. When XRD is migrated into `instruments/xrd.md`, consolidate the best operating/tutorial substance into that page, and keep the print-oriented cheat-sheet material in `handouts/xrd/`.
 
 ## SEM Split
 

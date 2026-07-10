@@ -1,7 +1,7 @@
 ---
 title: "X-ray Diffraction (XRD) — Tutorial"
 layout: default
-permalink: /tutorials/xrd/
+permalink: /handouts/xrd/
 summary: "Practical, student-level guide to using the Panalytical Aeris Research XRD at MIT Breakerspace."
 author: "Breakerspace, MIT"
 last_modified: 2025-10-07
