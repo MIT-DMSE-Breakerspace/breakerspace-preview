@@ -44,6 +44,7 @@ The Aeris is a fully enclosed, interlocked instrument: the X-ray shutter cannot 
 * Prepare your sample at the sample prep table using the correct holder (see [compatible materials and sample prep](#materials)).
 * Remove the plastic sample-changer cover and place the prepared holder in any free loading position.
 * Replace the plastic sample-changer cover.
+* In the software, select the changer position that matches the physical slot where you placed the holder ([see the queue interface](../assets/img/tutorials/xrd/Queue.gif)).
 * Select a measurement program from the drop-down list.
 * Enter a descriptive sample name and edit the file name as needed.
 * Start the measurement, or click **Add to Queue** to run it after the current sample.
@@ -102,6 +103,7 @@ The sections above are a quick reference for trained users. The sections below a
 <a name="measurement"></a>
 #### Running A Measurement Program
 
+* Select the changer position that matches the physical slot where you loaded the holder. The instrument measures whichever position you select, so a mismatch here means it scans the wrong slot (or an empty one). Note the slot number when you load the holder so you can select it correctly.
 * Choose a measurement program from the drop-down list.
 * Enter the sample ID.
 * Edit the file name as necessary.
@@ -239,6 +241,7 @@ Advanced analysis such as quantitative phase fractions, crystallite size from pe
 
 * Add a labeled overview photo of the instrument showing the mains switch, power button, and HT keyswitch locations.
 * Reshoot the loading, queue, and export GIFs with appropriate glove use if handling guidance calls for it.
+* Add a dedicated screenshot of the changer-position selection in the UI (the current step links the general `Queue.gif`; a still that highlights the position selector would be clearer).
 * Add one or two annotated example patterns showing background, labeled peaks, and an accepted Search Match candidate.
 * Confirm the current workstation login details and networked export path before publishing.
 * Consolidate the remaining XRD source content (`tutorials/xrd.md`, `tutorials/xrd-preview.md`) into this page and retire the duplicates once this page is approved.
