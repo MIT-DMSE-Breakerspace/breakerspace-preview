@@ -33,7 +33,7 @@ The Aeris is a fully enclosed, interlocked instrument: the X-ray shutter cannot 
 #### Instrument Startup
 
 * Make sure at least one position in the sample changer is free (no sample holder in place). Booting with all six positions occupied causes a startup error.
-* Turn on the [mains power switch](../assets/img/tutorials/xrd/mains-switch.jpg) at the rear of the instrument.
+* Turn on the [mains power switch](../assets/img/tutorials/xrd/mains-switch.jpg) at the rear of the instrument, if needed. This switch is normally left on.
 * Make sure the cover is closed and the interlocks are engaged.
 * Press the [power button](../assets/img/tutorials/xrd/power-button.jpg) to switch on the instrument.
 * Turn the [HT keyswitch](../assets/img/tutorials/xrd/keyswitch.jpg) clockwise to switch on the high-tension (HT) generator.
