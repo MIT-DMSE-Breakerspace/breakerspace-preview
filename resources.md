@@ -48,6 +48,15 @@ The Breakerspace Slack workspace is [mit-dmse-breakerspace.slack.com](https://mi
 
 You should receive an invitation at your `@mit.edu` email after you complete training. If you did not receive an invitation, contact [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
 
+### Getting Help With Advanced Work
+
+Already-trained users who encounter an advanced characterization question should:
+
+1. Ask a Breakerspace staff member in the lab, if someone is available.
+2. If no one is available, ask in `#breakerspace-help` on Slack or email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu), whichever you prefer.
+
+When reaching out, briefly describe the sample, what you are trying to learn, the instrument or method you are considering, and anything you have already tried. The Breakerspace team can help identify a feasible approach, develop additional instrument skills, and decide whether the work requires more preparation or training.
+
 ## Safety And Lab Use
 
 Use Breakerspace instruments only after completing the required training. Materials analyzed in the Breakerspace should be non-hazardous and safe to handle. Check the relevant [instrument page]({{ "/instruments/" | relative_url }}) before preparing samples or making a reservation.

@@ -27,3 +27,56 @@
   width: 100%;
   height: 100%;
 }
+
+.site-nav a {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.intent-list {
+  margin: 1.25rem 0 1.5rem;
+  border-top: 3px solid #ae0721;
+}
+
+.intent-item {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.25fr);
+  gap: 1.5rem;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #d8dde2;
+}
+
+.intent-prompt h3 {
+  margin: 0.2rem 0 0;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.intent-kicker {
+  color: #6a7178;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.intent-detail p {
+  margin: 0 0 0.45rem;
+  color: #3f454a;
+}
+
+.intent-link {
+  font-weight: 700;
+}
+
+.intent-link:focus-visible,
+.site-nav a:focus-visible {
+  outline: 3px solid #009de6;
+  outline-offset: 3px;
+}
+
+@media print, screen and (max-width: 720px) {
+  .intent-item {
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+  }
+}

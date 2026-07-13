@@ -1,14 +1,14 @@
-- label: Home
+- label: Start Here
   url: /
-- label: Instruments
+- label: Find an Instrument
   url: /instruments/
-- label: Reservations
+- label: Reserve Time
   url: /reservations.html
-- label: Teaching
+- label: Teach With Us
   url: /teaching.html
-- label: Resources
+- label: Get Help
   url: /resources.html
-- label: Lounge
+- label: Use the Lounge
   url: /lounge.html
-- label: Team
+- label: Meet the Team
   url: /team.html
