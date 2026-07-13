@@ -210,7 +210,7 @@ After the lab, students should be asked to explain:
 
 ## Access, Safety, And Scheduling
 
-Breakerspace instruments are available to trained users, and course activities should be planned with training, staffing, sample safety, and reservation needs in mind.
+Breakerspace instruments are available to trained users, and course activities should be planned with training, staffing, sample safety, and reservation needs in mind. Review [Safety And Lab Use]({{ "/safety.html" | relative_url }}) when developing a lab activity or preparing a teaching team.
 
 Important constraints:
 

@@ -4,6 +4,8 @@
   url: /instruments/
 - label: Get Trained
   url: /training.html
+- label: Safety & Lab Use
+  url: /safety.html
 - label: Reserve Time
   url: /reservations.html
 - label: Teach With Us

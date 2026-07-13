@@ -18,6 +18,7 @@ Public calendar sessions currently prioritize MIT undergraduates. MIT faculty, s
 | Choose an instrument | [Explore the instrument pages]({{ "/instruments/" | relative_url }}) or ask Breakerspace staff what measurement fits your question. |
 | Complete the one-time online training record | Open the [Breakerspace online training](https://mit.co1.qualtrics.com/jfe/form/SV_084N36wCErKsgjc) before your first in-person instrument training. |
 | Request training that is not currently scheduled | Email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) with the instrument and several times that work for you. |
+| Review lab-wide rules | Read [Safety And Lab Use]({{ "/safety.html" | relative_url }}) before your first independent instrument session. |
 | Reserve an instrument after training | Use the [Breakerspace reservation page]({{ "/reservations.html" | relative_url }}). |
 | Arrange training for a subject or teaching team | Review the [teaching and course collaboration pathways]({{ "/teaching.html" | relative_url }}). |
 
@@ -38,6 +39,8 @@ If your plans change, please cancel your registration when you can so another st
 ### 3. Prepare Before The Session
 
 Before your first in-person instrument training, complete the [one-time Breakerspace online training and training record](https://mit.co1.qualtrics.com/jfe/form/SV_084N36wCErKsgjc).
+
+Review the lab-wide [Safety And Lab Use]({{ "/safety.html" | relative_url }}) page before your first independent instrument session.
 
 Before training, open the relevant instrument page and review:
 

@@ -4,7 +4,7 @@ layout: default
 
 # Breakerspace Resources
 
-Use this page for general Breakerspace support: getting access, saving and moving files, contacting the team, and finding shared reference materials. Instrument-specific operating instructions, manuals, troubleshooting, exercises, and reservation links are moving to the [instrument pages]({{ "/instruments/" | relative_url }}).
+Use this page for general Breakerspace support: getting access, saving and moving files, contacting the team, and finding shared reference materials. For lab-wide operating rules, see [Safety And Lab Use]({{ "/safety.html" | relative_url }}). Instrument-specific instructions, manuals, troubleshooting, exercises, and reservation links are moving to the [instrument pages]({{ "/instruments/" | relative_url }}).
 
 ## Getting Access
 
@@ -57,32 +57,9 @@ Already-trained users who encounter an advanced characterization question should
 
 When reaching out, briefly describe the sample, what you are trying to learn, the instrument or method you are considering, and anything you have already tried. The Breakerspace team can help identify a feasible approach, develop additional instrument skills, and decide whether the work requires more preparation or training.
 
-## Safety And Lab Use
-
-Use Breakerspace instruments only after completing the required training. Materials analyzed in the Breakerspace should be non-hazardous and safe to handle. Check the relevant [instrument page]({{ "/instruments/" | relative_url }}) before preparing samples or making a reservation.
-
-### PPE
-
-Wear nitrile gloves during sample preparation and when loading or unloading instruments. Take gloves off and discard them before using the keyboard, mouse, or instrument workstation.
-
-Wear safety glasses when operating the Instron.
-
-### Samples And Materials
-
-Ask Breakerspace staff before bringing unusual samples to the lab, especially samples that are wet, loose, reactive, biological, vacuum-sensitive, very magnetic, odorous, unknown, unusually large or heavy, sharp, fragile, or otherwise likely to create handling, contamination, or instrument-safety concerns.
-
-The lab is intended for non-hazardous materials. Do not bring hazardous materials or hazardous waste into the Breakerspace without explicit staff approval.
-
-### Cleanup And Waste
-
-Unload all samples when you are done. Remove your samples from the lab or discard them appropriately unless staff have explicitly approved leaving them for later use.
-
-Return sample holders, tools, and fixtures to the appropriate storage location. Instron tooling should be removed and put away after use. Follow the shutdown and cleanup steps on the relevant instrument page for instrument-specific tasks.
-
-Dispose of sharps and glass, including glass slides, in the sharps disposal container near the sample prep area. Place ordinary recycling and trash in the appropriate bins. Since Breakerspace work should only involve non-hazardous materials, there should not be hazardous materials or hazardous waste to discard.
-
 ## Reference Materials
 
+* [Safety and lab use]({{ "/safety.html" | relative_url }}) for lab-wide rules, emergency response, PPE, samples, guests, cleanup, and incident reporting.
 * [Instrument pages]({{ "/instruments/" | relative_url }}) for current and future integrated instrument guides.
 * [Sample library]({{ "/sample-library.html" | relative_url }}) for shared training and reference samples as that collection develops.
 
@@ -90,8 +67,6 @@ The sample library is a work in progress. It is intended to support future train
 
 ## Student Staff To-Do List
 
-* Add a clear photo of the sharps disposal container near the sample prep area.
-* Add photos showing the ordinary trash and recycling bins used by Breakerspace lab users.
 * Confirm whether the lounge access request link should match the current link on the Lounge page.
 * Add a short screenshot or example showing the recommended `Breakerspace Files` folder structure.
 * Review this page after each major instrument page is updated and remove any resource-page content that belongs on the instrument page instead.
