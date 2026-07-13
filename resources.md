@@ -8,7 +8,7 @@ Use this page for general Breakerspace support: getting access, saving and movin
 
 ## Getting Access
 
-New lab users should [register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) before reserving or using instruments independently.
+New lab users should follow the [Breakerspace training pathway]({{ "/training.html" | relative_url }}) before reserving or using instruments independently.
 
 The instrument workstations are on the [MIT WIN domain](https://ist.mit.edu/winmitedu), with access managed through [Moira group lists](https://groups.mit.edu/webmoira/). After you complete training for an instrument, you should be added to the relevant group, such as `dmse-brkrspc-sem` for the SEMs.
 

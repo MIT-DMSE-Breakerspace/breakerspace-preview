@@ -20,7 +20,7 @@ Questions and course-planning inquiries can be sent to [dmse-breakerspace@mit.ed
 | --- | --- |
 | Discuss a possible course collaboration | Email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) with the course number, enrollment, term, learning goals, and any instruments or samples you have in mind. |
 | Arrange a brief visit or exploration session | Contact the Breakerspace team at least one to two weeks ahead when possible, with the preferred date, class size, and what you hope students will encounter. |
-| Have students become independent Breakerspace users | Ask students to [register for Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0). |
+| Have students become independent Breakerspace users | Ask students to follow the [Breakerspace training pathway](./training.html). |
 | Choose instruments for a course activity | Browse the [instrument pages](./instruments/) or contact the Breakerspace team for help matching questions to tools. |
 | Reserve trained-user time | Use the [Breakerspace reservation page](./reservations.html) after the relevant training is complete. |
 | See a course example | Read about [3.000 Coffee Matters](./3000.html), a first-year subject built around coffee, materials, measurement, and the Breakerspace. |

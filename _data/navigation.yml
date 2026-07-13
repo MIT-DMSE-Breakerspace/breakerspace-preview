@@ -2,6 +2,8 @@
   url: /
 - label: Find an Instrument
   url: /instruments/
+- label: Get Trained
+  url: /training.html
 - label: Reserve Time
   url: /reservations.html
 - label: Teach With Us

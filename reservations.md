@@ -10,4 +10,4 @@ Breakerspace instrument reservations are managed in LibCal. Use LibCal to check 
 
 This link opens LibCal in a new browser tab or window. You will be leaving the Breakerspace website and using the LibCal reservation system.
 
-New lab users should complete Breakerspace lab training before reserving instruments independently. If you are not sure which instrument to reserve, start with the [instrument landing page]({{ "/instruments/" | relative_url }}) or ask Breakerspace staff.
+New lab users should complete the relevant [Breakerspace training]({{ "/training.html" | relative_url }}) before reserving instruments independently. If you are not sure which instrument to reserve, start with the [instrument landing page]({{ "/instruments/" | relative_url }}) or ask Breakerspace staff.
