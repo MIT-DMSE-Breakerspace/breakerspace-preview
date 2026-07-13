@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Safety And Lab Use
 ---
 
 # Safety And Lab Use

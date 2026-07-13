@@ -1,30 +1,31 @@
 ---
 layout: default
+title: Microscope Image Contest 2026
 ---
 
 ![Breakerspace Microscope Image Contest 2026](./assets/img/image-contest/image-contest-2026.png) 
 
-## Breakerspace Microscope Image Contest 2026!
+# Breakerspace Microscope Image Contest 2026!
 
 Microscope imagery is central to the Breakerspace’s educational mission. This IAP, we invite undergraduates across MIT to tap into their curiosity, create stunning images using Breakerspace equipment, and compete for prizes.
 
-### Prizes!
+## Prizes!
 
 * ___$100___ first prizes for best optical and best SEM image!!!!
 * Additional runner-up prizes, including prizes for new lab users
 
-### How to enter:
+## How to enter:
 
 1.	Sign up for a Breakerspace lab microscope training (If you’ve already trained, you’re one step ahead!): [breakerspace.mit.edu](https://breakerspace.mit.edu/)
 2.	Capture your optical or scanning electron microscope images in the Breakerspace
 3.	[Submit your entry here](https://forms.gle/rYkYk23xtBdwm8vR9) by January 23, 2026
 
-### Categories:
+## Categories:
 
 * __Best Optical Microscope Image:__ Artistic or beautiful images captured with the Breakerspace digital optical microscope
 * __Best Electron Microscope Image:__ Artistic or beautiful images captured with a scanning electron microscope in the Breakerspace.
 
-### Judging criteria:
+## Judging criteria:
 
 A panel of judges will evaluate entries based on the following:
 
@@ -33,13 +34,13 @@ A panel of judges will evaluate entries based on the following:
 * __Context:__ Captions should explain the image’s relevance or background clearly.
 
 
-### Rules:
+## Rules:
 
 * Open to currently enrolled MIT undergraduate students only.
 * Images must be captured using the microscopes in the DMSE Breakerspace (8-102a).
 * One submission per category per entrant; each winner eligible for only one prize.
 
-### Submit and win:
+## Submit and win:
 
 Submissions are due by January 23, 2026. Winners will be announced by January 28, 2026.
 

@@ -3,6 +3,41 @@
 
 @import "jekyll-theme-minimal";
 
+.skip-link {
+  position: fixed;
+  z-index: 1000;
+  top: 0.75rem;
+  left: 0.75rem;
+  padding: 0.65rem 0.8rem;
+  border: 2px solid #17242a;
+  border-radius: 4px;
+  background: #fff;
+  color: #17242a;
+  font-weight: 700;
+  transform: translateY(-200%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+main {
+  min-width: 0;
+}
+
+main a {
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+}
+
+a:focus-visible,
+button:focus-visible,
+[tabindex="0"]:focus-visible {
+  outline: 3px solid #009de6;
+  outline-offset: 3px;
+}
+
 .container-video {
   position: relative;
   overflow: hidden;
@@ -68,16 +103,6 @@
   font-weight: 700;
 }
 
-.intent-link:focus-visible,
-.site-nav a:focus-visible,
-.reservation-primary a:focus-visible,
-.reservation-row a:focus-visible,
-.safety-emergency a:focus-visible,
-.safety-rule a:focus-visible {
-  outline: 3px solid #009de6;
-  outline-offset: 3px;
-}
-
 .reservation-primary {
   margin: 1.25rem 0 1.75rem;
 }
@@ -90,6 +115,7 @@
   background: #009de6;
   color: #17242a;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .reservation-primary a:hover {
@@ -99,6 +125,47 @@
 
 .reservation-primary a:focus-visible {
   outline-color: #17242a;
+}
+
+.table-scroll {
+  max-width: 100%;
+  margin: 0 0 20px;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+
+.table-scroll table {
+  min-width: 100%;
+  margin-bottom: 0;
+}
+
+.animation-toggle {
+  margin: 0 0 1.25rem;
+  padding: 0.55rem 0.7rem;
+  border: 2px solid #007aa8;
+  border-radius: 4px;
+  background: #fff;
+  color: #007aa8;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.animation-toggle:hover {
+  background: #eaf7fc;
+}
+
+.paused-animation {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.guidance-note {
+  padding: 0.7rem 0.8rem;
+  border-left: 3px solid #009de6;
+  background: #f3f7f9;
+  color: #3f454a;
 }
 
 .reservation-list {

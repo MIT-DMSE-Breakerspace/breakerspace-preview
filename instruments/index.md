@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Breakerspace Instruments
 ---
 
 # Instruments
@@ -39,5 +40,3 @@ Future instrument pages should follow the SEM pattern:
 3. Put the trained-user quick reference near the top.
 4. Keep detailed training instructions, troubleshooting, manuals, exercises, and to-do notes on the same page.
 5. Split instrument families into separate operating pages when mixed instructions could confuse users or damage equipment.
-
-For the current transition notes and authoring checklist, see the [instrument pages README](./readme.html).

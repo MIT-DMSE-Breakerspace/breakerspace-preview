@@ -1,5 +1,4 @@
-<a name="materials"></a>
-### Compatible Materials And Shared Sample Rules
+### Compatible Materials And Shared Sample Rules {#materials}
 
 * Samples must be non-hazardous and safe to handle in the Breakerspace.
 * Samples must be dry, except for samples intentionally frozen on an approved cold stage.
@@ -9,4 +8,4 @@
 * Wear nitrile gloves when handling samples, stubs, sample holders, stages, and sample-prep tools.
 * Remove gloves before using the computer keyboard, mouse, or touchscreen.
 
-##### _If you have any questions about whether a material is appropriate to characterize in the Breakerspace, please ask before bringing it to the lab._
+<p class="guidance-note"><em>If you have any questions about whether a material is appropriate to characterize in the Breakerspace, please ask before bringing it to the lab.</em></p>

@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Phenom SEM Tutorial
 ---
 # Thermo Fisher Phenom Scanning Electron Microscopes (SEM)
 
@@ -24,11 +25,9 @@ The Phenom XL has a large 100 mm x 100 mm sample stage, low-vacuum imaging for n
 * [Exercises](#exercises)
 * [Tutorial to-do list](#todo)
 
-<a name="sop"></a>
-### Standard Operating Protocol
+### Standard Operating Protocol {#sop}
 
-<a name="startup"></a>
-#### Instrument Startup
+#### Instrument Startup {#startup}
 
 * Log on to the instrument workstation using your MIT Kerberos.
 * Start the Phenom User Interface software.
@@ -36,8 +35,7 @@ The Phenom XL has a large 100 mm x 100 mm sample stage, low-vacuum imaging for n
 * If the instrument does not connect automatically, open [Settings / Phenom / Status](../assets/img/tutorials/sem/connect.PNG) and connect to the microscope.
 * If using the Phenom Pure cold stage, switch on the chiller unit about 30 minutes before imaging so the cooling water reaches operating temperature.
 
-<a name="operation"></a>
-#### Operation
+#### Operation {#operation}
 
 * Wear nitrile gloves when handling samples, stubs, sample holders, stages, and sample-prep tools.
 * [Prepare samples](#prep) externally at the sample prep table.
@@ -49,8 +47,7 @@ The Phenom XL has a large 100 mm x 100 mm sample stage, low-vacuum imaging for n
 * For EDS or Live EDS, stop acquisition before moving to another area or returning to SEM observation.
 * Wear gloves again, unload samples, and leave the holder/stage clean and stored correctly.
 
-<a name="shutdown"></a>
-#### Instrument Shutdown
+#### Instrument Shutdown {#shutdown}
 
 * Save and copy any data you need.
 * Close the Phenom software. Press F11 if you need to exit fullscreen view.
@@ -58,8 +55,7 @@ The Phenom XL has a large 100 mm x 100 mm sample stage, low-vacuum imaging for n
 * The microscope will put itself in standby.
 * If you used the cold stage, turn cooling off at the controller, allow the stage to return toward room temperature, then switch off the chiller unit.
 
-<a name="materials"></a>
-### Compatible Materials and Quick Sample Prep
+### Compatible Materials and Quick Sample Prep {#materials}
 
 * Samples must be non-hazardous and safe to handle in the Breakerspace.
 * Samples must be dry, except for samples intentionally frozen on the Phenom Pure cold stage.
@@ -69,10 +65,9 @@ The Phenom XL has a large 100 mm x 100 mm sample stage, low-vacuum imaging for n
 * Phenom XL maximum sample size: 100 mm x 100 mm x 35 mm.
 * Phenom Pure maximum sample size: approximately 18 mm diameter and 12 mm tall.
 
-##### _If you have any questions about whether a material is appropriate to characterize in the Breakerspace, please ask before bringing it to the lab._
+<p class="guidance-note"><em>If you have any questions about whether a material is appropriate to characterize in the Breakerspace, please ask before bringing it to the lab.</em></p>
 
-<a name="prep"></a>
-#### Sample Prep At A Glance
+#### Sample Prep At A Glance {#prep}
 
 | Sample type | Fast prep | Notes |
 | --- | --- | --- |
@@ -84,8 +79,7 @@ The Phenom XL has a large 100 mm x 100 mm sample stage, low-vacuum imaging for n
 | Magnetic sample | Mount very securely and use longer working distance if needed | Magnetic samples can distort focus/stigmation and, if loose, can be pulled from the stub. |
 | EDS sample | Prefer conductive mounting; avoid coating materials that interfere with the elements of interest | Gold coating is excellent for imaging but can complicate EDS; carbon coating is often better for inorganic EDS. |
 
-<a name="quick-settings"></a>
-### Quick Imaging Settings
+### Quick Imaging Settings {#quick-settings}
 
 | Goal | Starting settings | Watch for |
 | --- | --- | --- |
@@ -95,13 +89,11 @@ The Phenom XL has a large 100 mm x 100 mm sample stage, low-vacuum imaging for n
 | Non-conductive sample | Low vacuum, sputter coating, or conductive tape/paint | Charging appears as brightening, drift, distortion, or loss of detail. |
 | High-quality image capture | Start with default acquisition, then increase resolution/averaging only if stable | Long acquisitions magnify drift, charging, vibration, and beam damage. |
 
-<a name="details"></a>
-### Detailed Operating Instructions
+### Detailed Operating Instructions {#details}
 
 The sections above are meant as a quick reference for trained users. The sections below are written as a training guide for new users and include the practical details, images, and troubleshooting cues that are easiest to understand at the instrument.
 
-<a name="prep-details"></a>
-#### Sample Preparation Details
+#### Sample Preparation Details {#prep-details}
 
 SEM sample preparation has two goals: protect the microscope and make the sample electrically and mechanically stable enough to image. The most common preventable SEM problems are loose debris, incorrect height, poor grounding, wet samples, and over-prepared samples that no longer show the surface you wanted to study.
 
@@ -160,8 +152,7 @@ Common strategies:
   <figcaption>The sputter coater drying mode can help dry samples or test vacuum sensitivity before SEM imaging.</figcaption>
 </figure>
 
-<a name="cold-stage"></a>
-#### Phenom Pure Cold Stage
+#### Phenom Pure Cold Stage {#cold-stage}
 
 Use the cold stage for wet, vacuum-sensitive, or heat-sensitive samples that need to be frozen or cooled during imaging. Smaller samples usually work better because they freeze faster and are less likely to deform or frost over.
 
@@ -201,8 +192,7 @@ Use the cold stage for wet, vacuum-sensitive, or heat-sensitive samples that nee
 
 If the image flickers, bright bands streak across the field of view, or the sample appears to bubble, boil, collapse, or drift rapidly, eject the sample immediately and ask staff for help. These are signs that the sample may be outgassing or changing under the beam.
 
-<a name="loading"></a>
-#### Sample Loading
+#### Sample Loading {#loading}
 
 ##### Phenom XL
 
@@ -226,8 +216,7 @@ If the image flickers, bright bands streak across the field of view, or the samp
 
 The sample must never sit above the holder edge. An over-height sample can be destroyed during loading and can damage the microscope.
 
-<a name="customize"></a>
-#### Project Label And Save Location
+#### Project Label And Save Location {#customize}
 
 While the sample is loading, open Settings / Customize and set a useful image label and save location. Do this before you start collecting images so your files land in a project folder that will still make sense later.
 
@@ -236,8 +225,7 @@ While the sample is loading, open Settings / Customize and set a useful image la
   <figcaption>Use the Customize settings to set project labels and save locations before acquisition.</figcaption>
 </figure>
 
-<a name="navcam"></a>
-#### NavCam
+#### NavCam {#navcam}
 
 When the sample finishes loading, the software shows the NavCam view. This is an optical overview of the sample stage that helps you choose regions of interest before switching to SEM imaging.
 
@@ -253,8 +241,7 @@ Use this moment to:
   <figcaption>NavCam is the optical overview used to select a region before moving to SEM view.</figcaption>
 </figure>
 
-<a name="live-sem"></a>
-#### LiveSEM View
+#### LiveSEM View {#live-sem}
 
 Click **Move to SEM** to enter the live SEM view. Start zoomed out, find a recognizable feature, focus, then increase magnification gradually.
 
@@ -286,8 +273,7 @@ Useful controls:
 | Point intensity | Lower magnification spot work | Useful when signal is low and fine resolution is less critical. |
 | Map intensity | EDS mapping | Avoid using Map intensity casually on sensitive samples. |
 
-<a name="acquisition"></a>
-#### Image Acquisition And Gallery
+#### Image Acquisition And Gallery {#acquisition}
 
 Press the camera icon to acquire an image. Images are saved with the resolution and averaging set in the acquisition settings. Start with the default settings, take a test image, then increase resolution or averaging only if the sample is stable.
 
@@ -300,8 +286,7 @@ The Gallery shows images in the active folder. You can add measurements and note
   <figcaption>Acquire images with the camera icon and review, measure, or annotate them in Gallery.</figcaption>
 </figure>
 
-<a name="eds"></a>
-#### EDS And Live EDS On The Phenom XL
+#### EDS And Live EDS On The Phenom XL {#eds}
 
 [Energy dispersive spectroscopy (EDS)](https://www.thermofisher.com/blog/materials/edx-analysis-with-sem-how-does-it-work/) uses X-rays generated by the electron beam to estimate which elements are present in a region of the sample. On the Phenom XL, use EDS for elemental spot checks, line scans, maps, and reports.
 
@@ -323,8 +308,7 @@ Always stop EDS or Live EDS before navigating to another area, returning to norm
   <figcaption>Live EDS is good for quick checks; EDS/EID projects are better for saved spectra, maps, and reports.</figcaption>
 </figure>
 
-<a name="unloading"></a>
-#### Sample Unloading
+#### Sample Unloading {#unloading}
 
 1. Stop EDS, Live EDS, or image acquisition if any collection is running.
 2. Return to the normal SEM interface if needed.
@@ -336,8 +320,7 @@ Always stop EDS or Live EDS before navigating to another area, returning to norm
 8. Return the Phenom Pure holder to its drawer or stand.
 9. If a holder is dirty, ask staff whether it should be cleaned before storage.
 
-<a name="data"></a>
-### Data Processing And Analysis
+### Data Processing And Analysis {#data}
 
 SEM image files are saved in the active folder selected in the Phenom software. Before collecting images, set a project-specific label and folder so files are easy to find and interpret later.
 
@@ -354,8 +337,7 @@ For EDS:
 * Export reports, maps, spectra, and CSV data as needed.
 * Be cautious with automatic peak labels. Check whether peaks overlap and whether coating, tape, stub, or mounting materials contributed elements.
 
-<a name="failures"></a>
-### Common Failure Modes
+### Common Failure Modes {#failures}
 
 | Symptom | Likely cause | What to try |
 | --- | --- | --- |
@@ -370,8 +352,7 @@ For EDS:
 | Cannot leave EDS or Live EDS | Acquisition is still running | Return to the EDS interface and press stop before navigating away. |
 | "Place sample holder correctly" or similar holder error | Holder seal/contact may be dirty or mis-seated | Remove and reseat the holder; check the seal; ask staff before cleaning or disassembling anything. |
 
-<a name="manuals"></a>
-### Manufacturer Manuals
+### Manufacturer Manuals {#manuals}
 
 * [Phenom XL user manual](https://www.dropbox.com/scl/fi/iyd538gtkj79kg0bc8113/2020-MS-Phenom-XL_User-Manual.pdf?rlkey=0yk985nvgz3lckqnrtxwo7afv&dl=0)
 * [Phenom XL tensile stage manual](https://www.dropbox.com/scl/fi/fu39pi9pamr2top97cv6m/Tensile-Stage-Training-Manual.pdf?rlkey=xs9dkadn6k16f9vpo3vc3y2h7&dl=0)
@@ -380,14 +361,12 @@ For EDS:
 * [Phenom Pure temperature controlled stage manual](https://www.dropbox.com/scl/fi/nqcrhb3axctk6782k5hqk/User-Manual_Phenom_Temperature-Stage.pdf?rlkey=r01r9dl6k1km22to13s0nir24&dl=0)
 * [Phenom Pure all docs](https://www.dropbox.com/scl/fo/th7xj2e2ul1sed2vobibt/ACVAySN_rjR_JnEXtPfs3_8?rlkey=3j90cjbe0akxyu7o3fanrxvn5&dl=0)
 
-<a name="links"></a>
-### Links
+### Links {#links}
 
 * [Nanoscience Instruments Phenom Desktop SEM YouTube Playlist](https://www.youtube.com/watch?v=Tuvu79IPFa8&list=PLSK7wbUBb88knCedT9BvlILTanNkLh38q)
 * [Thermo Fisher SEM YouTube playlist](https://www.youtube.com/watch?v=jFO5AnYnn2c&list=PLoxdPzacxPYjwqELAD8XQGsygUYse2gmB)
 
-<a name="exercises"></a>
-### Exercises
+### Exercises {#exercises}
 
 * **Level 1 - General training:** Prepare and image a small piece of hair. Use the Phenom Pure or XL to load the sample, navigate with NavCam, focus in LiveSEM, acquire images at several magnifications, and compare a cut end with a torn or broken end.
 * **Level 2 - EDS practice:** Prepare salt and sugar on the same stub. Use morphology first, then EDS on the Phenom XL, to decide which is which.
@@ -396,8 +375,7 @@ For EDS:
 * **Level 3 - Specialist training:** Prepare a powder sample sparse enough for particle sizing. Acquire images suitable for measuring particle diameter and compare the result with a poorly dispersed sample.
 * **Level 3 - Specialist training:** Use the Phenom Pure cold stage on a staff-approved wet or heat-sensitive sample. Document the freezing temperature, imaging behavior, and signs of frost, outgassing, or beam damage.
 
-<a name="todo"></a>
-### Tutorial To-Do List
+### Tutorial To-Do List {#todo}
 
 * Add a complete level 1 training example using a specific material-library sample, including bin number/location once the cabinet is organized.
 * Add a level 2 EDS exercise using specific stocked samples or standards, including bin number/location once available.

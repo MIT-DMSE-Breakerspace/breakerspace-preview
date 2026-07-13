@@ -1,5 +1,6 @@
 ---
 layout: default
+title: DSX-1000 Digital Optical Microscope
 ---
 # Olympus DSX-1000 Digital Optical Microscope
 
@@ -15,8 +16,7 @@ This page is the operating page for the optical microscope. It combines the quic
 
 <div style="clear:both;"></div>
 
-<a name="quick-actions"></a>
-### Quick Actions
+### Quick Actions {#quick-actions}
 
 | Need | Use this link |
 | --- | --- |
@@ -28,8 +28,7 @@ This page is the operating page for the optical microscope. It combines the quic
 | Need manufacturer documentation | [Manufacturer manuals](#manuals) |
 | Need practice tasks | [Exercises](#exercises) |
 
-<a name="science"></a>
-### What This Instrument Shows You
+### What This Instrument Shows You {#science}
 
 #### The Basic Idea
 
@@ -72,11 +71,9 @@ When comparing observation modes, look for which mode makes the question easier 
 * 3D height measurements depend on focus, surface reflectivity, lighting, and software assumptions, so they should be treated as measurements to understand and verify, not magic truth.
 * A beautiful image is not automatically a complete answer. Good microscopy still depends on sample prep, scale bars, notes, comparison images, and a clear question.
 
-<a name="sop"></a>
-### Standard Operating Protocol
+### Standard Operating Protocol {#sop}
 
-<a name="startup"></a>
-#### Instrument Startup
+#### Instrument Startup {#startup}
 
 * Wear nitrile gloves when handling samples, stage plates, objectives, or sample-prep tools.
 * [Switch](../assets/img/tutorials/optical/switch.JPG) the microscope [on](../assets/img/tutorials/optical/status-on.JPG).
@@ -88,8 +85,7 @@ When comparing observation modes, look for which mode makes the question easier 
 * Load or change [objectives](#objectives) if needed.
 * Lower the microscope head into the tilt position using [the button on the console](../assets/img/tutorials/optical/tilt-console.JPG) or the [software button](../assets/img/tutorials/optical/tilt-software.PNG).
 
-<a name="operation"></a>
-#### Operation
+#### Operation {#operation}
 
 * [Place the sample on the stage](#sample-prep).
 * Remove gloves before using the keyboard, mouse, or instrument workstation.
@@ -101,8 +97,7 @@ When comparing observation modes, look for which mode makes the question easier 
 * Verify that files are saved where you intend.
 * Wear gloves again before unloading or handling samples.
 
-<a name="shutdown"></a>
-#### Instrument Shutdown
+#### Instrument Shutdown {#shutdown}
 
 * Save and copy any data you need.
 * Remove your sample from the stage.
@@ -113,8 +108,7 @@ When comparing observation modes, look for which mode makes the question easier 
 * Place the [dust cover](../assets/img/tutorials/optical/cover.JPG) on the microscope.
 * Leave the stage, sample area, and workstation clean.
 
-<a name="materials"></a>
-### Compatible Materials And Quick Sample Prep
+### Compatible Materials And Quick Sample Prep {#materials}
 
 * Samples must be non-hazardous and safe to handle in the Breakerspace.
 * Samples must weigh less than the 5 kg stage loading capacity.
@@ -123,17 +117,15 @@ When comparing observation modes, look for which mode makes the question easier 
 * Samples should be stable on the stage and should not rest on fixed parts of the stage that prevent normal movement.
 * Sharp, fragile, wet, loose, powdery, odorous, unknown, or unusually heavy samples should be discussed with staff before imaging.
 
-##### _If you have any questions about whether a material is appropriate to observe in the Breakerspace, please ask before bringing it to the lab._
+<p class="guidance-note"><em>If you have any questions about whether a material is appropriate to observe in the Breakerspace, please ask before bringing it to the lab.</em></p>
 
-<a name="sample-prep"></a>
-#### Sample Prep
+#### Sample Prep {#sample-prep}
 
 The optical microscope has few special sample-prep requirements. If a sample is non-hazardous, safe to handle, under the stage weight limit, short enough to focus on, and unlikely to contaminate the microscope, it can usually be observed.
 
 Better sample preparation can still improve results. A clean, flat, stable sample is easier to focus, stitch, and measure. Careful cutting, mounting, or cleaning may be useful depending on the material and characterization goal.
 
-<a name="quick-modes"></a>
-### Quick Observation Mode Selection
+### Quick Observation Mode Selection {#quick-modes}
 
 | Goal | Starting mode or feature | Notes |
 | --- | --- | --- |
@@ -145,15 +137,13 @@ Better sample preparation can still improve results. A clean, flat, stable sampl
 | Capture height or surface-shape information | 3D acquisition | Requires a good focus range and stable sample. |
 | Measure distances, profiles, volumes, or roughness | Measurement tools after acquisition | Save the raw image/data before exporting reports or derived files. |
 
-<a name="details"></a>
-### Detailed Operating Instructions
+### Detailed Operating Instructions {#details}
 
 The sections above are meant as a quick reference for trained users. The sections below are written as a training guide for new users and include the practical details, images, and troubleshooting cues that are easiest to understand at the instrument.
 
 The DSX-1000 has motorized stage and head movement. Before starting the software, changing objective configuration, tilting the head, or running stitched/3D acquisitions, make sure the sample and stage area have enough clearance for movement. Stop and ask staff if a sample looks like it could collide with the objective, head, stage, or fixture.
 
-<a name="features"></a>
-#### What The Optical Microscope Does
+#### What The Optical Microscope Does {#features}
 
 The DSX-1000 is useful for:
 
@@ -165,8 +155,7 @@ The DSX-1000 is useful for:
 * Rotatable-stage inspection.
 * Post-processing and analysis, including annotations, distance measurements, profiles, roughness, volume estimates, and 3D mesh export.
 
-<a name="objectives"></a>
-#### Objectives And Magnification
+#### Objectives And Magnification {#objectives}
 
 Available objectives include:
 
@@ -179,8 +168,7 @@ Instructions for replacing the objective unit are on page 11 of the [Quick Refer
 
 The microscope also has an internal optical zoom system that boosts magnification from 14x to 140x. Total magnification is the external objective magnification multiplied by the internal zoom factor, for an overall range of about 14x to 5600x depending on the configuration.
 
-<a name="observation-modes"></a>
-#### Observation Modes
+#### Observation Modes {#observation-modes}
 
 Many observation modes are available from the desktop application or console:
 
@@ -200,8 +188,7 @@ The Best Image feature previews how the sample looks in each observation mode an
   <figcaption>Using the Best Image feature to choose an observation mode.</figcaption>
 </figure>
 
-<a name="acquisition"></a>
-#### Image Acquisition
+#### Image Acquisition {#acquisition}
 
 The microscope can acquire and save images in 2D or 3D, and can automatically stitch images to cover a wider field of view or create higher-resolution composite images.
 
@@ -223,8 +210,7 @@ Stitching captures multiple frames while the stage travels, then combines them i
 
 The DSX application can also capture time-lapse sequences, movies, and images along a path. These options are described in chapter 9 of the application manual, beginning on page 106.
 
-<a name="data"></a>
-### Data Processing And Analysis
+### Data Processing And Analysis {#data}
 
 The measurement feature can be used to extract information from captured images and 3D data, including height changes, horizontal distance, angle, profiles, roughness, and volumes of raised or depressed features.
 
@@ -249,8 +235,7 @@ For useful records:
 * Save raw images or project files before exporting compressed images or reports.
 * Keep notes on sample preparation and orientation if you need to compare regions later.
 
-<a name="failures"></a>
-### Common Failure Modes
+### Common Failure Modes {#failures}
 
 | Symptom | Likely cause | What to try |
 | --- | --- | --- |
@@ -262,21 +247,18 @@ For useful records:
 | 3D capture or stitching fails | Poor focus range, sample movement, insufficient clearance, or stage travel issue | Recheck focus limits, sample stability, and stage clearance before retrying. |
 | Measurement result seems wrong | Wrong calibration, objective, zoom, or acquisition data used | Confirm objective/zoom settings, save the original file, and repeat with a known scale if needed. |
 
-<a name="manuals"></a>
-### Manufacturer Manuals
+### Manufacturer Manuals {#manuals}
 
 * [DSX Quick Reference Guide](https://www.dropbox.com/scl/fi/npmn40ndidrc329ev1eze/DSX1000_QRG_EN_AX9342_03.pdf?rlkey=qwg423vnbo5o3811uyjbzhmlh&dl=0)
 * [DSX Application Manual](https://www.dropbox.com/scl/fi/bmfph79975i1p0wv4pbuf/DSX1000-Application-M-E.pdf?rlkey=fzmbq39hr926gpbbtgft9fxxt&dl=0)
 * [DSX Hardware Manual](https://www.dropbox.com/scl/fi/xg225i22sji3ap6mbdxxb/DSX1000_HardwareManual_EN_AX9336_07.pdf?rlkey=t9ndinow4wd8wwt9l1mlmtzzl&dl=0)
 * [All DSX documentation](https://www.dropbox.com/scl/fo/lpmj7kw7kjfzrwzpy3s31/AHTufXDD4RDfEImJssdaxjc?rlkey=t1rl3ywuxnde1129767txmfgw&dl=0)
 
-<a name="links"></a>
-### Links
+### Links {#links}
 
 * [Manufacturer overview](https://www.olympus-ims.com/en/microscope/dsx/?nis=8)
 
-<a name="exercises"></a>
-### Exercises
+### Exercises {#exercises}
 
 * **Level 1 - General training:** Image a simple textured sample in brightfield, use Best Image to compare observation modes, capture a 2D image, and save the file in the correct project folder.
 * **Level 1 - General training:** Capture the same region at two magnifications and record the objective, zoom setting, observation mode, and save location.
@@ -284,8 +266,7 @@ For useful records:
 * **Level 2 - Stitching:** Capture a stitched image of a larger sample region and compare the stitched result with a single-frame image.
 * **Level 3 - Specialist training:** Develop a repeatable imaging workflow for a recurring sample type, including sample prep, objective, observation mode, acquisition type, measurement outputs, and export settings.
 
-<a name="todo"></a>
-### Tutorial To-Do List
+### Tutorial To-Do List {#todo}
 
 * Add a complete level 1 training example using a specific material-library sample, including bin number/location once the cabinet is organized.
 * Add photos or GIFs showing the correct startup sequence: power switch, Guest login, stage/head movement acknowledgement, lowering the stage, and tilt position.

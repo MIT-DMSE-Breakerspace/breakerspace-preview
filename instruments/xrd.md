@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Aeris Research X-Ray Diffractometer
 ---
 # Malvern Panalytical Aeris Research XRD
 
@@ -24,13 +25,11 @@ This page is the operating page for the XRD. It combines the quick reference for
 * [Links](#links)
 * [Exercises](#exercises)
 
-<a name="sop"></a>
-### Standard Operating Protocol
+### Standard Operating Protocol {#sop}
 
 The Aeris is a fully enclosed, interlocked instrument: the X-ray shutter cannot open unless the cover is closed and the safety interlocks are engaged, so normal use exposes you to no radiation. Never attempt to defeat, bypass, or force an interlock, and never try to open the enclosure while a measurement is running. If an interlock fault, unusual noise, error, or any sign of damage appears, stop, leave the cover closed, and contact Breakerspace staff. Record every session in the X-ray safety log book.
 
-<a name="startup"></a>
-#### Instrument Startup
+#### Instrument Startup {#startup}
 
 * Make sure at least one position in the sample changer is free (no sample holder in place). Booting with all six positions occupied causes a startup error.
 * Turn on the [mains power switch](../assets/img/tutorials/xrd/mains-switch.jpg) at the rear of the instrument, if needed. This switch is normally left on.
@@ -38,8 +37,7 @@ The Aeris is a fully enclosed, interlocked instrument: the X-ray shutter cannot 
 * Press the [power button](../assets/img/tutorials/xrd/power-button.jpg) to switch on the instrument.
 * Turn the [HT keyswitch](../assets/img/tutorials/xrd/keyswitch.jpg) clockwise to switch on the high-tension (HT) generator.
 
-<a name="operation"></a>
-#### Operation
+#### Operation {#operation}
 
 * Prepare your sample at the sample prep table using the correct holder (see [compatible materials and sample prep](#materials)).
 * Remove the plastic sample-changer cover and place the prepared holder in any free loading position.
@@ -52,8 +50,7 @@ The Aeris is a fully enclosed, interlocked instrument: the X-ray shutter cannot 
 * Fill out your information in the X-ray safety log book.
 * Additional samples can be loaded and queued while the current sample is being measured. Repeat as needed.
 
-<a name="shutdown"></a>
-#### Instrument Shutdown
+#### Instrument Shutdown {#shutdown}
 
 * Confirm all data you need has been exported.
 * Press the power button to switch off the instrument.
@@ -61,8 +58,7 @@ The Aeris is a fully enclosed, interlocked instrument: the X-ray shutter cannot 
 * If the instrument will be off for a long period, you can also switch off the mains power supply.
 * Remove your sample holders, return them to storage, and leave the sample prep area clean.
 
-<a name="materials"></a>
-### Compatible Materials And Sample Prep
+### Compatible Materials And Sample Prep {#materials}
 
 The Aeris has a Cu Kα X-ray source (λ = 1.5406 Å) with a penetration depth on the order of 100 µm. This source causes fluorescence in samples containing iron or manganese, which raises the background and may not give usable results for those materials.
 
@@ -90,15 +86,13 @@ Panalytical provides an excellent sample preparation guide, available in paper f
 
 XRD sample holders, mounting clay, and other small materials are stored in the black cabinet next to the sample prep table. Perform all sample loading at the table and transfer holders to the instrument on the tray once complete.
 
-##### _If you have any questions about whether a material is appropriate to characterize in the Breakerspace, please ask before bringing it to the lab._
+<p class="guidance-note"><em>If you have any questions about whether a material is appropriate to characterize in the Breakerspace, please ask before bringing it to the lab.</em></p>
 
-<a name="details"></a>
-### Detailed Operating Instructions
+### Detailed Operating Instructions {#details}
 
 The sections above are a quick reference for trained users. The sections below are a training guide for new users, with the practical details and images that are easiest to follow at the instrument.
 
-<a name="loading"></a>
-#### Sample Loading
+#### Sample Loading {#loading}
 
 * Remove the plastic sample-changer cover.
 * Place a prepared sample in any of the six positions on the sample changer.
@@ -109,8 +103,7 @@ The sections above are a quick reference for trained users. The sections below a
 	<img src="../assets/img/tutorials/xrd/add-sample.gif" alt="Placing a prepared sample in the changer." style="width:50%; margin:0">
 </figure>
 
-<a name="measurement"></a>
-#### Running A Measurement Program
+#### Running A Measurement Program {#measurement}
 
 * Select the changer position that matches the physical slot where you loaded the holder. The instrument measures whichever position you select, so a mismatch here means it scans the wrong slot (or an empty one). Note the slot number when you load the holder so you can select it correctly.
 * Choose a measurement program from the drop-down list.
@@ -125,8 +118,7 @@ The stored programs on the instrument cover most basic phase-identification need
 	<img src="../assets/img/tutorials/xrd/Export.gif" alt="Copying results to a desktop folder." style="width:50%; margin:0">
 </figure>
 
-<a name="export"></a>
-#### Exporting Data
+#### Exporting Data {#export}
 
 Data can be saved to a USB drive or exported to a shared network drive on the XRD workstation to the right of the instrument. The workstation can be accessed using a common login: the username is `xrd` and the password is `xrd-password`. Data can be found in the folder `"C:\XRD\XRD data"` (the path contains a space, so `XRD data` is a single folder name).
 
@@ -139,23 +131,19 @@ Export both the raw scan and any processed plots so you can reprocess later. Sav
 	</a>
 </figure>
 
-<a name="new-programs"></a>
-#### New Measurement Programs
+#### New Measurement Programs {#new-programs}
 
 New measurement programs can be created using the XRDMP Creator software on the workstation that supports the XRD, though the programs stored on the instrument should cover most basic analysis needs. Documentation on XRDMP Creator is available in its Help menu. If you need to create new programs and need assistance, please contact Breakerspace staff.
 
-<a name="advanced"></a>
-#### Advanced Mode
+#### Advanced Mode {#advanced}
 
 Advanced mode is used to change optical components, manage data (including importing programs and deleting programs and results), and access other advanced configuration tools. Lab users typically will not need advanced mode, and instruction in its use is beyond the scope of this page.
 
-<a name="data"></a>
-### Data Processing And Analysis
+### Data Processing And Analysis {#data}
 
 Data from the Aeris can be processed using [HighScore Plus 5.0](https://www.malvernpanalytical.com/en/products/category/software/x-ray-diffraction-software/highscore-with-plus-option) on the XRD workstation.
 
-<a name="highscore"></a>
-#### Using HighScore Plus
+#### Using HighScore Plus {#highscore}
 
 ##### Determine The Background
 
@@ -185,8 +173,7 @@ Data from the Aeris can be processed using [HighScore Plus 5.0](https://www.malv
   * Once you are confident in a match, left-click and drag it to the Pattern List panel to "accept" it. Any peak not matched by an accepted candidate keeps a blue downward-facing arrow, and the candidate list reorganizes to fit the remaining peaks.
   * Continue until all peaks are matched and all phases in your sample have been identified. Accept a phase based on a consistent set of peaks, not a single-peak match.
 
-<a name="worked-example"></a>
-#### Worked Example: Identifying An Unknown Powder
+#### Worked Example: Identifying An Unknown Powder {#worked-example}
 
 This walkthrough ties the steps above together. Suppose you have an unknown white powder and want to know what crystalline phase or phases it contains.
 
@@ -200,8 +187,7 @@ This walkthrough ties the steps above together. Suppose you have an unknown whit
 
 A confident result usually rests on a consistent set of matched peaks, not a single high-scoring line. A sample data file, `exercise_A_raw.csv`, is available in the [XRD handout material](../handouts/xrd/) if you want to practice this workflow.
 
-<a name="interpreting"></a>
-#### Interpreting Results
+#### Interpreting Results {#interpreting}
 
 A good phase-identification result is a labeled pattern where each major peak is accounted for by an identified phase. When you write up or export results, include the major peak positions, the matched phases, and a short note on the instrument settings (radiation, 2θ range, step size, count time). Note any peaks you could not assign, and treat them as possible contamination, minor phases, or holder/substrate peaks rather than forcing a match.
 
@@ -209,8 +195,7 @@ Not getting sharp peaks or a clean database match does not mean you did somethin
 
 Advanced analysis such as quantitative phase fractions, crystallite size from peak broadening (the Scherrer approximation), and full Rietveld refinement is possible but beyond routine use. Rietveld work fits a calculated pattern to your data and is judged by a difference curve and goodness-of-fit metrics such as R<sub>wp</sub> and χ²; open tools such as GSAS-II or FullProf can do it as well as HighScore Plus. If your project needs quantitative results, discuss it with staff.
 
-<a name="failures"></a>
-### Common Failure Modes
+### Common Failure Modes {#failures}
 
 | Symptom | Likely cause | What to try |
 | --- | --- | --- |
@@ -222,8 +207,7 @@ Advanced analysis such as quantitative phase fractions, crystallite size from pe
 | Unexpected extra peaks | Contamination, holder peaks, or substrate peaks | Run an empty holder for comparison and re-prepare the sample. |
 | Fewer results than samples loaded | Samples were loaded but not added to the queue | Confirm each sample was added to the measurement queue. |
 
-<a name="manuals"></a>
-### Manufacturer Manuals
+### Manufacturer Manuals {#manuals}
 
 * [Aeris quick start guide](https://www.dropbox.com/scl/fi/gqd44xvmv9q5660bk5gs4/aeris_quickstart_guide.pdf?rlkey=zj5qv5ajbxf80865fnh939r5g&dl=0)
 * [Aeris user guide](https://www.dropbox.com/s/sw476m00qq3c7jr/aeris_user_guide.pdf?dl=0)
@@ -231,15 +215,13 @@ Advanced analysis such as quantitative phase fractions, crystallite size from pe
 * [Sample holders and sample prep guide](https://www.dropbox.com/scl/fi/17o43bqhe52u49kkecvrf/xrd-sample-holders-preparation.pdf?rlkey=vxi65kwyeqrcr62jbcxa5rqvq&dl=0)
 * [XRD for the analyst](https://www.dropbox.com/scl/fi/0e8vioulematgbd1yluzb/x-ray_powder_diffraction.pdf?rlkey=eae3hs1ispi1fi7vruh8oq9az&dl=0)
 
-<a name="links"></a>
-### Links
+### Links {#links}
 
 * [Tutorial videos by the IAMM Diffraction Facility](https://www.youtube.com/@IAMMDiffractionFacility)
 * [Panalytical XRD YouTube playlist](https://www.youtube.com/watch?v=YujXF6NKORM&list=PL2wIBTZfZRjdxVJYhan7PHbz_hyStiGgH)
 * [Panalytical Aeris videos](https://www.youtube.com/@MalvernPanalytical/search?query=aeris)
 
-<a name="exercises"></a>
-### Exercises
+### Exercises {#exercises}
 
 * **Level 1 - Identify the mystery powder:** Prepare and run a provided unknown powder, determine the background and peaks in HighScore Plus, and use Search Match to identify the phase. Report the major peak positions and your matched phase. A sample data file, `exercise_A_raw.csv`, is available in the [XRD handout material](../handouts/xrd/).
 * **Level 2 - Amorphous vs. crystalline:** Compare a crystalline polymer with an amorphous one and describe how the patterns differ (sharp peaks vs. broad humps).
@@ -247,8 +229,7 @@ Advanced analysis such as quantitative phase fractions, crystallite size from pe
 * **Level 3 - Full phase ID with plane labeling:** Identify a mystery powder and label each major peak with the crystal plane (hkl) it results from.
 * **Level 3 - Sample-prep effect:** Run the same powder coarse and finely ground, or front-loaded and back-loaded, and compare peak sharpness and relative intensities to show the effect of preferred orientation.
 
-<a name="todo"></a>
-### Tutorial To-Do List
+### Tutorial To-Do List {#todo}
 
 * Add a labeled overview photo of the instrument showing the mains switch, power button, and HT keyswitch locations.
 * Reshoot the loading, queue, and export GIFs with appropriate glove use if handling guidance calls for it.

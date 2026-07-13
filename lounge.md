@@ -1,8 +1,9 @@
 ---
 layout: default
+title: Breakerspace Lounge
 ---
 
-## Breakerspace Lounge
+# Breakerspace Lounge
 
 Outfitted with a beautiful La Marzocco Linea PB espresso machine, a Nuovo Simonelli Mythos grinder, PuqPress automatic tamper, and more, the Breakerspace Lounge is the source of the best espresso on campus.
 
@@ -21,4 +22,3 @@ Outfitted with a beautiful La Marzocco Linea PB espresso machine, a Nuovo Simone
 **Roasting:** Inquire about joining the coffee roasting club to learn experiment with how roasting impacts coffee characteristics and roast coffee using our Aillio Bullet R1 V2 roaster.
 
 ![Aillio Bullet R1 V2 roaster](./assets/img/roaster.JPG)
-

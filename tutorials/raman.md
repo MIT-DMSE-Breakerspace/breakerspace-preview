@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Raman Microscope Tutorial
 ---
 # Horiba XploRA Confocal Raman Microscope Tutorial 
 
@@ -18,11 +19,9 @@ Collect Raman spectra to idenfity compounds and observe other characteristics of
 * [Links](#links)
 * [Exercises](#exercises)
 
-<a name="sop"></a>
-### Standard operating protocol:
+### Standard operating protocol: {#sop}
 
-<a name="startup"></a> 
-#### Instrument startup:
+#### Instrument startup: {#startup}
 
 
 * Log on to instrument workstation using your MIT Kerberos
@@ -30,8 +29,7 @@ Collect Raman spectra to idenfity compounds and observe other characteristics of
 * Verify instrument is powered on (it should always be left powered on) __add link to image__
 * Turn laser emission remote control power to on, if needed (this does not turn the laser on)
 
-<a name="operation"></a>
-#### Operation: 
+#### Operation: {#operation}
 
 * Prepare sample externally on glass slide
 * Lower microscope stage using coarse focus knob
@@ -44,8 +42,7 @@ Collect Raman spectra to idenfity compounds and observe other characteristics of
 
 Repeat steps as needed.
 
-<a name="shutdown"></a>
-####  Instrument shut down:
+####  Instrument shut down: {#shutdown}
 
 * Remove sample from microscope stage and close doors
 * Turn laser emission remote control power to off
@@ -53,15 +50,14 @@ Repeat steps as needed.
 * Close LabSpec 6
 * Log off workstation
 
-<a name="materials"></a> 
-### Compatible materials and sample prep: 
+### Compatible materials and sample prep: {#materials}
 
 * All materials analyzed in the Breakerspace must be non-hazardous and safe to handle
 * The instrument can be used to measure liquids, solids, powders, and gases
 * Generally good for studying organics, polymers, acids/bases, metal oxides, and semiconductors
 * Not useful for metals, ionic salts such as NaCl, or overly fluorescing materials
 
-##### _If you have any questions about whether a material is appropriate to characterize in the Breakerspace, please ask before bringing it to the lab._
+<p class="guidance-note"><em>If you have any questions about whether a material is appropriate to characterize in the Breakerspace, please ask before bringing it to the lab.</em></p>
 
 #### Sample Prep:
 
@@ -69,8 +65,7 @@ Repeat steps as needed.
 * The working distance of the microscope objectives is quite close, so powders should be finely ground and level/smooth
 * Solid samples without parallel faces may be mounted to the slide using the sample press and Plastilina mounting clay to ensure a good surface to focus on
 
-<a name="details"></a> 
-### Detailed operating instructions: 
+### Detailed operating instructions: {#details}
 
 Our Raman system includes three lasers: 532nm, 638nm, and 785nm. The shorter wavelengths are higher energy, and will therefore generate a stronger signal, which is usually desirable. However, temperature-sensitive samples can be burned by the higher energy lasers, especially the 532nm. Also, materials that fluoresce will fluoresce more with higher energy lasers, and fluorescence will overwhelm the detector, making an Raman scattering difficult or impossible to distinguish from noise. When getting set up, we recommend starting with the 638nm laser, and moving to the 532nm if a stronger signal or higher signal/noise ratio is needed. If fluorescing is observed, switch to the 785nm laser. If the sample still fluoresces with the 785nm laser, the sample may not be conducive to Raman spectroscopy.
 
@@ -82,35 +77,28 @@ Additionally, [finer gratings produce a wider dispersion angle](https://www.drop
 
 A typically workflow might be to load the sample, focus, and use the RTD feature (realtime display) to look for a signal using the 638nm laser and 600 gr/mm. Make sure the spectro is covering the portion of the spectrum that is displayed and where you expect to see key peaks. With this combination, the CCD should be able to capture the full with of the spectrum from one position. Refine focus for spectroscopy by rotating the joystick knob to control fine focus and maximize spectrometer signal strength. Once you are sure you're seeing some key peaks and the general setup is working, select different laser/grating combinations based on your specific goals and collect relevant spectra.
 
-<a name="data"></a>
-### Data processing and analysis:
+### Data processing and analysis: {#data}
 
 * Coming soon!
 
-<a name="failures"></a>
-### Common failure modes:
+### Common failure modes: {#failures}
 
 * The cameras sometimes do not connect to the software, restarting the computer is the suggested fix
 * No spectrum because laser is not on, check laser is actually on using internal camera
 * No spectrum because spectro shift position is out of display range - reposition spectro
 * No identifiable peaks, spectrum appears as a large hump - this is fluorescing, try longer wavelength laser, material may not be suitable for Raman spectroscopy
 
-<a name="manuals"></a>
-### Manufacturer's manuals:
+### Manufacturer's manuals: {#manuals}
 
 * Links to manual files in dropbox
 
-<a name="links"></a>
-### Links:
+### Links: {#links}
 
 * list of links, ie. good video tutorials, some student project, anything relevant
 
-<a name="exercises"></a>
-### Exercises:
+### Exercises: {#exercises}
 
 * Intro: run autocalibration routine and collect spectrum for polystyrene sample
 * Intermediate: perform spatial mapping and compound indentification on [aspirin/paracetamol/caffeine tablet](https://en.wikipedia.org/wiki/Aspirin/paracetamol/caffeine)
 * Use confocality to collect spectra at different depths within a layered material such as a potato chip bag
-
-
 

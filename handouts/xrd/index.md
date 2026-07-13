@@ -167,7 +167,7 @@ Use HighScore or GSAS-II. Include fit metrics.
 - Breakerspace XRD SOP (PDF)
 
 **Data files**
-- [`exercise_A_raw.csv`](../data/exercise_A_raw.csv)
+- [`exercise_A_raw.csv`](./data/exercise_A_raw.csv)
 
 ---
 

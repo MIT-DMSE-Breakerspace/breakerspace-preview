@@ -1,5 +1,4 @@
-<a name="quick-settings"></a>
-### Quick Imaging Settings
+### Quick Imaging Settings {#quick-settings}
 
 | Goal | Starting settings | Watch for |
 | --- | --- | --- |

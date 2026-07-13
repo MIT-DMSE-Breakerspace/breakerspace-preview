@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Particle Size Analyzer Tutorial
 ---
 # Microtrac Sync Particle Size Analyzer Tutorial
 
@@ -18,11 +19,9 @@ This instrument gives particle size distribution data for dry powder samples wit
 * [Links](#links)
 * [Exercises](#exercises)
 
-<a name="sop"></a>
-### Standard operating protocol:
+### Standard operating protocol: {#sop}
 
-<a name="startup"></a> 
-#### Instrument startup:
+#### Instrument startup: {#startup}
 
 * [Power on the instrument](../assets/img/tutorials/psa/power-switch.JPG) [if needed](../assets/img/tutorials/psa/status-light.JPG)
 * Log on to instrument workstation using your MIT Kerberos
@@ -30,8 +29,7 @@ This instrument gives particle size distribution data for dry powder samples wit
 * From the [_Open Analyzer_ menu select _Sync Analyzer_](../assets/img/tutorials/psa/connect.png)
 * Wait while the instrument initializes
 
-<a name="operation"></a> 
-#### Operation:
+#### Operation: {#operation}
 
 * [Check the active database](../assets/img/tutorials/psa/database.png), [change/create new](../assets/img/tutorials/psa/database-change.png) if needed
 * [Load measurement SOP](../assets/img/tutorials/psa/load-sop.png), if no SOP exists ask lab staff for assistance
@@ -40,21 +38,18 @@ This instrument gives particle size distribution data for dry powder samples wit
 * Run Auto-Sequence
 * Repeat as needed
 
-<a name="shutdown"></a> 
-#### Instrument shut down:
+#### Instrument shut down: {#shutdown}
 
 * Export data as needed
 * Close the FLEX software
 * Log off Windows workstation
 * Instrument may be left powered on
 
-<a name="materials"></a> 
-### Compatible materials and sample prep: 
+### Compatible materials and sample prep: {#materials}
 
 * Any non-hazardous, dry powders with particles between 0.24 and 2,000 microns
 
-<a name="details"></a>
-### Detailed operating instructions:
+### Detailed operating instructions: {#details}
 
 The sequence of steps to run a measurement is very straightforward: start the software, connect to the instrument, let it initialize, verify you are saving into the correct database, load a measurement SOP, clean the sample tray if needed and load a sample, run the auto-sequence, save your data, and close the software. In the instructions and videos below the steps to prepare the instrument (cleaning, sample loading, sample collection) are show independent of where they occur in the timeline of operating the instrument in software. Please refer to the SOP section, above, for the chronological sequence of the entire operation (instrument initialization, sample loading, collection, finishing).
 
@@ -63,7 +58,7 @@ The sequence of steps to run a measurement is very straightforward: start the so
 Loose particles in the sample area from previous samples can be pulled in to the instrument and skew your result. If there are particles to clean, lightly wet a Kimwipe with isopropanol and use it to wipe up loose particles. If needed, the sample tray and sample tray carrier can be removed for more careful cleaning. This video shows the cleaning process:
 
 <div class="container-video">
-  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/CEDb8fk9C0I?si=O2J6BDKxPWnC9m0C"></iframe>
+  <iframe class="responsive-iframe" title="Cleaning the particle size analyzer sample area" src="https://www.youtube.com/embed/CEDb8fk9C0I?si=O2J6BDKxPWnC9m0C"></iframe>
 </div>
 
 #### Loading a sample:
@@ -77,7 +72,7 @@ Loose particles in the sample area from previous samples can be pulled in to the
 This video shows a typical sample loading process:
 
 <div class="container-video">
-  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/IbPc-y7S9tU?si=WVRutCo-v9ow8Bwf"></iframe>
+  <iframe class="responsive-iframe" title="Loading a sample into the particle size analyzer" src="https://www.youtube.com/embed/IbPc-y7S9tU?si=WVRutCo-v9ow8Bwf"></iframe>
 </div>
 
 #### Full sequence of software operation:
@@ -85,7 +80,7 @@ This video shows a typical sample loading process:
 Since the organization of the software can be confusing, this screen capture video shows the full sequence of steps needed to start the softare, initialize the instrument, and collect and export data. Don't forget, of course, to load your sample after selecting your measurement SOP and before starting the 'auto-sequence.'
 
 <div class="container-video43">
-  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/TvgfB1BDVO4?si=zmK_IY1oiU3FRg6B"></iframe>
+  <iframe class="responsive-iframe" title="Particle size analyzer software workflow" src="https://www.youtube.com/embed/TvgfB1BDVO4?si=zmK_IY1oiU3FRg6B"></iframe>
 </div>
 
 #### Sample collection:
@@ -95,31 +90,25 @@ After your sample is loaded and the sample tray door is closed, and you run the 
 This video shows the full sample collection process:
 
 <div class="container-video">
-  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Mt9QangPK5A?si=Q_4IEbZVe66QyiD5"></iframe>
+  <iframe class="responsive-iframe" title="Particle size analyzer sample collection process" src="https://www.youtube.com/embed/Mt9QangPK5A?si=Q_4IEbZVe66QyiD5"></iframe>
 </div>
 
-<a name="data"></a>
-### Data processing and analysis:
+### Data processing and analysis: {#data}
 
 Data is automatically saved in the database that is active at the time the auto-sequence is started, so it will not be lost (short of a hardware failure in the workstation) and you can review it and export it at any time. The software also prompts you to automatically save the report that is generated after the sample is collected. The distribution shown in the report can be recalculated to show a distribution based on particle diameter, particle volume, or number of particles of a given size-range. The data produced by this instrument is fairly straightforward, but please ask lab staff if you have questions about data processing and analysis.
 
-<a name="failures"></a>
-### Common failure modes:
+### Common failure modes: {#failures}
 
 * Sample door open when connecting/initializing or running a sample will result in an error
 
-<a name="manuals"></a>
-### Manufacturer's manuals:
+### Manufacturer's manuals: {#manuals}
 
 * [FLEX Software user manual](https://www.dropbox.com/scl/fi/3ddebzi863eyws7p2mng7/FLEXUserManual.pdf?rlkey=v3t5hi943n80f5qel6b9jsava&dl=0)
 * [Sync Analyzer operating manual](https://www.dropbox.com/scl/fi/7bdbl13wf2qp0opfyu7kf/SyncOps.pdf?rlkey=cngpmueowutw93dp6owwodvwf&dl=0)
 * [Folder with all Microtrac manuals](https://www.dropbox.com/scl/fo/7zzq8zavh4sdgp6ocsvxp/AOtHdsXKGdp0zR7qAeWuJnA?rlkey=fx9idwfle5tvuod39w0djj7ew&dl=0)
 
-<a name="links"></a>
-### Links:
+### Links: {#links}
 
 * [Microtrac Sync video library](https://www.microtrac.com/downloads/videos/)
 
-<a name="exercises"></a>
-### Exercises:
- 
+### Exercises: {#exercises}

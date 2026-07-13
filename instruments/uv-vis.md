@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Duetta Fluorescence And Absorbance Spectrometer
 ---
 # Horiba Duetta Fluorescence And Absorbance Spectrometer
 
@@ -15,8 +16,7 @@ This page is the operating page for the Duetta. It combines the quick reference 
 
 <div style="clear:both;"></div>
 
-<a name="quick-actions"></a>
-### Quick Actions
+### Quick Actions {#quick-actions}
 
 | Need | Use this link |
 | --- | --- |
@@ -29,8 +29,7 @@ This page is the operating page for the Duetta. It combines the quick reference 
 | Need manufacturer documentation | [Manufacturer manuals](#manuals) |
 | Need practice tasks | [Exercises](#exercises) |
 
-<a name="science"></a>
-### What This Instrument Shows You
+### What This Instrument Shows You {#science}
 
 #### The Basic Idea
 
@@ -72,11 +71,9 @@ Always check for practical artifacts before interpreting small differences. Bubb
 * Particle suspensions can scatter light, settle, or aggregate, so apparent absorbance may not mean molecular absorption.
 * The Duetta does not replace FTIR, Raman, XRD, SEM-EDS, chromatography, or other methods when the question is molecular identity, crystal structure, elemental composition, or mixture separation.
 
-<a name="sop"></a>
-### Standard Operating Protocol
+### Standard Operating Protocol {#sop}
 
-<a name="startup"></a>
-#### Instrument Startup
+#### Instrument Startup {#startup}
 
 * Confirm the sample compartment is empty and the lid can close normally.
 * Turn on the [rear instrument power switch](../assets/img/tutorials/uv-vis/duetta-back-power-switch.jpg), if needed.
@@ -85,8 +82,7 @@ Always check for practical artifacts before interpreting small differences. Bubb
 * Open EZ Spec software and enter the acquisition interface.
 * Let the lamps warm up before collecting data when quantitative comparison matters.
 
-<a name="operation"></a>
-#### Operation
+#### Operation {#operation}
 
 * Wear nitrile gloves when handling cuvettes, sample holders, slides, samples, pipettes, wipes, or liquid-handling supplies.
 * Prepare the sample and blank/reference cuvettes or holders.
@@ -96,8 +92,7 @@ Always check for practical artifacts before interpreting small differences. Bubb
 * Unload all cuvettes, slides, or sample holders from the sample compartment.
 * Save or export the data.
 
-<a name="shutdown"></a>
-#### Instrument Shutdown
+#### Instrument Shutdown {#shutdown}
 
 * Confirm all needed data are saved or exported.
 * Confirm the sample compartment is empty.
@@ -107,8 +102,7 @@ Always check for practical artifacts before interpreting small differences. Bubb
 * **Push and hold the front power button until the light shuts off.**
 * Leave the work area clean and remove all samples, labels, wipes, and liquid-handling supplies.
 
-<a name="materials"></a>
-### Compatible Materials And Sample Prep
+### Compatible Materials And Sample Prep {#materials}
 
 * Samples must be non-hazardous and safe to handle in the Breakerspace.
 * Routine samples should be liquids that can be contained safely in a clean cuvette.
@@ -120,7 +114,7 @@ Always check for practical artifacts before interpreting small differences. Bubb
 * Do not place loose solids, powders, open containers, or uncontained wet materials in the sample compartment.
 * If a sample contains particles or sediment, decide whether the goal is to measure the dissolved material, the suspension, or scattering from particles. Those are different measurements.
 
-##### _If you have any questions about whether a sample is appropriate to characterize in the Breakerspace, please ask before bringing it to the lab._
+<p class="guidance-note"><em>If you have any questions about whether a sample is appropriate to characterize in the Breakerspace, please ask before bringing it to the lab.</em></p>
 
 #### Cuvettes
 
@@ -153,8 +147,7 @@ Start with a dilute sample when the concentration is unknown. If the spectrum is
 
 For fluorescence, high concentration can be especially misleading because molecules can reabsorb emitted light or quench each other. If fluorescence workflows are used, dilution series and inner-filter-effect correction may be needed.
 
-<a name="quick-method"></a>
-### Quick Method Selection
+### Quick Method Selection {#quick-method}
 
 | Goal | Starting method | Notes |
 | --- | --- | --- |
@@ -166,8 +159,7 @@ For fluorescence, high concentration can be especially misleading because molecu
 | Use absorbance-corrected fluorescence or molecular fingerprint workflows | Combined absorbance and fluorescence method | Staff-guided; method setup and interpretation are more specialized. |
 | Estimate relative nanoparticle or suspension behavior | Absorbance/scattering comparison | Interpret carefully: turbidity, scattering, and settling can dominate the result. |
 
-<a name="details"></a>
-### Detailed Operating Instructions
+### Detailed Operating Instructions {#details}
 
 The sections above are meant as a quick reference for trained users. The sections below are written as a training guide for new users and include practical details, images, and troubleshooting cues that are easiest to understand at the instrument.
 
@@ -279,8 +271,7 @@ Suspensions and nanoparticle samples can produce spectra that include both absor
 
 Before interpreting a suspension spectrum, ask whether the sample is stable during the measurement. If particles settle quickly, repeat measurements may change. If the goal is particle size or aggregation, the Duetta result may be useful as a relative comparison, but it should not be treated as a direct particle-size measurement without a validated method.
 
-<a name="data"></a>
-### Data Processing And Analysis
+### Data Processing And Analysis {#data}
 
 * Under the Acquire tab, you can toggle between Transmission, Absorbance, and Fluorescence views when those data are available.
 * Use clear file names that include sample identity, concentration or dilution, date, and measurement type when useful.
@@ -308,8 +299,7 @@ Remove all sample and blank/reference cuvettes, slides, or holders from the inst
 
 Close EZ Spec, log out of the workstation, and push and hold the front power button until the light shuts off. The lamp has a limited service life and does not automatically turn off just because the workstation is disconnected, so shutting the instrument down at the end of a session is important.
 
-<a name="failures"></a>
-### Common Failure Modes
+### Common Failure Modes {#failures}
 
 | Problem | Likely Cause | What To Try |
 | --- | --- | --- |
@@ -324,14 +314,12 @@ Close EZ Spec, log out of the workstation, and push and hold the front power but
 | Sample spills or cuvette leaks | Overfilled, cracked, poorly capped, or mishandled cuvette | Stop, keep liquid out of the instrument, notify staff, and clean only according to the approved material and spill procedure. |
 | Data was collected but cannot be found later | File name, save location, or export step was missed | Save/export before closing EZ Spec; use clear project folders and file names. |
 
-<a name="manuals"></a>
-### Manufacturer Manuals
+### Manufacturer Manuals {#manuals}
 
 * [Local copy of Duetta with EZ Spec operation manual](../assets/img/tutorials/uv-vis/Duetta-with-EZ-Spec-Operation-Manual-5700004252-Rev-1.4.3.pdf)
 * [Dropbox copy of Duetta with EZ Spec operation manual](https://www.dropbox.com/scl/fi/9bzwitjz004xd8pl5bpyl/Duetta-with-EZ-Spec-Operation-Manual-5700004252-Rev-1.4.3.pdf?rlkey=8ekvwddzdt0pk931zwpxov43l&st=yisoc2r2&dl=0)
 
-<a name="exercises"></a>
-### Exercises
+### Exercises {#exercises}
 
 * **Level 1 - General training:** Measure absorbance and transmission spectra from water with food coloring. Identify the wavelengths where the colored sample absorbs most strongly and export the data.
 * **Level 1 - Blank comparison:** Measure the same colored water sample using deionized water as the blank, then repeat with an intentionally mismatched blank chosen by staff. Compare how the spectrum changes.
@@ -342,8 +330,7 @@ Close EZ Spec, log out of the workstation, and push and hold the front power but
 * **Level 3 - Fluorescence workflow:** With staff guidance, collect fluorescence data from a known fluorescent standard or safe fluorescent sample, then compare how excitation wavelength, concentration, or inner-filter correction changes the result.
 * **Level 3 - Method development:** With staff guidance, create a repeatable absorbance or fluorescence method for a recurring sample type, including sample prep, blank choice, method settings, export format, and acceptance checks.
 
-<a name="todo"></a>
-### Tutorial To-Do List
+### Tutorial To-Do List {#todo}
 
 * Confirm the current preferred EZ Spec method settings for routine absorbance training, including wavelength range, increment, integration/acquisition settings, and save/export workflow.
 * Add screenshots for New Method, Absorbance and Transmission, Spectra, wavelength-range setup, sample naming, save location, blank prompt, and export options.

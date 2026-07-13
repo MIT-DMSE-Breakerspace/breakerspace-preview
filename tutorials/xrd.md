@@ -1,5 +1,6 @@
 ---
 layout: default
+title: XRD Tutorial
 ---
 # Panalytical Aeris Research XRD Tutorial
 ## Overview:
@@ -22,13 +23,9 @@ Use our [Panalytical Aeris Research XRD](https://www.malvernpanalytical.com/en/p
 * [Links](#links)
 * [Exercises](#exercises)
 
-<a name="sop"></a>
+### Standard operating protocol: {#sop}
 
-### Standard operating protocol:
-
-<a name="startup"></a>
-
-##### Instrument startup:
+#### Instrument startup: {#startup}
 
 * Make sure at least one position in the sample changer is free (no sample holder in place)
 * Turn the [mains power switch](../assets/img/tutorials/xrd/mains-switch.jpg) at the rear of the instrument
@@ -36,9 +33,7 @@ Use our [Panalytical Aeris Research XRD](https://www.malvernpanalytical.com/en/p
 * Press the [power button](../assets/img/tutorials/xrd/power-button.jpg) to switch on the instrument
 * Turn the [HT keyswitch](../assets/img/tutorials/xrd/keyswitch.jpg) to switch on the HT generator
 
-<a name="operation"></a>
-
-##### Operation:
+#### Operation: {#operation}
 
 * Prepare your sample externally at the sample prep table
 * Put the sample holder in a loading position on the sample changer
@@ -49,17 +44,13 @@ Use our [Panalytical Aeris Research XRD](https://www.malvernpanalytical.com/en/p
 * Fill out your information in the X-ray safety log book
 * Repeat as needed - additional samples can be loaded and added to the queue while current sample is being measured
 
-<a name="shutdown"></a>
-
-#####  Instrument shut down:
+#### Instrument shut down: {#shutdown}
 
 * Press the Power button to switch off the instrument
 * Turn the HT Keyswitch counter-clockwise to switch off the HT generator
 * If the instrument will be switched off for a long period of time, you can also switch off the mains power supply
 
-<a name="materials"></a>
-
-### Compatible materials and sample prep:
+### Compatible materials and sample prep: {#materials}
 
 The Aeris has a Cu Kα x-ray generator with penetration on the order of 100 µm. For powder samples, grain size should be on the order of 5-10 µm to ensure sufficient grains of various compounds contribute to the reflection of the beam. This source will cause fluorescence in samples with iron and manganese, and may not provide suitable results for samples with those elements.
 Panalytical provides an excellent sample preparation guide, available in paper form in the lab and here in [pdf form](https://www.dropbox.com/scl/fi/17o43bqhe52u49kkecvrf/xrd-sample-holders-preparation.pdf?rlkey=vxi65kwyeqrcr62jbcxa5rqvq&dl=0), please refer to it for instructions on use of the different types of sample holders and associated sample prep techniques.
@@ -69,11 +60,9 @@ Page 1.4 lists all the various types of sample holders that can be obtained. Of 
 * PW1813/26 for metal plates, membrane filters, pressed pellets, etc.
 XRD sample holders, mounting clay, and other small materials are stored in the black cabinet next to the sample prep table. Perform all sample loading steps at the table and transfer sample holders to the instrument on the tray once complete.
 
-<a name="details"></a>
+### Detailed operating instructions: {#details}
 
-### Detailed operating instructions:
-
-##### Sample loading:
+#### Sample loading:
 * Remove plastic sample case cover
 * Place a prepared sample in any of the six positions on the sample changer
 * Replace plastic sample changer cover
@@ -83,7 +72,7 @@ XRD sample holders, mounting clay, and other small materials are stored in the b
 	<img src="../assets/img/tutorials/xrd/add-sample.gif" alt="Placing prepared sample in" style="width:50%; margin:0">
 </figure>
 
-##### Running a measurement program:
+#### Running a measurement program:
 * Choose measurement program
 * Enter sample ID
 * Edit file name as necessary
@@ -94,7 +83,7 @@ XRD sample holders, mounting clay, and other small materials are stored in the b
 	<img src="../assets/img/tutorials/xrd/Export.gif" alt="Copying results to desktop folder" style="width:50%; margin:0">
 </figure>
 
-##### Exporting data:
+#### Exporting data:
 Data can be saved on a USB drive, or exported to a shared network drive on the XRD workstation to the right of the instrument. The workstation can be accessed using a common login. The username is xrd and the password is xrd-password. Data can be found in the folder C:\XRD\XRD data
 
 <figure style="margin-left:0; margin-right:0;">
@@ -102,20 +91,17 @@ Data can be saved on a USB drive, or exported to a shared network drive on the X
   <figcaption> Recommended export location in Windows explorer</figcaption>
 </figure>
 
-##### New measurement programs:
+#### New measurement programs:
 New measurement programs can be created using the software XRDMP Creator on the workstation that supports the XRD, though programs stored on the instrument should cover most basic analysis needs. Documentation on the use of XRDMP Creator is available in the XRDMP Creator Help menu. If you need to create new programs and need assistance, please contact Breakerspace staff.
 
-##### Advanced mode:
+#### Advanced mode:
 Advanced mode is used to change optical components, manage data (including importing programs, and deleting programs and results), and other advanced configuration tools. Lab users typically will not need to access advanced mode, and instruction of its use is beyond the scope of this tutorial.
 
-<a name="data"></a>
-
-### Data processing and analysis:
+### Data processing and analysis: {#data}
 
 * Data from the Aeris can be processed using [HighScore Plus 5.0](https://www.malvernpanalytical.com/en/products/category/software/x-ray-diffraction-software/highscore-with-plus-option)
 
-<a name="highscore"></a>
-#### Using High Score Plus:
+#### Using High Score Plus: {#highscore}
 
 ##### Determine background:
 * Treatment > Determine Background
@@ -143,26 +129,22 @@ Insert peaks by
   * Once you are confident with your match, left click and pull it to the Pattern List panel. This “accepts” it. On the graph, if any peak is not matched by the accepted candidate’s pattern, it will retain a blue downward facing arrow on it. The candidates list reorganizes to find a compound that fits the unfitted peak.
   * Continue this process until all peaks have been matched and all compounds in your sample have been found.
 
-<a name="failures"></a>
-### Common failure modes:
+### Common failure modes: {#failures}
 * Booting the instrument with all sample changer positions occupied will result in an [error](https://www.dropbox.com/scl/fi/4a0rnd149la2lyrvo0rll/XRD_please_remove_sample.jpg?rlkey=u5x63mlic9llbitkgpigh0xcw&st=126n38zb&dl=0). Remove one of the sample holders, so that there is a free spot.
 
-<a name="manuals"></a>
-### Manufacturer's manuals:
+### Manufacturer's manuals: {#manuals}
 * [Aeris quick start guide](https://www.dropbox.com/scl/fi/gqd44xvmv9q5660bk5gs4/aeris_quickstart_guide.pdf?rlkey=zj5qv5ajbxf80865fnh939r5g&dl=0)
 * [Aeris user guide](https://www.dropbox.com/s/sw476m00qq3c7jr/aeris_user_guide.pdf?dl=0)
 * [Highscore Plus quickstart guide](https://www.dropbox.com/scl/fi/0vaijznxsfaa05xfqwxd2/highscore_plus_quickstart_guide.pdf?rlkey=kx900yxwi5dtxug5ng1do8tyv&dl=0)
 * [Sample holders and sample prep guide](https://www.dropbox.com/scl/fi/17o43bqhe52u49kkecvrf/xrd-sample-holders-preparation.pdf?rlkey=vxi65kwyeqrcr62jbcxa5rqvq&dl=0)
 * [XRD for the analyst](https://www.dropbox.com/scl/fi/0e8vioulematgbd1yluzb/x-ray_powder_diffraction.pdf?rlkey=eae3hs1ispi1fi7vruh8oq9az&dl=0)
 
-<a name="links"></a>
-### Links:
+### Links: {#links}
 * [Tutorial videos by the IAMM Diffraction Facility](https://www.youtube.com/@IAMMDiffractionFacility)
 * [Panalytical XRD YouTube playlist](https://www.youtube.com/watch?v=YujXF6NKORM&list=PL2wIBTZfZRjdxVJYhan7PHbz_hyStiGgH)
 * [Panalytical Aeris videos](https://www.youtube.com/@MalvernPanalytical/search?query=aeris)
 
-<a name="exercises"></a>
-### Exercises:
+### Exercises: {#exercises}
 * Beginner: Identify the mystery powder
 * Intermediate: Distinguish amorphous and crystalline polymers
 * Intermediate: Distinguish mineral forms of calcium carbonate, i.e. calcite and aragonite

@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Reserve Instrument Time
 ---
 
 # Reserve Instrument Time

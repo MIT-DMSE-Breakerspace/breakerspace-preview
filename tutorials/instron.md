@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Instron Universal Testing System Tutorial
 ---
 # Instron 68TM-50 Universal Testing System
 
@@ -18,18 +19,15 @@ The Breakerspace's Instron is equipped with 50 kN and 5 kN load cells, with fixt
 * [Links](#links)
 * [Exercises](#exercises)
 
-<a name="sop"></a>
-### Standard operating protocol:
+### Standard operating protocol: {#sop}
 
-<a name="startup"></a> 
-#### Instrument startup:
+#### Instrument startup: {#startup}
 
 * Log on to the instrument workstation using your MIT Kerberos.
 * Open the Bluehill Universal software.
 * If the event log opens up, you can click close. 
 
-<a name="operation"></a>
-#### Operation: 
+#### Operation: {#operation}
 
 * Set up your mechanical test set up. See the [detailed operation instructions](#details) for how to set up different types of samples.
 * Ensure the correct load cell connector (5 kN or 50 kN) is inserted. 
@@ -40,8 +38,7 @@ The Breakerspace's Instron is equipped with 50 kN and 5 kN load cells, with fixt
 * Once on the testing page, press unlock then go on the [hand controller](../assets/img/tutorials/instron/ANNOTATED_hand_controller_in_set_up.JPG) to start testing.
 * The test will end once sample snaps. To stop the test before that, you can press stop on the [hand controller](../assets/img/tutorials/instron/ANNOTATED_hand_controller_in_set_up.JPG) or push the red emergency [stop button](../assets/img/tutorials/instron/ANNOTATED_emergency_indicator.JPG).
 
-<a name="shutdown"></a>
-####  Instrument shut down:
+####  Instrument shut down: {#shutdown}
 
 * Save your data.
 * Disassemble your testing set up. Return all parts to the boxes they came from.
@@ -49,16 +46,14 @@ The Breakerspace's Instron is equipped with 50 kN and 5 kN load cells, with fixt
 * Close the Bluehill Universal software and log off the computer.
 * Ensure the Instron is in disabled mode.
 
-<a name="materials"></a> 
-### Compatible materials and sample prep: 
+### Compatible materials and sample prep: {#materials}
 
 * Avoid samples which may shatter dangerously, i.e. glass.
 * Avoid wet samples or anything that would get the machine too dirty.
 * Some samples may need cutting to fit into the machine grips. The Breakerspace has scissors, razor blades, and a sectioning saw available.
 * It may be good to google if there is an ASTM standard for your specific test. 
 
-<a name="details"></a> 
-### Detailed operating instructions: 
+### Detailed operating instructions: {#details}
 The Instron can do tensile, compressive, and flexure testing. Each test needs different grips. 
 * To start all set ups, you need to choose your load cell, 50 kN or 5 kN for smaller, weaker samples.
 	* The 50 kN cell always stays attached to the machine.
@@ -81,14 +76,12 @@ The Instron can do tensile, compressive, and flexure testing. Each test needs di
 * Load your sample.
 * Look at [this diagram](../assets/img/tutorials/instron/ANNOTATED_extensometer_software.png). Click 1, then 2. Then in field 3, click and hold an area that includes your drawn dots. The dots should be detected automatically. Click close and proceed with your test. 
 
-<a name="data"></a>
-### Data processing and analysis:
+### Data processing and analysis: {#data}
 
 * By default the software will output a force versus displacement graph.
 * When creating a method you can input your sample dimensions and ask the software to automatically calculate a lot of properties for you.
 
-<a name="failures"></a>
-### Common failure modes:
+### Common failure modes: {#failures}
 
 * Unless the red light of the video extensometer appears, the video extensometer is not on. Try pressing the [on](../assets/img/tutorials/instron/ANNOTATED_video_extensometer.JPG) button again.  
 * Plugging in the load cell connector is difficult and may take multiple tries. One common mistake is forgetting to to push in the [side clips](../assets/img/tutorials/instron/ANNOTATED_load_cell_connector.JPG) when inserting it. 
@@ -99,8 +92,7 @@ The Instron can do tensile, compressive, and flexure testing. Each test needs di
 * If your sample keeps breaking right at the grip face, you may need to loosen the grips a little bit, or try a different grip type.
 
 
-<a name="manuals"></a>
-### Manufacturer's manuals:
+### Manufacturer's manuals: {#manuals}
 
 * [Video extensometer operator guide](https://www.dropbox.com/scl/fi/rgb05cbfo30mf80uwskek/video-extensometer-ave2-2663-901-and-sve2-2663-902-operator-guide.pdf?rlkey=qfhgbcfwtsl57fdbellgg206w&st=h7hcnio8&dl=0)
 * [6800 Dual Column Table Model operator guide](https://www.dropbox.com/scl/fi/jppq0ifw1ricmdghsguca/6800-Dual-Column-Table-Model-Operator-Guide.pdf?rlkey=n7sm0h9v6vqqvu9ppnk0oessj&st=7ztz947o&dl=0)
@@ -109,12 +101,10 @@ The Instron can do tensile, compressive, and flexure testing. Each test needs di
 * [5 kN flexure fixture reference manual](https://www.dropbox.com/scl/fi/59aeqcu8o9b7isv7gu93a/5kn-flexure-fixture-reference-manual.pdf?rlkey=f4wtjfybmg86kruq1hcp32nms&st=1u3dpdjr&dl=0)
 * [5 kN, 10 kN, and 50 kN wedge grips reference manual](https://www.dropbox.com/scl/fi/3iaxhdxfo8pwxtj8t7m2i/5kn-10knand50kn-wedge-grips-reference-manual.pdf?rlkey=rjm1t839hzfv8yzly7mihjh2n&st=m76u4b4n&dl=0)
 
-<a name="links"></a>
-### Links:
+### Links: {#links}
 * [Instron FAQ](https://www.instron.com/en/service-and-support/technical-support/faqs)
 
-<a name="exercises"></a>
-### Exercises:
+### Exercises: {#exercises}
 
 * Beginner: Set up a 50 kN tensile testing set up, load a sample, and run it. You should see the sample's force-displacement curve appear.
 * Advanced: Use the video extensometer to measure strain. 

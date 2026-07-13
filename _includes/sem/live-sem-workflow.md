@@ -1,5 +1,4 @@
-<a name="customize"></a>
-#### Project Label And Save Location
+#### Project Label And Save Location {#customize}
 
 While the sample is loading, open Settings / Customize and set a useful image label and save location. Do this before you start collecting images so your files land in a project folder that will still make sense later.
 
@@ -8,8 +7,7 @@ While the sample is loading, open Settings / Customize and set a useful image la
   <figcaption>Use the Customize settings to set project labels and save locations before acquisition.</figcaption>
 </figure>
 
-<a name="navcam"></a>
-#### NavCam
+#### NavCam {#navcam}
 
 When the sample finishes loading, the software shows the NavCam view. This is an optical overview of the sample stage that helps you choose regions of interest before switching to SEM imaging.
 
@@ -25,8 +23,7 @@ Use this moment to:
   <figcaption>NavCam is the optical overview used to select a region before moving to SEM view.</figcaption>
 </figure>
 
-<a name="live-sem"></a>
-#### LiveSEM View
+#### LiveSEM View {#live-sem}
 
 Click **Move to SEM** to enter the live SEM view. Start zoomed out, find a recognizable feature, focus, then increase magnification gradually.
 
@@ -57,8 +54,7 @@ Useful controls:
 | Image intensity | General imaging | Good default for most SEM images. |
 | Point intensity | Lower magnification spot work | Useful when signal is low and fine resolution is less critical. |
 
-<a name="acquisition"></a>
-#### Image Acquisition And Gallery
+#### Image Acquisition And Gallery {#acquisition}
 
 Press the camera icon to acquire an image. Images are saved with the resolution and averaging set in the acquisition settings. Start with the default settings, take a test image, then increase resolution or averaging only if the sample is stable.
 

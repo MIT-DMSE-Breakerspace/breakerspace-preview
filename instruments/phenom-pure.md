@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Phenom Pure SEM
 ---
 # Thermo Fisher Phenom Pure SEM
 
@@ -13,8 +14,7 @@ This page is the operating page for the Phenom Pure only. For the Phenom XL, use
 
 <div style="clear:both;"></div>
 
-<a name="quick-actions"></a>
-### Quick Actions
+### Quick Actions {#quick-actions}
 
 | Need | Use this link |
 | --- | --- |
@@ -29,8 +29,7 @@ This page is the operating page for the Phenom Pure only. For the Phenom XL, use
 | Need manufacturer documentation | [Phenom Pure manuals](#manuals) |
 | Need practice tasks | [Exercises](#exercises) |
 
-<a name="pure-different"></a>
-### What Makes This Phenom Pure Different
+### What Makes This Phenom Pure Different {#pure-different}
 
 The shared [SEM hub](./sem.html#science) explains what scanning electron microscopy can show in general. This Phenom Pure page focuses on the capabilities that distinguish the Breakerspace Pure configuration from the Phenom XL in this lab.
 
@@ -49,11 +48,9 @@ This capability is useful for questions like:
 
 The cold stage does not make every wet sample safe or easy to image. Freezing can create artifacts, frost can hide the surface, water can sublime away in vacuum, and samples can still charge or move. Use cold-stage workflows with staff guidance until the sample behavior is understood.
 
-<a name="sop"></a>
-### Standard Operating Protocol
+### Standard Operating Protocol {#sop}
 
-<a name="startup"></a>
-#### Instrument Startup
+#### Instrument Startup {#startup}
 
 * Log on to the instrument workstation using your MIT Kerberos.
 * Start the Phenom User Interface software.
@@ -61,8 +58,7 @@ The cold stage does not make every wet sample safe or easy to image. Freezing ca
 * If the instrument does not connect automatically, open [Settings / Phenom / Status](../assets/img/tutorials/sem/connect.PNG) and connect to the microscope.
 * If using the cold stage, switch on the chiller unit about 30 minutes before imaging so the cooling water reaches operating temperature.
 
-<a name="operation"></a>
-#### Operation
+#### Operation {#operation}
 
 * Wear nitrile gloves when handling samples, stubs, sample holders, stages, and sample-prep tools.
 * [Prepare samples](#prep) externally at the sample prep table.
@@ -74,8 +70,7 @@ The cold stage does not make every wet sample safe or easy to image. Freezing ca
 * Use NavCam to navigate, move to SEM view, adjust imaging settings, focus, and acquire images.
 * Wear gloves again, unload samples, and leave the holder clean and stored correctly.
 
-<a name="shutdown"></a>
-#### Instrument Shutdown
+#### Instrument Shutdown {#shutdown}
 
 * Save and copy any data you need.
 * Close the Phenom software. Press F11 if you need to exit fullscreen view.
@@ -85,8 +80,7 @@ The cold stage does not make every wet sample safe or easy to image. Freezing ca
 
 {% include sem/common-safety.md %}
 
-<a name="pure-limits"></a>
-### Phenom Pure Sample Limits
+### Phenom Pure Sample Limits {#pure-limits}
 
 * Mount one sample on an 18 mm or smaller stub.
 * The highest part of the sample must sit below the top edge of the sample holder.
@@ -100,13 +94,11 @@ The cold stage does not make every wet sample safe or easy to image. Freezing ca
 
 The Phenom Pure does not have EDS. Use the [Phenom XL](./phenom-xl.html) if elemental analysis is required.
 
-<a name="details"></a>
-### Detailed Operating Instructions
+### Detailed Operating Instructions {#details}
 
 {% include sem/detailed-training-intro.md %}
 
-<a name="loading"></a>
-#### Phenom Pure Sample Loading
+#### Phenom Pure Sample Loading {#loading}
 
 1. Use the holder or stage appropriate for your intended vacuum mode. Follow the labels on the actual holders and ask staff if the holder choice is unclear.
 2. Mount one sample on an 18 mm or smaller stub.
@@ -117,8 +109,7 @@ The Phenom Pure does not have EDS. Use the [Phenom XL](./phenom-xl.html) if elem
 
 The sample must never sit above the holder edge. An over-height sample can be destroyed during loading and can damage the microscope.
 
-<a name="cold-stage"></a>
-#### Phenom Pure Cold Stage
+#### Phenom Pure Cold Stage {#cold-stage}
 
 Use the cold stage for wet, vacuum-sensitive, or heat-sensitive samples that need to be frozen or cooled during imaging. Smaller samples usually work better because they freeze faster and are less likely to deform or frost over.
 
@@ -160,8 +151,7 @@ If the image flickers, bright bands streak across the field of view, or the samp
 
 {% include sem/live-sem-workflow.md %}
 
-<a name="unloading"></a>
-#### Phenom Pure Sample Unloading
+#### Phenom Pure Sample Unloading {#unloading}
 
 1. Stop image acquisition if any collection is running.
 2. Return to the normal SEM interface if needed.
@@ -184,23 +174,20 @@ If the image flickers, bright bands streak across the field of view, or the samp
 | Cold-stage image flickers or bright bands streak across the image | Wet sample outgassing or not fully frozen | Eject immediately; use a fresh smaller sample, freeze more carefully, remove excess water, or use a lower target temperature. |
 | Sample holder will not load smoothly | Sample may be above the holder edge or holder may not be seated correctly | Stop, unload if safe, and verify the sample is below the top edge of the holder. Ask staff before retrying. |
 
-<a name="manuals"></a>
-### Manufacturer Manuals
+### Manufacturer Manuals {#manuals}
 
 * [Phenom Pure user manual](https://www.dropbox.com/scl/fi/7ju8ldfdm0p04m6n81men/Phenom-ProX-G6-User-Manual.pdf?rlkey=l6gg1ld4zpmtxgrsxfgw00jpb&dl=0)
 * [Phenom Pure temperature controlled stage manual](https://www.dropbox.com/scl/fi/nqcrhb3axctk6782k5hqk/User-Manual_Phenom_Temperature-Stage.pdf?rlkey=r01r9dl6k1km22to13s0nir24&dl=0)
 * [Phenom Pure all docs](https://www.dropbox.com/scl/fo/th7xj2e2ul1sed2vobibt/ACVAySN_rjR_JnEXtPfs3_8?rlkey=3j90cjbe0akxyu7o3fanrxvn5&dl=0)
 
-<a name="exercises"></a>
-### Exercises
+### Exercises {#exercises}
 
 * **Level 1 - General Phenom Pure training:** Prepare and image a small piece of hair. Load it on the Pure holder, navigate with NavCam, focus in LiveSEM, acquire images at several magnifications, and compare a cut end with a torn or broken end.
 * **Level 2 - Non-conductive sample comparison:** Image an uncoated non-conductive sample in low vacuum, then sputter coat a similar sample and compare resolution, charging, and surface contrast.
 * **Level 2 - Cold-stage observation:** Use a staff-approved small wet or heat-sensitive sample. Document the freezing temperature, imaging behavior, and signs of frost, outgassing, or beam damage.
 * **Level 3 - Specialist training:** Prepare a beam-sensitive sample and compare image quality at different voltage/intensity combinations.
 
-<a name="todo"></a>
-### Tutorial To-Do List
+### Tutorial To-Do List {#todo}
 
 * Add a complete Pure level 1 training example using a specific material-library sample, including bin number/location once the cabinet is organized.
 * Add photos or GIFs showing Phenom Pure holder selection, stub loading, and the correct below-holder-edge height check.

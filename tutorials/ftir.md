@@ -1,5 +1,6 @@
 ---
 layout: default
+title: FTIR Tutorial
 ---
 # Nicolet iS5 Fourier-Transform Infrared (FTIR) Spectrometer Tutorial
 
@@ -20,11 +21,9 @@ The Nicolet iS5 Fourier-transform infrared (FTIR) spectrometer provides an infra
 * [Links](#links)
 * [Exercises](#exercises)
 
-<a name="sop"></a>
-### Standard operating protocol:
+### Standard operating protocol: {#sop}
 
-<a name="startup"></a> 
-#### Instrument startup:
+#### Instrument startup: {#startup}
 
 * [Power on instrument](../assets/img/tutorials/ftir/ftir-switch.JPG), [if needed](../assets/img/tutorials/ftir/ftir-power.JPG)
 * Log on to instrument workstation using your MIT Kerberos
@@ -34,8 +33,7 @@ The Nicolet iS5 Fourier-transform infrared (FTIR) spectrometer provides an infra
 * [Clean ATR crystal](#crystal)
 * Collect background
 
-<a name="operation"></a> 
-#### Operation:
+#### Operation: {#operation}
 
 * [Clean ATR crystal](#crystal)
 * Collect sample
@@ -43,8 +41,7 @@ The Nicolet iS5 Fourier-transform infrared (FTIR) spectrometer provides an infra
 
 Repeat steps as needed
 
-<a name="shutdown"></a> 
-#### Instrument shut down:
+#### Instrument shut down: {#shutdown}
 
 * Save all data (each spectrum must be indvidually selected and saved)
 * Close OMNIC
@@ -53,21 +50,18 @@ Repeat steps as needed
 * Put cover on crystal plate and clamp in place using pressure tower
 * Do not switch off (the manufacturer recommends leaving the instrument powered when not in use)
 
-<a name="materials"></a> 
-### Compatible materials and sample prep: 
+### Compatible materials and sample prep: {#materials}
 
 * Any non-hazardous solid, semi-solid, powder, paste, and liquid materials
 * Solvents needed to clean a sample off the instrument must also be non-hazardous 
 * Only sensitive to molecules that absorb IR radiation and transition to excited vibrational state
 * Complementary information to Raman spectroscopy, often
 
-##### _If you have any questions about whether a material is appropriate to characterize in the Breakerspace, please ask before bringing it to the lab._
+<p class="guidance-note"><em>If you have any questions about whether a material is appropriate to characterize in the Breakerspace, please ask before bringing it to the lab.</em></p>
 
-<a name="details"></a> 
-### Detailed operating instructions: 
+### Detailed operating instructions: {#details}
 
-<a name="sample-prep"></a> 
-#### ATR Sample preparation and loading:
+#### ATR Sample preparation and loading: {#sample-prep}
 
 To maximize signal strength, it is important that the sample is in good contact with the entire ATR window. 
 
@@ -113,8 +107,7 @@ It is especially important that powders contact the surface of the diamond windo
   <figcaption>Loading a non-volatile liquid sample</figcaption>
 </figure>
 
-<a name="crystal"></a> 
-#### Cleaning the ATR crystal:
+#### Cleaning the ATR crystal: {#crystal}
 
 * apply a few drops of isopropyl alcohol to a Kimwipe
 * wipe with wetted portion of the Kimwipe, starting in the center and working outwards
@@ -125,8 +118,7 @@ It is especially important that powders contact the surface of the diamond windo
   <figcaption>Cleaning the ATR crystal</figcaption>
 </figure>
 
-<a name="setup"></a> 
-#### Experiment setup:
+#### Experiment setup: {#setup}
 
 Experiment setup allows you to change the parameters to fit your requirements. For faster collections, reduce the number of scans and/or scan resolution, and note how the estimated time changes. To improve the signal to noise ratio, increase the number of scans.
 
@@ -156,8 +148,7 @@ For a [comprehensive explanation](../assets/img/tutorials/ftir/exp-set-help.JPG)
 </figure>
 
 
-<a name="background"></a> 
-#### Background collection:
+#### Background collection: {#background}
 
 Before collecting spectra, it is necessary to collect a background spectrum. 
 
@@ -169,22 +160,19 @@ Before collecting spectra, it is necessary to collect a background spectrum.
 * set instrument up per above for your experiment and click "collect background" and continue through the collection process
 * After background is collected you can choose to add it to the spectra window, or not. In both cases that background scan will automatically be used on subsequent sample collections.
 
-##### _Negative absorbance in an ATR spectrum indicate the crystal was not clean during background collection._ 
+<p class="guidance-note"><em>Negative absorbance in an ATR spectrum can indicate the crystal was not clean during background collection.</em></p>
 
-<a name="sample"></a> 
-#### Sample collection:
+#### Sample collection: {#sample}
 
 Once your background is collected you are ready to collect a spectrum for your sample. Load it according to the above instructions, and click collect sample, following the process based on your experiment setup. 
 
-<a name="volatile-cover"></a>
-#### Volatiles cover:
+#### Volatiles cover: {#volatiles-cover}
 <figure style="margin-left:0; margin-right:0;">
   <a href="../assets/img/tutorials/ftir/volatile-cover.GIF" target="_parent"><img src="../assets/img/tutorials/ftir/volatile-cover.GIF" alt="Volatile cover use." style="width:100%;"></a>
   <figcaption>Use of the volatile cover </figcaption>
 </figure>
 
-<a name="pressure-tip"></a>
-#### Pressure tips:
+#### Pressure tips: {#pressure-tip}
 
 <figure style="margin-left:0; margin-right:0;">
   <a href="../assets/img/tutorials/ftir/pressure-tips.JPG" target="_parent"><img src="../assets/img/tutorials/ftir/pressure-tips.JPG" alt="concave and self-leveling pressure tips." style="width:100%;"></a>
@@ -196,34 +184,29 @@ Once your background is collected you are ready to collect a spectrum for your s
   <figcaption>Swapping pressure tips</figcaption>
 </figure>
 
-<a name="analysis"></a> 
-### Data processing and analysis:
+### Data processing and analysis: {#data}
 
 Data processing is beyond the scope of this tutorial, but we recommend the use of the [Wiley KnowItAll Spectroscopy Software & Libraries available through the MIT Libraries](https://libguides.mit.edu/knowitall).
 
-<a name="failures"></a>
-### Common failure modes:
+### Common failure modes: {#failures}
 
 * ATR Signal to noise is low if sample is not in intimate contact with ATR crystal
 * If instrument is connected into different USB port on workstation it will not connect
 * Negative features in an ATR spectrum indicate the crystal was not clean during background collection
 
-<a name="manuals"></a> 
-### Manufacturer's manuals:
+### Manufacturer's manuals: {#manuals}
 
 * [iS5 spectrometer user guide](https://www.dropbox.com/scl/fi/rfba0x3swuhi4affsytv6/2638_iS5-UG.pdf?rlkey=mnjpwg72rbau8dsaw8jwg9flk&dl=0)
 * [iD7 ATR User Guide](https://www.dropbox.com/scl/fi/j24msyzbfpqahhk66z5y8/3021_-iD7_UG.pdf?rlkey=xf1sw5yoydqomsmcs1hxhrf5y&dl=0)
 * [OMNIC software _Getting Started_ guide](https://www.dropbox.com/scl/fi/nhx1fk2ov5fpkz4og1guf/2640_OMNIC_GS.pdf?rlkey=93wld38wdscvv94o177jylilu&dl=0)
 * [Complete set of manufacturer's manuals](https://www.dropbox.com/scl/fo/n0zv4090ncohz1yd53zyp/AEk8_3vo2JuCcHDSDBEEjck?rlkey=haqbguq12kbmh8fi7jmi8wzvg&dl=0)
 
-<a name="links"></a>
-### Links:
+### Links: {#links}
 
 * [Thermo Scientific FTIR sampling techniques](https://www.youtube.com/playlist?list=PLMiikclf3GL4ZAFqfux1tR1pyYmS4AkjR)
 * [Pike Technologies tips of the week](https://www.piketech.com/tip-of-the-week/)
 
 
-<a name="exercise"></a> 
-### Exercises:
+### Exercises: {#exercises}
 
 * coming soon

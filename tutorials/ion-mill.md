@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Ion Mill Tutorial
 ---
 # Technoorg-Linda SEMPrep 2 Broad Beam Ion Mill Tutorial
 
@@ -22,11 +23,9 @@ The Breakerspace system has a high-energy ion source for faster milling, a focus
 * [Exercises](#exercises)
 * [Tutorial to-do list](#todo)
 
-<a name="sop"></a>
-### Standard Operating Protocol
+### Standard Operating Protocol {#sop}
 
-<a name="startup"></a>
-#### Instrument Startup
+#### Instrument Startup {#startup}
 
 * Turn the instrument display on.
 * Confirm that high voltages are off and the chamber is in a safe state.
@@ -38,8 +37,7 @@ The Breakerspace system has a high-energy ion source for faster milling, a focus
 * Open the needle valve for the ion source you plan to use so it reaches the preset pressure, then let it close automatically.
 * Open the other ion source needle valve only if that source will be used during the session.
 
-<a name="operation"></a>
-#### Operation
+#### Operation {#operation}
 
 * Wear nitrile gloves when handling samples, holders, carrier plates, masks, and alignment tools.
 * Prepare the sample externally for [polishing](#polishing) or [slope cutting](#slope-cutting).
@@ -52,8 +50,7 @@ The Breakerspace system has a high-energy ion source for faster milling, a focus
 * When the run is complete, confirm that high voltage and sample motion are off before [unloading](#unloading).
 * Allow cooled samples to return toward room temperature before unloading.
 
-<a name="shutdown"></a>
-#### Instrument Shutdown
+#### Instrument Shutdown {#shutdown}
 
 * Confirm that all high voltages are off.
 * Turn sample motion off.
@@ -66,8 +63,7 @@ The Breakerspace system has a high-energy ion source for faster milling, a focus
 * Turn off the monitor.
 * Leave the sample holders, alignment tools, and work area clean.
 
-<a name="materials"></a>
-### Compatible Materials And Quick Sample Prep
+### Compatible Materials And Quick Sample Prep {#materials}
 
 * Samples must be non-hazardous and safe to handle in the Breakerspace.
 * Samples must be dry and free of volatile materials unless a staff-approved cooling method is being used.
@@ -77,10 +73,9 @@ The Breakerspace system has a high-energy ion source for faster milling, a focus
 * Heat-sensitive samples may require cooling and staff-guided method development.
 * If you want a specific cross-section location, the sample must be mounted and aligned carefully before milling.
 
-##### _If you have any questions about whether a material is appropriate to prepare in the Breakerspace, please ask before bringing it to the lab._
+<p class="guidance-note"><em>If you have any questions about whether a material is appropriate to prepare in the Breakerspace, please ask before bringing it to the lab.</em></p>
 
-<a name="quick-method"></a>
-### Quick Method Selection
+### Quick Method Selection {#quick-method}
 
 | Goal | Typical method | Starting thought |
 | --- | --- | --- |
@@ -91,15 +86,13 @@ The Breakerspace system has a high-energy ion source for faster milling, a focus
 | Prepare a heat-sensitive sample | Cooling-assisted polishing or cutting | Staff-guided only until the sample behavior is known. |
 | Develop a repeatable method | Automated recipe | Use an approved recipe or create one with staff after a successful manual run. |
 
-<a name="details"></a>
-### Detailed Operating Instructions
+### Detailed Operating Instructions {#details}
 
 The sections above are meant as a quick reference for trained users. The sections below are written as a training guide for new users and include the practical details, images, and troubleshooting cues that are easiest to understand at the instrument.
 
 The ion mill is a high-voltage, high-vacuum instrument. Do not bypass interlocks, open covers, disconnect cables, work inside the chamber during operation, or change service-level settings unless staff have explicitly trained you to do so. If the software or vacuum system behaves unexpectedly, stop and ask for help.
 
-<a name="concepts"></a>
-#### What Ion Milling Does
+#### What Ion Milling Does {#concepts}
 
 Ion milling removes material by bombarding the sample with argon ions. Compared with mechanical polishing, it can produce cleaner SEM surfaces with less smearing, deformation, embedded abrasive, or polishing damage. It is usually a finishing process, not a substitute for rough cutting, mounting, grinding, and polishing.
 
@@ -110,8 +103,7 @@ The SEMPrep 2 has two ion sources:
 
 The system can run in semi-automatic mode, where a trained user sets the major conditions for a run, or automated mode, where a recipe runs a sequence of milling steps.
 
-<a name="polishing"></a>
-#### Surface Polishing Workflow
+#### Surface Polishing Workflow {#polishing}
 
 Surface polishing is the level 1 training task for this instrument. A typical training sample should be a mounted metallographic sample that has already been ground and mechanically polished to a reflective finish.
 
@@ -154,8 +146,7 @@ Use polishing when the goal is to clean or improve a broad surface for SEM imagi
 
 For many student training samples, the first goal is not to optimize every parameter. The first goal is to learn the complete sequence safely, then compare before and after SEM images to understand what the ion mill changed.
 
-<a name="slope-cutting"></a>
-#### Slope Cutting Workflow
+#### Slope Cutting Workflow {#slope-cutting}
 
 Slope cutting uses a titanium mask to shield part of the sample while the ion beam mills a controlled cross section. The position of the mask relative to the sample determines where the cut happens, so sample bonding and alignment matter as much as the milling settings.
 
@@ -229,8 +220,7 @@ The 90&deg; holder is used when the desired cut surface is approximately perpend
 8. Start sample motion, start the ion source, and monitor the process.
 9. When complete, turn high voltage off, turn motion off, return tilt to 0&deg;, and unload.
 
-<a name="startup-details"></a>
-#### Startup, Argon Purge, And Needle Valve Setup
+#### Startup, Argon Purge, And Needle Valve Setup {#startup-details}
 
 The ion sources require clean argon flow and stable vacuum. The startup purge routine helps clear the gas line before milling.
 
@@ -247,12 +237,11 @@ The ion sources require clean argon flow and stable vacuum. The startup purge ro
 
 Do not run an ion source until the chamber has reached the required base pressure. If the vacuum does not recover, or if the software shows vacuum warnings during loading or pumping, stop and ask staff for help.
 
-<a name="loading"></a>
-#### Sample Loading And Unloading
+#### Sample Loading And Unloading {#loading}
 
 The SEMPrep 2 uses a load-lock so samples can be exchanged without fully venting the main working chamber. Always use the software-guided sample exchange procedure.
 
-##### Loading
+##### Loading {#loading-procedure}
 
 1. In the sample stage and head unit control tab, click **Sample loading/removal**.
 2. Follow the step-by-step sample exchange window.
@@ -280,8 +269,7 @@ The SEMPrep 2 uses a load-lock so samples can be exchanged without fully venting
   <figcaption>The sample stage and head unit control tab is the starting point for sample exchange and motion control.</figcaption>
 </figure>
 
-<a name="manual-operation"></a>
-#### Semi-Automatic Operation
+#### Semi-Automatic Operation {#manual-operation}
 
 Semi-automatic operation is useful for training, method development, and staff-guided work where a user needs to understand each condition.
 
@@ -300,8 +288,7 @@ Semi-automatic operation is useful for training, method development, and staff-g
 
 Users should not improvise new high-energy, low-energy, gas-flow, or cathode settings during unsupervised work. Use a trained method or a staff-approved recipe.
 
-<a name="automated-operation"></a>
-#### Automated Recipes
+#### Automated Recipes {#automated-operation}
 
 Automated mode is best once a process has been established. A recipe can combine multiple steps, such as faster high-energy milling followed by gentler low-energy cleaning.
 
@@ -313,8 +300,7 @@ Automated mode is best once a process has been established. A recipe can combine
 6. Monitor the process.
 7. After the run, switch back to manual thinning mode before starting sample exchange.
 
-<a name="data"></a>
-### Data Processing And Analysis
+### Data Processing And Analysis {#data}
 
 The ion mill does not produce analytical data by itself. Its output is the prepared sample surface or cross section. The best way to evaluate a run is to compare the sample before and after milling using the SEM or optical microscope.
 
@@ -325,8 +311,7 @@ For useful before/after comparisons:
 * Capture SEM images after milling at the same magnification and region when possible.
 * Note whether the result shows polishing improvement, curtaining, redeposition, roughness, delamination, thermal damage, or insufficient milling.
 
-<a name="failures"></a>
-### Common Failure Modes
+### Common Failure Modes {#failures}
 
 | Symptom | Likely cause | What to try |
 | --- | --- | --- |
@@ -341,27 +326,23 @@ For useful before/after comparisons:
 | Sample detaches or shifts | Poor bonding, loose holder screws, heat, or incompatible adhesive | Rebond sample and use the gluing/alignment fixtures. |
 | Viewing image is poor | Camera/illumination off, dirty viewing window, or focus/position issue | Turn camera/illumination on, adjust focus/illumination, and ask staff before cleaning window. |
 
-<a name="manuals"></a>
-### Manufacturer Manuals
+### Manufacturer Manuals {#manuals}
 
 * [SEMPrep2 ion mill manual](https://www.dropbox.com/scl/fi/50x7hl7x68mmfu5ypkt5g/SC-2100_manual_v2.6-2105.pdf?rlkey=d1ivx4xdfuvc14v36bllvusoh&dl=0)
 * [Sample alignment microscope manual](https://www.dropbox.com/scl/fi/4bxxm6zr7q0elwqqvx5a0/Sample-Alignment-Tool-manual.pdf?rlkey=ltp97kascl3a2wrx785xmj749&dl=0)
 
-<a name="links"></a>
-### Links
+### Links {#links}
 
 * [Technoorg Linda - making of 100th SEMPrep ion milling system](https://www.youtube.com/watch?v=HaZ6fGmBUhc)
 
-<a name="exercises"></a>
-### Exercises
+### Exercises {#exercises}
 
 * **Level 1 - General training:** Mechanically polish a mounted metal sample, image it in the SEM, ion polish it using the standard polishing holder and a staff-approved short polishing method, then image the same region again. Describe what changed.
 * **Level 2 - Slope cutting:** Mount a layered or coated sample on a carrier plate, align it with the 30&deg; slope-cutting holder, run a staff-approved slope-cutting recipe, and image the cross section in the SEM.
 * **Level 2 - Method comparison:** Compare two polishing times or two final-cleaning conditions on similar samples. Use before/after SEM images to decide which method produced the better surface.
 * **Level 3 - Specialist training:** Develop a documented automated recipe for a recurring sample type, including sample prep, holder choice, ion-source sequence, milling times, and before/after image criteria.
 
-<a name="todo"></a>
-### Tutorial To-Do List
+### Tutorial To-Do List {#todo}
 
 * Add a photo or GIF of a trained user opening the argon cylinder and confirming the correct regulator state.
 * Add a short screen-capture GIF of the startup purge sequence and semi-automatic needle-valve setup.

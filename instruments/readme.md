@@ -84,13 +84,13 @@ If an include is later used by a page in another folder, check every relative li
 
 ## Anchors
 
-Many instrument pages use explicit anchors such as:
+Many instrument pages use explicit heading IDs such as:
 
-```html
-<a name="materials"></a>
+```markdown
+### Compatible Materials And Sample Prep {#materials}
 ```
 
-These anchors make the page index and workstation shortcuts stable even if heading text changes. Do not include the same shared snippet twice on one page, because that can create duplicate anchors.
+These IDs make the page index and workstation shortcuts stable even if heading text changes. Do not include the same shared snippet twice on one page, because that can create duplicate IDs.
 
 ## Adding A New Instrument Page
 

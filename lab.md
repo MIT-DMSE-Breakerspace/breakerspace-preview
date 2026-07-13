@@ -1,8 +1,9 @@
 ---
 layout: default
+title: Breakerspace Lab
 ---
 
-## Breakerspace Lab
+# Breakerspace Lab
 
 ![Lab on Breakerday!](./assets/img/breakerday.JPG)
 
@@ -10,7 +11,7 @@ The Breakerspace Lab is a growing suite of materials characterization instrument
 
 **Hours:** The Breakerspace Lab is open 8 AM to midnight, seven days/week for trained users.
 
-### Thermofisher Phenom XL SEM
+## Thermofisher Phenom XL SEM
 
 ![Thermofisher Phenom XL SEM](./assets/img/sem.JPG)
 
@@ -20,7 +21,7 @@ The Phenom XL SEM (scanning electron microscope) has a large sample area, BSD an
 
 ___
 
-### Thermofisher Phenom Pure SEM 
+## Thermofisher Phenom Pure SEM
 
 ![Thermofisher Phenom XL SEM](./assets/img/sem2.JPG)
 
@@ -29,7 +30,7 @@ The Phenom Pure can load a single sample, and BSD and SED detectors but no EDS. 
 [Thermofisher Phenom Scanning Electron Microscopes (SEM) Tutorial/SOP](./tutorials/sem.html)  
 ___
 
-### Olympus DSX-1000 Digital Optical Microscope
+## Olympus DSX-1000 Digital Optical Microscope
 
 ![Olympus DSX-1000 Digital Optical Microscope](./assets/img/optical.JPG)
 
@@ -39,7 +40,7 @@ See images in full color at high magnifications, capture 3D data, and stitch tog
 
 ___
 
-### Panalytical Aeris Research XRD 
+## Panalytical Aeris Research XRD
 
 ![Panalytical Aeris Research X-ray diffractometer](./assets/img/xrd.JPG)
 
@@ -49,7 +50,7 @@ Use the XRD (X-ray diffractometer) to analyze properties such as phase compositi
 
 ___
 
-### Horiba Duetta Fluorescence and Absorbance Spectrometer
+## Horiba Duetta Fluorescence and Absorbance Spectrometer
 
 ![Horiba Duetta Fluorescence and Absorbance Spectrometer](./assets/img/uv-vis.JPG)
 
@@ -59,7 +60,7 @@ Duetta can be used as a fluorometer, as a UV-Vis-NIR spectrometer to measure abs
 
 ___
 
-### Nicolet iS5 FTIR Spectrometer
+## Nicolet iS5 FTIR Spectrometer
 
 ![Nicolet iS5 FTIR Spectrometer](./assets/img/ftir.JPG)
 
@@ -69,7 +70,7 @@ Fourier-transform infrared spectroscopy (FTIR) provides an infrared spectrum of 
 
 ___
 
-### Instron 68TM-50 Universal Testing System
+## Instron 68TM-50 Universal Testing System
 
 ![Instron 68TM-50 Universal Testing System](./assets/img/utm.JPG)
 
@@ -79,7 +80,7 @@ Our test frame is equipped with 50 kN and 5 kN load cells, with fixtures for ten
 
 ___
 
-### Horiba XploRA Confocal Raman Microscope
+## Horiba XploRA Confocal Raman Microscope
 
 ![Horiba XploRA Confocal Raman Microscope](./assets/img/raman.JPG)
 
@@ -89,7 +90,7 @@ Collect Raman spectra to idenfity compounds and observe other characteristics of
 
 ___
 
-### Technoorg-Linda SEMPrep 2 Broad Beam Ion Mill
+## Technoorg-Linda SEMPrep 2 Broad Beam Ion Mill
 
 ![Technoorg-Linda SEMPrep 2 Broad Beam Ion Mill](./assets/img/ion-mill.JPG)
 
@@ -99,7 +100,7 @@ Our ion mill enables damage free sample prep for SEM imaging. It is equipped wit
 
 ___
 
-### Innovatest Nemesis 5100G2 Hardness Tester
+## Innovatest Nemesis 5100G2 Hardness Tester
 
 ![Innovatest Nemesis 5100G2 Hardness Tester](./assets/img/hardness-tester.JPG)
 
@@ -109,7 +110,7 @@ This hardness tester has a 9-position turret to automatically swith between inde
 
 ___
 
-### Microtrac Sync Particle Size Analyzer
+## Microtrac Sync Particle Size Analyzer
 
 ![Microtrac Sync Particle Size Analyzer](./assets/img/particle-sizer.JPG)
 

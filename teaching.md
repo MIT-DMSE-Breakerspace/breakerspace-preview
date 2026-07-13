@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Teaching With Breakerspace
 ---
 
 # Teaching With Breakerspace

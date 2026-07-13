@@ -1,5 +1,4 @@
-<a name="prep"></a>
-#### Sample Prep At A Glance
+#### Sample Prep At A Glance {#prep}
 
 | Sample type | Fast prep | Notes |
 | --- | --- | --- |

@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Digital Optical Microscope Tutorial
 ---
 # Olympus DSX-1000 Digital Optical Microscope Tutorial
 
@@ -20,11 +21,9 @@ The Olympus DSX1000 Digital Microscope is a powerful instrument that allows you 
 * [Links](#links)
 * [Exercises](#exercises)
 
-<a name="sop"></a>
-### Standard operating protocol:
+### Standard operating protocol: {#sop}
 
-<a name="startup"></a> 
-#### Instrument startup:
+#### Instrument startup: {#startup}
 
 * [Switch](../assets/img/tutorials/optical/switch.JPG) the microscope [on](../assets/img/tutorials/optical/status-on.JPG)
 * Log on to instrument workstation using your MIT Kerberos
@@ -33,10 +32,9 @@ The Olympus DSX1000 Digital Microscope is a powerful instrument that allows you 
 * [Acknowledge it is safe for the stage and head to move](../assets/img/tutorials/optical/acknowledge.PNG)
 * Use the manual focusing knob to [lower the microscope stage](../assets/img/tutorials/optical/lower.GIF)
 * Load/change [objectives](#objectives) if needed
-* Lower the microscope head into the _tilt position_ using [the button on the console](../assets/img/tutorials/optical/tilt-console.JPG) or the [software button](../assets/img/tutorials/optical/tilt-software.JPG)
+* Lower the microscope head into the _tilt position_ using [the button on the console](../assets/img/tutorials/optical/tilt-console.JPG) or the [software button](../assets/img/tutorials/optical/tilt-software.PNG)
 
-<a name="operation"></a>
-#### Operation: 
+#### Operation: {#operation}
 
 * [Put your sample on stage](#sample-prep)
 * Use the [manual focusing knob](../assets/img/tutorials/optical/focus.GIF) to bring sample into focus
@@ -47,8 +45,7 @@ The Olympus DSX1000 Digital Microscope is a powerful instrument that allows you 
 * Verify files are saved where you intend
 * Repeat as needed
 
-<a name="shutdown"></a>
-#### Instrument shut down: 
+#### Instrument shut down: {#shutdown}
 
 * Close the DSX software
 * Click [yes](../assets/img/tutorials/optical/exit.PNG) to exit the microscope system and retract the head
@@ -56,23 +53,19 @@ The Olympus DSX1000 Digital Microscope is a powerful instrument that allows you 
 * Log out of Windows
 * Place the [dust cover](../assets/img/tutorials/optical/cover.JPG) on the microscope
 
-<a name="materials"></a> 
-### Compatible materials and sample prep: 
+### Compatible materials and sample prep: {#materials}
 
 * Materials should be non-hazardous and safe to handle in the Breakerspace
 * Any liquids should be contained so they do not spill on the [stage](../assets/img/tutorials/optical/stage.JPG)
 * Loading capacity of the stage is 5 kg
 
-<a name="sample-prep"></a> 
-#### Sample Prep:
+#### Sample Prep: {#sample-prep}
 
 The instrument has no particular sample prep requirements. As long as a sample is non-hazardous and safe to handle, weighs less than 5 kg, is not so tall as to prevent achieving focus, and can be place under observation without contaminating the microscope (ie spilling), it is possible to observe on the microscope. However, additional care in sample preparation (ie. careful slicing with a sharp blade) may improve imaging results, depending on sample material and characterization goals. 
 
-<a name="details"></a> 
-### Detailed operating instructions:
+### Detailed operating instructions: {#details}
 
-<a name="features"></a>
-#### Features:
+#### Features: {#features}
 
 * Quick preview of and switching between six observation modes (brightfield, oblique, darkfield, brightfield/darkfield mix, simple polarization, and differential interference contrast)
 * Capture 2D and 3D images
@@ -81,8 +74,7 @@ The instrument has no particular sample prep requirements. As long as a sample i
 * Rotatable stage
 * Many post-processing and analysis tools to annotate images with dimensions, calculate surface roughness, export 3d mesh data, etc.
 
-<a name="objectives"></a>
-#### Objectives:
+#### Objectives: {#objectives}
 
 * Long working distance: 3x (cannot be used in polarized observation mode), 10x, 20x, 40x 
 * Extra long working distance: 1x, 3x, 10x
@@ -130,8 +122,7 @@ Stitching allows you to capture images in 2D or 3D with a wide field of view/hig
 
 The DSX application is also capable of capturing timelapses, movies, and acquiring images along a path. The full set of options are all detailed in chapter 9 of the application manual, beginning on page 106.
 
-<a name="data"></a>
-### Data processing and analysis 
+### Data processing and analysis {#data}
 
 The measurement feature allows the user to determine a variety of information about the sample. This includes the change in elevation, horizontal distance, and angle between two points or along a shape. The volume of the sample can be calculated, along with the volumes of any divots or troughs along the sample. To perform these measurements, click on the measurement tab next to imaging, and then click the measurement option located directly below the reports tab. To check the distance, change in elevation, or angle between two points, select the profile option. To make a wire frame model, click the button with the arrow pointing from 2D to 3D. To find the volume of a crest or trough, select the volume option.
 
@@ -141,29 +132,24 @@ The measurement feature allows the user to determine a variety of information ab
 </figure>
 
 
-<a name="failures"></a>
-### Common failure modes
+### Common failure modes {#failures}
 
 * If the software is started before the microscope is switched on, you will see an [error message](../assets/img/tutorials/optical/control-error.PNG) and the connection will [fail](../assets/img/tutorials/optical/unable-start.PNG)
 * Sometimes the software will give an error that it cannot conect to camera - in this case reboot the workstation
 * If any part of your sample is resting on a part of the stage that cannot move, as you move the stage your sample will rotate on the stage.
 * If you cannot achieve focus, the microscope is like in the lens exchange position, and needs to be put into the tilt position. Please follow steps in the startup section of the [Standard operating protocol](#sop) to correct this
 
-<a name="manuals"></a>
-### Manufacturer's manuals 
+### Manufacturer's manuals {#manuals}
 
 * [DSX Quick Reference Guide](https://www.dropbox.com/scl/fi/npmn40ndidrc329ev1eze/DSX1000_QRG_EN_AX9342_03.pdf?rlkey=qwg423vnbo5o3811uyjbzhmlh&dl=0)
 * [DSX Application Manual](https://www.dropbox.com/scl/fi/bmfph79975i1p0wv4pbuf/DSX1000-Application-M-E.pdf?rlkey=fzmbq39hr926gpbbtgft9fxxt&dl=0)
 * [Hardware manual](https://www.dropbox.com/scl/fi/xg225i22sji3ap6mbdxxb/DSX1000_HardwareManual_EN_AX9336_07.pdf?rlkey=t9ndinow4wd8wwt9l1mlmtzzl&dl=0)
 * All documentation can be found [here](https://www.dropbox.com/scl/fo/lpmj7kw7kjfzrwzpy3s31/AHTufXDD4RDfEImJssdaxjc?rlkey=t1rl3ywuxnde1129767txmfgw&dl=0)
 
-<a name="links"></a>
-### Links
+### Links {#links}
 
 * [Manufacturer's overview](https://www.olympus-ims.com/en/microscope/dsx/?nis=8)
 
-<a name="exercises"></a>
-### Exercises
+### Exercises {#exercises}
 
 * coming soon
-

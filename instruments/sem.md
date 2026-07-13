@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Phenom Scanning Electron Microscopes
 ---
 # Thermo Fisher Phenom Scanning Electron Microscopes (SEM)
 
@@ -20,8 +21,7 @@ This page is the shared SEM hub. Use it to choose an instrument, review common S
 * [Phenom XL SEM operating page](./phenom-xl.html)
 * [Phenom Pure SEM operating page](./phenom-pure.html)
 
-<a name="quick-actions"></a>
-### Quick Actions
+### Quick Actions {#quick-actions}
 
 | Need | Use this link |
 | --- | --- |
@@ -36,8 +36,7 @@ This page is the shared SEM hub. Use it to choose an instrument, review common S
 | Need manufacturer documentation | [Manufacturer manuals](#manuals) |
 | Need practice tasks | [Exercises](#exercises) |
 
-<a name="science"></a>
-### What This Instrument Shows You
+### What This Instrument Shows You {#science}
 
 #### The Basic Idea
 
@@ -80,8 +79,7 @@ For EDS results, look for patterns rather than just labels. A useful EDS map mig
 
 SEM users must complete Breakerspace lab training and SEM-specific training before working independently. If your sample is hazardous, wet, very magnetic, loose, reactive, biological, vacuum-sensitive, or otherwise unusual, ask staff before bringing it to the lab.
 
-<a name="chooser"></a>
-### Interactive SEM Chooser
+### Interactive SEM Chooser {#chooser}
 
 Use this quick chooser if you are not sure which SEM to reserve. The recommendation is a starting point; ask staff if your sample is unusual or the result seems ambiguous.
 
@@ -124,8 +122,7 @@ Use this quick chooser if you are not sure which SEM to reserve. The recommendat
 })();
 </script>
 
-<a name="choose"></a>
-### Choose An SEM
+### Choose An SEM {#choose}
 
 | Use case | Recommended instrument | Notes |
 | --- | --- | --- |
@@ -144,8 +141,7 @@ For EDS samples on the Phenom XL, prefer conductive mounting and avoid coating m
 
 {% include sem/quick-imaging-settings.md %}
 
-<a name="prep-details"></a>
-### Shared Sample Preparation Details
+### Shared Sample Preparation Details {#prep-details}
 
 SEM sample preparation has two goals: protect the microscope and make the sample electrically and mechanically stable enough to image. The most common preventable SEM problems are loose debris, incorrect height, poor grounding, wet samples, and over-prepared samples that no longer show the surface you wanted to study.
 
@@ -206,8 +202,7 @@ Common strategies:
 
 {% include sem/data-and-analysis.md %}
 
-<a name="manuals"></a>
-### Manufacturer Manuals
+### Manufacturer Manuals {#manuals}
 
 * [Phenom XL user manual](https://www.dropbox.com/scl/fi/iyd538gtkj79kg0bc8113/2020-MS-Phenom-XL_User-Manual.pdf?rlkey=0yk985nvgz3lckqnrtxwo7afv&dl=0)
 * [Phenom XL tensile stage manual](https://www.dropbox.com/scl/fi/fu39pi9pamr2top97cv6m/Tensile-Stage-Training-Manual.pdf?rlkey=xs9dkadn6k16f9vpo3vc3y2h7&dl=0)
@@ -216,14 +211,12 @@ Common strategies:
 * [Phenom Pure temperature controlled stage manual](https://www.dropbox.com/scl/fi/nqcrhb3axctk6782k5hqk/User-Manual_Phenom_Temperature-Stage.pdf?rlkey=r01r9dl6k1km22to13s0nir24&dl=0)
 * [Phenom Pure all docs](https://www.dropbox.com/scl/fo/th7xj2e2ul1sed2vobibt/ACVAySN_rjR_JnEXtPfs3_8?rlkey=3j90cjbe0akxyu7o3fanrxvn5&dl=0)
 
-<a name="links"></a>
-### Links
+### Links {#links}
 
 * [Nanoscience Instruments Phenom Desktop SEM YouTube Playlist](https://www.youtube.com/watch?v=Tuvu79IPFa8&list=PLSK7wbUBb88knCedT9BvlILTanNkLh38q)
 * [Thermo Fisher SEM YouTube playlist](https://www.youtube.com/watch?v=jFO5AnYnn2c&list=PLoxdPzacxPYjwqELAD8XQGsygUYse2gmB)
 
-<a name="exercises"></a>
-### Exercises
+### Exercises {#exercises}
 
 These exercises are shared SEM examples. The instrument-specific pages identify which exercise is best for training on each SEM.
 
@@ -234,8 +227,7 @@ These exercises are shared SEM examples. The instrument-specific pages identify 
 * **Level 3 - Specialist training:** Prepare a powder sample sparse enough for particle sizing. Acquire images suitable for measuring particle diameter and compare the result with a poorly dispersed sample.
 * **Level 3 - Specialist training:** Use the Phenom Pure cold stage on a staff-approved wet or heat-sensitive sample. Document the freezing temperature, imaging behavior, and signs of frost, outgassing, or beam damage.
 
-<a name="todo"></a>
-### Tutorial To-Do List
+### Tutorial To-Do List {#todo}
 
 * Add a complete level 1 training example using a specific material-library sample, including bin number/location once the cabinet is organized.
 * Add a level 2 EDS exercise using specific stocked samples or standards, including bin number/location once available.
