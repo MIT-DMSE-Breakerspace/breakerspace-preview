@@ -85,16 +85,20 @@
 .reservation-primary a {
   display: inline-block;
   padding: 0.7rem 0.9rem;
-  border: 2px solid #ae0721;
+  border: 2px solid #007aa8;
   border-radius: 4px;
-  background: #ae0721;
-  color: #fff;
+  background: #009de6;
+  color: #17242a;
   font-weight: 700;
 }
 
 .reservation-primary a:hover {
   background: #fff;
-  color: #ae0721;
+  color: #007aa8;
+}
+
+.reservation-primary a:focus-visible {
+  outline-color: #17242a;
 }
 
 .reservation-list {
