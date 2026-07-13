@@ -14,12 +14,13 @@ Instrument pages contain additional rules for specific equipment and samples. Fo
 
 For fire, smoke, a serious injury, or a major spill or release:
 
-1. Stop work and move away from the hazard. Evacuate by the nearest safe exit if the area is unsafe, and do not use elevators.
-2. Call **MIT Police, Fire, and Ambulance at 617-253-1212**, or dial **100** from an MIT campus phone.
-3. Say that you are in the **DMSE Breakerspace, Building 8, Room 8-102A**, and describe what happened.
-4. Notify Breakerspace staff after emergency help is on the way and it is safe to do so.
+1. Stop work and move away from the hazard. The Breakerspace has one exit route: leave the lab through the lab door into the lounge, then leave the lounge through its door into the Building 8 corridor. Keep this route clear, continue to the nearest safe building exit, and do not use elevators.
+2. If there is fire or smoke, activate the nearest fire alarm pull as you leave if you can do so safely. Do not delay evacuation to locate an alarm pull or use a fire extinguisher.
+3. From an MIT campus phone, dial **100**. From a mobile or other phone, call **MIT Police, Fire, and Ambulance at 617-253-1212**. On campus, use these numbers rather than 911 so that the call reaches MIT emergency services directly.
+4. Say that you are in the **DMSE Breakerspace, Building 8, Room 8-102A**, and describe what happened.
+5. Notify Breakerspace staff after emergency help is on the way and it is safe to do so.
 
-Do not use Slack or email for an urgent emergency. See [MIT Emergency Management's current emergency contacts](https://prepared.mit.edu/response/emergency-contacts/).
+Do not use Slack or email for an urgent emergency. See [MIT Emergency Management's current emergency contacts](https://prepared.mit.edu/response/emergency-contacts/) for Institute-wide guidance.
 
 Emergency and first-aid supplies are in the labeled cabinet above the sink. The emergency shower and eyewash are immediately to the left of the sink, and the spill kit is in the same sink area. Keep access to this equipment clear.
 
@@ -125,6 +126,15 @@ If an instrument behaves unexpectedly, a sample spills, something breaks, or an 
 5. Report what happened, including the instrument, sample, settings, warning messages, and any actions already taken.
 
 Report injuries, equipment damage, spills, and near misses even when the immediate problem appears resolved. Prompt reporting is for fixing the condition and preventing a recurrence, not for punishing someone who asked for help.
+
+### Reporting An Injury Or Illness
+
+After immediate needs are addressed, notify Breakerspace staff promptly and complete the appropriate MIT report:
+
+* **Unpaid students and visitors:** complete the [MIT Non-Employee Incident Report](https://mit.quickbase.com/db/brgzyfjcz?a=nwr) as soon as possible. This is the usual path for undergraduate students using the lab as part of a class or independent academic work.
+* **MIT employees and paid students:** report the injury or illness to your supervisor immediately. The supervisor should submit the EHS Supervisor's Report of Occupational Injury/Illness in Atlas within 24 hours.
+
+See [MIT EHS occupational injury and illness reporting](https://ehs.mit.edu/workplace-safety-program/occupational-injury-or-illness-reporting/) for the current Institute process. Breakerspace staff can help determine which report applies, but reporting should not delay emergency care.
 
 ## Related Pages
 

@@ -4,6 +4,8 @@ This directory contains staff-facing guides for delivering consistent instrument
 
 The repository may still be publicly readable. Do not store credentials, physical-security details, private student information, access codes, or other sensitive information here.
 
+Cross-site launch and maintenance work is tracked in [`../_staff/site-todo.md`](../_staff/site-todo.md). Keep this directory focused on training delivery and trainer resources.
+
 ## Files In This Directory
 
 * `instrument-training-template.md` is the starting point for each instrument-specific staff guide.

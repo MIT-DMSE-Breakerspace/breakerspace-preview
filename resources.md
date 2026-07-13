@@ -64,9 +64,3 @@ When reaching out, briefly describe the sample, what you are trying to learn, th
 * [Sample library]({{ "/sample-library.html" | relative_url }}) for shared training and reference samples as that collection develops.
 
 The sample library is a work in progress. It is intended to support future training exercises and reference examples, but users should not rely on it as a complete or required collection yet. Return reusable sample-library materials to the cabinet, and contact [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) if a consumable sample is running low.
-
-## Student Staff To-Do List
-
-* Confirm whether the lounge access request link should match the current link on the Lounge page.
-* Add a short screenshot or example showing the recommended `Breakerspace Files` folder structure.
-* Review this page after each major instrument page is updated and remove any resource-page content that belongs on the instrument page instead.
