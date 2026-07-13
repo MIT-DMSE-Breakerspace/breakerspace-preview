@@ -4,6 +4,8 @@
   url: /instruments/
 - label: Reservations
   url: /reservations.html
+- label: Teaching
+  url: /teaching.html
 - label: Resources
   url: /resources.html
 - label: Lounge

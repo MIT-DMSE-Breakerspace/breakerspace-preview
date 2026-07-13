@@ -69,9 +69,18 @@ The Aeris has a Cu Kα X-ray source (λ = 1.5406 Å) with a penetration depth on
 * Samples must be non-hazardous and safe to handle in the Breakerspace.
 * Powders, solid plates, pressed pellets, metal coupons, membranes, and odd-shaped solids can all be measured with the appropriate holder.
 * For powders, grind to a fine, uniform powder (aim for grain size on the order of a few micrometers, roughly 5-10 µm) so that enough grains in many orientations contribute to the diffraction signal.
+* When grinding, avoid creating airborne dust: grind gently, do not inhale fine powder, and contain and clean up any spilled powder afterward. Wear safety glasses, and use gloves when a sample calls for it. If a powder is especially fine, floaty, irritating, or you are unsure how to handle it safely, ask staff before grinding.
 * Grinding finely and using a back-loading holder both help reduce preferred orientation, which otherwise distorts relative peak intensities.
-* Load samples so the surface is flat, level, and centered in the holder. An uneven or recessed surface shifts peak positions.
+* Load samples so the surface is flat, level, and centered in the holder. Sample height is the single most common source of bad beginner data: a surface sitting too high or too low shifts every peak to a slightly wrong 2θ angle, which can prevent a correct database match even when the sample is fine. Fill the holder so the sample surface is flush with the reference surface, not mounded up or sunk below it.
 * Label each holder physically and give each measurement a descriptive name (a convention such as `Lastname_sampleID_YYYYMMDD` keeps exported files organized).
+
+Some samples can damage the instrument or simply will not give a useful result, and should be checked with staff first:
+
+* Loose or poorly secured powder can spill inside the enclosure. Make sure powder is packed and contained in the holder before loading.
+* Strongly magnetic powders can be pulled toward the optics and should not be run without staff guidance.
+* Liquids, gels, greasy samples, and anything that could run, outgas, or contaminate the stage are not appropriate for the standard holders.
+* Single crystals and large solid chunks do not produce a normal powder pattern. XRD phase identification here is set up for powders and flat polycrystalline samples.
+* Very small amounts of material may not cover the holder well enough for a good pattern; ask staff about low-quantity holder options.
 
 Panalytical provides an excellent sample preparation guide, available in paper form in the lab and here in [PDF form](https://www.dropbox.com/scl/fi/17o43bqhe52u49kkecvrf/xrd-sample-holders-preparation.pdf?rlkey=vxi65kwyeqrcr62jbcxa5rqvq&dl=0). Refer to it for instructions on the different holder types and their associated sample-prep techniques. Page 1.4 lists all available holder types. Of those, we have:
 
@@ -119,7 +128,7 @@ The stored programs on the instrument cover most basic phase-identification need
 <a name="export"></a>
 #### Exporting Data
 
-Data can be saved to a USB drive or exported to a shared network drive on the XRD workstation to the right of the instrument. The workstation can be accessed using a common login: the username is `xrd` and the password is `xrd-password`. Data can be found in the folder `C:\XRD\XRD data`.
+Data can be saved to a USB drive or exported to a shared network drive on the XRD workstation to the right of the instrument. The workstation can be accessed using a common login: the username is `xrd` and the password is `xrd-password`. Data can be found in the folder `"C:\XRD\XRD data"` (the path contains a space, so `XRD data` is a single folder name).
 
 Export both the raw scan and any processed plots so you can reprocess later. Save a copy to your own storage as well, since the shared workstation is not a backup.
 
@@ -195,6 +204,8 @@ A confident result usually rests on a consistent set of matched peaks, not a sin
 #### Interpreting Results
 
 A good phase-identification result is a labeled pattern where each major peak is accounted for by an identified phase. When you write up or export results, include the major peak positions, the matched phases, and a short note on the instrument settings (radiation, 2θ range, step size, count time). Note any peaks you could not assign, and treat them as possible contamination, minor phases, or holder/substrate peaks rather than forcing a match.
+
+Not getting sharp peaks or a clean database match does not mean you did something wrong. XRD only sees crystalline order, so an amorphous material (many plastics, glasses, gels, and truly disordered solids) legitimately produces broad humps instead of sharp peaks, and no phase match. A poorly ordered, mixed, or novel material may also fail to match a database entry even though the data are real. If you expected crystalline peaks and got none, first rule out sample-height and grain-size problems (see [compatible materials and sample prep](#materials)); if the data still look amorphous, that is a valid result worth reporting.
 
 Advanced analysis such as quantitative phase fractions, crystallite size from peak broadening (the Scherrer approximation), and full Rietveld refinement is possible but beyond routine use. Rietveld work fits a calculated pattern to your data and is judged by a difference curve and goodness-of-fit metrics such as R<sub>wp</sub> and χ²; open tools such as GSAS-II or FullProf can do it as well as HighScore Plus. If your project needs quantitative results, discuss it with staff.
 

@@ -11,6 +11,7 @@ The DMSE Breakerspace is a materials exploration lab and lounge open to MIT unde
 * New lab users: [register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0).
 * Returning trained users: [reserve instrument time]({{ "/reservations.html" | relative_url }}).
 * Choosing an instrument: [browse instrument pages]({{ "/instruments/" | relative_url }}).
+* Instructors: [explore teaching and course collaboration options]({{ "/teaching.html" | relative_url }}).
 * Lounge access: [request lounge access](https://docs.google.com/forms/d/e/1FAIpQLSdcX0J_sUQmiO0j15IHSrni4rX7LMLaILCjoXQOn4QriWAoHA/viewform?usp=sf_link).
 * Questions: [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
 
