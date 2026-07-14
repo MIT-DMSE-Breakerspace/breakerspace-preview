@@ -84,10 +84,11 @@ The remaining work is verification, external-system alignment, instrument migrat
 * [ ] Add a short screenshot or rendered example showing the recommended folder structure within `Breakerspace Files`, beyond the existing drive-identification screenshot.
 * [ ] Review the Resources page after each major instrument page is updated and remove material that belongs on the instrument page instead.
 
-## Team And Current Notices
+## About And Current Notices
 
-* [ ] Expand the Team page with operational roles, areas of expertise, what student staff can help with, and current student-staff information.
-* [ ] Decide who owns updates to staff names, roles, and photographs and how often the page is reviewed.
+* [x] Replace the thin Team page with an About page covering the lab's purpose, development, team model, and contact pathways.
+* [ ] Add current student-staff names, roles, or areas of support when a roster is ready to publish.
+* [ ] Decide who owns updates to staff names, roles, and photographs and how often the About page is reviewed.
 * [ ] Decide whether outages, temporary access changes, or schedule interruptions need a small maintainable current-notices mechanism.
 * [ ] If notices are added, define an owner, expiration behavior, and an empty state so old alerts cannot remain visible indefinitely.
 

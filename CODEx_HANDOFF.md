@@ -32,7 +32,7 @@ The current top-level navigation is defined in `_data/navigation.yml`:
 6. Safety & Lab Use
 7. Use the Lounge
 8. Teach With Us
-9. Meet the Team
+9. About
 
 The homepage should remain concise. It routes users by intent and provides the lab location, arrival route, hours, and access distinction. Detailed policies and workflows belong on their task-specific pages.
 
@@ -49,7 +49,7 @@ The homepage should remain concise. It routes users by intent and provides the l
 | Help and support | Implemented at `resources.md`, covering instrument problems, access, workstation permissions, files, Dropbox, Slack, project support, and contact paths. |
 | Teaching | Implemented at `teaching.md`, with collaboration models, staffing guidance, planning timelines, student preparation, and established course examples. |
 | Lounge | Implemented at `lounge.md` for the current lounge, coffee equipment, access, food and drink boundary, teaching, and community use. Future accuracy depends on the unresolved space decision. |
-| Team | Present but intentionally thin. It still needs staff roles, areas of support, and current student-staff information. |
+| About | Implemented at `about.md`, with the lab's educational purpose, a brief account of its development through undergraduate teaching and student use, the team model, and contact pathways. The current student-staff roster can be added when it is ready for ongoing maintenance. |
 | Sample library | A placeholder page exists, but it is not yet a usable inventory or training resource. This is a planned content system. |
 | Project/example gallery | Not yet implemented. Course and event pages contain examples, but there is no browsable project and result collection. |
 
@@ -102,7 +102,7 @@ Current priorities, in order of operational importance:
 5. Design and populate the sample library, including cabinet locations, expected results, training use, data files, consumables, and replenishment.
 6. Build instrument-specific staff training guides around stable Level 1 exercises and sample-library items.
 7. Design an example/project gallery organized around questions, samples, instruments, results, and what students learned.
-8. Expand the Team page with operational roles and current student-staff information.
+8. Add and maintain current student-staff information on the About page when a roster and update owner are established.
 9. Decide whether the site needs a maintainable current-notices mechanism for outages and temporary changes.
 10. Resolve the future lounge configuration and update every affected page together.
 11. Complete external-workflow accessibility testing and final launch review.
