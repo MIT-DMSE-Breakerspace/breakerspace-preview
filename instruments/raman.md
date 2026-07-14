@@ -134,7 +134,7 @@ The system includes three lasers: 532 nm, 638 nm, and 785 nm. Shorter wavelength
 
 A practical approach is to start with the 638 nm laser. Move to 532 nm if you need a stronger signal or better signal-to-noise. If you see fluorescence, switch to 785 nm. If the sample still fluoresces at 785 nm, it may not be a good candidate for Raman spectroscopy.
 
-#### Choosing A Grating
+#### Choosing A Grating {#choosing-a-grating}
 
 Scattered light must be spread out by a diffraction grating before the detector can measure its intensity at each wavelength. The system has four gratings: 600, 1200, 1800, and 2400 grooves/mm.
 
@@ -142,13 +142,48 @@ A coarser grating (600 gr/mm) spreads the light less, so more signal lands on th
 
 Finer gratings also produce a [wider dispersion](https://www.dropbox.com/scl/fi/0kcumhfxxhycy8b47l32d/Raman-Spectral-Resolution-Tech-Note.pdf?rlkey=321k53nqc9jn6cdqkqhpb0rzd&st=dr66nh85&dl=0) than the CCD detector chip is wide. The instrument handles this by moving the grating to aim different segments of the spectrum onto the detector in turn. With an 1800 or 2400 gr/mm grating you may need five or more grating positions to capture a full spectrum, whereas the 600 gr/mm grating usually captures it in a single position.
 
-#### A Typical Workflow
+#### Standard Workflow
 
-1. Load and focus the sample.
-2. Select the 638 nm laser and 600 gr/mm grating.
-3. Use the real-time display (RTD) to look for a signal, and confirm the spectrometer is covering the wavenumber range where you expect key peaks. With this combination the CCD should capture the full width in one position.
-4. Refine the focus by rotating the joystick to control fine focus, maximizing the signal strength.
-5. Once you can see key peaks and the setup is working, choose laser and grating combinations that suit your specific goal and collect your spectra.
+This is the recommended sequence for a normal session: calibrate the instrument against a silicon standard, then load and measure your own sample. The pattern of "get a camera image, verify the laser, look at a live spectrum, optimize focus for signal" repeats for both the calibration sample and your real sample.
+
+A key habit throughout: **use "stop" (or "stop all") to end the current live view before starting the next step.** The camera view and the real-time spectrum use the light path differently, so stop one before starting the other.
+
+##### Part 1: Calibrate With The Silicon Standard
+
+Calibrating against a silicon sample first confirms the instrument is aligned and reading the correct Raman shift before you trust any data from your own sample. Silicon has a strong, well-known peak (near 520 cm<sup>-1</sup>), which makes it the standard reference.
+
+1. **Load the silicon calibration sample** on the stage.
+2. **Focus with the top camera** using the 10x or 100x objective. The top camera gives better resolution for getting a sharp optical focus on the surface.
+3. **Switch to the internal camera and verify the laser comes on.** You should see the laser spot. If no laser is visible, check that the enclosure door is closed, the door interlock is engaged, and the interlock key is in the correct position, then check again. The laser will not fire unless the interlocks are satisfied.
+4. **Stop the camera** view.
+5. **Start the real-time display (RTD)** to show a quick, continuously refreshing spectrum.
+6. **Refine focus for Raman collection using the joystick knob.** Make small focus adjustments and watch whether the signal goes up or down; focus to maximize the signal. Optical focus (best camera image) and the focus that maximizes Raman signal are not always identical, which is why you optimize against the live spectrum.
+7. **Stop the RTD.**
+8. **Run the autocalibrate routine.**
+9. **Verify the calibration passes** before continuing. If it does not pass, ask staff rather than proceeding.
+
+##### Part 2: Load And Measure Your Sample
+
+With calibration confirmed, measure your own sample using the same get-image / verify-laser / live-spectrum / optimize-focus pattern. **Use "stop all" between each step** to end the current live view before starting the next.
+
+1. **Lower the stage** and remove the silicon sample.
+2. **Load your sample** (see [sample prep](#materials)).
+3. **Focus with the top camera** using an appropriate objective.
+4. **Switch to the internal camera and verify the laser** appears on the sample (re-check the interlocks if it does not).
+5. **Use the RTD** to see a live spectrum, and confirm the spectrometer is covering the wavenumber range where you expect key peaks.
+6. **Optimize the focus for signal** with the joystick knob, making small adjustments to maximize the Raman signal, then stop the RTD.
+7. **Set up and run your sample collection.** Configure the collection settings for your goal and start the measurement.
+
+##### Collection Settings
+
+The collection settings control the quality and length of your measurement. The most important ones to understand:
+
+* **Acquisition (exposure) time:** how long the detector collects light for each spectrum. Longer times give a stronger signal and better signal-to-noise, but take longer and can risk burning a sensitive sample.
+* **Accumulations:** how many spectra are averaged together. More accumulations improve signal-to-noise and help the software reject cosmic-ray spikes, at the cost of time.
+* **Number of samples / spectra:** how many separate measurements you collect. Because a Raman spectrum comes from a tiny spot, measuring several spots is often worthwhile for a non-uniform sample.
+* **Spectral range and grating position:** confirm the range covers your expected peaks; with a finer grating the instrument may step through several positions to capture the full range (see [choosing a grating](#choosing-a-grating)).
+
+Start conservative on exposure and power for an unfamiliar or delicate sample, check the result, then increase if you need more signal. If you are unsure what settings suit your sample, ask staff.
 
 ### Data Processing And Analysis {#data}
 
@@ -196,7 +231,9 @@ Manufacturer manuals for the XploRA and LabSpec 6 will be linked here. In the me
 ### Tutorial To-Do List {#todo}
 
 * Add a startup image showing the laser emission remote-control power and the powered-on indicator.
+* Illustrate the standard workflow with screenshots and photos: top-camera focus (10x/100x), internal-camera laser view (and the interlock door/key locations to check when no laser appears), the RTD live spectrum, joystick focus optimization, the autocalibrate routine and a passing calibration result, and the collection-settings screen.
 * Add photos or annotated stills of sample loading, focusing with the joystick, and the slide holder on the stage.
+* Confirm the standard-workflow specifics with staff and correct the page as needed: the silicon reference peak position, exact LabSpec 6 button/menu labels ("stop"/"stop all", RTD, autocalibrate), the collection-settings field names, and recommended default acquisition time/accumulations for a first measurement.
 * Add an annotated example spectrum showing labeled peaks and a fluorescence-dominated spectrum for comparison.
 * Link the manufacturer XploRA and LabSpec 6 manuals once the current files are gathered.
 * Expand the data-processing section with a LabSpec 6 baseline-correction and peak-search walkthrough, ideally with screenshots.
