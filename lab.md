@@ -46,7 +46,7 @@ ___
 
 Use the XRD (X-ray diffractometer) to analyze properties such as phase composition, crystal structure, and orientation of solid samples. 
 
-[Panalytical Aeris Research XRD Tutorial/SOP](./tutorials/xrd.html)   
+[Panalytical Aeris Research XRD operating page](./instruments/xrd.html)  
 
 ___
 
