@@ -26,6 +26,8 @@ This page is the operating page for the Raman microscope. It combines the quick 
 | New user learning the full workflow | [Detailed operating instructions](#details) |
 | Learning what Raman is used for | [What this instrument shows you](#science) |
 | Choosing a laser and grating | [Laser and grating selection](#laser-grating) |
+| Mapping across an area | [Mapping and area scanning](#mapping) |
+| Measuring depth in a clear sample | [Confocal z-depth profiling](#z-profiling) |
 | Analyzing your data | [Data processing and analysis](#data) |
 | Need practice tasks | [Exercises](#exercises) |
 
@@ -35,7 +37,9 @@ This page is the operating page for the Raman microscope. It combines the quick 
 
 Raman spectroscopy identifies materials by how their molecules vibrate. When you shine a laser on a sample, almost all the light bounces off unchanged, but a tiny fraction exchanges a little energy with the molecule's vibrating bonds and comes back at slightly shifted wavelengths. Measuring those small shifts produces a spectrum with peaks at characteristic positions, a molecular "fingerprint" that often identifies a compound outright.
 
-Because the XploRA is a *microscope*, you aim that laser through an objective lens at a specific spot, often just a few micrometers across. You can see the sample on screen, pick the exact feature you care about, and collect a spectrum from that point. Being *confocal* also means it can reject light from above and below the focal plane, so it can probe different depths within a transparent or layered sample.
+Because the XploRA is a *microscope*, you aim that laser through an objective lens at a specific spot, often just a few micrometers across. You can see the sample on screen, pick the exact feature you care about, and collect a spectrum from that point.
+
+It is also a *confocal* Raman microscope, but with an important detail: the confocality applies only to the Raman signal path, not to the optical camera image. A confocal hole in the Raman path rejects light from above and below the focal plane, which lets the instrument probe specific depths within a transparent or layered sample. The optical microscope image itself is not confocal, so what you see on the camera is a normal (widefield) view.
 
 Raman is often described as complementary to FTIR. Both probe molecular vibrations, but they respond to different kinds of bonds, so a feature that is weak in one is frequently strong in the other. A material that is difficult in the FTIR may be straightforward in the Raman, and vice versa.
 
@@ -146,21 +150,25 @@ Finer gratings also produce a [wider dispersion](https://www.dropbox.com/scl/fi/
 
 This is the recommended sequence for a normal session: calibrate the instrument against a silicon standard, then load and measure your own sample. The pattern of "get a camera image, verify the laser, look at a live spectrum, optimize focus for signal" repeats for both the calibration sample and your real sample.
 
-A key habit throughout: **use "stop" (or "stop all") to end the current live view before starting the next step.** The camera view and the real-time spectrum use the light path differently, so stop one before starting the other.
+A key habit throughout: **use the "stop all" control to end the current live view before starting the next step.** The camera video and the real-time spectrum use the light path differently, so stop one before starting the other.
+
+**A note on objectives.** The system has 5x, 10x, and 100x objectives. Use the **5x for wayfinding only** — it is handy for locating a feature on the sample, but it is not high enough magnification to collect a Raman signal. Collect spectra with the **10x or 100x** objective. Whichever objective you use, select the matching objective in the software (Acquisition > Instrument Setup), because the software needs to know which one is in place.
 
 ##### Part 1: Calibrate With The Silicon Standard
 
-Calibrating against a silicon sample first confirms the instrument is aligned and reading the correct Raman shift before you trust any data from your own sample. Silicon has a strong, well-known peak (near 520 cm<sup>-1</sup>), which makes it the standard reference.
+Calibrating against a silicon sample first confirms the instrument is reading the correct Raman shift before you trust any data from your own sample. Silicon has a strong, well-known peak (near 520 cm<sup>-1</sup>), which makes it the standard reference.
 
 1. **Load the silicon calibration sample** on the stage.
-2. **Focus with the top camera** using the 10x or 100x objective. The top camera gives better resolution for getting a sharp optical focus on the surface.
+2. **Focus with the top camera** using the 10x or 100x objective. The top camera gives better resolution for a sharp optical focus on the surface. (You can use the 5x to find your way to a feature first, but switch to 10x or 100x to collect.)
 3. **Switch to the internal camera and verify the laser comes on.** You should see the laser spot. If no laser is visible, check that the enclosure door is closed, the door interlock is engaged, and the interlock key is in the correct position, then check again. The laser will not fire unless the interlocks are satisfied.
 4. **Stop the camera** view.
-5. **Start the real-time display (RTD)** to show a quick, continuously refreshing spectrum.
-6. **Refine focus for Raman collection using the joystick knob.** Make small focus adjustments and watch whether the signal goes up or down; focus to maximize the signal. Optical focus (best camera image) and the focus that maximizes Raman signal are not always identical, which is why you optimize against the live spectrum.
+5. **Start the real-time display (RTD)** to show a quick, continuously refreshing spectrum. Use a short RTD acquisition time (around 1 second) so the display updates quickly, and set the spectro (the center of the spectral window) where you expect the silicon peak.
+6. **Refine focus for Raman collection using the joystick knob.** Make small focus adjustments and watch whether the signal goes up or down; focus to maximize the signal. The best optical focus and the focus that maximizes Raman signal are not always identical, which is why you optimize against the live spectrum.
 7. **Stop the RTD.**
-8. **Run the autocalibrate routine.**
+8. **Run the AutoCalibration routine** (in the Maintenance tab).
 9. **Verify the calibration passes** before continuing. If it does not pass, ask staff rather than proceeding.
+
+<p class="guidance-note"><em>Note: system AutoAlignment is handled by Breakerspace staff and is done for each laser before it is used. If your calibration will not pass, or a laser seems misaligned, ask staff rather than adjusting alignment yourself.</em></p>
 
 ##### Part 2: Load And Measure Your Sample
 
@@ -168,22 +176,55 @@ With calibration confirmed, measure your own sample using the same get-image / v
 
 1. **Lower the stage** and remove the silicon sample.
 2. **Load your sample** (see [sample prep](#materials)).
-3. **Focus with the top camera** using an appropriate objective.
+3. **Focus with the top camera.** Use the 5x to locate your feature if helpful, then switch to the 10x or 100x to collect. Select the matching objective in the software.
 4. **Switch to the internal camera and verify the laser** appears on the sample (re-check the interlocks if it does not).
-5. **Use the RTD** to see a live spectrum, and confirm the spectrometer is covering the wavenumber range where you expect key peaks.
+5. **Use the RTD** to see a live spectrum, and confirm the spectro position covers the wavenumber range where you expect key peaks.
 6. **Optimize the focus for signal** with the joystick knob, making small adjustments to maximize the Raman signal, then stop the RTD.
-7. **Set up and run your sample collection.** Configure the collection settings for your goal and start the measurement.
+7. **Set up and run your sample collection.** Configure the collection parameters below for your goal and start the measurement.
 
-##### Collection Settings
+##### Collection Parameters
 
-The collection settings control the quality and length of your measurement. The most important ones to understand:
+RTD is only for checking and optimizing the setup; it does not average spectra. When you are ready to record real data, use the full spectrum acquisition, which averages multiple accumulations over your chosen range. The parameters that matter most:
 
-* **Acquisition (exposure) time:** how long the detector collects light for each spectrum. Longer times give a stronger signal and better signal-to-noise, but take longer and can risk burning a sensitive sample.
-* **Accumulations:** how many spectra are averaged together. More accumulations improve signal-to-noise and help the software reject cosmic-ray spikes, at the cost of time.
-* **Number of samples / spectra:** how many separate measurements you collect. Because a Raman spectrum comes from a tiny spot, measuring several spots is often worthwhile for a non-uniform sample.
-* **Spectral range and grating position:** confirm the range covers your expected peaks; with a finer grating the instrument may step through several positions to capture the full range (see [choosing a grating](#choosing-a-grating)).
+* **Spectro / spectral range:** the spectro value sets the center of a single detector window; hovering over the box shows the window's width. For a wider spectrum than one window covers, enable the extended **Range** option and enter start and stop values, and the instrument will step the grating through as many positions as needed to cover it.
+* **Acquisition (exposure) time:** how long the detector collects for each spectrum. Longer times give more signal and better signal-to-noise, but take longer. Two practical checks: the signal-to-noise should be good enough to see your peaks clearly, and the maximum intensity should stay below about 65,000 counts (above that the detector saturates).
+* **Accumulations:** how many spectra are averaged together. More accumulations improve signal-to-noise and let the software reject cosmic-ray spikes, at the cost of time.
+* **Number of spectra / positions:** because a Raman spectrum comes from a tiny spot, measuring several spots is often worthwhile for a non-uniform sample.
+* **Confocal hole and slit:** these set the confocal behavior and spectral resolution (see [confocal z-depth profiling](#z-profiling) below).
+* **ND filter (laser power):** reduces the laser power reaching the sample. Lower the power for delicate, dark, or temperature-sensitive samples; watch the live spectrum to confirm the sample is not being burned (a spectrum that keeps changing during exposure is a warning sign).
 
-Start conservative on exposure and power for an unfamiliar or delicate sample, check the result, then increase if you need more signal. If you are unsure what settings suit your sample, ask staff.
+Start conservative on exposure time and laser power for an unfamiliar or delicate sample, check the result, then increase if you need more signal. If you are unsure what settings suit your sample, ask staff.
+
+#### Mapping And Area Scanning {#mapping}
+
+Instead of a single spectrum from one spot, the XploRA can collect a grid of spectra across an area and build a map showing how the material varies from place to place. This is how you turn Raman into a chemical image: for example, showing where each active ingredient sits across a combination tablet, or where a contaminant is distributed on a surface.
+
+To set up a map:
+
+1. Acquire a video image of the region you want to map so you can see the area. (For an area larger than one field of view, the video Montage function can stitch several frames together.)
+2. In the **Map** section of the Acquisition tab, choose the variables to scan: X and Y for a surface area, Z for depth (see below), or combinations.
+3. Set the **step size** between points. Smaller steps give finer detail but many more points.
+4. Choose the map area and shape with the map tools (rectangle, circle, line, or a set of chosen points).
+5. Set acquisition parameters as for a single spectrum, but keep in mind that a map collects one spectrum per point and can involve hundreds or thousands of points. Favor a single spectral window and shorter per-point acquisition times to keep the total time reasonable.
+
+Because a map can run for a long time, estimate the total time (points times per-point time) before you start. If the sample surface is rough, ask staff about using AutoFocus during the map so each point stays in focus.
+
+#### Confocal Z-Depth Profiling {#z-profiling}
+
+Confocal Z-profiling uses the confocal hole to collect spectra at different depths *within* a transparent or translucent sample, rather than only at the surface. It is what lets Raman act like a non-destructive optical "core sample."
+
+**How it works.** A confocal hole (pinhole) sits in the Raman signal path at a plane matched to the focal point. Closing the hole down blocks Raman light coming from above and below the focal plane, so the spectrometer sees mostly the light from the thin layer you are focused on. By stepping the focus deeper (a Z scan) and collecting a spectrum at each depth, you build a depth profile. Remember that this confocality applies to the Raman signal only, not to the optical camera image.
+
+**Why do it.** It is ideal for samples that change with depth: multilayer polymer films, coatings, inclusions inside a transparent matrix, or a material measured through a transparent cover. A confocal depth profile can show where one layer ends and the next begins without physically sectioning the sample.
+
+**How to set it up.**
+
+* Choose a smaller confocal hole for better depth (Z) resolution. A larger hole collects more signal but from a thicker slice, which blurs the depth information; a smaller hole isolates a thinner slice at the cost of signal.
+* Set up a **Z** map (or an XYZ map) in the Map section, with a Z step size suited to the layer thickness you expect.
+* Expect the signal to fall off as you focus deeper, because the light passes through more material and the focal volume distorts. This is normal; the objective choice affects how severe it is.
+* Depth measurements are more advanced than surface spectra; if your project depends on accurate depth resolution, plan the objective, hole size, and step size with staff.
+
+<p class="guidance-note"><em>Recommended confocal hole and slit values for routine work and for depth profiling should be confirmed with staff; they depend on the objective and the sample.</em></p>
 
 ### Data Processing And Analysis {#data}
 
@@ -230,12 +271,34 @@ Manufacturer manuals for the XploRA and LabSpec 6 will be linked here. In the me
 
 ### Tutorial To-Do List {#todo}
 
-* Add a startup image showing the laser emission remote-control power and the powered-on indicator.
-* Illustrate the standard workflow with screenshots and photos: top-camera focus (10x/100x), internal-camera laser view (and the interlock door/key locations to check when no laser appears), the RTD live spectrum, joystick focus optimization, the autocalibrate routine and a passing calibration result, and the collection-settings screen.
-* Add photos or annotated stills of sample loading, focusing with the joystick, and the slide holder on the stage.
-* Confirm the standard-workflow specifics with staff and correct the page as needed: the silicon reference peak position, exact LabSpec 6 button/menu labels ("stop"/"stop all", RTD, autocalibrate), the collection-settings field names, and recommended default acquisition time/accumulations for a first measurement.
-* Add an annotated example spectrum showing labeled peaks and a fluorescence-dominated spectrum for comparison.
-* Link the manufacturer XploRA and LabSpec 6 manuals once the current files are gathered.
-* Expand the data-processing section with a LabSpec 6 baseline-correction and peak-search walkthrough, ideally with screenshots.
-* Confirm approved standard/training samples (polystyrene, combination tablet) for the exercises once the sample library is ready.
+This page was substantially expanded from a thin original and still needs verification and images. Items are grouped by type.
+
+**Verify with staff (technical accuracy):**
+
+* Confirm the exact LabSpec 6 control names used on the page match the interface: "stop all," RTD, AutoCalibration (Maintenance tab), the Acquisition-tab parameter labels (spectro, Range, acquisition time, accumulations, ND filter, slit, hole), and the Map section.
+* Confirm the silicon reference peak position (page states ~520 cm<sup>-1</sup>) and the recommended starting acquisition time, accumulations, and ND filter/power for a first measurement.
+* Confirm the confocal hole and slit values to recommend for routine surface work and for z-depth profiling, and add them where the page currently flags them as staff-confirm.
+* Confirm the startup/interlock description (door interlock, interlock key, internal-camera laser check) matches the actual hardware and the intended laser-safety procedure.
+* Confirm that AutoAlignment is staff-only and that the staff-only note reflects lab policy.
+
+**Screenshots and photos (standard workflow):**
+
+* Startup: the laser emission remote-control power and the powered-on indicator.
+* Objectives: the 5x (wayfinding), 10x, and 100x, and where the objective is selected in the software.
+* Focusing: top-camera view, the joystick focus control, and the slide/sample on the stage.
+* Laser verification: the internal-camera view showing the laser spot, plus the interlock door/key locations to check when no laser appears.
+* Live setup: the RTD spectrum, and the AutoCalibration routine with a passing result.
+* Acquisition: the collection-parameters screen with the key fields labeled.
+* Mapping: a video image with a map area drawn, and an example chemical map (for example, a combination tablet).
+* Z-profiling: a diagram or example depth profile showing layers resolved at different confocal hole sizes.
+
+**Content and examples:**
+
+* Add an annotated example spectrum showing labeled peaks, and a fluorescence-dominated spectrum for comparison.
+* Expand Data Processing with a LabSpec 6 baseline-correction and peak-search walkthrough, ideally with screenshots.
+* Confirm approved standard/training samples (polystyrene, combination tablet, a layered film for z-profiling) for the exercises once the sample library is ready.
+
+**Manuals and links:**
+
+* Host and link the manufacturer XploRA and LabSpec 6 documentation. Source files are gathered in the Breakerspace Dropbox (LabSpec 6 General Use, AutoFocus, AutoAlignment, and AutoCalibration quick-start guides; the reference manual; and the confocality tech note), and just need to be placed and linked.
 * Consider adding real student-project or example-result links to the Links section.
