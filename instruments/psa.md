@@ -46,6 +46,8 @@ The result is a curve showing how much of the sample sits in each size range, ra
 * A ceramics or metal-powder user (for example, someone preparing feedstock for pressing or 3D printing) can confirm the powder is neither too fine nor too coarse for the process.
 * An environmental or geology researcher can characterize sediments, soils, dusts, or airborne particulate samples.
 * A manufacturing or quality role can compare batches to catch a process that has drifted toward coarser or finer output.
+* A curious student can measure everyday powders (flour, sugar, cocoa, spices, cosmetics, sand) and connect a number to something they can see and feel, then ask why the size turned out the way it did.
+* A coffee-loving student in [3.000 Coffee Matters](../3000.html) can measure how a grinder's setting changes the size distribution of the grounds, and connect that to extraction: finer grounds have more surface area and extract faster, which is a big part of why grind size changes how a cup tastes.
 
 #### What To Look For In The Results
 
