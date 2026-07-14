@@ -134,10 +134,32 @@ Most parts attach the same way: align the internal holes, insert a clevis pin, a
 
 #### Setup Diagrams
 
-* Tensile testing with mini wedge grips, max load 1 kN: [diagram](../assets/img/tutorials/instron/FIXED_1kN_set_up.jpg)
-* Tensile testing with wedge grips, max load 50 kN: [diagram](../assets/img/tutorials/instron/ANNOTATED_instron_sop_50_kN_wrench_set_up.JPG), and the [anatomy of the 50 kN wedge grip](../assets/img/tutorials/instron/ANNOTATED_50_kN_wrench_grip.JPG)
-* Compression testing with the 50 kN head: [diagram](../assets/img/tutorials/instron/ANNOTATED_instron_sop_compression_set_up.JPG)
-* Flexure testing with the 5 kN head: [diagram](../assets/img/tutorials/instron/ANNOTATED_instron_sop_flexure_set_up.JPG)
+Each test type uses a different fixture arrangement. The annotated setups below are current reference photos; they are slated to be reshot and standardized (see the [to-do list](#todo)).
+
+<figure class="page-figure" style="max-width:32rem;">
+  <img src="../assets/img/tutorials/instron/FIXED_1kN_set_up.jpg" alt="Instron tensile setup using mini wedge grips for low-force testing, rated to a maximum load of 1 kN." width="3024" height="4032" loading="lazy">
+  <figcaption>Tensile testing with mini wedge grips (max load 1 kN).</figcaption>
+</figure>
+
+<figure class="page-figure" style="max-width:32rem;">
+  <img src="../assets/img/tutorials/instron/ANNOTATED_instron_sop_50_kN_wrench_set_up.JPG" alt="Instron tensile setup using the 50 kN wedge grips, with the spanner wrench used to tighten the grip rings." width="3024" height="4032" loading="lazy">
+  <figcaption>Tensile testing with wedge grips (max load 50 kN).</figcaption>
+</figure>
+
+<figure class="page-figure" style="max-width:32rem;">
+  <img src="../assets/img/tutorials/instron/ANNOTATED_50_kN_wrench_grip.JPG" alt="Annotated anatomy of the 50 kN wedge grip, labeling its main parts." width="3024" height="4032" loading="lazy">
+  <figcaption>Anatomy of the 50 kN wedge grip.</figcaption>
+</figure>
+
+<figure class="page-figure" style="max-width:32rem;">
+  <img src="../assets/img/tutorials/instron/ANNOTATED_instron_sop_compression_set_up.JPG" alt="Instron compression setup with platens mounted on the 50 kN head." width="3024" height="4032" loading="lazy">
+  <figcaption>Compression testing with the 50 kN head.</figcaption>
+</figure>
+
+<figure class="page-figure" style="max-width:32rem;">
+  <img src="../assets/img/tutorials/instron/ANNOTATED_instron_sop_flexure_set_up.JPG" alt="Instron flexure setup with the bending fixture mounted on the 5 kN head." width="3024" height="4032" loading="lazy">
+  <figcaption>Flexure testing with the 5 kN head.</figcaption>
+</figure>
 
 #### Video Extensometer
 
@@ -146,7 +168,12 @@ The video extensometer measures strain optically by tracking marks on the sample
 * Press the [on](../assets/img/tutorials/instron/ANNOTATED_video_extensometer.JPG) button; confirm the red light appears.
 * Draw dots on your sample a set distance apart using the [guide and paint markers](../assets/img/tutorials/instron/ANNOTATED_drawing_dots.JPG).
 * Load your sample.
-* Following [this diagram](../assets/img/tutorials/instron/ANNOTATED_extensometer_software.png), click 1, then 2. In field 3, click and hold over an area that includes your dots; they should be detected automatically. Click close and proceed with your test.
+* Following the software diagram below, click 1, then 2. In field 3, click and hold over an area that includes your dots; they should be detected automatically. Click close and proceed with your test.
+
+<figure class="page-figure" style="max-width:28rem;">
+  <img src="../assets/img/tutorials/instron/ANNOTATED_extensometer_software.png" alt="Annotated video extensometer software screen, numbered 1 and 2 for the buttons to click and 3 for the region to select around the marked dots." width="1078" height="1882" loading="lazy">
+  <figcaption>Video extensometer software: click 1, then 2, then select region 3 around your dots.</figcaption>
+</figure>
 
 ### Data Processing And Analysis {#data}
 
@@ -210,7 +237,7 @@ This is a supervised event demonstration, not a standard independent-user workfl
 
 ### Tutorial To-Do List {#todo}
 
-* Replace the annotated inline diagram links with properly embedded, captioned figures once the images are reviewed and standardized (this page needs a dedicated photography and screenshot pass).
+* The setup diagrams and extensometer software screen are now embedded as captioned figures; reshoot/standardize those images and swap them into the existing figure blocks (the layout is ready).
 * Reshoot or standardize the setup photos for tensile (1 kN and 50 kN), compression, and flexure so each test type has a clear, consistent figure.
 * Add clean Bluehill Universal screenshots for the method screen, test screen, and travel-limit prompt.
 * Add an annotated example force-displacement (or stress-strain) curve showing the stiff region, peak, and failure point.
