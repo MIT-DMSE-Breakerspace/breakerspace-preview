@@ -139,6 +139,11 @@ button:focus-visible,
   margin-bottom: 0;
 }
 
+main table a:hover,
+main table a:focus {
+  font-weight: inherit;
+}
+
 .animation-toggle {
   margin: 0 0 1.25rem;
   padding: 0.55rem 0.7rem;
