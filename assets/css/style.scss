@@ -144,6 +144,17 @@ main table a:focus {
   font-weight: inherit;
 }
 
+main table a {
+  border-radius: 2px;
+}
+
+main table a:hover,
+main table a:focus-visible {
+  background: #eaf7fc;
+  color: #005f7f;
+  text-decoration-thickness: 0.14em;
+}
+
 .animation-toggle {
   margin: 0 0 1.25rem;
   padding: 0.55rem 0.7rem;

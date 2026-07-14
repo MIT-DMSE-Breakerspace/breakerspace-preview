@@ -1,18 +1,18 @@
 - label: Start Here
   url: /
+- label: Reserve Time
+  url: /reservations.html
 - label: Find an Instrument
   url: /instruments/
 - label: Get Trained
   url: /training.html
-- label: Safety & Lab Use
-  url: /safety.html
-- label: Reserve Time
-  url: /reservations.html
-- label: Teach With Us
-  url: /teaching.html
 - label: Get Help
   url: /resources.html
+- label: Safety & Lab Use
+  url: /safety.html
 - label: Use the Lounge
   url: /lounge.html
+- label: Teach With Us
+  url: /teaching.html
 - label: Meet the Team
   url: /team.html
