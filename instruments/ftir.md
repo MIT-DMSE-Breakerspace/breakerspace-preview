@@ -315,4 +315,4 @@ When comparing spectra:
 * Add a teaching example contrasting a pure or simple sample with a complex mixture such as coffee, emphasizing when FTIR supports identification and when it mainly supports comparison.
 * Add a short database-search walkthrough using Wiley KnowItAll or another approved reference workflow.
 * Add a concise accessory-change note for iD1 transmission and EasiDiff diffuse reflectance, or mark those as staff-guided until a dedicated workflow is written.
-* Add a small set of approved training samples for repeatable FTIR exercises once the material library is ready.
+* Add a small set of approved training samples for repeatable FTIR exercises once the sample library is ready.

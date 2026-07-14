@@ -6,11 +6,23 @@ The repository may still be publicly readable. Do not store credentials, physica
 
 Cross-site launch and maintenance work is tracked in [`../_staff/site-todo.md`](../_staff/site-todo.md). Keep this directory focused on training delivery and trainer resources.
 
+## Current Status
+
+The public training pathway is implemented in [`../training.md`](../training.md), but no instrument-specific staff training guides have yet been completed in this directory. The guide template reflects the current operating model:
+
+* Standard sessions are 60 minutes with a maximum of three participants.
+* Participants may divide the Level 1 workflow, provided the trainer makes the full sequence visible and involves everyone meaningfully.
+* The trainer adds attendees directly to the appropriate MIT Moira group after the session.
+* The lab manager processes physical tap access separately after the one-time Qualtrics training record is complete.
+* There is currently no separate skills demonstration, training expiration, or recurring retraining requirement.
+
+The current Qualtrics survey remains coordinated with the active production website until the redesigned site launches. Its required changes are tracked in `qualtrics-launch-review.md`.
+
 ## Files In This Directory
 
 * `instrument-training-template.md` is the starting point for each instrument-specific staff guide.
 * `qualtrics-launch-review.md` tracks updates that should be coordinated with the launch of the redesigned website.
-* Future instrument guides should use the public instrument slug, such as `ftir.md`, `optical.md`, or `phenom-xl.md`.
+* New instrument guides should use the public instrument slug, such as `ftir.md`, `optical.md`, or `phenom-xl.md`.
 
 ## Training Guide Goals
 
@@ -43,3 +55,7 @@ When a training workflow changes, review every related surface:
 9. Qualtrics onboarding language when the change affects all new users.
 
 Changes should be written once in the most authoritative location and linked or summarized elsewhere. Avoid maintaining competing versions of the same operating steps.
+
+## Planned Guide Rollout
+
+Create a staff guide after the corresponding public instrument workflow and Level 1 exercise are stable enough to train consistently. Each guide should then be paired with a real sample-library item or prepared kit, an expected result, a cabinet location, and a replenishment plan. Track cross-instrument rollout in [`../_staff/site-todo.md`](../_staff/site-todo.md), not by adding placeholder guide files for every instrument at once.

@@ -108,3 +108,24 @@ The Instron can do tensile, compressive, and flexure testing. Each test needs di
 
 * Beginner: Set up a 50 kN tensile testing set up, load a sample, and run it. You should see the sample's force-displacement curve appear.
 * Advanced: Use the video extensometer to measure strain. 
+
+#### Staff-Guided Event Example: Pumpkin Compression
+
+For the Infinite Halloween trick-or-treating event, the Breakerspace has hosted a staff-planned pumpkin compression activity that turns an everyday object into a visible mechanical-testing example. Participants can compare load, displacement, cracking, and collapse across pumpkins with different shapes and carved features.
+
+This is a supervised event demonstration, not a standard independent-user workflow. Pumpkins, produce, and other wet or biological samples require explicit staff approval, containment, and a cleanup plan. Do not bring or test one without advance coordination; see [Samples And Materials](../safety.html#samples-and-materials).
+
+<div class="media-trio">
+  <figure class="page-figure">
+    <img src="../assets/img/instron-pumpkin-compression-setup.jpg" alt="A participant watches the Instron compression setup with a carved pumpkin between circular platens and protective sheeting around the test area." width="2400" height="1800" loading="lazy">
+    <figcaption>The event uses a planned compression setup with containment and staff supervision.</figcaption>
+  </figure>
+  <figure class="page-figure">
+    <img src="../assets/img/instron-pumpkin-before-compression.jpg" alt="An intact carved pumpkin positioned between the Instron compression platens before the test begins." width="2400" height="1800" loading="lazy">
+    <figcaption>Before compression, the carved pumpkin is centered between the platens.</figcaption>
+  </figure>
+  <figure class="page-figure">
+    <img src="../assets/img/instron-pumpkin-during-compression.jpg" alt="A carved pumpkin splitting and collapsing between the Instron compression platens during the test." width="2400" height="1800" loading="lazy">
+    <figcaption>During the test, visible cracking and collapse can be connected to the force-displacement response.</figcaption>
+  </figure>
+</div>

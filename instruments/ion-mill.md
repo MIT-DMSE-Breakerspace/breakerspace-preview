@@ -404,6 +404,6 @@ For useful before/after comparisons:
 * Add photos or GIFs showing a sample being bonded to a carrier plate in the gluing jig.
 * Add photos or GIFs showing 30&deg; and 90&deg; alignment under the sample alignment microscope, including what the target mask gap looks like on screen.
 * Add a screenshot of the automated recipe library with a safe example recipe highlighted.
-* Add one complete level 1 training example using a specific material-library sample, including bin number/location once the cabinet is organized.
-* Add one level 2 slope-cutting exercise using a specific layered/coated material-library sample, including bin number/location once available.
+* Add one complete level 1 training example using a specific sample-library item, including bin number/location once the cabinet is organized.
+* Add one level 2 slope-cutting exercise using a specific layered or coated sample-library item, including bin number/location once available.
 * Add before/after SEM image pairs showing successful polishing, insufficient polishing, redeposition, and sample damage.

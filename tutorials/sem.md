@@ -377,9 +377,9 @@ For EDS:
 
 ### Tutorial To-Do List {#todo}
 
-* Add a complete level 1 training example using a specific material-library sample, including bin number/location once the cabinet is organized.
+* Add a complete level 1 training example using a specific sample-library item, including bin number/location once the cabinet is organized.
 * Add a level 2 EDS exercise using specific stocked samples or standards, including bin number/location once available.
-* Add a level 2 non-conductive-sample exercise using a specific material-library sample suitable for low-vacuum and sputter-coated comparison.
+* Add a level 2 non-conductive-sample exercise using a specific sample-library item suitable for low-vacuum and sputter-coated comparison.
 * Add photos or GIFs showing a gloved hand placing a stub in a prep tray and mounting a sample with stub tweezers.
 * Add photos or GIFs showing powder transfer to carbon tape, tapping/removing loose particles, and a good vs overloaded powder stub.
 * Add a GIF of setting the image label and save location in the Phenom software.

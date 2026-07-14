@@ -5,7 +5,7 @@ title: Breakerspace Instruments
 
 # Instruments
 
-The Breakerspace instrument pages are being updated into consolidated operating guides. Each finished page will combine the instrument overview, reservation links, quick reference, detailed training guide, manuals, exercises, and staff to-do notes in one place.
+The Breakerspace instrument pages are being updated into consolidated operating guides. Each finished page will combine the instrument overview, reservation links, quick reference, detailed training guide, manuals, exercises, and active improvement notes in one place.
 
 During the transition, use this page as the instrument landing page. Updated instrument pages are listed first. Instruments that have not yet been consolidated still link to their current tutorial/SOP pages.
 

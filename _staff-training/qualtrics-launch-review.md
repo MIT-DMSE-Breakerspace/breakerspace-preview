@@ -4,6 +4,12 @@ The current Qualtrics onboarding survey should remain coordinated with the activ
 
 Survey: <https://mit.co1.qualtrics.com/jfe/form/SV_084N36wCErKsgjc>
 
+## Current Preview-Site Status
+
+The redesigned preview now has stable task pages for instrument selection, training, reservations, safety, help and support, lounge use, and teaching. The public training page describes the one-time Qualtrics record as one part of training, followed by an in-person instrument session. It also documents trainer-managed Moira access and separately processed physical tap access.
+
+The survey itself has not yet been updated. Continue treating the changes below as a coordinated launch dependency rather than changing the active survey piecemeal while it still serves the old production site.
+
 ## Issues Observed In The Current Survey
 
 The initial survey review reached the first required SOP knowledge check without submitting a response. The reviewed sections include the welcome page, help resources, tutorial/SOP overview, and optical-microscope SOP question.
@@ -11,6 +17,7 @@ The initial survey review reached the first required SOP knowledge check without
 Known updates:
 
 * Replace the retired `/sop.html` tutorial index with the new instrument catalog and integrated instrument pages.
+* Direct users to `/training.html` for the current training pathway and LibCal training calendar.
 * Replace old "tutorial" terminology with the final language used by the new site.
 * Update the description of instrument-page organization to match the two-speed model: concise trained-user reference plus detailed learning guidance.
 * Remove the claim that staff hours appear on the homepage unless that calendar returns before launch.
@@ -20,6 +27,7 @@ Known updates:
 * Confirm the current Dropbox invitation process.
 * Explain that instrument trainers add trainees to the appropriate Moira group after the in-person session.
 * Explain that the lab manager processes physical tap access after the one-time Qualtrics record is complete.
+* Confirm that the survey identifies the Breakerspace instrument lab as Building 8, Room 8-102A, entered through the Breakerspace Lounge, wherever arrival information is needed.
 
 ## Recommended Survey Structure
 

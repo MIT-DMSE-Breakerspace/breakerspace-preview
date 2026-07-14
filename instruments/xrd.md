@@ -238,4 +238,4 @@ Advanced analysis such as quantitative phase fractions, crystallite size from pe
 * Confirm the current workstation login details and networked export path before publishing.
 * Consolidate the remaining XRD source content (`tutorials/xrd.md`, `tutorials/xrd-preview.md`) into this page and retire the duplicates once this page is approved.
 * Cross-link the printed [XRD handout](../handouts/xrd/) once its cheat-sheet content is finalized.
-* Add approved training powders and reference samples for the exercises once the material library is ready.
+* Add approved training powders and reference samples for the exercises once the sample library is ready.

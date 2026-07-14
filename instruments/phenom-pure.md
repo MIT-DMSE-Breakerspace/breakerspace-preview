@@ -189,7 +189,7 @@ If the image flickers, bright bands streak across the field of view, or the samp
 
 ### Tutorial To-Do List {#todo}
 
-* Add a complete Pure level 1 training example using a specific material-library sample, including bin number/location once the cabinet is organized.
+* Add a complete Pure level 1 training example using a specific sample-library item, including bin number/location once the cabinet is organized.
 * Add photos or GIFs showing Phenom Pure holder selection, stub loading, and the correct below-holder-edge height check.
 * Add a GIF of setting the image label and save location in the Phenom software.
 * Add a GIF of moving from NavCam to LiveSEM, focusing, and acquiring the first image.

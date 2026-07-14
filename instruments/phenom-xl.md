@@ -182,7 +182,7 @@ For EDS data:
 
 ### Tutorial To-Do List {#todo}
 
-* Add a complete XL level 1 training example using a specific material-library sample, including bin number/location once the cabinet is organized.
+* Add a complete XL level 1 training example using a specific sample-library item, including bin number/location once the cabinet is organized.
 * Add photos or GIFs showing XL tray removal, stub loading, and the correct 5-7 mm below-tray height check.
 * Add a GIF of setting the image label and save location in the Phenom software.
 * Add a GIF of moving from NavCam to LiveSEM, focusing, and acquiring the first image.

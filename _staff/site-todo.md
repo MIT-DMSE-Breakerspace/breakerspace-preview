@@ -4,6 +4,28 @@ This is the canonical unlisted list for cross-site launch work, policy decisions
 
 Instrument-specific tutorial and migration notes remain on their instrument pages while those pages are actively being developed. Move an item here when it affects multiple pages, requires a lab-wide decision, or must be coordinated for launch.
 
+## Current Implementation Snapshot
+
+The core operational architecture is implemented in preview:
+
+* [x] Intent-based Start Here homepage and task-ordered navigation.
+* [x] Canonical instrument catalog with updated and awaiting-consolidation groups.
+* [x] Consolidated training pathway and embedded LibCal training calendar.
+* [x] Practical reservation page with direct instrument calendars and operating rules.
+* [x] Lab-wide safety, sample, guest, working-alone, cleanup, and incident guidance.
+* [x] Help and support routing for instrument problems, access, files, data, and advanced work.
+* [x] Teaching collaboration pathways, planning guidance, staffing model, and course examples.
+* [x] Current lounge access, shared-space, coffee-equipment, teaching, and community-event page.
+* [x] Homepage location and arrival section for Building 8, Room 8-102A.
+
+The remaining work is verification, external-system alignment, instrument migration, deeper supporting content, legacy cleanup, and final launch review rather than another top-level information-architecture redesign.
+
+## Location And Arrival
+
+* [x] State on the homepage that the instrument lab is in Building 8, Room 8-102A and is entered through the Breakerspace Lounge.
+* [ ] Confirm the public arrival description during the on-site safety walk and make sure the room and entry wording matches signs outside the space.
+* [ ] Decide whether a real corridor/entrance photograph or MIT map link would materially help first-time visitors; add one only if it clarifies arrival without exposing sensitive access details.
+
 ## Safety And Lab Use
 
 ### Emergency Information And Visuals
@@ -28,18 +50,51 @@ Instrument-specific tutorial and migration notes remain on their instrument page
 
 * [ ] Complete the coordinated Qualtrics review in [`../_staff-training/qualtrics-launch-review.md`](../_staff-training/qualtrics-launch-review.md) and release the updated survey with the redesigned production site.
 * [ ] Build instrument-specific staff training guides from [`../_staff-training/instrument-training-template.md`](../_staff-training/instrument-training-template.md).
-* [ ] Coordinate each Level 1 exercise with a documented sample-library item, cabinet location, expected result, and replenishment plan.
 * [ ] Confirm that LibCal descriptions, Moira responsibilities, tap-access processing, and public training language agree before launch.
+
+## Instrument Pages And Legacy Content
+
+* [x] Establish `instruments/index.md` as the canonical instrument catalog.
+* [x] Consolidate operating pages for the two Phenom SEMs, ion mill, optical microscope, FTIR, and Duetta.
+* [ ] Complete and promote the XRD operating page; reconcile `instruments/xrd.md`, the legacy XRD tutorial, preview material, and print handout.
+* [ ] Consolidate the Instron, Raman, hardness tester, and particle size analyzer pages.
+* [ ] Convert the legacy `lab.md` catalog into a concise compatibility pointer to the canonical instrument catalog.
+* [ ] Review legacy tutorial URLs and preserve useful inbound links while removing conflicting instructions.
+* [ ] Review visible instrument-page to-do sections before launch; retain public contributor tasks only where useful and move internal maintenance work here.
+
+## Sample Library And Training Samples
+
+* [ ] Define the sample-library record structure: sample identity, photograph, safe handling, compatible instruments, cabinet/bin location, preparation, expected results, data files, consumption status, and replenishment owner.
+* [ ] Inventory the physical sample cabinet and assign stable identifiers and locations.
+* [ ] Select and document a standard Level 1 sample or prepared kit for each instrument.
+* [ ] Connect each Level 1 exercise, public instrument page, and staff training guide to the same sample record and expected result.
+* [ ] Define how users report a missing, damaged, contaminated, or nearly depleted sample.
+* [ ] Replace the current duplicate placeholder entries in `sample-library.md` with the chosen production structure before linking the page publicly.
+
+## Projects And Examples
+
+* [ ] Define a project/example record around the question, sample or material, instrument, preparation, result, interpretation, limits, and student learning rather than a photo-only gallery.
+* [ ] Decide submission, permission, attribution, privacy, and editorial-review rules for student work.
+* [ ] Identify initial examples from 3.000, 3.010, 3.042, instrument exercises, Infinite Halloween, and microscope-image contests.
+* [ ] Decide how project examples link back to instrument pages and sample-library records without duplicating their operating content.
+* [ ] Decide whether microscope-contest archives become one source within the broader gallery or remain separate seasonal pages.
 
 ## Resources And Support
 
-* [ ] Add a short screenshot or example showing the recommended `Breakerspace Files` folder structure.
+* [ ] Add a short screenshot or rendered example showing the recommended folder structure within `Breakerspace Files`, beyond the existing drive-identification screenshot.
 * [ ] Review the Resources page after each major instrument page is updated and remove material that belongs on the instrument page instead.
+
+## Team And Current Notices
+
+* [ ] Expand the Team page with operational roles, areas of expertise, what student staff can help with, and current student-staff information.
+* [ ] Decide who owns updates to staff names, roles, and photographs and how often the page is reviewed.
+* [ ] Decide whether outages, temporary access changes, or schedule interruptions need a small maintainable current-notices mechanism.
+* [ ] If notices are added, define an owner, expiration behavior, and an empty state so old alerts cannot remain visible indefinitely.
 
 ## Lounge And Space Planning
 
 * [ ] Decide whether the lounge will remain a lounge with coffee equipment, become a seating-only food-and-drink area, or be converted to lab space.
-* [ ] When the room decision is implemented, coordinate updates to the navigation, home page, Lounge page, Lab page, Help routing, Safety food-and-drink and egress language, Teaching page, and 3.000 Coffee Matters page.
+* [ ] When the room decision is implemented, coordinate updates to the navigation, homepage, Lounge page or replacement, instrument catalog, legacy `lab.md` compatibility page, Help routing, Safety food-and-drink and egress language, Teaching page, and 3.000 Coffee Matters page.
 * [ ] Confirm the current lounge hours, undergraduate eligibility, access-form URL, and usual processing time before launch.
 * [ ] Confirm which coffee and roasting equipment will remain and whether its operation and cleanup guidance should be published on the website.
 * [ ] Replace lounge and equipment photographs if the physical configuration changes.
@@ -68,6 +123,7 @@ The deterministic template and markup repairs are implemented in the preview sit
 ## Launch Review
 
 * [ ] Audit public pages for visible staff to-do lists. Keep active instrument migration notes only where they remain useful in context.
+* [ ] Confirm that `lab.md` and other legacy entry points direct users to the current canonical pages without presenting conflicting guidance.
 * [ ] Test navigation, internal links, external links, responsive layouts, and key task paths against the final production configuration.
 * [ ] Confirm that contact information, hours, access instructions, reservation links, and emergency numbers are current.
 * [ ] Review high-consequence policy pages with their operational owner before publishing.

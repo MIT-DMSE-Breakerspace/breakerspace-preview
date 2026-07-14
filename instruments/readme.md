@@ -10,6 +10,20 @@ The older `tutorials/` pages can remain in place during the transition. The work
 
 For instruments that do not need to be split into multiple related tools, one page such as `instruments/ftir.md` may be enough.
 
+## Current Migration Status
+
+The canonical catalog is `instruments/index.md`. Consolidated pages currently cover six instruments:
+
+* Phenom XL and Phenom Pure through the shared `sem.md` hub and separate operating pages.
+* SEMPrep 2 ion mill.
+* Olympus DSX-1000 optical microscope.
+* Nicolet iS5 FTIR spectrometer.
+* Horiba Duetta fluorescence and absorbance spectrometer.
+
+Five instruments still use legacy tutorial/SOP destinations in the catalog: XRD, Instron, Raman, hardness tester, and particle size analyzer. `instruments/xrd.md` exists as a working draft but is not yet the public catalog destination.
+
+The sample library and example/project gallery are planned supporting systems. Level 1 exercises should eventually point to documented sample-library records with cabinet locations, expected results, data files where useful, and replenishment information. Example results should be reusable from both instrument pages and the future gallery rather than copied into disconnected collections.
+
 ## Content Strategy
 
 Instrument pages should be complete enough to use at the instrument without requiring the user to click away for basic safety, setup, loading, shutdown, or troubleshooting steps.
@@ -110,11 +124,15 @@ layout: default
 
 ## Transition Notes
 
-These pages are not automatically public just because they exist in this folder, but they can be accessed if someone knows the URL after the site builds. Add links from `lab.md`, `tutorials/`, or site navigation only when the page is ready for users.
+Markdown files with front matter build into accessible pages even when they are not linked from navigation. Do not put unsafe, misleading, or contradictory instructions in a buildable draft. Add a page to `instruments/index.md` only when it is ready to replace the legacy catalog destination.
+
+The legacy `lab.md` catalog is superseded by `instruments/index.md`. Preserve its URL during migration, but do not use it as a second catalog or as the place to announce new instrument pages. It should ultimately become a concise compatibility pointer to the canonical catalog.
 
 The intended future pattern is that instrument workstations open the relevant instrument page directly, for example:
 
 * Phenom XL workstation: `instruments/phenom-xl.html`
 * Phenom Pure workstation: `instruments/phenom-pure.html`
 
-The shared hub, such as `instruments/sem.html`, is best linked from the lab page and used by users who are deciding which instrument to reserve.
+The shared hub, such as `instruments/sem.html`, is best linked from the instrument catalog and used by users who are deciding which instrument to reserve.
+
+Instrument-specific to-do sections are useful while a page is being actively developed in preview. Before production launch, review visible to-do sections and retain only items that are genuinely useful to student contributors or public collaborators; move internal maintenance work to `_staff/site-todo.md`.

@@ -188,6 +188,22 @@ main table a:focus-visible {
   object-fit: cover;
 }
 
+.media-trio {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.media-trio .page-figure {
+  margin: 0;
+}
+
+.media-trio img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
 .animation-toggle {
   margin: 0 0 1.25rem;
   padding: 0.55rem 0.7rem;
@@ -273,7 +289,8 @@ main table a:focus-visible {
 }
 
 @media print, screen and (max-width: 720px) {
-  .media-pair {
+  .media-pair,
+  .media-trio {
     grid-template-columns: 1fr;
   }
 

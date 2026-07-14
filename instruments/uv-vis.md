@@ -341,5 +341,5 @@ Close EZ Spec, log out of the workstation, and push and hold the front power but
 * Add an annotated sunscreen-on-quartz-slide example showing how absorbance/transmission changes across wavelength for different formulations.
 * Add a fluorescence example using a safe, robust training sample if fluorescence becomes part of routine training.
 * Add a combined absorbance/fluorescence inner-filter-effect example or mark that workflow as staff-guided until documented.
-* Add a complete level 1 exercise using a specific material-library or training-kit sample, including bin number/location once the cabinet is organized.
+* Add a complete level 1 exercise using a specific sample-library item or training-kit sample, including bin number/location once the cabinet is organized.
 * Decide whether the current `tutorials/uv-vis.html` page should remain as a legacy tutorial during transition or be replaced with a link to this updated operating page.

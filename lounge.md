@@ -68,9 +68,22 @@ The Breakerspace also uses an Aillio Bullet R1 V2 roaster for coffee activities 
   </figure>
 </div>
 
-## Lounge And Lab Learning
+## Learning And Community Events
 
 The lounge can support teaching and collaborative work alongside the instrument lab. [3.000 Coffee Matters]({{ "/3000.html" | relative_url }}) is one example: students move between coffee preparation, sensory observation, materials characterization, and data interpretation.
+
+The lounge has also hosted occasional staff-organized community events. During Infinite Halloween, participants carve small pumpkins in the lounge before staff-guided compression testing on the [Instron]({{ "/tutorials/instron.html" | relative_url }}). These special activities are planned separately from normal lounge access and do not authorize users to bring produce or other unusual samples into the instrument lab.
+
+<div class="media-pair">
+  <figure class="page-figure">
+    <img src="./assets/img/lounge-infinite-halloween-carving.jpg" alt="Students carving small pumpkins at shared tables in the Breakerspace Lounge during an Infinite Halloween event." width="2400" height="1800" loading="lazy">
+    <figcaption>Students carve pumpkins in the lounge during an Infinite Halloween trick-or-treating event.</figcaption>
+  </figure>
+  <figure class="page-figure">
+    <img src="./assets/img/instron-pumpkin-results.jpg" alt="Carved pumpkins showing different cracks, splits, and collapsed shapes after staff-guided Instron compression tests." width="2400" height="1800" loading="lazy">
+    <figcaption>The event connects a lounge activity with staff-guided mechanical testing in the lab.</figcaption>
+  </figure>
+</div>
 
 Instructors interested in a visit, activity, or course collaboration should start with [Teaching With Breakerspace]({{ "/teaching.html" | relative_url }}).
 

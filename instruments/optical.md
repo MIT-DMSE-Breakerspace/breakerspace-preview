@@ -268,7 +268,7 @@ For useful records:
 
 ### Tutorial To-Do List {#todo}
 
-* Add a complete level 1 training example using a specific material-library sample, including bin number/location once the cabinet is organized.
+* Add a complete level 1 training example using a specific sample-library item, including bin number/location once the cabinet is organized.
 * Add photos or GIFs showing the correct startup sequence: power switch, Guest login, stage/head movement acknowledgement, lowering the stage, and tilt position.
 * Add photos or GIFs showing objective exchange and how to choose between long-working-distance and extra-long-working-distance objectives.
 * Add a screenshot or GIF showing the recommended save-location workflow.
