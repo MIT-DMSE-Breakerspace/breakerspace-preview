@@ -71,13 +71,19 @@ The remaining work is verification, external-system alignment, instrument migrat
 * [ ] Define how users report a missing, damaged, contaminated, or nearly depleted sample.
 * [ ] Replace the current duplicate placeholder entries in `sample-library.md` with the chosen production structure before linking the page publicly.
 
-## Projects And Examples
+## Materials Showcase
 
-* [ ] Define a project/example record around the question, sample or material, instrument, preparation, result, interpretation, limits, and student learning rather than a photo-only gallery.
-* [ ] Decide submission, permission, attribution, privacy, and editorial-review rules for student work.
-* [ ] Identify initial examples from 3.000, 3.010, 3.042, instrument exercises, Infinite Halloween, and microscope-image contests.
-* [ ] Decide how project examples link back to instrument pages and sample-library records without duplicating their operating content.
-* [ ] Decide whether microscope-contest archives become one source within the broader gallery or remain separate seasonal pages.
+* [x] Replace the conventional project-gallery proposal with an educational Materials Showcase sourced from approved sample-library records, observations, course activities, projects, and events.
+* [x] Document the proposed source model, page structure, cadence, automation boundaries, editorial lifecycle, and human-review requirement in [`../showcases/README.md`](../showcases/README.md).
+* [x] Create an unlisted pumpkin strength-to-weight demonstration and link it subtly from the About page as a proposed content type.
+* [ ] Complete the pumpkin demonstration with the exact scoring rule, stable pumpkin identifiers, masses, peak loads, force-displacement curves, test notes, and design comparisons.
+* [ ] Align showcase sample and observation identifiers with the production sample-library schema before automating cross-links.
+* [ ] Decide publication permission, attribution, privacy, scientific-review, accessibility-review, and editorial ownership rules.
+* [ ] Build a scheduled process that proposes themes and drafts preview pull requests from publication-eligible records; require human approval before publication and skip cycles without a strong educational story.
+* [ ] Establish an approximately monthly editorial review without promising a fixed public publication schedule.
+* [ ] Identify additional themes from 3.000, 3.010, 3.042, instrument exercises, fracture surfaces, sample-library comparisons, and microscope-image contests.
+* [ ] Add a featured-showcase and archive index only after several strong entries exist; plan filters around materials, concepts, instruments, courses or events, and applications.
+* [ ] Decide whether microscope-contest archives become one source within the broader showcase system or remain separate seasonal pages.
 
 ## Resources And Support
 

@@ -51,7 +51,7 @@ The homepage should remain concise. It routes users by intent and provides the l
 | Lounge | Implemented at `lounge.md` for the current lounge, coffee equipment, access, food and drink boundary, teaching, and community use. Future accuracy depends on the unresolved space decision. |
 | About | Implemented at `about.md`, with the lab's educational purpose, a brief account of its development through undergraduate teaching and student use, the team model, and contact pathways. The current student-staff roster can be added when it is ready for ongoing maintenance. |
 | Sample library | A placeholder page exists, but it is not yet a usable inventory or training resource. This is a planned content system. |
-| Project/example gallery | Not yet implemented. Course and event pages contain examples, but there is no browsable project and result collection. |
+| Materials showcase | The proposed educational showcase system is documented in `showcases/README.md`, with an unlisted pumpkin strength-to-weight demonstration at `showcases/pumpkin-strength-to-weight.md`. It is not yet a populated archive or top-level navigation destination. |
 
 ## Instrument Page Migration
 
@@ -87,6 +87,7 @@ Use one source of truth for each kind of work:
 * `_staff/site-todo.md`: cross-site launch work, policy decisions, accessibility follow-up, and ongoing operational maintenance.
 * `_staff-training/`: trainer-facing guide model and the coordinated Qualtrics launch review.
 * `instruments/readme.md`: instrument-page architecture, migration status, shared includes, and authoring conventions.
+* `showcases/README.md`: Materials Showcase purpose, source model, editorial workflow, cadence, automation boundaries, and authoring contract.
 * Instrument-page to-do sections: instrument-specific missing images, workflows, examples, exercises, and technical review items while migration is active.
 
 Public pages should state current policy clearly. Do not expose unresolved policy questions on public pages merely to track them; place those decisions in `_staff/site-todo.md`.
@@ -101,7 +102,7 @@ Current priorities, in order of operational importance:
 4. Continue the five remaining instrument-page migrations and retire duplicate catalog content.
 5. Design and populate the sample library, including cabinet locations, expected results, training use, data files, consumables, and replenishment.
 6. Build instrument-specific staff training guides around stable Level 1 exercises and sample-library items.
-7. Design an example/project gallery organized around questions, samples, instruments, results, and what students learned.
+7. Develop the Materials Showcase from approved sample-library records and observations, complete the pumpkin demonstration with quantitative data, and establish a human-reviewed drafting cadence.
 8. Add and maintain current student-staff information on the About page when a roster and update owner are established.
 9. Decide whether the site needs a maintainable current-notices mechanism for outages and temporary changes.
 10. Resolve the future lounge configuration and update every affected page together.

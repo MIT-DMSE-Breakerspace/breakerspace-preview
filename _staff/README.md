@@ -16,6 +16,6 @@ Use [`site-todo.md`](site-todo.md) as the canonical list for work that crosses p
 
 ## Current Priorities
 
-The public operational structure is in place. The main remaining work is physical safety verification, external onboarding alignment, five instrument-page migrations, the sample library and Level 1 training samples, staff training guides, a project/example gallery, legacy-page cleanup, a maintainable student-staff roster, and final accessibility and launch review.
+The public operational structure is in place. The main remaining work is physical safety verification, external onboarding alignment, five instrument-page migrations, the sample library and Level 1 training samples, staff training guides, development of the Materials Showcase beyond its pumpkin demonstration, legacy-page cleanup, a maintainable student-staff roster, and final accessibility and launch review.
 
 Public pages should state the current rule or workflow. Keep unresolved decisions here rather than publishing visible policy speculation.

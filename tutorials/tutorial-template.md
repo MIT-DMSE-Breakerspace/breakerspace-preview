@@ -44,7 +44,7 @@ When moving a tutorial into `instruments/`:
 * [ ] Add data-saving, export, and file-location guidance.
 * [ ] Add troubleshooting that distinguishes documented recovery from stop-and-contact-staff conditions.
 * [ ] Connect the Level 1 exercise to a sample-library item or prepared kit when that system is ready.
-* [ ] Identify useful example results that can also support the future project/example gallery.
+* [ ] Identify useful example results that can also support future educational Materials Showcases.
 * [ ] Update `instruments/index.md` only after the consolidated page is ready to replace the legacy destination.
 * [ ] Check all local links, image paths, heading fragments, alternative text, and image dimensions.
 * [ ] Decide whether the old tutorial should redirect, point to the new page, or retain limited compatibility content.
@@ -57,4 +57,4 @@ Prefer controlled video for instructional motion. Existing GIFs may remain durin
 
 ## Supporting Systems
 
-The planned [sample library](../sample-library.html) will connect standard samples, cabinet locations, expected results, exercises, and replenishment. The planned project/example gallery will show how students use instruments and interpret results. Neither should duplicate the instrument's operating instructions.
+The planned [sample library](../sample-library.html) will connect standard samples, cabinet locations, expected results, exercises, and replenishment. The planned Materials Showcase will build educational themes from approved samples, observations, instrument results, projects, courses, and events. Neither should duplicate the instrument's operating instructions.

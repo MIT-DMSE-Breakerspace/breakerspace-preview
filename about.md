@@ -28,6 +28,8 @@ These collaborations now span several kinds of undergraduate learning. 3.001 has
 
 This activity also helps the lab improve. Questions from students and teaching teams inform new exercises, training practices, sample resources, and instrument capabilities. The Breakerspace is therefore both a shared facility and an evolving undergraduate teaching environment.
 
+As one proposed way to share those connections, see the demo Materials Showcase [Pumpkins Under Pressure: Carving For Strength]({{ "/showcases/pumpkin-strength-to-weight.html" | relative_url }}). It is an early content-model example rather than a completed quantitative study.
+
 Learn more about the available [teaching collaboration pathways]({{ "/teaching.html" | relative_url }}).
 
 ## Meet The Team
@@ -48,4 +50,3 @@ Student staff are central to daily Breakerspace operation. They provide hands-on
 | Learn to use an instrument | Follow the [Breakerspace training pathway]({{ "/training.html" | relative_url }}). |
 | Plan an undergraduate course activity | Review [Teaching With Breakerspace]({{ "/teaching.html" | relative_url }}). |
 | Ask about a sample, project, access issue, or instrument problem | Use [Get Help]({{ "/resources.html" | relative_url }}) or email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu). |
-
