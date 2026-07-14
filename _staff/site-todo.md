@@ -64,7 +64,8 @@ The remaining work is verification, external-system alignment, instrument migrat
   * [ ] Add representative scan durations for the stored measurement programs so the page can help users size their reservations.
   * [ ] Verify the Aeris interlock/enclosure safety description against the manual and lab practice.
 * [ ] Consolidate the Instron, Raman, hardness tester, and particle size analyzer pages.
-* [ ] Convert the legacy `lab.md` catalog into a concise compatibility pointer to the canonical instrument catalog.
+* [x] Convert the legacy `lab.md` catalog into a compatibility pointer. `lab.md` now uses `layout: redirect` to forward `/lab.html` to `/instruments/`, preserving the old URL and removing the competing second catalog. This also orphaned the promoted-instrument legacy tutorials (they are no longer linked from `lab.md`); see the tutorial-retirement item below.
+* [ ] Retire the remaining promoted-instrument legacy tutorials now that `lab.md` no longer links them: `tutorials/ftir.md`, `tutorials/optical.md`, `tutorials/uv-vis.md`, and `tutorials/ion-mill.md` are clean 1:1 redirects to their `instruments/` pages; `tutorials/sem.md` maps to the split hub (`instruments/sem.html`) and needs a decision on the redirect target. Follow the XRD pattern (`layout: redirect`, preserve the old URL).
 * [ ] Review legacy tutorial URLs and preserve useful inbound links while removing conflicting instructions.
 * [ ] Review visible instrument-page to-do sections before launch; retain public contributor tasks only where useful and move internal maintenance work here.
 
