@@ -195,6 +195,12 @@ RTD is only for checking and optimizing the setup; it does not average spectra. 
 
 Start conservative on exposure time and laser power for an unfamiliar or delicate sample, check the result, then increase if you need more signal. If you are unsure what settings suit your sample, ask staff.
 
+#### AutoFocus {#autofocus}
+
+LabSpec 6 includes an AutoFocus function that steps the focus through a range, watches the signal, and settles at the position that maximizes it. It can help on samples where manual focusing is difficult or unreliable, such as highly polished or featureless surfaces, and it can hold focus across a rough surface during a map.
+
+AutoFocus is slow, however, because it collects signal at many focus positions. **We do not recommend it as a default focusing method.** For a normal measurement, focus manually with the joystick against the live RTD spectrum (see the [standard workflow](#details)). Reach for AutoFocus only when manual focus is not possible or not reliable.
+
 #### Mapping And Area Scanning {#mapping}
 
 Instead of a single spectrum from one spot, the XploRA can collect a grid of spectra across an area and build a map showing how the material varies from place to place. This is how you turn Raman into a chemical image: for example, showing where each active ingredient sits across a combination tablet, or where a contaminant is distributed on a surface.
@@ -207,7 +213,7 @@ To set up a map:
 4. Choose the map area and shape with the map tools (rectangle, circle, line, or a set of chosen points).
 5. Set acquisition parameters as for a single spectrum, but keep in mind that a map collects one spectrum per point and can involve hundreds or thousands of points. Favor a single spectral window and shorter per-point acquisition times to keep the total time reasonable.
 
-Because a map can run for a long time, estimate the total time (points times per-point time) before you start. If the sample surface is rough, ask staff about using AutoFocus during the map so each point stays in focus.
+Because a map can run for a long time, estimate the total time (points times per-point time) before you start. If the sample surface is rough, [AutoFocus](#autofocus) can keep each point in focus during the map, though it adds time.
 
 #### Confocal Z-Depth Profiling {#z-profiling}
 
@@ -252,9 +258,11 @@ Data processing beyond these basics is best learned at the instrument; please as
 
 ### Manufacturer Manuals {#manuals}
 
-Manufacturer manuals for the XploRA and LabSpec 6 will be linked here. In the meantime, ask Breakerspace staff for the current documentation.
-
+* [LabSpec 6 general use quick-start guide](../assets/img/tutorials/raman/LabSpec6-General-Use-Quick-Start-Guide.pdf)
+* [LabSpec 6 AutoFocus quick-start guide](../assets/img/tutorials/raman/LabSpec6-AutoFocus-Quick-Start-Guide.pdf)
+* [The importance of confocality (Horiba technical note RA-TN 15)](../assets/img/tutorials/raman/RA-TN15-Importance-of-Confocality.pdf)
 * [Raman spectral resolution technical note (grating dispersion)](https://www.dropbox.com/scl/fi/0kcumhfxxhycy8b47l32d/Raman-Spectral-Resolution-Tech-Note.pdf?rlkey=321k53nqc9jn6cdqkqhpb0rzd&st=dr66nh85&dl=0)
+* [Full Horiba XploRA and LabSpec 6 documentation folder](https://www.dropbox.com/scl/fo/ppao3nkalsx14dyhnlryo/ADc_wEUGXbfb9_MfXPeQ9PM?rlkey=3xm38dmwhua13nhfar3ffepjl&dl=0) — additional manuals, reference guides, and Horiba application notes.
 
 ### Links {#links}
 
@@ -300,5 +308,5 @@ This page was substantially expanded from a thin original and still needs verifi
 
 **Manuals and links:**
 
-* Host and link the manufacturer XploRA and LabSpec 6 documentation. Source files are gathered in the Breakerspace Dropbox (LabSpec 6 General Use, AutoFocus, AutoAlignment, and AutoCalibration quick-start guides; the reference manual; and the confocality tech note), and just need to be placed and linked.
+* The core manuals are now hosted on the page (LabSpec 6 general use, AutoFocus, the confocality tech note, and the spectral-resolution note), plus a link to the full Dropbox documentation folder. Add the XploRA hardware manual or an AutoCalibration guide if a user-facing need comes up.
 * Consider adding real student-project or example-result links to the Links section.
