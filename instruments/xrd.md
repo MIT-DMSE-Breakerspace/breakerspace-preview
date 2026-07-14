@@ -10,20 +10,56 @@ title: Aeris Research X-Ray Diffractometer
 
 The [Panalytical Aeris Research XRD](https://www.malvernpanalytical.com/en/products/product-range/aeris-range) is a benchtop [X-ray diffractometer](https://www.malvernpanalytical.com/en/products/technology/xray-analysis/x-ray-diffraction) used to analyze the phase composition, crystal structure, and orientation of solid and powder samples. A full scan can produce useful results in less than five minutes, and the six-position sample changer lets you queue several samples in a row.
 
-This page is the operating page for the XRD. It combines the quick reference for trained users, detailed training notes, data-analysis workflow, manuals, exercises, and a staff to-do list.
+This page is the operating page for the XRD. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, exercises, and staff to-do list.
 
 <div style="clear:both;"></div>
 
-### Index:
+### Quick Actions {#quick-actions}
 
-* [Standard operating protocol](#sop) - ([startup](#startup), [operation](#operation), [shutdown](#shutdown))
-* [Compatible materials and sample prep](#materials)
-* [Detailed operating instructions](#details)
-* [Data processing and analysis](#data) - ([using HighScore Plus](#highscore), [worked example](#worked-example), [interpreting results](#interpreting))
-* [Common failure modes](#failures)
-* [Manufacturer manuals](#manuals)
-* [Links](#links)
-* [Exercises](#exercises)
+| Need | Use this link |
+| --- | --- |
+| New lab user or untrained XRD user | [Register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) |
+| Reserve instrument time | [Open XRD reservations](https://breakerspace.libcal.com/seat/174789) |
+| Trained user operating the XRD now | [Standard operating protocol](#sop) |
+| New user learning the full workflow | [Detailed operating instructions](#details) |
+| Learning what XRD is used for | [What this instrument shows you](#science) |
+| Analyzing your data | [Data processing and analysis](#data) |
+| Need manufacturer documentation | [Manufacturer manuals](#manuals) |
+| Need practice tasks | [Exercises](#exercises) |
+
+### What This Instrument Shows You {#science}
+
+#### The Basic Idea
+
+X-ray diffraction (XRD) reveals how atoms are arranged in a crystalline solid. In a crystal, atoms sit in an orderly, repeating pattern, like a three-dimensional wallpaper. When a beam of X-rays strikes that pattern, the regularly spaced planes of atoms scatter the X-rays, and in a few specific directions the scattered waves add up strongly instead of cancelling out. The instrument sweeps a detector through a range of angles and records where those bright reflections appear.
+
+The result is a diffraction pattern: a plot of intensity versus angle (labeled 2θ), with sharp peaks at the angles where reflections are strong. The positions of the peaks are set by the spacing between atomic planes, so they act as a fingerprint of the crystal structure. Because most crystalline materials have a unique set of plane spacings, the pattern of peak positions can identify which crystalline phase or phases are present.
+
+A useful way to think about it: XRD does not photograph atoms directly. Instead it measures the spacings and repeat distances of the atomic lattice and lets you work backward to what material could produce that arrangement.
+
+#### What Scientists Use It For
+
+* A chemist or materials scientist can identify an unknown crystalline powder by matching its peak pattern against a database of known phases.
+* A geologist can determine which minerals make up a rock or soil sample, since each mineral has its own diffraction signature.
+* A battery or ceramics researcher can tell whether a material formed the intended crystal structure, or an unwanted phase, during synthesis or heating.
+* A pharmaceutical scientist can distinguish different crystal forms (polymorphs) of the same drug molecule, which can behave very differently in the body.
+* A metallurgist or manufacturer can check for residual stress, preferred grain orientation, or the fraction of crystalline versus amorphous material in a product.
+
+#### What To Look For In The Results
+
+Start with peak positions. The angles at which peaks appear are the primary identifier, because they come directly from the atomic-plane spacings. Matching those positions against a reference is how phases are identified, and a good match lines up several peaks, not just the tallest one.
+
+Next, notice peak sharpness and the baseline. Sharp, narrow peaks on a low, flat background indicate a well-ordered crystalline material. Broad "humps" with few or no sharp peaks indicate an amorphous (non-crystalline) material such as many plastics or glasses. A pattern can also show both: sharp peaks riding on a broad hump means a mix of crystalline and amorphous content.
+
+Finally, consider relative peak heights, but treat them cautiously. Peak intensities carry information about which planes scatter most strongly, but they are easily distorted by sample preparation, especially by large grains or by flat, plate-like crystals that line up in one direction (preferred orientation). This is why identification relies on peak positions first and intensities second.
+
+#### What This Instrument Cannot Tell You
+
+* It sees only crystalline order. A truly amorphous material gives broad humps and no phase identification, which is a real result rather than a failure.
+* It identifies crystalline phases, not full chemical composition. It tells you a sample looks like a particular compound's structure, not a direct elemental analysis. (For elemental information, techniques such as EDS on the SEM are more appropriate.)
+* Minor phases below roughly a few percent of the sample may not produce visible peaks, so "not detected" is not the same as "not present."
+* It is generally weaker for very light elements, which scatter X-rays only faintly.
+* A database match is strong evidence, not absolute proof. Similar structures can give similar patterns, and mixtures can overlap and complicate interpretation.
 
 ### Standard Operating Protocol {#sop}
 
@@ -86,6 +122,8 @@ Panalytical provides an excellent sample preparation guide, available in paper f
 
 XRD sample holders, mounting clay, and other small materials are stored in the black cabinet next to the sample prep table. Perform all sample loading at the table and transfer holders to the instrument on the tray once complete.
 
+Some measurements need special handling and are worth discussing with staff before you start. Air- or moisture-sensitive powders can be protected with a cover such as Kapton film (which adds some background of its own). Small amounts of powder, or a thin layer on a substrate, can swamp the pattern with peaks from the holder or substrate; a zero-background or low-background holder helps in those cases. Thin films and coatings sometimes need a grazing-incidence setup rather than a standard powder scan. Ask staff whether the lab has the right holder or configuration for your sample.
+
 <p class="guidance-note"><em>If you have any questions about whether a material is appropriate to characterize in the Breakerspace, please ask before bringing it to the lab.</em></p>
 
 ### Detailed Operating Instructions {#details}
@@ -113,6 +151,8 @@ The sections above are a quick reference for trained users. The sections below a
 
 The stored programs on the instrument cover most basic phase-identification needs. Typical starting settings for general phase ID are Cu Kα radiation, a 2θ range of about 10-80°, a step size near 0.02°, and a count time of roughly 0.5-2 s per step. A smaller step size and longer count time improve resolution and signal-to-noise at the cost of a longer scan.
 
+Plan your reservation around scan time. A quick phase-ID scan can finish in a few minutes, but a high-resolution scan (small step size, long count time) can take considerably longer, and each queued sample adds to the total. Book enough instrument time for every sample you intend to run, plus sample loading, export, and cleanup.
+
 <figure style="margin-left:0; margin-right:0;">
 	<img src="../assets/img/tutorials/xrd/Queue.gif" alt="Adding a sample to the measurement queue." style="width:50%; margin:0">
 	<img src="../assets/img/tutorials/xrd/Export.gif" alt="Copying results to a desktop folder." style="width:50%; margin:0">
@@ -123,6 +163,8 @@ The stored programs on the instrument cover most basic phase-identification need
 Data can be saved to a USB drive or exported to a shared network drive on the XRD workstation to the right of the instrument. The workstation can be accessed using a common login: the username is `xrd` and the password is `xrd-password`. Data can be found in the folder `"C:\XRD\XRD data"` (the path contains a space, so `XRD data` is a single folder name).
 
 Export both the raw scan and any processed plots so you can reprocess later. Save a copy to your own storage as well, since the shared workstation is not a backup.
+
+The Aeris saves scans in Panalytical's `.xrdml` format, and you can also export a plain-text or `.csv` version of the pattern for use elsewhere. If you want to analyze data on your own laptop and do not have access to HighScore Plus, free tools can open and process XRD patterns: for example, [Profex/BGMN](https://www.profex-xrd.org/) or [GSAS-II](https://gsas-ii.readthedocs.io/) for full analysis, and most spreadsheet or plotting software for a quick look at an exported text/`.csv` pattern. Match capability is limited without a reference database, so plan to do phase matching on the lab workstation when you can.
 
 <figure style="margin-left:0; margin-right:0;">
 	<a href="../assets/img/tutorials/xrd/xrd-data-in-folder.png" target="_parent">
@@ -235,7 +277,6 @@ Advanced analysis such as quantitative phase fractions, crystallite size from pe
 * Reshoot the loading, queue, and export GIFs with appropriate glove use if handling guidance calls for it.
 * Add a dedicated screenshot of the changer-position selection in the UI (the current step links the general `Queue.gif`; a still that highlights the position selector would be clearer).
 * Add one or two annotated example patterns showing background, labeled peaks, and an accepted Search Match candidate.
-* Confirm the current workstation login details and networked export path before publishing.
-* Consolidate the remaining XRD source content (`tutorials/xrd.md`, `tutorials/xrd-preview.md`) into this page and retire the duplicates once this page is approved.
+* Add an attention-catching example diffraction pattern to the "What this instrument shows you" section (for example, a sharp crystalline pattern next to a broad amorphous one) to illustrate the educational text.
 * Cross-link the printed [XRD handout](../handouts/xrd/) once its cheat-sheet content is finalized.
 * Add approved training powders and reference samples for the exercises once the sample library is ready.

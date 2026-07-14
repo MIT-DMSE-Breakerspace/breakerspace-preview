@@ -57,6 +57,11 @@ The remaining work is verification, external-system alignment, instrument migrat
 * [x] Establish `instruments/index.md` as the canonical instrument catalog.
 * [x] Consolidate operating pages for the two Phenom SEMs, ion mill, optical microscope, FTIR, and Duetta.
 * [ ] Complete and promote the XRD operating page; reconcile `instruments/xrd.md`, the legacy XRD tutorial, preview material, and print handout.
+  * [ ] Confirm the current XRD workstation login details and networked export path (`"C:\XRD\XRD data"`) before publishing.
+  * [ ] Verify the exact export formats the Aeris produces (`.xrdml` and any text/`.csv` option) and confirm the recommended free off-workstation analysis tools named on the page.
+  * [ ] Confirm which special-case holders the lab actually stocks (zero-background/low-background holder, Kapton or other air-sensitive cover, grazing-incidence capability) and correct the sample-prep note to match.
+  * [ ] Add representative scan durations for the stored measurement programs so the page can help users size their reservations.
+  * [ ] Verify the Aeris interlock/enclosure safety description against the manual and lab practice.
 * [ ] Consolidate the Instron, Raman, hardness tester, and particle size analyzer pages.
 * [ ] Convert the legacy `lab.md` catalog into a concise compatibility pointer to the canonical instrument catalog.
 * [ ] Review legacy tutorial URLs and preserve useful inbound links while removing conflicting instructions.
