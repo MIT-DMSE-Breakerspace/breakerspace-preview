@@ -12,15 +12,16 @@ For instruments that do not need to be split into multiple related tools, one pa
 
 ## Current Migration Status
 
-The canonical catalog is `instruments/index.md`. Consolidated pages currently cover six instruments:
+The canonical catalog is `instruments/index.md`. Consolidated pages currently cover seven instruments:
 
 * Phenom XL and Phenom Pure through the shared `sem.md` hub and separate operating pages.
 * SEMPrep 2 ion mill.
 * Olympus DSX-1000 optical microscope.
 * Nicolet iS5 FTIR spectrometer.
 * Horiba Duetta fluorescence and absorbance spectrometer.
+* Malvern Panalytical Aeris Research XRD.
 
-Five instruments still use legacy tutorial/SOP destinations in the catalog: XRD, Instron, Raman, hardness tester, and particle size analyzer. `instruments/xrd.md` exists as a working draft but is not yet the public catalog destination.
+Four instruments still use legacy tutorial/SOP destinations in the catalog: Instron, Raman, hardness tester, and particle size analyzer. The XRD page (`instruments/xrd.md`) is now the promoted catalog destination; its legacy tutorial, preview material, and print handout still need reconciling and retiring.
 
 The sample library and Materials Showcase are planned supporting systems. Level 1 exercises should eventually point to documented sample-library records with cabinet locations, expected results, data files where useful, and replenishment information. Approved example results should be reusable from instrument pages and educational showcases rather than copied into disconnected collections. The showcase concept and editorial model are documented in `../showcases/README.md`.
 

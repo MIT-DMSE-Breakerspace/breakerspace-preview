@@ -18,6 +18,7 @@ During the transition, use this page as the instrument landing page. Updated ins
 | [Olympus DSX-1000 Digital Optical Microscope](./optical.html) | Full-color optical imaging, 2D/3D capture, stitching, and basic measurement workflows. | Updated operating page |
 | [Thermo Scientific Nicolet iS5 FTIR Spectrometer](./ftir.html) | Molecular material identification and comparison using ATR infrared spectroscopy. | Updated operating page |
 | [Horiba Duetta Fluorescence and Absorbance Spectrometer](./uv-vis.html) | Measuring absorbance, transmission, and staff-guided fluorescence workflows in cuvette samples. | Updated operating page |
+| [Malvern Panalytical Aeris Research XRD](./xrd.html) | Phase identification and crystal-structure analysis of powder and solid samples by X-ray diffraction. | Updated operating page |
 
 ## Instruments Awaiting Consolidation
 
@@ -25,7 +26,6 @@ These links go to the current tutorial/SOP pages. As each tutorial is revised, i
 
 | Instrument | Current page |
 | --- | --- |
-| Panalytical Aeris Research XRD | [XRD tutorial/SOP](../tutorials/xrd.html) |
 | Instron 68TM-50 Universal Testing System | [Instron tutorial/SOP](../tutorials/instron.html) |
 | Horiba XploRA Confocal Raman Microscope | [Raman tutorial/SOP](../tutorials/raman.html) |
 | Innovatest Nemesis 5100G2 Hardness Tester | [Hardness tester tutorial/SOP](../tutorials/hardness-tester.html) |

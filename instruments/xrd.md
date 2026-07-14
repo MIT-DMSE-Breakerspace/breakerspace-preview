@@ -136,10 +136,16 @@ The sections above are a quick reference for trained users. The sections below a
 * Place a prepared sample in any of the six positions on the sample changer.
 * Replace the plastic sample-changer cover.
 
-<figure style="margin-left:0; margin-right:0;">
-	<img src="../assets/img/tutorials/xrd/removing-plastic-cover-2.gif" alt="Removing the plastic sample case cover." style="width:50%; margin:0">
-	<img src="../assets/img/tutorials/xrd/add-sample.gif" alt="Placing a prepared sample in the changer." style="width:50%; margin:0">
-</figure>
+<div class="media-pair">
+  <figure class="page-figure">
+    <img src="../assets/img/tutorials/xrd/removing-plastic-cover-2.gif" alt="Removing the plastic sample-changer cover." width="480" height="640" loading="lazy">
+    <figcaption>Removing the plastic sample-changer cover.</figcaption>
+  </figure>
+  <figure class="page-figure">
+    <img src="../assets/img/tutorials/xrd/add-sample.gif" alt="Placing a prepared sample in the sample changer." width="640" height="480" loading="lazy">
+    <figcaption>Placing a prepared sample in the changer.</figcaption>
+  </figure>
+</div>
 
 #### Running A Measurement Program {#measurement}
 
@@ -153,10 +159,16 @@ The stored programs on the instrument cover most basic phase-identification need
 
 Plan your reservation around scan time. A quick phase-ID scan can finish in a few minutes, but a high-resolution scan (small step size, long count time) can take considerably longer, and each queued sample adds to the total. Book enough instrument time for every sample you intend to run, plus sample loading, export, and cleanup.
 
-<figure style="margin-left:0; margin-right:0;">
-	<img src="../assets/img/tutorials/xrd/Queue.gif" alt="Adding a sample to the measurement queue." style="width:50%; margin:0">
-	<img src="../assets/img/tutorials/xrd/Export.gif" alt="Copying results to a desktop folder." style="width:50%; margin:0">
-</figure>
+<div class="media-pair">
+  <figure class="page-figure">
+    <img src="../assets/img/tutorials/xrd/Queue.gif" alt="Adding a sample to the measurement queue in the software." width="618" height="348" loading="lazy">
+    <figcaption>Adding a sample to the measurement queue.</figcaption>
+  </figure>
+  <figure class="page-figure">
+    <img src="../assets/img/tutorials/xrd/Export.gif" alt="Copying measurement results to a desktop folder." width="612" height="344" loading="lazy">
+    <figcaption>Copying results to a desktop folder.</figcaption>
+  </figure>
+</div>
 
 #### Exporting Data {#export}
 
@@ -166,11 +178,9 @@ Export both the raw scan and any processed plots so you can reprocess later. Sav
 
 The Aeris saves scans in Panalytical's `.xrdml` format, and you can also export a plain-text or `.csv` version of the pattern for use elsewhere. If you want to analyze data on your own laptop and do not have access to HighScore Plus, free tools can open and process XRD patterns: for example, [Profex/BGMN](https://www.profex-xrd.org/) or [GSAS-II](https://gsas-ii.readthedocs.io/) for full analysis, and most spreadsheet or plotting software for a quick look at an exported text/`.csv` pattern. Match capability is limited without a reference database, so plan to do phase matching on the lab workstation when you can.
 
-<figure style="margin-left:0; margin-right:0;">
-	<a href="../assets/img/tutorials/xrd/xrd-data-in-folder.png" target="_parent">
-		<img src="../assets/img/tutorials/xrd/xrd-data-in-folder.png" alt="Recommended export location in Windows Explorer." style="width:50%; margin:0" />
-		<figcaption>Recommended export location in Windows Explorer.</figcaption>
-	</a>
+<figure class="page-figure">
+  <img src="../assets/img/tutorials/xrd/xrd-data-in-folder.png" alt="Windows Explorer showing the recommended XRD data export folder." width="1840" height="1288" loading="lazy">
+  <figcaption>Recommended export location in Windows Explorer.</figcaption>
 </figure>
 
 #### New Measurement Programs {#new-programs}
