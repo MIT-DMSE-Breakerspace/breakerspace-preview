@@ -1,35 +1,72 @@
 ---
 layout: default
-title: Breakerspace Resources
+title: "Help & Support"
 ---
 
-# Breakerspace Resources
+# Help & Support
 
-Use this page for general Breakerspace support: getting access, saving and moving files, contacting the team, and finding shared reference materials. For lab-wide operating rules, see [Safety And Lab Use]({{ "/safety.html" | relative_url }}). Instrument-specific instructions, manuals, troubleshooting, exercises, and reservation links are moving to the [instrument pages]({{ "/instruments/" | relative_url }}).
+Use this page when something is not working, you cannot access the lab or your files, or you need help choosing a safe and workable next step.
 
-## Getting Access
+For fire, smoke, a serious injury, a major spill or release, or another immediate danger, follow the [Breakerspace emergency instructions]({{ "/safety.html#emergency-or-immediate-danger" | relative_url }}). Do not use Slack or email for an emergency.
 
-New lab users should follow the [Breakerspace training pathway]({{ "/training.html" | relative_url }}) before reserving or using instruments independently.
+## Start With The Problem
 
-The instrument workstations are on the [MIT WIN domain](https://ist.mit.edu/winmitedu), with access managed through [Moira group lists](https://groups.mit.edu/webmoira/). After you complete training for an instrument, you should be added to the relevant group, such as `dmse-brkrspc-sem` for the SEMs.
+| I need help with... | First action |
+| --- | --- |
+| An emergency or immediate danger | Follow [Emergency Or Immediate Danger]({{ "/safety.html#emergency-or-immediate-danger" | relative_url }}). |
+| An instrument warning, error, damaged part, spill, or unexpected behavior | Stop work and follow [Instrument Problems](#instrument-problems). |
+| Tap access, workstation login, Slack, Dropbox, or missing permissions | Go to [Access And Account Problems](#access-and-account-problems). |
+| Saving, locating, syncing, or transferring data | Go to [Files And Data](#files-and-data). |
+| Choosing an instrument, preparing an unusual sample, developing a method, or interpreting results | Go to [Project And Method Support](#project-and-method-support). |
+| Registering for training or understanding the training process | Start with [Get Trained]({{ "/training.html" | relative_url }}). |
+| Making, changing, or troubleshooting a reservation | Start with [Reserve Instrument Time]({{ "/reservations.html" | relative_url }}). |
+| Lounge access, hours, or lounge use | Go to [Use The Lounge]({{ "/lounge.html" | relative_url }}). |
 
-Once access is active, log on to the instrument workstation using your MIT Kerberos. If you completed training and believe you should have access but cannot log on, contact [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
+## Instrument Problems
 
-For lounge access, use the [lounge access request form](https://docs.google.com/forms/d/e/1FAIpQLSdcX0J_sUQmiO0j15IHSrni4rX7LMLaILCjoXQOn4QriWAoHA/viewform?usp=sf_link).
+If an instrument behaves unexpectedly, displays an unfamiliar warning, makes an unusual sound, spills or leaks, damages a sample, or appears unsafe:
+
+1. Stop the procedure. Do not repeatedly clear the warning, restart the instrument, bypass a protection, or continue experimenting with controls.
+2. If it is safe and you know the normal procedure, leave the instrument in a stable condition. Keep other users from continuing until the problem has been assessed.
+3. Check the relevant [instrument page]({{ "/instruments/" | relative_url }}) for a documented common failure mode only when the situation is stable and the guide clearly describes the same problem. Stop if the safe next step is unclear.
+4. Find a Breakerspace staff member in the lab. If no one is available, ask in `#breakerspace-help` on [Slack](https://mit-dmse-breakerspace.slack.com) or email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
+5. Report the instrument, sample, settings, warning or symptoms, when the problem began, and any actions already taken.
+
+Report damage, spills, unsafe conditions, injuries, and near misses even when the immediate problem appears resolved. Follow [Problems, Damage, And Non-Emergency Incidents]({{ "/safety.html#problems-damage-and-non-emergency-incidents" | relative_url }}) for lab-wide response and reporting guidance.
+
+## Access And Account Problems
+
+The normal access process is part of the [Breakerspace training pathway]({{ "/training.html" | relative_url }}). Use this section when you completed the expected step but the resulting access or invitation is missing.
+
+### Tap Access
+
+Physical tap access is processed by the lab manager after your one-time Qualtrics training record is complete. If you completed the record but cannot enter the lab, email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) with your name, MIT Kerberos username, and the approximate date of your first training.
+
+Lounge-only access is managed separately. Use the access information on the [Breakerspace Lounge page]({{ "/lounge.html" | relative_url }}).
+
+### Instrument Workstation Access
+
+The instrument workstations are on the [MIT WIN domain](https://ist.mit.edu/winmitedu), with permissions managed through [Moira group lists](https://groups.mit.edu/webmoira/). After an instrument training, the trainer should add you to the relevant group, such as `dmse-brkrspc-sem` for the SEMs.
+
+Log on to an instrument workstation using your own MIT Kerberos account. If you completed training but cannot log on, contact [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) and include the instrument, your Kerberos username, when you trained, and the exact error or behavior you encountered.
+
+### Slack And Dropbox Invitations
+
+After your initial Breakerspace training, you should receive invitations at your `@mit.edu` email address for the Breakerspace Slack workspace and the DMSE Breakerspace Dropbox Team. Check your MIT email and spam or junk folder first. If an invitation is missing or expired, contact [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
 
 ## Files And Data
 
-When you log in to a Breakerspace workstation, you should see a shared network drive in "My Computer" called "Breakerspace Files", usually mapped to drive letter `I:`. If you are not sure what this looks like, see a [screenshot of the Breakerspace Files drive](./assets/img/breakerspace-files.JPG).
+When you log in to a Breakerspace workstation, you should see a shared network drive in "My Computer" called "Breakerspace Files", usually mapped to drive letter `I:`. See a [screenshot of the Breakerspace Files drive](./assets/img/breakerspace-files.JPG) if you are not sure what it looks like.
 
-The shared drive is hosted on a file server in the Breakerspace and is also the Dropbox Team folder for the "DMSE Breakerspace" Dropbox Team. Files saved here are accessible to other users logged in to Breakerspace workstations and to members of the DMSE Breakerspace Dropbox Team. Do not use this shared folder for private or sensitive files.
+The shared drive is hosted on a file server in the Breakerspace and is also the Dropbox Team folder for the "DMSE Breakerspace" Dropbox Team. Files saved here are accessible to other users logged in to Breakerspace workstations and to members of the Dropbox Team. Do not use this shared folder for private or sensitive files.
 
-Periodically, the file server reboots and Dropbox may not sync until an admin logs in to the file server and the Dropbox app runs. If you saved files to `Breakerspace Files` and they do not appear in the DMSE Breakerspace Dropbox Team folder, contact [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
+Periodically, the file server reboots and Dropbox may not sync until an administrator logs in to the server and the Dropbox app runs. If you saved files to `Breakerspace Files` and they do not appear in the DMSE Breakerspace Dropbox Team folder, contact [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
 
-If you have an MIT Dropbox for Business account registered to your MIT email address, you should receive an email inviting you to join the DMSE Breakerspace Team once you complete your initial training. If you have not created a Dropbox for Business account, you will need to do so before you can be invited to the team.
+If you have an MIT Dropbox for Business account registered to your MIT email address, you should receive an invitation to join the DMSE Breakerspace Team after your initial training. If you have not created a Dropbox for Business account, you will need to do so before you can be invited.
 
-More information about MIT Dropbox for Business accounts is available from the [MIT Dropbox landing page](https://kb.mit.edu/confluence/display/istcontrib/Dropbox+Landing+Page). If you visit [dropbox.com/teams](https://dropbox.com/teams) while logged in with your MIT account, you can search for "DMSE Breakerspace" and ask to join if you are not already a member.
+More information is available from the [MIT Dropbox landing page](https://kb.mit.edu/confluence/display/istcontrib/Dropbox+Landing+Page). While logged in with your MIT account, you can also visit [dropbox.com/teams](https://dropbox.com/teams), search for "DMSE Breakerspace", and request to join if you are not already a member.
 
-You may also use other appropriate ways to manage and transfer your data, such as thumb drives, external hard drives, or a non-Team Dropbox folder in your own account.
+You may use other appropriate ways to manage and transfer your data, such as a thumb drive, external hard drive, or non-Team Dropbox folder in your own account.
 
 Recommended shared-drive locations:
 
@@ -43,25 +80,30 @@ Breakerspace Files (I:)\courses\subject_folder\your-folder
 
 If the shared folder becomes untidy or confusing, Breakerspace staff may reorganize files as needed to improve usability.
 
-## Communication
+## Project And Method Support
 
-The Breakerspace Slack workspace is [mit-dmse-breakerspace.slack.com](https://mit-dmse-breakerspace.slack.com). It includes a #breakerspace-help channel that is a good place to ask questions, share tips and results, and connect with DMSE faculty, instructors, staff, and other users. We are happy to make other channels upon request.
-
-You should receive an invitation at your `@mit.edu` email after you complete training. If you did not receive an invitation, contact [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
-
-### Getting Help With Advanced Work
-
-Already-trained users who encounter an advanced characterization question should:
+Already-trained users can ask for help when a project involves an unusual sample, a more demanding preparation or measurement, an unfamiliar accessory, method development, data interpretation, or uncertainty about which instrument can answer the question.
 
 1. Ask a Breakerspace staff member in the lab, if someone is available.
 2. If no one is available, ask in `#breakerspace-help` on Slack or email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu), whichever you prefer.
+3. Briefly describe the sample, what you are trying to learn, the instrument or method you are considering, anything unusual about the material, and what you have already tried.
 
-When reaching out, briefly describe the sample, what you are trying to learn, the instrument or method you are considering, and anything you have already tried. The Breakerspace team can help identify a feasible approach, develop additional instrument skills, and decide whether the work requires more preparation or training.
+The Breakerspace team can help identify a feasible approach, review sample compatibility, develop additional instrument skills, and decide whether the work requires more preparation or training. Ask before bringing an unusual or uncertain sample into the lab; see [Samples And Materials]({{ "/safety.html#samples-and-materials" | relative_url }}) for the kinds of samples that require advance discussion.
 
-## Reference Materials
+If you have not yet trained on the relevant instrument, begin with [Get Trained]({{ "/training.html" | relative_url }}). Staff consultations are not currently booked through the instrument reservation calendar; contact the team directly.
 
-* [Safety and lab use]({{ "/safety.html" | relative_url }}) for lab-wide rules, emergency response, PPE, samples, guests, cleanup, and incident reporting.
-* [Instrument pages]({{ "/instruments/" | relative_url }}) for current and future integrated instrument guides.
-* [Sample library]({{ "/sample-library.html" | relative_url }}) for shared training and reference samples as that collection develops.
+## Contact The Team
 
-The sample library is a work in progress. It is intended to support future training exercises and reference examples, but users should not rely on it as a complete or required collection yet. Return reusable sample-library materials to the cabinet, and contact [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) if a consumable sample is running low.
+### In The Lab
+
+For an instrument problem, sample question, or quick operating decision, ask a Breakerspace staff member in the lab when someone is available.
+
+### Slack
+
+The Breakerspace Slack workspace is [mit-dmse-breakerspace.slack.com](https://mit-dmse-breakerspace.slack.com). Use `#breakerspace-help` for questions, tips, results, and issues that may benefit other lab users. The workspace also connects users with DMSE faculty, instructors, staff, and students.
+
+### Email
+
+Email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) for access corrections, invitation problems, administrative questions, or support that does not require an immediate response.
+
+For an urgent emergency, use the [Breakerspace emergency instructions]({{ "/safety.html#emergency-or-immediate-danger" | relative_url }}) rather than Slack or email.

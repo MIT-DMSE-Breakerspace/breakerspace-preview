@@ -142,4 +142,4 @@ See [MIT EHS occupational injury and illness reporting](https://ehs.mit.edu/work
 * [Get Trained]({{ "/training.html" | relative_url }}) for the training and access pathway.
 * [Instrument Pages]({{ "/instruments/" | relative_url }}) for equipment-specific safety, sample limits, and operating instructions.
 * [Reserve Instrument Time]({{ "/reservations.html" | relative_url }}) for reservation ownership, guests, late arrival, cancellation, and handoff rules.
-* [Get Help]({{ "/resources.html" | relative_url }}) for access, files, communication, and advanced project support.
+* [Get Help]({{ "/resources.html" | relative_url }}) for instrument problems, access and account issues, files and data, project support, and contacting the team.

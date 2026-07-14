@@ -59,10 +59,10 @@ Choose the situation that best matches what you are trying to do. You do not nee
   <article class="intent-item">
     <div class="intent-prompt">
       <span class="intent-kicker">Help and troubleshooting</span>
-      <h3>I have a question or an advanced project</h3>
+      <h3>Something isn't working, or I need advice</h3>
     </div>
     <div class="intent-detail">
-      <p>Find help with access, files, samples, lab practices, instrument questions, and advanced characterization work.</p>
+      <p>Get help with instrument problems, access and account issues, files and data, unusual samples, and advanced characterization work.</p>
       <a class="intent-link" href="{{ "/resources.html" | relative_url }}">Get help <span aria-hidden="true">&rarr;</span></a>
     </div>
   </article>

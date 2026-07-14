@@ -66,7 +66,7 @@ After an in-person instrument training, the trainer should add you directly to t
 
 After your initial Breakerspace training, you should also receive invitations to the DMSE Breakerspace Dropbox Team and the Breakerspace Slack workspace.
 
-If you completed training but cannot log in to an instrument workstation or did not receive the expected invitations, see [Getting Access]({{ "/resources.html#getting-access" | relative_url }}) or email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
+If you completed training but cannot enter the lab, log in to an instrument workstation, or receive the expected invitations, see [Access And Account Problems]({{ "/resources.html#access-and-account-problems" | relative_url }}) or email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
 
 ### 6. Reserve And Keep Learning
 

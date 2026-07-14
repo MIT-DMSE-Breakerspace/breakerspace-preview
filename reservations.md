@@ -17,7 +17,7 @@ Use this page when you are ready to work independently on an instrument for whic
 | Learn to use an instrument | [Get Trained]({{ "/training.html" | relative_url }}) |
 | Review lab-wide operating rules | [Safety And Lab Use]({{ "/safety.html" | relative_url }}) |
 | Decide which instrument fits my question or sample | [Find an Instrument]({{ "/instruments/" | relative_url }}) |
-| Ask about an unusual sample or advanced measurement | [Get Help]({{ "/resources.html#getting-help-with-advanced-work" | relative_url }}) before booking |
+| Ask about an unusual sample or advanced measurement | Use [Project And Method Support]({{ "/resources.html#project-and-method-support" | relative_url }}) before booking |
 | Plan instrument use for a class or large group | [Teach With Us]({{ "/teaching.html" | relative_url }}) |
 
 Instrument reservations are not training appointments. Complete the training process before reserving independent instrument time.
@@ -100,7 +100,7 @@ If your work is taking longer than expected and another reservation follows your
 
 | Problem | What to do |
 | --- | --- |
-| Your tap access or workstation login does not work | Follow the steps under [Getting Access]({{ "/resources.html#getting-access" | relative_url }}). |
+| Your tap access or workstation login does not work | Follow [Access And Account Problems]({{ "/resources.html#access-and-account-problems" | relative_url }}). |
 | The instrument is unavailable, damaged, or behaving unexpectedly | Stop. Find a Breakerspace staff member in the lab, ask in `#breakerspace-help` on [Slack](https://mit-dmse-breakerspace.slack.com), or email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu). |
-| You need help choosing settings or interpreting results | Use the instrument page first, then follow the [advanced project help pathway]({{ "/resources.html#getting-help-with-advanced-work" | relative_url }}). |
+| You need help choosing settings or interpreting results | Use the instrument page first, then follow [Project And Method Support]({{ "/resources.html#project-and-method-support" | relative_url }}). |
 | You need staff time rather than instrument time | Contact the team directly. Staff consultations are not currently booked through the instrument calendar. |
