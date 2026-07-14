@@ -57,7 +57,7 @@ The homepage should remain concise. It routes users by intent and provides the l
 
 The canonical instrument catalog is `instruments/index.md`.
 
-Consolidated coverage currently includes seven instruments:
+Consolidated coverage currently includes eight instruments:
 
 * Thermo Fisher Phenom XL SEM
 * Thermo Fisher Phenom Pure SEM
@@ -66,17 +66,17 @@ Consolidated coverage currently includes seven instruments:
 * Thermo Scientific Nicolet iS5 FTIR spectrometer
 * Horiba Duetta fluorescence and absorbance spectrometer
 * Malvern Panalytical Aeris Research XRD
+* Microtrac Sync particle size analyzer
 
 The SEMs use a shared hub at `instruments/sem.md` plus separate safety-critical operating pages at `instruments/phenom-xl.md` and `instruments/phenom-pure.md`.
 
-Four instruments still route users to legacy tutorial/SOP pages:
+Three instruments still route users to legacy tutorial/SOP pages:
 
 * Instron 68TM-50 universal testing system
 * Horiba XploRA Raman microscope
 * Innovatest Nemesis hardness tester
-* Microtrac Sync particle size analyzer
 
-`instruments/xrd.md` is now the promoted catalog destination for XRD. The legacy XRD tutorial, preview material, and print handout still need reconciling and retiring (tracked in `_staff/site-todo.md`). The detailed page model and migration rules live in `instruments/readme.md`.
+Promoted instruments have their legacy `tutorials/*.md` pages retired as redirects to the canonical `instruments/` pages, preserving the old URLs. The detailed page model and migration rules live in `instruments/readme.md`.
 
 Legacy `tutorials/` pages should remain available until their replacement is complete and existing links have been reviewed. The old `lab.md` catalog is superseded by `instruments/index.md` and should eventually become a concise compatibility pointer rather than a competing catalog.
 

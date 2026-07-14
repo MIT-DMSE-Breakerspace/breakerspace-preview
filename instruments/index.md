@@ -19,6 +19,7 @@ During the transition, use this page as the instrument landing page. Updated ins
 | [Thermo Scientific Nicolet iS5 FTIR Spectrometer](./ftir.html) | Molecular material identification and comparison using ATR infrared spectroscopy. | Updated operating page |
 | [Horiba Duetta Fluorescence and Absorbance Spectrometer](./uv-vis.html) | Measuring absorbance, transmission, and staff-guided fluorescence workflows in cuvette samples. | Updated operating page |
 | [Malvern Panalytical Aeris Research XRD](./xrd.html) | Phase identification and crystal-structure analysis of powder and solid samples by X-ray diffraction. | Updated operating page |
+| [Microtrac Sync Particle Size Analyzer](./psa.html) | Particle size distribution of dry powders (roughly 0.24-2,000 µm) by laser diffraction. | Updated operating page |
 
 ## Instruments Awaiting Consolidation
 
@@ -29,7 +30,6 @@ These links go to the current tutorial/SOP pages. As each tutorial is revised, i
 | Instron 68TM-50 Universal Testing System | [Instron tutorial/SOP](../tutorials/instron.html) |
 | Horiba XploRA Confocal Raman Microscope | [Raman tutorial/SOP](../tutorials/raman.html) |
 | Innovatest Nemesis 5100G2 Hardness Tester | [Hardness tester tutorial/SOP](../tutorials/hardness-tester.html) |
-| Microtrac Sync Particle Size Analyzer | [Particle size analyzer tutorial/SOP](../tutorials/psa.html) |
 
 ## Page Model
 

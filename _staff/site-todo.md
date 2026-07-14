@@ -63,7 +63,8 @@ The remaining work is verification, external-system alignment, instrument migrat
   * [ ] Confirm which special-case holders the lab actually stocks (zero-background/low-background holder, Kapton or other air-sensitive cover, grazing-incidence capability) and correct the sample-prep note to match.
   * [ ] Add representative scan durations for the stored measurement programs so the page can help users size their reservations.
   * [ ] Verify the Aeris interlock/enclosure safety description against the manual and lab practice.
-* [ ] Consolidate the Instron, Raman, hardness tester, and particle size analyzer pages.
+* [ ] Consolidate the Instron, Raman, and hardness tester pages.
+  * [x] Particle size analyzer consolidated at `instruments/psa.md`, promoted in the catalog, and its legacy tutorial retired as a redirect. Follow-up: confirm approved training powders, workstation login/default-database details, and add captions/transcripts for the embedded PSA videos (accessibility follow-up).
 * [x] Convert the legacy `lab.md` catalog into a compatibility pointer. `lab.md` now uses `layout: redirect` to forward `/lab.html` to `/instruments/`, preserving the old URL and removing the competing second catalog. This also orphaned the promoted-instrument legacy tutorials (they are no longer linked from `lab.md`); see the tutorial-retirement item below.
 * [x] Retire the remaining promoted-instrument legacy tutorials now that `lab.md` no longer links them. `tutorials/ftir.md`, `tutorials/optical.md`, `tutorials/uv-vis.md`, and `tutorials/ion-mill.md` are now clean 1:1 redirects to their `instruments/` pages; `tutorials/sem.md` redirects to the split hub (`instruments/sem.html`). All use `layout: redirect` and preserve their old `/tutorials/*.html` URLs, matching the XRD pattern.
 * [ ] Review legacy tutorial URLs and preserve useful inbound links while removing conflicting instructions.
