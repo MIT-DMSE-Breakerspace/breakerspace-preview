@@ -116,11 +116,11 @@ Finally, remember the measurement basis matters. A volume-based distribution is 
 
 The sections above are a quick reference for trained users. The sections below are a training guide for new users, with the practical details and videos that are easiest to follow at the instrument.
 
-The overall sequence is straightforward: start the software, connect to the instrument, let it initialize, verify you are saving into the correct database, load a measurement SOP, clean the sample tray if needed and load a sample, run the auto-sequence, save your data, and close the software. The videos below show the physical steps (cleaning, sample loading, collection) separately from where they fall in the software timeline. Refer to the [standard operating protocol](#sop) above for the chronological order of the whole operation.
+The workflow is short: start the software, connect to the instrument, let it initialize, confirm the active database, load a measurement SOP, clean and load the sample tray, run the auto-sequence, then save and close. The videos below cover the physical steps (cleaning, loading, collection) on their own, out of sequence; see the [standard operating protocol](#sop) for the full order.
 
 #### Cleaning The Sample Area {#cleaning}
 
-Loose particles left in the sample area from previous samples can be pulled into the instrument and skew your result. If there are particles to clean, lightly wet a Kimwipe with isopropanol and use it to wipe up the loose particles. If needed, the sample tray and sample tray carrier can be removed for more careful cleaning.
+Loose particles left from a previous sample can be drawn into the instrument and skew your result. Wipe them up with a Kimwipe lightly wetted with isopropanol. For a more thorough cleaning, the sample tray and its carrier can be removed.
 
 <div class="container-video">
   <iframe class="responsive-iframe" title="Cleaning the particle size analyzer sample area" src="https://www.youtube.com/embed/CEDb8fk9C0I?si=O2J6BDKxPWnC9m0C"></iframe>
@@ -128,11 +128,11 @@ Loose particles left in the sample area from previous samples can be pulled into
 
 #### Loading A Sample {#loading}
 
-* The instrument includes a shallow and a deep sample tray. Typically the shallow tray is used. If you think you may need the deeper tray, talk with lab staff first.
-* Load the shallow tray with about 1/4 teaspoon of dry powder. It is recommended that you clean the measuring spoon with an isopropanol-wetted Kimwipe before and after loading your sample. The exact quantity is not critical if it is slightly more or less than 1/4 teaspoon.
-* Keep your sample behind the line on the sample tray as much as is practical, without worrying if a little falls in front of the line.
-* Distribute the sample as evenly as is practical along the length of the tray. It does not need to be perfectly uniform. Your main concern is to avoid compressing the sample, which can create clumps that are measured as single larger particles.
-* Once the sample is loaded, the sample compartment door must be closed before the sample can be analyzed.
+* The instrument has a shallow and a deep sample tray. Use the shallow tray for normal work; if you think you need the deeper tray, talk with lab staff first.
+* Load the shallow tray with about 1/4 teaspoon of dry powder. The amount is forgiving, so a little more or less is fine. Wipe the measuring spoon with an isopropanol-wetted Kimwipe before and after loading.
+* Keep the powder behind the line on the tray, and spread it along the tray's length. It need not be perfectly even, and a little in front of the line is fine.
+* **Do not compress the powder.** Packing it down creates clumps that the instrument can read as single large particles, which is the most common way to distort a result.
+* Close the sample compartment door before analyzing; the sample cannot be measured with the door open.
 
 <div class="container-video">
   <iframe class="responsive-iframe" title="Loading a sample into the particle size analyzer" src="https://www.youtube.com/embed/IbPc-y7S9tU?si=WVRutCo-v9ow8Bwf"></iframe>
@@ -140,7 +140,7 @@ Loose particles left in the sample area from previous samples can be pulled into
 
 #### Full Sequence Of Software Operation {#software}
 
-Because the organization of the software can be confusing, this screen capture shows the full sequence of steps needed to start the software, initialize the instrument, and collect and export data. Remember to load your sample after selecting your measurement SOP and before starting the auto-sequence.
+The software layout can be confusing, so this screen capture walks through the full sequence: starting the software, initializing the instrument, and collecting and exporting data. Remember to load your sample after selecting the measurement SOP and before starting the auto-sequence.
 
 <div class="container-video43">
   <iframe class="responsive-iframe" title="Particle size analyzer software workflow" src="https://www.youtube.com/embed/TvgfB1BDVO4?si=zmK_IY1oiU3FRg6B"></iframe>
