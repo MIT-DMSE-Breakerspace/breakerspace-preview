@@ -21,6 +21,7 @@ During the transition, use this page as the instrument landing page. Updated ins
 | [Malvern Panalytical Aeris Research XRD](./xrd.html) | Phase identification and crystal-structure analysis of powder and solid samples by X-ray diffraction. | Updated operating page |
 | [Microtrac Sync Particle Size Analyzer](./psa.html) | Particle size distribution of dry powders (roughly 0.24-2,000 µm) by laser diffraction. | Updated operating page |
 | [Horiba XploRA Confocal Raman Microscope](./raman.html) | Molecular identification and mapping of solids, powders, and liquids by confocal Raman spectroscopy. | Updated operating page |
+| [Instron 68TM-50 Universal Testing System](./instron.html) | Tensile, compression, and flexure mechanical testing to measure strength, stiffness, and failure behavior. | Updated operating page |
 
 ## Instruments Awaiting Consolidation
 
@@ -28,7 +29,6 @@ These links go to the current tutorial/SOP pages. As each tutorial is revised, i
 
 | Instrument | Current page |
 | --- | --- |
-| Instron 68TM-50 Universal Testing System | [Instron tutorial/SOP](../tutorials/instron.html) |
 | Innovatest Nemesis 5100G2 Hardness Tester | [Hardness tester tutorial/SOP](../tutorials/hardness-tester.html) |
 
 ## Page Model
