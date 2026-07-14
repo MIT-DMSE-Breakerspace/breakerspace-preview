@@ -64,6 +64,8 @@ Gloves protect both the user and the equipment only when they are used cleanly. 
 
 Food and drinks are permitted in the Breakerspace lounge but not in the lab. Keep food, beverages, cups, bottles, and eating utensils on the lounge side of the space, away from instruments, samples, sample-preparation surfaces, and lab waste.
 
+See [Use The Breakerspace Lounge]({{ "/lounge.html" | relative_url }}) for current lounge access, hours, and shared-space information.
+
 ## Samples And Materials
 
 The Breakerspace is intended for non-hazardous materials. Do not bring hazardous materials or hazardous waste into the lab unless Breakerspace staff have explicitly approved the specific material and procedure in advance.

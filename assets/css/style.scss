@@ -155,6 +155,39 @@ main table a:focus-visible {
   text-decoration-thickness: 0.14em;
 }
 
+.page-figure {
+  margin: 1.5rem 0;
+}
+
+.page-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.page-figure figcaption {
+  margin-top: 0.5rem;
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.media-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.media-pair .page-figure {
+  margin: 0;
+}
+
+.media-pair img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
 .animation-toggle {
   margin: 0 0 1.25rem;
   padding: 0.55rem 0.7rem;
@@ -240,6 +273,10 @@ main table a:focus-visible {
 }
 
 @media print, screen and (max-width: 720px) {
+  .media-pair {
+    grid-template-columns: 1fr;
+  }
+
   .intent-item {
     grid-template-columns: 1fr;
     gap: 0.65rem;

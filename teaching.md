@@ -64,6 +64,11 @@ Useful when:
 * Students are new to characterization tools.
 * The main learning goal is connecting material behavior, instrument output, and interpretation.
 
+<figure class="page-figure">
+  <img src="./assets/img/teaching-3010-xrd.jpg" alt="3.010 students gathered around the X-ray diffractometer while an instructor demonstrates the instrument during a projected XRD lesson." width="2400" height="1800" loading="lazy">
+  <figcaption>3.010 students take part in a course-integrated XRD exercise and instrument training in the Breakerspace.</figcaption>
+</figure>
+
 ### Project Support
 
 For project-based subjects, the Breakerspace can help students choose feasible measurements, prepare samples appropriately, collect data, and understand what the results can and cannot show.
@@ -256,6 +261,10 @@ The course works because coffee is approachable but scientifically rich. Student
 ### 3.001 Exploration Sessions
 
 3.001 has visited the Breakerspace consistently over several years for one or two exploration sessions per semester. This lighter-touch model gives students meaningful exposure to the lab and its instruments without requiring a full course integration.
+
+### 3.010 Guided XRD Exercise And Training
+
+3.010 students take part in a course-integrated [XRD](./instruments/xrd.html) exercise and instrument training in the Breakerspace. This guided-module model connects diffraction concepts from the subject to sample handling, measurement, and interpretation in the lab.
 
 ### 3.042 Project Support
 

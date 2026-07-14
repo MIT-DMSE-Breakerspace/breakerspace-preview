@@ -73,7 +73,7 @@ Choose the situation that best matches what you are trying to do. You do not nee
       <h3>I want to use the lounge</h3>
     </div>
     <div class="intent-detail">
-      <p>Learn about lounge access, hours, espresso, and the shared space available to MIT undergraduates.</p>
+      <p>Learn about current lounge access, hours, food and drink boundaries, shared-space expectations, and amenities.</p>
       <a class="intent-link" href="{{ "/lounge.html" | relative_url }}">Visit the lounge page <span aria-hidden="true">&rarr;</span></a>
     </div>
   </article>

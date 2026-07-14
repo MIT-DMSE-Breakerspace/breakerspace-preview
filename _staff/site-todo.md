@@ -33,9 +33,16 @@ Instrument-specific tutorial and migration notes remain on their instrument page
 
 ## Resources And Support
 
-* [ ] Confirm whether the lounge access request link should match the current link on the Lounge page.
 * [ ] Add a short screenshot or example showing the recommended `Breakerspace Files` folder structure.
 * [ ] Review the Resources page after each major instrument page is updated and remove material that belongs on the instrument page instead.
+
+## Lounge And Space Planning
+
+* [ ] Decide whether the lounge will remain a lounge with coffee equipment, become a seating-only food-and-drink area, or be converted to lab space.
+* [ ] When the room decision is implemented, coordinate updates to the navigation, home page, Lounge page, Lab page, Help routing, Safety food-and-drink and egress language, Teaching page, and 3.000 Coffee Matters page.
+* [ ] Confirm the current lounge hours, undergraduate eligibility, access-form URL, and usual processing time before launch.
+* [ ] Confirm which coffee and roasting equipment will remain and whether its operation and cleanup guidance should be published on the website.
+* [ ] Replace lounge and equipment photographs if the physical configuration changes.
 
 ## Accessibility Follow-Up
 
