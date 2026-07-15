@@ -10,11 +10,13 @@ The redesigned preview now has stable task pages for instrument selection, train
 
 The survey itself has not yet been updated. Continue treating the changes below as a coordinated launch dependency rather than changing the active survey piecemeal while it still serves the old production site.
 
-## Issues Observed In The Current Survey
+## Completed Survey Audit
 
-The initial survey review reached the first required SOP knowledge check without submitting a response. The reviewed sections include the welcome page, help resources, tutorial/SOP overview, and optical-microscope SOP question.
+The QSF exported on July 15, 2026 has now been fully extracted and reviewed. Make the revision from the [Qualtrics Manual Editing Guide](qualtrics-manual-edit-guide.md). See [Qualtrics Survey Audit And Revision Plan](qualtrics-survey-audit.md) for the current question order, response fields, validation, survey settings, and rationale.
 
-Known updates:
+The export is valid JSON and the active survey contains 16 question elements in seven displayed blocks. Nine elements are instructional text, six are multiple-choice questions, and one is a three-field tap-access form. The survey has no branch or display logic. It is public and unindexed, allows save-and-continue, has no progress indicator, and stores partial responses after one week.
+
+Highest-priority updates:
 
 * Replace the retired `/sop.html` tutorial index with the new instrument catalog and integrated instrument pages.
 * Direct users to `/training.html` for the current training pathway and LibCal training calendar.
@@ -22,24 +24,36 @@ Known updates:
 * Update the description of instrument-page organization to match the two-speed model: concise trained-user reference plus detailed learning guidance.
 * Remove the claim that staff hours appear on the homepage unless that calendar returns before launch.
 * Correct "paper cheet sheets" to "paper cheat sheets" or remove the reference if printed copies are no longer maintained.
-* Review the optical-microscope knowledge check after the integrated operating page is final; use a stable page anchor and avoid testing a brittle numbered step.
-* Confirm that Slack links use the intended workspace and `#breakerspace-help` destination.
-* Confirm the current Dropbox invitation process.
+* Retire both optical-microscope knowledge checks. Replace them with durable scenario checks about independent-use eligibility, unexpected instrument behavior, and uncertain samples.
+* Confirm that Slack links use the intended workspace and `#breakerspace-help` destination, and explain that the trainer sends the invitation during training closeout.
+* Retain the confirmed self-service Dropbox workflow: users create an MIT Dropbox for Business account when needed, then request membership in the DMSE Breakerspace Team. Add display logic so existing account holders skip enrollment and users who need help can still complete the survey.
 * Explain that instrument trainers add trainees to the appropriate Moira group after the in-person session.
 * Explain that the lab manager processes physical tap access after the one-time Qualtrics record is complete.
 * Confirm that the survey identifies the Breakerspace instrument lab as Building 8, Room 8-102A, entered through the Breakerspace Lounge, wherever arrival information is needed.
+* Add a specific completion message explaining that the online record does not itself authorize independent instrument use.
+* Add a short privacy and operational-use notice for the name, Kerberos username, and MIT ID number collected for tap access.
+* Change MIT ID validation from a generic number to a nine-character text pattern so a leading zero cannot be lost.
+* Leave MIT authentication out of the launch revision because the public, unindexed survey has not received inappropriate responses during its first year. Evaluate SSO later as optional hardening with the MIT Qualtrics brand administrator.
 
 ## Recommended Survey Structure
 
-1. Welcome, audience, and what completing the survey accomplishes.
-2. How to choose an instrument and use the new training page.
-3. How instrument pages are organized for learning and trained operation.
-4. How to get help: staff in the lab, Slack, then email.
-5. Files, Dropbox, workstation access, and data expectations.
-6. General lab safety, sample compatibility, cleanup, and conduct.
-7. Acknowledgment and information required for physical tap access.
+1. Welcome, audience, location, and what the online record does and does not accomplish.
+2. Training pathway and how instrument pages support preparation and trained operation.
+3. Safe response to uncertain samples, unexpected behavior, damage, spills, and other problems.
+4. Files, self-service Dropbox enrollment and membership, workstation access, Slack, and support channels.
+5. Stable lab-wide rules and acknowledgment.
+6. MIT role and information required for physical tap access.
+7. Completion message with in-person training, Moira, tap-access, Dropbox-request, and Slack-invitation next steps.
 
-Knowledge checks should teach users where to find an answer, not require memorization of an operating step that may change when a guide is revised.
+Retain three short, required knowledge checks: completing the survey does not authorize independent use; a trained user who forgets a routine step should use the instrument page rather than guess; and unexpected instrument behavior requires stopping and asking for help. Give explanatory feedback. Instrument-specific training should then require participants to locate that instrument's SOP, detailed guidance, and common failure modes in context.
+
+The exact question text, choices, data export tags, custom-validation messages, placement, and test paths are ready in [qualtrics-manual-edit-guide.md](qualtrics-manual-edit-guide.md#implementing-the-three-knowledge-checks).
+
+## Preferred Production Editing Strategy
+
+Preserve the current survey ID and public link by making the approved changes in the existing Qualtrics survey. First export the current responses and QSF, then build and test the revision in a Qualtrics copy. Apply the tested changes manually to the active survey and publish them in the website launch window.
+
+Do not delete response-bearing questions until the historical response export and retention plan have been confirmed. Move retired questions to the existing unused block outside the survey flow, and add new question IDs for checks whose meaning has changed. Keep the current tap-access fields only if their response columns and validation remain semantically consistent.
 
 ## Coordinated Launch Checklist
 
@@ -49,6 +63,6 @@ Knowledge checks should teach users where to find an answer, not require memoriz
 * [ ] Required questions and display logic have been reviewed.
 * [ ] A complete clean test response has been submitted and checked.
 * [ ] Tap-access information arrives in the format needed by the lab manager.
-* [ ] Moira responsibilities are clear to instrument trainers.
+* [ ] Moira and Slack closeout responsibilities are clear to instrument trainers.
 * [ ] The active survey and redesigned website are released in the same window.
 * [ ] Old website links remain available only as long as needed for the transition.

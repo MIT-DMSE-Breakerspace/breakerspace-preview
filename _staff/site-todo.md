@@ -30,9 +30,9 @@ Every item in this section is a launch gate. Do not waive a safety, onboarding, 
 
 ### Training, Access, And External Systems
 
-* [ ] Complete the coordinated Qualtrics work in [qualtrics-launch-review.md](../_staff-training/qualtrics-launch-review.md), including final links, language, display logic, one clean test response, tap-access fields, and Moira responsibilities.
+* [ ] Complete the coordinated Qualtrics work in [qualtrics-launch-review.md](../_staff-training/qualtrics-launch-review.md), using [qualtrics-manual-edit-guide.md](../_staff-training/qualtrics-manual-edit-guide.md) for the page-by-page revision, display logic, validation, and test paths. The current QSF extraction and rationale remain in [qualtrics-survey-audit.md](../_staff-training/qualtrics-survey-audit.md); four production decisions, Qualtrics editing, and testing remain.
 * [ ] Confirm that LibCal training and reservation descriptions, public calendars, participant limits, cancellation links, and instrument names match the redesigned site.
-* [ ] Confirm the complete access handoff: trainers add the correct Moira groups, the lab manager receives the required Qualtrics information and processes tap access, and users receive the intended Slack and Dropbox invitations.
+* [ ] Confirm the complete access handoff: trainers add the correct Moira groups and send Slack invitations during training closeout, the lab manager receives the required Qualtrics information and processes tap access, and users can create an MIT Dropbox for Business account and request DMSE Breakerspace Team membership.
 * [ ] Run one end-to-end new-user test of the public path: choose an instrument, complete the survey test path, locate or request training, understand the access handoff, find the reservation calendar, locate the operating page, and find help.
 * [ ] Test the core Qualtrics and LibCal workflows with keyboard-only navigation and VoiceOver. Treat an inability to register, understand an error, review a response, submit, or cancel as a launch blocker.
 * [ ] Confirm current lounge hours, undergraduate eligibility, access-form URL, typical processing time, food-and-drink boundary, and the equipment actually available.
@@ -82,7 +82,7 @@ These items should be complete before the first major fall training push or cour
 * [ ] Photograph the verified exit route, campus phone, alarm pull, fire extinguisher, emergency and first-aid cabinet, shower and eyewash, spill kit, sharps container, and waste bins.
 * [ ] Create one compact annotated emergency-equipment and egress visual from real photographs or an accurate plan, then obtain staff or EHS approval before publication.
 * [ ] Complete the broader keyboard and VoiceOver pass on the production build, including image-heavy and table-heavy instrument pages, animations, and authenticated third-party workflows.
-* [ ] Test the Dropbox invitation and shared-file workflow for keyboard and screen-reader access, or document an accessible alternative.
+* [ ] Test the Dropbox enrollment, team-membership request, approval, and shared-file workflow for keyboard and screen-reader access, or document an accessible alternative.
 * [ ] Confirm accurate captions for instructional videos needed in fall training and provide transcripts where captions cannot be corrected promptly.
 * [ ] Identify essential PDF manuals and ensure that critical operating information is also available in accessible HTML even when a tagged manufacturer PDF is unavailable.
 * [ ] Ask MIT Digital Accessibility for a launch-candidate or early-production consultation, with emphasis on instructional media and third-party workflows.

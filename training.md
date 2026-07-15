@@ -41,6 +41,8 @@ If your plans change, please cancel your registration when you can so another st
 
 Before your first in-person instrument training, complete the [one-time Breakerspace online training and training record](https://mit.co1.qualtrics.com/jfe/form/SV_084N36wCErKsgjc).
 
+The online record also walks you through Breakerspace Dropbox access. If you do not yet have an MIT Dropbox for Business account, create one first; then request membership in the DMSE Breakerspace Team. This is a self-service request because team membership cannot be added until your MIT Dropbox account exists.
+
 Review the lab-wide [Safety And Lab Use]({{ "/safety.html" | relative_url }}) page before your first independent instrument session.
 
 Before training, open the relevant instrument page and review:
@@ -64,9 +66,9 @@ To be formally recorded as trained, complete the one-time online training record
 
 After an in-person instrument training, the trainer should add you directly to the appropriate MIT Moira group for that instrument workstation. Physical tap access is processed separately by the lab manager after your one-time Qualtrics online training record is complete.
 
-After your initial Breakerspace training, you should also receive invitations to the DMSE Breakerspace Dropbox Team and the Breakerspace Slack workspace.
+For Dropbox access, create an MIT Dropbox for Business account and request membership in the DMSE Breakerspace Team during the online onboarding process. Breakerspace staff approve the request after it is submitted. During training closeout, the trainer should send you an invitation to the Breakerspace Slack workspace.
 
-If you completed training but cannot enter the lab, log in to an instrument workstation, or receive the expected invitations, see [Access And Account Problems]({{ "/resources.html#access-and-account-problems" | relative_url }}) or email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
+If you completed training but cannot enter the lab, log in to an instrument workstation, obtain the expected Slack invitation, or access the Dropbox Team after requesting membership, see [Access And Account Problems]({{ "/resources.html#access-and-account-problems" | relative_url }}) or email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
 
 ### 6. Reserve And Keep Learning
 

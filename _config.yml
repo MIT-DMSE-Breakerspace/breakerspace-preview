@@ -6,5 +6,6 @@ google_analytics:
 theme: jekyll-theme-minimal
 exclude:
   - README.md
+  - assets/survey
   - showcases/README.md
   - showcases/_template.md

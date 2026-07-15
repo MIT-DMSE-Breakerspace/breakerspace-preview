@@ -13,15 +13,19 @@ The public training pathway is implemented in [`../training.md`](../training.md)
 * Standard sessions are 60 minutes with a maximum of three participants.
 * Participants may divide the Level 1 workflow, provided the trainer makes the full sequence visible and involves everyone meaningfully.
 * The trainer adds attendees directly to the appropriate MIT Moira group after the session.
+* The trainer sends each attendee a Breakerspace Slack invitation as part of training closeout.
 * The lab manager processes physical tap access separately after the one-time Qualtrics training record is complete.
+* Dropbox access is trainee-managed: the trainee creates an MIT Dropbox for Business account and requests membership in the DMSE Breakerspace Team. Trainers should help first-time users with the process when needed rather than attempting to invite an account that may not exist.
 * There is currently no separate skills demonstration, training expiration, or recurring retraining requirement.
 
-The current Qualtrics survey remains coordinated with the active production website until the redesigned site launches. Its required changes are tracked in `qualtrics-launch-review.md`.
+The current Qualtrics survey remains coordinated with the active production website until the redesigned site launches. Make survey changes from `qualtrics-manual-edit-guide.md`. Its release status is tracked in `qualtrics-launch-review.md`; the complete July 2026 extraction and rationale are in `qualtrics-survey-audit.md`.
 
 ## Files In This Directory
 
 * `instrument-training-template.md` is the starting point for each instrument-specific staff guide.
 * `qualtrics-launch-review.md` tracks updates that should be coordinated with the launch of the redesigned website.
+* `qualtrics-manual-edit-guide.md` is the canonical page-by-page copy deck and Qualtrics editing checklist.
+* `qualtrics-survey-audit.md` inventories the current QSF and records the rationale behind the revision.
 * New instrument guides should use the public instrument slug, such as `ftir.md`, `optical.md`, or `phenom-xl.md`.
 
 ## Training Guide Goals

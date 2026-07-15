@@ -36,7 +36,7 @@ Report damage, spills, unsafe conditions, injuries, and near misses even when th
 
 ## Access And Account Problems
 
-The normal access process is part of the [Breakerspace training pathway]({{ "/training.html" | relative_url }}). Use this section when you completed the expected step but the resulting access or invitation is missing.
+The normal access process is part of the [Breakerspace training pathway]({{ "/training.html" | relative_url }}). Use this section when you completed the expected step but the resulting access, approval, or invitation is missing.
 
 ### Tap Access
 
@@ -50,9 +50,15 @@ The instrument workstations are on the [MIT WIN domain](https://ist.mit.edu/winm
 
 Log on to an instrument workstation using your own MIT Kerberos account. If you completed training but cannot log on, contact [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) and include the instrument, your Kerberos username, when you trained, and the exact error or behavior you encountered.
 
-### Slack And Dropbox Invitations
+### Slack And Dropbox Access
 
-After your initial Breakerspace training, you should receive invitations at your `@mit.edu` email address for the Breakerspace Slack workspace and the DMSE Breakerspace Dropbox Team. Check your MIT email and spam or junk folder first. If an invitation is missing or expired, contact [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
+During training closeout, the trainer should send an invitation to your `@mit.edu` email address for the Breakerspace Slack workspace. Check your MIT email and spam or junk folder first. If the invitation is missing or expired, contact [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
+
+Dropbox access uses a self-service request because Breakerspace staff cannot add you to the team until an MIT Dropbox for Business account exists:
+
+1. Create or confirm your MIT Dropbox for Business account through the [MIT Dropbox landing page](https://kb.mit.edu/confluence/display/istcontrib/Dropbox+Landing+Page).
+2. While logged in with that MIT account, visit [Dropbox Teams](https://dropbox.com/teams), find "DMSE Breakerspace," and request to join.
+3. Breakerspace staff will approve the membership request. If you cannot find the team or a submitted request remains unresolved, contact [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
 
 ## Files And Data
 
@@ -62,9 +68,7 @@ The shared drive is hosted on a file server in the Breakerspace and is also the 
 
 Periodically, the file server reboots and Dropbox may not sync until an administrator logs in to the server and the Dropbox app runs. If you saved files to `Breakerspace Files` and they do not appear in the DMSE Breakerspace Dropbox Team folder, contact [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
 
-If you have an MIT Dropbox for Business account registered to your MIT email address, you should receive an invitation to join the DMSE Breakerspace Team after your initial training. If you have not created a Dropbox for Business account, you will need to do so before you can be invited.
-
-More information is available from the [MIT Dropbox landing page](https://kb.mit.edu/confluence/display/istcontrib/Dropbox+Landing+Page). While logged in with your MIT account, you can also visit [dropbox.com/teams](https://dropbox.com/teams), search for "DMSE Breakerspace", and request to join if you are not already a member.
+The online Breakerspace onboarding record introduces this process before your first instrument training. A trainer can help you work through account enrollment or the membership request when needed, but the request must be made from your own MIT Dropbox account.
 
 You may use other appropriate ways to manage and transfer your data, such as a thumb drive, external hard drive, or non-Team Dropbox folder in your own account.
 

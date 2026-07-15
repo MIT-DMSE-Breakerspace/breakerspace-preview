@@ -112,8 +112,11 @@ Complete these tasks before considering the session closed.
 
 * [ ] Confirm that all samples are removed and the instrument is clean and in its expected state.
 * [ ] Confirm that participants know where their files were saved and how to access them.
+* [ ] Ask participants to locate the SOP, detailed operating guidance, and common failure modes on the public instrument page.
 * [ ] Add every attendee directly to the instrument's MIT Moira group: `[exact group name]`.
+* [ ] Send every attendee an invitation to the Breakerspace Slack workspace.
 * [ ] Remind participants that physical tap access is processed separately by the lab manager after the one-time Qualtrics record is complete.
+* [ ] For first-time users, confirm that they created an MIT Dropbox for Business account and requested membership in the DMSE Breakerspace Team, or help them complete the self-service steps.
 * [ ] Point participants to reservations, the public operating reference, `#breakerspace-help`, and the staff email.
 * [ ] Return the training sample and kit to `[cabinet/bin/location]` and note anything that needs replenishment.
 * [ ] Record any instrument, guide, exercise, or sample-library issue discovered during the session.
