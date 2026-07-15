@@ -1,6 +1,6 @@
 # MIT DMSE Breakerspace Website
 
-Last updated: 2026-07-14
+Last updated: 2026-07-15
 
 This repository holds the MIT DMSE Breakerspace website. This copy is the working preview used to develop and review the redesigned site before coordinated changes are released to the production site at `breakerspace.mit.edu`.
 
@@ -83,7 +83,7 @@ Old public URLs are preserved: each legacy `tutorials/*.html` page is a redirect
 
 Use one source of truth for each kind of work:
 
-* `_staff/site-todo.md`: cross-site launch work, policy decisions, accessibility follow-up, and ongoing operational maintenance.
+* `_staff/site-todo.md`: the three-tier launch plan, cross-site policy decisions, accessibility follow-up, and ongoing operational maintenance.
 * `_staff-training/`: trainer-facing guide model and the coordinated Qualtrics launch review.
 * `instruments/readme.md`: instrument-page architecture, migration status, shared includes, and authoring conventions.
 * `showcases/README.md`: Materials Showcase purpose, source model, editorial workflow, cadence, automation boundaries, and authoring contract.
@@ -91,23 +91,15 @@ Use one source of truth for each kind of work:
 
 Public pages should state current policy clearly. Do not expose unresolved policy questions on public pages merely to track them; place those decisions in `_staff/site-todo.md`.
 
-## Planned Work
+## Launch Strategy
 
-Current priorities, in order of operational importance:
+The redesigned site should launch when its operational dependencies are ready, not when every planned content system is complete. The canonical checklist in `_staff/site-todo.md` is organized into three deadlines:
 
-1. Complete the on-site safety and arrival audit: campus phone, alarm pull, extinguisher, egress route, emergency equipment, and real location visuals.
-2. Review the safety and incident workflow with the DMSE EHS contact.
-3. Coordinate the production launch with the updated Qualtrics survey, LibCal descriptions, Moira responsibilities, tap-access processing, Slack, and Dropbox.
-4. Add depth and media to the consolidated instrument pages: photography and screenshots, staff verification of instrument-specific values, and deeper operating detail where a page is still thin (for example, an Instron operating deep-dive like the Raman page received).
-5. Design and populate the sample library, including cabinet locations, expected results, training use, data files, consumables, and replenishment.
-6. Build instrument-specific staff training guides around stable Level 1 exercises and sample-library items.
-7. Develop the Materials Showcase from approved sample-library records and observations, complete the pumpkin demonstration with quantitative data, and establish a human-reviewed drafting cadence.
-8. Add and maintain current student-staff information on the About page when a roster and update owner are established.
-9. Decide whether the site needs a maintainable current-notices mechanism for outages and temporary changes.
-10. Resolve the future lounge configuration and update every affected page together.
-11. Complete external-workflow accessibility testing and final launch review.
+1. **Must do before launch:** physically verify safety and arrival information; obtain EHS and operational sign-off; update and test Qualtrics; align LibCal, Moira, tap access, Slack, and Dropbox; remove or unpublish known placeholders; test core accessibility and task paths; and prepare a coordinated cutover and rollback.
+2. **Urgent before the fall term:** establish consistent staff training guides and Level 1 samples for fall offerings; resolve remaining high-traffic instrument details; add the emergency-equipment visual; broaden accessibility testing; and prepare for higher-volume notices, training, and lounge use.
+3. **Ongoing fall improvement:** assign student employees supervised work on instrument media, the sample library, Materials Showcases, archived content, accessibility remediation, and recurring quality checks.
 
-The canonical detailed checklist is `_staff/site-todo.md`.
+The sample library, a populated showcase archive, complete instrument photography, and other enrichment work are not launch blockers. Unfinished pages should remain unpublished until they are accurate enough to be useful.
 
 ## Content And Maintenance Principles
 

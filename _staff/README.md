@@ -9,13 +9,13 @@ Use [`site-todo.md`](site-todo.md) as the canonical list for work that crosses p
 ## Sources Of Truth
 
 * [`../README.md`](../README.md) summarizes the current public architecture, implementation status, and planned direction.
-* [`site-todo.md`](site-todo.md) tracks cross-site decisions, launch dependencies, and maintenance work.
+* [`site-todo.md`](site-todo.md) separates launch blockers, work due before the fall term, and supervised ongoing projects for student employees.
 * [`../_staff-training/`](../_staff-training/) contains trainer-facing guide materials and the coordinated Qualtrics review.
 * [`../instruments/readme.md`](../instruments/readme.md) defines the instrument-page model and migration process.
 * Instrument-page to-do sections track technical work that applies only to that instrument while its page is under active development.
 
 ## Current Priorities
 
-The public operational structure is in place, and every instrument now has a consolidated operating page. The main remaining work is physical safety verification, external onboarding alignment, adding depth and media to the instrument pages (photography, screenshots, staff verification, and deeper operating detail where still thin), the sample library and Level 1 training samples, staff training guides, development of the Materials Showcase beyond its pumpkin demonstration, a maintainable student-staff roster, and final accessibility and launch review.
+The public operational structure is in place, and every instrument now has a consolidated operating page. Staff should complete the Tier 1 safety, onboarding, accessibility, release-hygiene, and cutover tasks in [`site-todo.md`](site-todo.md) and then promote the redesigned site without waiting for every enrichment project. Tier 2 prepares the lab for higher fall traffic; Tier 3 is the supervised improvement queue for undergraduate lab employees.
 
 Public pages should state the current rule or workflow. Keep unresolved decisions here rather than publishing visible policy speculation.

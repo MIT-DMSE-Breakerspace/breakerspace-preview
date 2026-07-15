@@ -1,148 +1,159 @@
 # Breakerspace Website To-Do
 
-This is the canonical unlisted list for cross-site launch work, policy decisions, and maintenance tasks. Public pages should state current operating information clearly rather than expose unresolved work.
+Last reviewed: 2026-07-15
 
-Instrument-specific tutorial and migration notes remain on their instrument pages while those pages are actively being developed. Move an item here when it affects multiple pages, requires a lab-wide decision, or must be coordinated for launch.
+This is the canonical unlisted list for cross-site launch work, policy decisions, and ongoing maintenance. It is organized by operational deadline rather than by page.
 
-## Current Implementation Snapshot
+The redesigned site is already a substantial operational improvement. Production launch should therefore be treated as a controlled cutover, not as a requirement to finish every content idea. A task belongs in the highest tier whose criterion it meets:
 
-The core operational architecture is implemented in preview:
+| Tier | Criterion |
+| --- | --- |
+| **1. Must do before launch** | A wrong or incomplete item could create a safety problem, break onboarding or access, misdirect users during the cutover, expose a known unfinished public page, or prevent completion of a core task. |
+| **2. Urgent before the fall term** | The site can launch without it, but higher fall traffic, training volume, and course use will make the gap costly or difficult to manage. |
+| **3. Ongoing fall improvement** | The work adds depth, examples, media, accessibility improvements, or maintainability without being required for safe daily operation. It is suitable for undergraduate lab employees to prepare with staff review. |
+
+Instrument-specific development notes may remain on instrument pages while those pages are in preview. Before production launch, public pages should state current operating information clearly and internal planning work should live here.
+
+## 1. Must Do Before Launch
+
+Every item in this section is a launch gate. Do not waive a safety, onboarding, or core-access item merely to meet a preferred date. If an unfinished feature is not required for operation, unpublish it or label and isolate it rather than delaying the whole site.
+
+### Physical Safety And Policy Sign-Off
+
+* [ ] Complete one on-site safety and arrival walk. Confirm the public arrival route, room signage, the complete egress path, the nearest campus phone, fire alarm pull, fire extinguisher, emergency and first-aid cabinet, shower and eyewash, spill kit, sharps container, and ordinary waste locations.
+* [ ] Confirm that the website and posted emergency signs use the correct emergency numbers: dial **100** from a campus phone or **617-253-1212** from a mobile or other phone.
+* [ ] Confirm that the public emergency-equipment and egress wording matches the physical space. Correct any inaccurate location or route before launch; the full annotated visual can follow in Tier 2.
+* [ ] Review Safety And Lab Use, the incident-reporting workflow, and the relevant instrument safety language with the DMSE EHS contact.
+* [ ] Assign the Breakerspace staff role responsible for helping with or following up on Non-Employee Incident Reports.
+* [ ] Resolve the open Instron policy questions: whether any operation should not be performed alone and whether heavy tooling requires protective footwear, handling aids, or a stricter transfer procedure. Update the Safety and Instron pages together.
+* [ ] Compare posted lab signs with the website for PPE, food and drink, samples, guests, emergencies, incident reporting, and working alone. Resolve contradictory instructions before launch.
+
+### Training, Access, And External Systems
+
+* [ ] Complete the coordinated Qualtrics work in [qualtrics-launch-review.md](../_staff-training/qualtrics-launch-review.md), including final links, language, display logic, one clean test response, tap-access fields, and Moira responsibilities.
+* [ ] Confirm that LibCal training and reservation descriptions, public calendars, participant limits, cancellation links, and instrument names match the redesigned site.
+* [ ] Confirm the complete access handoff: trainers add the correct Moira groups, the lab manager receives the required Qualtrics information and processes tap access, and users receive the intended Slack and Dropbox invitations.
+* [ ] Run one end-to-end new-user test of the public path: choose an instrument, complete the survey test path, locate or request training, understand the access handoff, find the reservation calendar, locate the operating page, and find help.
+* [ ] Test the core Qualtrics and LibCal workflows with keyboard-only navigation and VoiceOver. Treat an inability to register, understand an error, review a response, submit, or cancel as a launch blocker.
+* [ ] Confirm current lounge hours, undergraduate eligibility, access-form URL, typical processing time, food-and-drink boundary, and the equipment actually available.
+
+### Public Content And Release Hygiene
+
+* [ ] Review every high-consequence or operationally specific instrument claim with the appropriate staff owner. Resolve, remove, or clearly qualify unverified safety limits, interlock descriptions, sample restrictions, login requirements, and shutdown instructions. This includes the XRD enclosure/interlock description and the Instron questions above.
+* [ ] Review visible instrument-page to-do sections. Move internal maintenance and policy questions here; retain public items only when they are appropriate, clearly labeled contribution opportunities for trained users or student employees.
+* [ ] Remove the current duplicate sample-library placeholder from the production build until a real library is ready. The incomplete sample library is not a launch dependency.
+* [ ] Decide whether the 2024 and 2026 microscope-contest pages remain public at launch. Either provide meaningful image descriptions or temporarily unpublish the galleries so the site does not knowingly launch a large inaccessible image collection.
+* [ ] Confirm that the former lab catalog, every legacy tutorial URL, workstation shortcut, posted QR code, LibCal description, and known course link resolves to the intended canonical page.
+* [ ] Test the final production configuration for navigation, internal links and fragments, external links, responsive layout, images, and the core Start Here, training, reservation, safety, help, teaching, and instrument paths.
+* [ ] Confirm current contact information, hours, room and arrival language, access instructions, reservation links, training links, and emergency numbers.
+* [ ] Complete a focused keyboard and VoiceOver smoke test on the homepage, training, reservations, safety, Help, instrument catalog, and at least one representative instrument page.
+* [ ] Have the operational owner review each high-consequence public page before release.
+
+### Controlled Cutover
+
+* [ ] Name a launch owner, choose a release window, and briefly freeze policy and navigation edits while the launch checks are completed.
+* [ ] Preserve a deployable snapshot or tag of the current production site and write down the rollback procedure before changing the production domain.
+* [ ] Release the redesigned site and updated Qualtrics survey in the same window. Preserve old URLs through redirects rather than leaving two conflicting sets of instructions.
+* [ ] Assign someone to monitor email, #breakerspace-help, access failures, broken links, and instrument-page reports for the first week after launch. Correct operational errors immediately and record lower-priority improvements in Tier 2 or Tier 3.
+
+## 2. Urgent Before The Fall Academic Term
+
+These items should be complete before the first major fall training push or course use. They are not reasons to keep the current site in production if Tier 1 is complete.
+
+### Training Capacity And Consistency
+
+* [ ] Create a minimum staff training guide from [instrument-training-template.md](../_staff-training/instrument-training-template.md) for every instrument that will be offered for training early in the fall. Instruments not yet documented should receive a guide before their next training is advertised.
+* [ ] Select a stable Level 1 sample or prepared kit, expected result, cabinet location, and replenishment plan for each fall training guide.
+* [ ] Connect each fall Level 1 exercise, public operating page, staff training guide, LibCal description, and Moira group to the same workflow.
+* [ ] Run at least one staff or student-staff practice training from each new guide and revise steps that produce inconsistent outcomes.
+* [ ] Confirm that the fall LibCal schedule provides enough sessions and that session limits match the available staffing and physical space.
+
+### Instrument Verification And High-Traffic Depth
+
+* [ ] Finish the remaining XRD operational verification: workstation login and export path, actual export formats, supported off-workstation analysis tools, stocked sample holders and special capabilities, and representative stored-program scan durations.
+* [ ] Confirm the particle-size analyzer's approved training powders, workstation login, default database, and any pre-term consumable needs.
+* [ ] Confirm the Raman training samples and obtain the current XploRA and LabSpec 6 manuals or an equivalent staff reference.
+* [ ] Complete the Instron operating deep-dive: Bluehill method setup, load-cell and fixture changes, travel limits, each offered test type, video extensometer, saving and export, and a reviewed example force-displacement curve.
+* [ ] Confirm the hardness tester's available scales, load and sample-size limits, safe scale/material pairings, and approved conversion reference.
+* [ ] Prioritize screenshots, photographs, and examples that prevent a likely fall operating error. Leave purely illustrative or cosmetic media work in Tier 3.
+
+### Safety Communication And Accessibility
+
+* [ ] Photograph the verified exit route, campus phone, alarm pull, fire extinguisher, emergency and first-aid cabinet, shower and eyewash, spill kit, sharps container, and waste bins.
+* [ ] Create one compact annotated emergency-equipment and egress visual from real photographs or an accurate plan, then obtain staff or EHS approval before publication.
+* [ ] Complete the broader keyboard and VoiceOver pass on the production build, including image-heavy and table-heavy instrument pages, animations, and authenticated third-party workflows.
+* [ ] Test the Dropbox invitation and shared-file workflow for keyboard and screen-reader access, or document an accessible alternative.
+* [ ] Confirm accurate captions for instructional videos needed in fall training and provide transcripts where captions cannot be corrected promptly.
+* [ ] Identify essential PDF manuals and ensure that critical operating information is also available in accessible HTML even when a tagged manufacturer PDF is unavailable.
+* [ ] Ask MIT Digital Accessibility for a launch-candidate or early-production consultation, with emphasis on instructional media and third-party workflows.
+
+### Fall Operations
+
+* [ ] Decide whether the site needs a small current-notices mechanism for outages, temporary access changes, or schedule interruptions. If implemented, assign an owner, require an expiration date, and provide a clean empty state.
+* [ ] If the lounge configuration will change before or during the fall term, make the decision and coordinate the homepage, Lounge, Safety, Teaching, 3.000, Help, and access language before students return. If no change is imminent, retain the accurate current-state page and schedule a later review.
+* [ ] Confirm which coffee and roasting equipment will remain available for the fall and update operating or cleanup guidance if needed.
+
+## 3. Non-Urgent Fall Improvement Work
+
+These are appropriate ongoing projects for undergraduate lab employees. Student employees may inventory, photograph, test, draft, annotate, and propose edits. Breakerspace staff must approve changes involving policy, safety, instrument limits, official training, publication permission, or scientific interpretation.
+
+### Instrument Pages And Training Media
+
+* [ ] Work through the remaining instrument-page to-do sections: standardized setup photography, software screenshots, annotated controls, example data, troubleshooting detail, and clearer data-export instructions.
+* [ ] Add captions, transcripts, and non-autoplaying video replacements for instructional GIFs and videos as source files become available.
+* [ ] Improve abbreviated alternative text and screenshot descriptions in consolidated instrument pages with review from an instrument trainer.
+* [ ] Inventory linked manuals and request accessible versions from manufacturers; record which operating information still needs an HTML equivalent.
+* [ ] Review the Help page after major instrument updates and move instrument-specific material back to the appropriate operating page.
+* [ ] Add a short screenshot or rendered example of the recommended Breakerspace Files folder structure.
+
+### Sample Library
+
+* [ ] With staff approval, finalize the record schema for sample identity, package, photograph, safe handling, compatible instruments, cabinet/bin location, preparation, expected results, files, consumption status, and replenishment.
+* [ ] Inventory the physical sample cabinet, assign stable identifiers and locations, and photograph each approved sample.
+* [ ] Extend the Level 1 collection beyond the pre-fall minimum and connect additional exercises and observations to the same records.
+* [ ] Define and test a simple way for users to report a missing, damaged, contaminated, or nearly depleted sample.
+* [ ] Replace the unpublished placeholder with the production sample-library page only after records and physical locations have been checked.
+
+### Materials Showcase
+
+* [ ] Complete the pumpkin demonstration with the exact scoring rule, stable pumpkin identifiers, masses, peak loads, force-displacement curves, test notes, and design comparisons.
+* [ ] Align showcase sample and observation identifiers with the production sample-library schema.
+* [ ] Draft publication permission, attribution, privacy, scientific-review, accessibility-review, and editorial-ownership rules for staff approval.
+* [ ] Identify additional educational themes from 3.000, 3.010, 3.042, training exercises, fracture surfaces, cross-instrument sample comparisons, and microscope-image contests.
+* [ ] Prototype scheduled theme suggestions and preview pull requests from publication-eligible records. Keep publication human-reviewed and skip cycles without a strong educational story.
+* [ ] Establish an approximately monthly editorial review without promising a fixed public publication schedule.
+* [ ] Add a featured-showcase and archive index only after several strong entries exist.
+* [ ] Decide whether microscope-contest archives become a source within the showcase system or remain separate seasonal pages.
+
+### About, Lounge, And Recurring Content
+
+* [ ] Add current student-staff names, roles, areas of support, and photographs when a maintainable roster is ready.
+* [ ] Assign an owner and review interval for staff names, roles, and photographs.
+* [ ] Decide whether a corridor or entrance photograph or MIT map link would materially help first-time visitors.
+* [ ] If the lounge changes after the fall launch period, update every affected page together and replace photographs that no longer represent the space.
+* [ ] Decide whether external links should follow MIT's convention of opening in new tabs. If adopted, provide a consistent visible and screen-reader indication.
+
+### Recurring Quality Checks
+
+* [ ] Check contact details, hours, access forms, training links, reservation links, emergency references, and external services at least once each term.
+* [ ] Re-run the internal-link, fragment, responsive-layout, keyboard, and representative screen-reader checks after major structural changes.
+* [ ] Review public contribution notes and instrument to-do sections each term so completed or internal tasks do not accumulate on operating pages.
+* [ ] Route operational reports from email and #breakerspace-help into the appropriate page task, staff training guide, sample record, or policy review.
+
+## Implemented Foundation
+
+The following work supports launching before every enhancement is complete:
 
 * [x] Intent-based Start Here homepage and task-ordered navigation.
-* [x] Canonical instrument catalog with updated and awaiting-consolidation groups.
+* [x] Homepage location, arrival, hours, and access distinction.
+* [x] Canonical instrument catalog grouped by capability.
+* [x] Consolidated operating pages for all eleven instruments.
+* [x] Redirects from the former lab catalog and every legacy tutorial route.
 * [x] Consolidated training pathway and embedded LibCal training calendar.
-* [x] Practical reservation page with direct instrument calendars and operating rules.
-* [x] Lab-wide safety, sample, guest, working-alone, cleanup, and incident guidance.
-* [x] Help and support routing for instrument problems, access, files, data, and advanced work.
-* [x] Teaching collaboration pathways, planning guidance, staffing model, and course examples.
-* [x] Current lounge access, shared-space, coffee-equipment, teaching, and community-event page.
-* [x] Homepage location and arrival section for Building 8, Room 8-102A.
-
-The remaining work is verification, external-system alignment, instrument-page depth and media, deeper supporting content, and final launch review rather than another top-level information-architecture redesign or further structural migration.
-
-## Location And Arrival
-
-* [x] State on the homepage that the instrument lab is in Building 8, Room 8-102A and is entered through the Breakerspace Lounge.
-* [ ] Confirm the public arrival description during the on-site safety walk and make sure the room and entry wording matches signs outside the space.
-* [ ] Decide whether a real corridor/entrance photograph or MIT map link would materially help first-time visitors; add one only if it clarifies arrival without exposing sensitive access details.
-
-## Safety And Lab Use
-
-### Emergency Information And Visuals
-
-* [ ] Confirm and record the exact location of the campus phone nearest the lab.
-* [ ] Walk the emergency route from the lab door, through the lounge, through the lounge door into the Building 8 corridor, and onward to the nearest safe building exit. Confirm that this is the only egress route and that all website and posted language agrees.
-* [ ] Confirm the locations of the nearest fire alarm pull and fire extinguisher during the same on-site walk.
-* [ ] Photograph the exit route, campus phone, alarm pull, fire extinguisher, emergency and first-aid cabinet, shower and eyewash, spill kit, sharps container, and ordinary waste bins.
-* [ ] Create one compact, annotated emergency-equipment and egress visual using real photographs or an accurate floor plan. Do not use a generated or decorative image for safety-critical locations.
-* [ ] Confirm that posted emergency signs tell users to dial `100` from a campus phone or `617-253-1212` from a mobile or other phone, rather than 911.
-
-### Policy Review
-
-* [x] Add the MIT EHS reporting process for unpaid students and visitors, employees, and paid students.
-* [ ] Decide which Breakerspace staff role helps complete or follow up on a Non-Employee Incident Report.
-* [ ] Review the public safety page and incident workflow with the DMSE EHS contact before launch.
-* [ ] Assess Instron tasks for any operation that should not be performed alone.
-* [ ] Assess whether heavy Instron tooling calls for protective footwear or handling aids beyond two-person and controlled-transfer guidance.
-* [ ] Confirm that posted lab signs use the same language as the website for PPE, food and drink, samples, guests, emergencies, and incident reporting.
-
-## Training And Access
-
-* [ ] Complete the coordinated Qualtrics review in [`../_staff-training/qualtrics-launch-review.md`](../_staff-training/qualtrics-launch-review.md) and release the updated survey with the redesigned production site.
-* [ ] Build instrument-specific staff training guides from [`../_staff-training/instrument-training-template.md`](../_staff-training/instrument-training-template.md).
-* [ ] Confirm that LibCal descriptions, Moira responsibilities, tap-access processing, and public training language agree before launch.
-
-## Instrument Pages And Legacy Content
-
-* [x] Establish `instruments/index.md` as the canonical instrument catalog.
-* [x] Consolidate operating pages for the two Phenom SEMs, ion mill, optical microscope, FTIR, and Duetta.
-* [x] Promote the XRD operating page (`instruments/xrd.md`) as the canonical catalog destination. Remaining XRD follow-up:
-  * [x] Retire the legacy XRD tutorial and preview files now that `instruments/xrd.md` is the catalog destination. `tutorials/xrd.md` is now a redirect to `/instruments/xrd.html` (preserving the old URL); `tutorials/xrd-preview.md` was deleted; the `lab.md` XRD link points to the operating page. The print handout in `handouts/xrd/` is retained as separate cheat-sheet material.
-  * [ ] Confirm the current XRD workstation login details and networked export path (`"C:\XRD\XRD data"`) before publishing.
-  * [ ] Verify the exact export formats the Aeris produces (`.xrdml` and any text/`.csv` option) and confirm the recommended free off-workstation analysis tools named on the page.
-  * [ ] Confirm which special-case holders the lab actually stocks (zero-background/low-background holder, Kapton or other air-sensitive cover, grazing-incidence capability) and correct the sample-prep note to match.
-  * [ ] Add representative scan durations for the stored measurement programs so the page can help users size their reservations.
-  * [ ] Verify the Aeris interlock/enclosure safety description against the manual and lab practice.
-* [x] Consolidate all instrument pages. Every instrument now has a consolidated `instruments/` operating page and its legacy tutorial is retired as a redirect. Remaining work per instrument is depth and media, not structural migration.
-  * [x] Particle size analyzer consolidated at `instruments/psa.md`, promoted in the catalog, and its legacy tutorial retired as a redirect. Follow-up: confirm approved training powders, workstation login/default-database details, and add captions/transcripts for the embedded PSA videos (accessibility follow-up).
-  * [x] Raman microscope consolidated at `instruments/raman.md`, promoted in the catalog, and its legacy tutorial retired as a redirect. Follow-up: gather and link the XploRA/LabSpec 6 manuals (the page currently notes they are pending), add startup/loading/example-spectrum images, expand the LabSpec 6 data-processing walkthrough, and confirm the polystyrene/combination-tablet training samples.
-  * [x] Instron consolidated at `instruments/instron.md`, promoted in the catalog, and its legacy tutorial retired as a redirect. Needs a dedicated photography/screenshot pass: standardized setup photos (1 kN/50 kN tensile, compression, flexure), clean Bluehill screenshots (method, test, travel-limit prompt), embedded/captioned figures replacing the annotated inline diagram links, an annotated example force-displacement curve, and the pumpkin-results figure. Also resolve the open Instron safety questions below (working-alone, footwear/heavy-tooling) and reflect the outcome on the page.
-    * [ ] Do a deep-dive on the Instron operating steps like the Raman page: uncover and document the full detailed workflow (method setup in Bluehill, load-cell/fixture changes, running each test type, travel limits, video extensometer, saving/exporting), verify against the manuals and lab practice, and add screenshots. The current page is solid on structure and safety but the step-by-step operating detail is still relatively thin.
-    * [ ] Hardness tester consolidated at `instruments/hardness-tester.md`, promoted in the catalog, and its legacy tutorial retired as a redirect. Follow-up: add stage/turret and Impressions-software screenshots and an example Vickers indent; confirm the exact available scales, any load/sample-size limits, and safe scale/material pairings; and add or link a hardness conversion table.
-* [x] Convert the legacy `lab.md` catalog into a compatibility pointer. `lab.md` now uses `layout: redirect` to forward `/lab.html` to `/instruments/`, preserving the old URL and removing the competing second catalog. This also orphaned the promoted-instrument legacy tutorials (they are no longer linked from `lab.md`); see the tutorial-retirement item below.
-* [x] Retire the remaining promoted-instrument legacy tutorials now that `lab.md` no longer links them. `tutorials/ftir.md`, `tutorials/optical.md`, `tutorials/uv-vis.md`, and `tutorials/ion-mill.md` are now clean 1:1 redirects to their `instruments/` pages; `tutorials/sem.md` redirects to the split hub (`instruments/sem.html`). All use `layout: redirect` and preserve their old `/tutorials/*.html` URLs, matching the XRD pattern.
-* [x] Review legacy tutorial URLs and preserve useful inbound links. All `tutorials/*.html` pages and `lab.html` now redirect to their consolidated destinations, so old links keep working. Remaining: at launch, confirm no external references (workstation shortcuts, signage, LibCal, syllabi) point somewhere unexpected.
-* [ ] Review visible instrument-page to-do sections before launch; retain public contributor tasks only where useful and move internal maintenance work here.
-
-## Sample Library And Training Samples
-
-* [ ] Define the sample-library record structure: sample identity, photograph, safe handling, compatible instruments, cabinet/bin location, preparation, expected results, data files, consumption status, and replenishment owner.
-* [ ] Inventory the physical sample cabinet and assign stable identifiers and locations.
-* [ ] Select and document a standard Level 1 sample or prepared kit for each instrument.
-* [ ] Connect each Level 1 exercise, public instrument page, and staff training guide to the same sample record and expected result.
-* [ ] Define how users report a missing, damaged, contaminated, or nearly depleted sample.
-* [ ] Replace the current duplicate placeholder entries in `sample-library.md` with the chosen production structure before linking the page publicly.
-
-## Materials Showcase
-
-* [x] Replace the conventional project-gallery proposal with an educational Materials Showcase sourced from approved sample-library records, observations, course activities, projects, and events.
-* [x] Document the proposed source model, page structure, cadence, automation boundaries, editorial lifecycle, and human-review requirement in [`../showcases/README.md`](../showcases/README.md).
-* [x] Create an unlisted pumpkin strength-to-weight demonstration and link it subtly from the About page as a proposed content type.
-* [ ] Complete the pumpkin demonstration with the exact scoring rule, stable pumpkin identifiers, masses, peak loads, force-displacement curves, test notes, and design comparisons.
-* [ ] Align showcase sample and observation identifiers with the production sample-library schema before automating cross-links.
-* [ ] Decide publication permission, attribution, privacy, scientific-review, accessibility-review, and editorial ownership rules.
-* [ ] Build a scheduled process that proposes themes and drafts preview pull requests from publication-eligible records; require human approval before publication and skip cycles without a strong educational story.
-* [ ] Establish an approximately monthly editorial review without promising a fixed public publication schedule.
-* [ ] Identify additional themes from 3.000, 3.010, 3.042, instrument exercises, fracture surfaces, sample-library comparisons, and microscope-image contests.
-* [ ] Add a featured-showcase and archive index only after several strong entries exist; plan filters around materials, concepts, instruments, courses or events, and applications.
-* [ ] Decide whether microscope-contest archives become one source within the broader showcase system or remain separate seasonal pages.
-
-## Resources And Support
-
-* [ ] Add a short screenshot or rendered example showing the recommended folder structure within `Breakerspace Files`, beyond the existing drive-identification screenshot.
-* [ ] Review the Resources page after each major instrument page is updated and remove material that belongs on the instrument page instead.
-
-## About And Current Notices
-
-* [x] Replace the thin Team page with an About page covering the lab's purpose, development, team model, and contact pathways.
-* [ ] Add current student-staff names, roles, or areas of support when a roster is ready to publish.
-* [ ] Decide who owns updates to staff names, roles, and photographs and how often the About page is reviewed.
-* [ ] Decide whether outages, temporary access changes, or schedule interruptions need a small maintainable current-notices mechanism.
-* [ ] If notices are added, define an owner, expiration behavior, and an empty state so old alerts cannot remain visible indefinitely.
-
-## Lounge And Space Planning
-
-* [ ] Decide whether the lounge will remain a lounge with coffee equipment, become a seating-only food-and-drink area, or be converted to lab space.
-* [ ] When the room decision is implemented, coordinate updates to the navigation, homepage, Lounge page or replacement, instrument catalog, legacy `lab.md` compatibility page, Help routing, Safety food-and-drink and egress language, Teaching page, and 3.000 Coffee Matters page.
-* [ ] Confirm the current lounge hours, undergraduate eligibility, access-form URL, and usual processing time before launch.
-* [ ] Confirm which coffee and roasting equipment will remain and whether its operation and cleanup guidance should be published on the website.
-* [ ] Replace lounge and equipment photographs if the physical configuration changes.
-
-## Accessibility Follow-Up
-
-The deterministic template and markup repairs are implemented in the preview site. These remaining items require subject knowledge, source material, authenticated access, a publishing decision, or outside review.
-
-### Content And Source Material
-
-* [ ] Decide whether the 2024 and 2026 microscope-contest galleries should remain public. If they remain public, provide or reconstruct a meaningful caption and image description for each entry; `Example 1`, `Example 2`, and similar text does not describe the visual content.
-* [ ] Review abbreviated image descriptions in legacy tutorials with an instrument trainer. Prioritize screenshots whose current text only names the instrument, button, or software screen without conveying the state or action a user needs to understand.
-* [ ] Confirm that every public YouTube demonstration has accurate, human-reviewed captions. Provide a transcript or the source narration when captions cannot be verified or corrected in YouTube.
-* [ ] Locate original video files for instructional GIFs when available. The site now lets users pause embedded GIFs, but replacing animation files and direct GIF links with non-autoplaying video controls will provide better reduced-motion support.
-* [ ] Identify which linked PDF manuals are essential to completing a Breakerspace task. Request tagged, accessible versions from manufacturers where possible and retain equivalent HTML instructions for essential workflows.
-
-### External Workflows And Review
-
-* [ ] Test the full Qualtrics onboarding workflow with keyboard-only navigation and a screen reader, including required fields, validation errors, review, and submission. Coordinate fixes with the website-launch survey update.
-* [ ] Test LibCal training registration and instrument reservation after Touchstone sign-in, including keyboard navigation, time-slot selection, confirmation, cancellation, and the accessible reservation view.
-* [ ] Test the Dropbox invitation and shared-file workflow for keyboard and screen-reader access, or document an accessible alternative for users who encounter a barrier.
-* [ ] Complete a manual keyboard and VoiceOver pass on the final production build. Include the home page, training, safety, reservations, one image-heavy instrument page, one table-heavy instrument page, each third-party workflow, and pause/resume behavior for instructional animations.
-* [ ] Ask MIT Digital Accessibility to review the launch candidate or provide a consultation, especially for instructional media, third-party services, and any remaining PDF dependencies.
-* [ ] Decide whether to follow MIT's convention of opening external links in new tabs. If adopted, provide a consistent visible and screen-reader indication that the link opens a new tab; this is an MIT content convention, not a WCAG requirement.
-
-## Launch Review
-
-* [ ] Audit public pages for visible staff to-do lists. Keep active instrument migration notes only where they remain useful in context.
-* [ ] Confirm that `lab.md` and other legacy entry points direct users to the current canonical pages without presenting conflicting guidance.
-* [ ] Test navigation, internal links, external links, responsive layouts, and key task paths against the final production configuration.
-* [ ] Confirm that contact information, hours, access instructions, reservation links, and emergency numbers are current.
-* [ ] Review high-consequence policy pages with their operational owner before publishing.
+* [x] Practical reservation page with direct calendars and operating rules.
+* [x] Lab-wide safety, sample, guest, working-alone, cleanup, emergency, and incident-reporting guidance.
+* [x] Help routing for instrument problems, access, files, data, and advanced work.
+* [x] Teaching collaboration pathways, executive summary, staffing model, planning guidance, and course examples.
+* [x] Current-state Lounge page.
+* [x] About page covering purpose, development, team model, and contact pathways.
+* [x] Materials Showcase concept, workflow documentation, authoring template, and pumpkin demonstration.
