@@ -1,8 +1,8 @@
-# Breakerspace Preview Site: Current Project Overview
+# MIT DMSE Breakerspace Website
 
 Last updated: 2026-07-14
 
-This repository is the working preview for the MIT DMSE Breakerspace website. It is used to develop and review the redesigned site before coordinated changes are released to the production site at `breakerspace.mit.edu`.
+This repository holds the MIT DMSE Breakerspace website. This copy is the working preview used to develop and review the redesigned site before coordinated changes are released to the production site at `breakerspace.mit.edu`.
 
 Working folder:
 
@@ -16,7 +16,9 @@ Original production working folder:
 /Users/justinlavallee/Library/CloudStorage/Dropbox-MIT/DMSE Breakerspace/admin/MIT-DMSE-Breakerspace
 ```
 
-Work in the preview repository unless the user explicitly requests a production-site change. The preview has no `CNAME`, so it does not claim the production domain.
+Work in the preview repository unless a production-site change is explicitly requested. The preview has no `CNAME`, so it does not claim the production domain.
+
+This README is the top-level orientation for the site: its direction, content status, planning files, and local build instructions. It replaced an earlier `CODEx_HANDOFF.md` of the same content.
 
 ## Current Site Direction
 
@@ -42,7 +44,7 @@ The homepage should remain concise. It routes users by intent and provides the l
 | --- | --- |
 | Start Here | Implemented as an intent-based homepage with routes for training, instrument selection, reservations, teaching, help, and lounge access. |
 | Location and arrival | Implemented on the homepage: Building 8, Room 8-102A, entered through the Breakerspace Lounge. Physical emergency-route details still require an on-site launch check. |
-| Instrument catalog | Implemented at `instruments/index.md`. It separates consolidated operating pages from legacy tutorials that remain during migration. |
+| Instrument catalog | Implemented at `instruments/index.md`. All eleven instruments have consolidated operating pages, grouped by capability. |
 | Training | Implemented at `training.md`, including the one-time Qualtrics record, one-hour in-person sessions, access follow-up, advanced support, and the LibCal training calendar. The Qualtrics survey itself must be updated with launch. |
 | Reservations | Implemented at `reservations.md`, including direct calendars, the one-hour initial norm, reservation ownership, the 10-minute late rule, cancellations, handoffs, guests, and problem routing. |
 | Safety and lab use | Implemented at `safety.md`, including emergency response, PPE, food and drink, samples, guests, working alone, cleanup, damage, and incident reporting. Field verification and DMSE EHS review remain launch work. |
@@ -75,7 +77,7 @@ The SEMs use a shared hub at `instruments/sem.md` plus separate safety-critical 
 
 The tutorial-to-instrument migration is complete: no instruments remain on legacy tutorial/SOP pages. Every promoted instrument's legacy `tutorials/*.md` page has been retired as a redirect to its canonical `instruments/` page, preserving the old URLs. Remaining instrument work is depth and media (photography, screenshots, staff verification, and deeper operating detail on some pages) rather than structural migration. The detailed page model and migration rules live in `instruments/readme.md`.
 
-Legacy `tutorials/` pages should remain available until their replacement is complete and existing links have been reviewed. The old `lab.md` catalog is superseded by `instruments/index.md` and should eventually become a concise compatibility pointer rather than a competing catalog.
+Old public URLs are preserved: each legacy `tutorials/*.html` page is a redirect to its `instruments/` page, and the former `lab.md` catalog now redirects to `instruments/index.md` rather than acting as a competing catalog.
 
 ## Authoritative Planning Files
 
@@ -85,7 +87,7 @@ Use one source of truth for each kind of work:
 * `_staff-training/`: trainer-facing guide model and the coordinated Qualtrics launch review.
 * `instruments/readme.md`: instrument-page architecture, migration status, shared includes, and authoring conventions.
 * `showcases/README.md`: Materials Showcase purpose, source model, editorial workflow, cadence, automation boundaries, and authoring contract.
-* Instrument-page to-do sections: instrument-specific missing images, workflows, examples, exercises, and technical review items while migration is active.
+* Instrument-page to-do sections: instrument-specific missing images, workflows, examples, exercises, and technical review items for that page.
 
 Public pages should state current policy clearly. Do not expose unresolved policy questions on public pages merely to track them; place those decisions in `_staff/site-todo.md`.
 
@@ -96,7 +98,7 @@ Current priorities, in order of operational importance:
 1. Complete the on-site safety and arrival audit: campus phone, alarm pull, extinguisher, egress route, emergency equipment, and real location visuals.
 2. Review the safety and incident workflow with the DMSE EHS contact.
 3. Coordinate the production launch with the updated Qualtrics survey, LibCal descriptions, Moira responsibilities, tap-access processing, Slack, and Dropbox.
-4. Continue the five remaining instrument-page migrations and retire duplicate catalog content.
+4. Add depth and media to the consolidated instrument pages: photography and screenshots, staff verification of instrument-specific values, and deeper operating detail where a page is still thin (for example, an Instron operating deep-dive like the Raman page received).
 5. Design and populate the sample library, including cabinet locations, expected results, training use, data files, consumables, and replenishment.
 6. Build instrument-specific staff training guides around stable Level 1 exercises and sample-library items.
 7. Develop the Materials Showcase from approved sample-library records and observations, complete the pumpkin demonstration with quantitative data, and establish a human-reviewed drafting cadence.

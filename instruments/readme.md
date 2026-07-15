@@ -10,7 +10,7 @@ The older `tutorials/` pages can remain in place during the transition. The work
 
 For instruments that do not need to be split into multiple related tools, one page such as `instruments/ftir.md` may be enough.
 
-## Current Migration Status
+## Consolidation Status
 
 The canonical catalog is `instruments/index.md`. Consolidated pages now cover all eleven instruments:
 
@@ -127,13 +127,13 @@ layout: default
 5. Keep instrument-specific safety-critical steps on the instrument page itself.
 6. Validate local links and image paths before making the page live.
 
-## Transition Notes
+## Legacy Pages And Notes
 
-Markdown files with front matter build into accessible pages even when they are not linked from navigation. Do not put unsafe, misleading, or contradictory instructions in a buildable draft. Add a page to `instruments/index.md` only when it is ready to replace the legacy catalog destination.
+Markdown files with front matter build into accessible pages even when they are not linked from navigation. Do not put unsafe, misleading, or contradictory instructions in a buildable draft. Add a page to `instruments/index.md` only when it is ready to be the instrument's public destination.
 
-The legacy `lab.md` catalog is superseded by `instruments/index.md`. Preserve its URL during migration, but do not use it as a second catalog or as the place to announce new instrument pages. It should ultimately become a concise compatibility pointer to the canonical catalog.
+Old public URLs are preserved. The legacy `lab.md` catalog now redirects to `instruments/index.md` (using `layout: redirect`), and each legacy `tutorials/*.html` page redirects to its consolidated `instruments/` page. Do not revive `lab.md` or the `tutorials/` pages as competing catalogs or operating pages.
 
-The intended future pattern is that instrument workstations open the relevant instrument page directly, for example:
+The intended pattern is that instrument workstations open the relevant instrument page directly, for example:
 
 * Phenom XL workstation: `instruments/phenom-xl.html`
 * Phenom Pure workstation: `instruments/phenom-pure.html`

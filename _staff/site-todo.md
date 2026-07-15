@@ -18,7 +18,7 @@ The core operational architecture is implemented in preview:
 * [x] Current lounge access, shared-space, coffee-equipment, teaching, and community-event page.
 * [x] Homepage location and arrival section for Building 8, Room 8-102A.
 
-The remaining work is verification, external-system alignment, instrument migration, deeper supporting content, legacy cleanup, and final launch review rather than another top-level information-architecture redesign.
+The remaining work is verification, external-system alignment, instrument-page depth and media, deeper supporting content, and final launch review rather than another top-level information-architecture redesign or further structural migration.
 
 ## Location And Arrival
 
@@ -71,7 +71,7 @@ The remaining work is verification, external-system alignment, instrument migrat
     * [ ] Hardness tester consolidated at `instruments/hardness-tester.md`, promoted in the catalog, and its legacy tutorial retired as a redirect. Follow-up: add stage/turret and Impressions-software screenshots and an example Vickers indent; confirm the exact available scales, any load/sample-size limits, and safe scale/material pairings; and add or link a hardness conversion table.
 * [x] Convert the legacy `lab.md` catalog into a compatibility pointer. `lab.md` now uses `layout: redirect` to forward `/lab.html` to `/instruments/`, preserving the old URL and removing the competing second catalog. This also orphaned the promoted-instrument legacy tutorials (they are no longer linked from `lab.md`); see the tutorial-retirement item below.
 * [x] Retire the remaining promoted-instrument legacy tutorials now that `lab.md` no longer links them. `tutorials/ftir.md`, `tutorials/optical.md`, `tutorials/uv-vis.md`, and `tutorials/ion-mill.md` are now clean 1:1 redirects to their `instruments/` pages; `tutorials/sem.md` redirects to the split hub (`instruments/sem.html`). All use `layout: redirect` and preserve their old `/tutorials/*.html` URLs, matching the XRD pattern.
-* [ ] Review legacy tutorial URLs and preserve useful inbound links while removing conflicting instructions.
+* [x] Review legacy tutorial URLs and preserve useful inbound links. All `tutorials/*.html` pages and `lab.html` now redirect to their consolidated destinations, so old links keep working. Remaining: at launch, confirm no external references (workstation shortcuts, signage, LibCal, syllabi) point somewhere unexpected.
 * [ ] Review visible instrument-page to-do sections before launch; retain public contributor tasks only where useful and move internal maintenance work here.
 
 ## Sample Library And Training Samples
