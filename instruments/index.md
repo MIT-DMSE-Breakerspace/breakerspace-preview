@@ -5,11 +5,11 @@ title: Breakerspace Instruments
 
 # Instruments
 
-The Breakerspace instrument pages are being updated into consolidated operating guides. Each finished page will combine the instrument overview, reservation links, quick reference, detailed training guide, manuals, exercises, and active improvement notes in one place.
+The Breakerspace instrument pages are consolidated operating guides. Each one combines the instrument overview, reservation links, quick reference, detailed training guide, manuals, exercises, and active improvement notes in one place.
 
-During the transition, use this page as the instrument landing page. Updated instrument pages are listed first. Instruments that have not yet been consolidated still link to their current tutorial/SOP pages.
+Every instrument now has a consolidated operating page. Use this page as the instrument landing page and choose the instrument you need below.
 
-## Updated Instrument Pages
+## Instrument Pages
 
 | Instrument | Use this page for | Status |
 | --- | --- | --- |
@@ -22,14 +22,7 @@ During the transition, use this page as the instrument landing page. Updated ins
 | [Microtrac Sync Particle Size Analyzer](./psa.html) | Particle size distribution of dry powders (roughly 0.24-2,000 µm) by laser diffraction. | Updated operating page |
 | [Horiba XploRA Confocal Raman Microscope](./raman.html) | Molecular identification and mapping of solids, powders, and liquids by confocal Raman spectroscopy. | Updated operating page |
 | [Instron 68TM-50 Universal Testing System](./instron.html) | Tensile, compression, and flexure mechanical testing to measure strength, stiffness, and failure behavior. | Updated operating page |
-
-## Instruments Awaiting Consolidation
-
-These links go to the current tutorial/SOP pages. As each tutorial is revised, it can move into the updated instrument-page model shown above.
-
-| Instrument | Current page |
-| --- | --- |
-| Innovatest Nemesis 5100G2 Hardness Tester | [Hardness tester tutorial/SOP](../tutorials/hardness-tester.html) |
+| [Innovatest Nemesis 5100G2 Hardness Tester](./hardness-tester.html) | Vickers, Rockwell, and Brinell hardness testing with an automated turret and patterned XY stage. | Updated operating page |
 
 ## Page Model
 

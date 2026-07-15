@@ -57,7 +57,7 @@ The homepage should remain concise. It routes users by intent and provides the l
 
 The canonical instrument catalog is `instruments/index.md`.
 
-Consolidated coverage currently includes ten instruments:
+Consolidated coverage now includes all eleven instruments:
 
 * Thermo Fisher Phenom XL SEM
 * Thermo Fisher Phenom Pure SEM
@@ -69,14 +69,11 @@ Consolidated coverage currently includes ten instruments:
 * Microtrac Sync particle size analyzer
 * Horiba XploRA confocal Raman microscope
 * Instron 68TM-50 universal testing system
+* Innovatest Nemesis 5100G2 hardness tester
 
 The SEMs use a shared hub at `instruments/sem.md` plus separate safety-critical operating pages at `instruments/phenom-xl.md` and `instruments/phenom-pure.md`.
 
-One instrument still routes users to a legacy tutorial/SOP page:
-
-* Innovatest Nemesis hardness tester
-
-Promoted instruments have their legacy `tutorials/*.md` pages retired as redirects to the canonical `instruments/` pages, preserving the old URLs. The detailed page model and migration rules live in `instruments/readme.md`.
+The tutorial-to-instrument migration is complete: no instruments remain on legacy tutorial/SOP pages. Every promoted instrument's legacy `tutorials/*.md` page has been retired as a redirect to its canonical `instruments/` page, preserving the old URLs. Remaining instrument work is depth and media (photography, screenshots, staff verification, and deeper operating detail on some pages) rather than structural migration. The detailed page model and migration rules live in `instruments/readme.md`.
 
 Legacy `tutorials/` pages should remain available until their replacement is complete and existing links have been reviewed. The old `lab.md` catalog is superseded by `instruments/index.md` and should eventually become a concise compatibility pointer rather than a competing catalog.
 

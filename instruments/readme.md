@@ -12,7 +12,7 @@ For instruments that do not need to be split into multiple related tools, one pa
 
 ## Current Migration Status
 
-The canonical catalog is `instruments/index.md`. Consolidated pages currently cover ten instruments:
+The canonical catalog is `instruments/index.md`. Consolidated pages now cover all eleven instruments:
 
 * Phenom XL and Phenom Pure through the shared `sem.md` hub and separate operating pages.
 * SEMPrep 2 ion mill.
@@ -23,8 +23,9 @@ The canonical catalog is `instruments/index.md`. Consolidated pages currently co
 * Microtrac Sync particle size analyzer.
 * Horiba XploRA confocal Raman microscope.
 * Instron 68TM-50 universal testing system.
+* Innovatest Nemesis 5100G2 hardness tester.
 
-One instrument still uses a legacy tutorial/SOP destination in the catalog: the Innovatest Nemesis hardness tester. Each promoted instrument's legacy `tutorials/*.md` page is now a redirect to its `instruments/` page, preserving the old URL.
+The tutorial-to-instrument migration is complete: no instruments remain on legacy tutorial/SOP destinations. Each promoted instrument's legacy `tutorials/*.md` page is now a redirect to its `instruments/` page, preserving the old URL.
 
 The sample library and Materials Showcase are planned supporting systems. Level 1 exercises should eventually point to documented sample-library records with cabinet locations, expected results, data files where useful, and replenishment information. Approved example results should be reusable from instrument pages and educational showcases rather than copied into disconnected collections. The showcase concept and editorial model are documented in `../showcases/README.md`.
 
