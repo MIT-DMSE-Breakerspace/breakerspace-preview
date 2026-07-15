@@ -103,6 +103,78 @@ button:focus-visible,
   font-weight: 700;
 }
 
+.teaching-summary {
+  margin: 1.25rem 0 1.75rem;
+  padding: 1.15rem 0 1.25rem;
+  border-top: 3px solid #009de6;
+  border-bottom: 1px solid #d8dde2;
+}
+
+.teaching-summary-lede {
+  margin: 0 0 1rem;
+  color: #17242a;
+  font-size: 1.08rem;
+  line-height: 1.55;
+}
+
+.teaching-summary-list {
+  margin: 0;
+  border-top: 1px solid #d8dde2;
+}
+
+.teaching-summary-list > div {
+  display: grid;
+  grid-template-columns: minmax(8.5rem, 0.55fr) minmax(0, 1.45fr);
+  gap: 1.25rem;
+  padding: 0.72rem 0;
+  border-bottom: 1px solid #d8dde2;
+}
+
+.teaching-summary-list dt {
+  color: #17242a;
+  font-weight: 700;
+}
+
+.teaching-summary-list dd {
+  margin: 0;
+  color: #3f454a;
+}
+
+.teaching-summary-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+
+.teaching-summary-actions a {
+  display: inline-flex;
+  gap: 0.4rem;
+  align-items: center;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid #007aa8;
+  border-radius: 4px;
+  color: #005f7f;
+  font-weight: 700;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.teaching-summary-actions a:hover {
+  background: #eaf7fc;
+  color: #005f7f;
+}
+
+.teaching-summary-actions .teaching-contact-action {
+  background: #009de6;
+  color: #17242a;
+}
+
+.teaching-summary-actions .teaching-contact-action:hover {
+  background: #fff;
+  color: #007aa8;
+}
+
 .reservation-primary {
   margin: 1.25rem 0 1.75rem;
 }
@@ -297,6 +369,16 @@ main table a:focus-visible {
   .intent-item {
     grid-template-columns: 1fr;
     gap: 0.65rem;
+  }
+
+  .teaching-summary-list > div {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  .teaching-summary-actions a {
+    width: 100%;
+    justify-content: space-between;
   }
 
   .reservation-primary a {

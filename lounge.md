@@ -21,7 +21,7 @@ The Breakerspace Lounge is the shared seating and food-and-drink area immediatel
 | Bring food or a drink | Review [Using The Shared Space](#using-the-shared-space) and keep all food and drink out of the instrument lab. |
 | Use a Breakerspace instrument | Follow the separate [instrument training pathway]({{ "/training.html" | relative_url }}). |
 | Resolve an access problem | Go to [Access And Account Problems]({{ "/resources.html#access-and-account-problems" | relative_url }}). |
-| Plan a course activity | Review [Teaching With Breakerspace]({{ "/teaching.html" | relative_url }}). |
+| Plan a course activity | Review [Teach With The Breakerspace]({{ "/teaching.html" | relative_url }}). |
 
 ## Hours And Access
 
@@ -85,7 +85,7 @@ The lounge has also hosted occasional staff-organized community events. During I
   </figure>
 </div>
 
-Instructors interested in a visit, activity, or course collaboration should start with [Teaching With Breakerspace]({{ "/teaching.html" | relative_url }}).
+Instructors interested in a visit, activity, or course collaboration should start with [Teach With The Breakerspace]({{ "/teaching.html" | relative_url }}).
 
 ## Questions Or Access Problems
 

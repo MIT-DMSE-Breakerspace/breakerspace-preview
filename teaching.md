@@ -1,13 +1,42 @@
 ---
 layout: default
-title: Teaching With Breakerspace
+title: Teach With The Breakerspace
 ---
 
-# Teaching With Breakerspace
+# Teach With The Breakerspace
+
+<section class="teaching-summary" aria-label="Teaching partnership summary">
+  <p class="teaching-summary-lede">The Breakerspace can support course orientations, instrument training, guided lab modules, project work, multi-instrument rotations, and more extensive course partnerships.</p>
+
+  <dl class="teaching-summary-list">
+    <div>
+      <dt>Best fit</dt>
+      <dd>Courses where students need to connect material structure, composition, processing, or properties to experimental evidence.</dd>
+    </div>
+    <div>
+      <dt>What we provide</dt>
+      <dd>Instrument access, technical consultation, training, safety guidance, and staff-supported instruction in some formats.</dd>
+    </div>
+    <div>
+      <dt>What instructors provide</dt>
+      <dd>Learning goals, course context, student preparation, teaching staff participation, and sufficient planning time.</dd>
+    </div>
+    <div>
+      <dt>Start here</dt>
+      <dd>Tell us the course, enrollment, desired learning outcome, likely timing, and the kind of student activity you have in mind.</dd>
+    </div>
+  </dl>
+
+  <nav class="teaching-summary-actions" aria-label="Teaching page shortcuts">
+    <a href="#collaboration-pathways">Explore teaching formats <span aria-hidden="true">&darr;</span></a>
+    <a href="#established-course-models">See example courses <span aria-hidden="true">&darr;</span></a>
+    <a class="teaching-contact-action" href="mailto:dmse-breakerspace@mit.edu">Contact the Breakerspace <span aria-hidden="true">&rarr;</span></a>
+  </nav>
+</section>
 
 <img src="./assets/img/lab.JPG" alt="Breakerspace lab with characterization instruments." style="width:38%; float:right; margin-left:10px; margin-bottom:1.4em;">
 
-The Breakerspace can support courses that want students to learn by asking questions about real materials, using real instruments, and connecting observations to data. Instructors can work with the Breakerspace team on anything from a single exploratory visit to a full subject built around hands-on investigation.
+The sections below explain how these partnerships can work, from a single exploratory visit to a full subject built around hands-on investigation.
 
 This page is for instructors, teaching teams, and academic programs across MIT interested in using the Breakerspace for undergraduate teaching. At this stage, undergraduate-facing subjects are the lab's primary focus. If you have an idea that is not listed here, reach out: many good collaborations begin as a rough question, sample, or learning goal.
 
@@ -26,7 +55,7 @@ Questions and course-planning inquiries can be sent to [dmse-breakerspace@mit.ed
 | Reserve trained-user time | Use the [Breakerspace reservation page](./reservations.html) after the relevant training is complete. |
 | See a course example | Read about [3.000 Coffee Matters](./3000.html), a first-year subject built around coffee, materials, measurement, and the Breakerspace. |
 
-## Collaboration Pathways
+## Collaboration Pathways {#collaboration-pathways}
 
 Different courses need different levels of structure. These are common ways instructors can work with the Breakerspace.
 
@@ -248,7 +277,7 @@ When contacting the Breakerspace team about a course idea, include as much of th
 
 It is fine if some of these details are still uncertain. The Breakerspace team can help shape an activity from an early idea.
 
-## Established Course Models
+## Established Course Models {#established-course-models}
 
 Breakerspace already supports teaching at several levels of engagement. These examples can be useful starting points, but they are not the limits of what a collaboration can become.
 

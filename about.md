@@ -48,5 +48,5 @@ Student staff are central to daily Breakerspace operation. They provide hands-on
 | If you want to... | Start here |
 | --- | --- |
 | Learn to use an instrument | Follow the [Breakerspace training pathway]({{ "/training.html" | relative_url }}). |
-| Plan an undergraduate course activity | Review [Teaching With Breakerspace]({{ "/teaching.html" | relative_url }}). |
+| Plan an undergraduate course activity | Review [Teach With The Breakerspace]({{ "/teaching.html" | relative_url }}). |
 | Ask about a sample, project, access issue, or instrument problem | Use [Get Help]({{ "/resources.html" | relative_url }}) or email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu). |

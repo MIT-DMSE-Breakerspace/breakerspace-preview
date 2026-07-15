@@ -98,7 +98,7 @@ Already-trained users can work with Breakerspace staff when a project requires a
 
 ### Course And Teaching-Team Training
 
-The Breakerspace can coordinate instrument training for students, instructors, teaching assistants, and teaching fellows as part of a broader subject collaboration. More substantial engagements should be planned before the semester begins whenever possible. See [Teaching With Breakerspace]({{ "/teaching.html" | relative_url }}) for collaboration models and staffing guidance.
+The Breakerspace can coordinate instrument training for students, instructors, teaching assistants, and teaching fellows as part of a broader subject collaboration. More substantial engagements should be planned before the semester begins whenever possible. See [Teach With The Breakerspace]({{ "/teaching.html" | relative_url }}) for collaboration models and staffing guidance.
 
 ## Upcoming Training Sessions
 
