@@ -7,29 +7,46 @@ title: Breakerspace Instruments
 
 The Breakerspace instrument pages are consolidated operating guides. Each one combines the instrument overview, reservation links, quick reference, detailed training guide, manuals, exercises, and active improvement notes in one place.
 
-Every instrument now has a consolidated operating page. Use this page as the instrument landing page and choose the instrument you need below.
+Every instrument now has a consolidated operating page. Use this page as the instrument landing page and choose the instrument you need below. Instruments are grouped by what you are trying to do.
 
-## Instrument Pages
+## Imaging And Microscopy
 
-| Instrument | Use this page for | Status |
-| --- | --- | --- |
-| [Thermo Fisher Phenom SEMs](./sem.html) | Choose between the [Phenom XL](./phenom-xl.html) and [Phenom Pure](./phenom-pure.html), review shared SEM concepts, and find the correct operating page. | Updated SEM hub |
-| [Technoorg-Linda SEMPrep 2 Broad Beam Ion Mill](./ion-mill.html) | Preparing samples for SEM imaging with surface polishing, final cleaning, and slope cutting. | Updated operating page |
-| [Olympus DSX-1000 Digital Optical Microscope](./optical.html) | Full-color optical imaging, 2D/3D capture, stitching, and basic measurement workflows. | Updated operating page |
-| [Thermo Scientific Nicolet iS5 FTIR Spectrometer](./ftir.html) | Molecular material identification and comparison using ATR infrared spectroscopy. | Updated operating page |
-| [Horiba Duetta Fluorescence and Absorbance Spectrometer](./uv-vis.html) | Measuring absorbance, transmission, and staff-guided fluorescence workflows in cuvette samples. | Updated operating page |
-| [Malvern Panalytical Aeris Research XRD](./xrd.html) | Phase identification and crystal-structure analysis of powder and solid samples by X-ray diffraction. | Updated operating page |
-| [Microtrac Sync Particle Size Analyzer](./psa.html) | Particle size distribution of dry powders (roughly 0.24-2,000 µm) by laser diffraction. | Updated operating page |
-| [Horiba XploRA Confocal Raman Microscope](./raman.html) | Molecular identification and mapping of solids, powders, and liquids by confocal Raman spectroscopy. | Updated operating page |
-| [Instron 68TM-50 Universal Testing System](./instron.html) | Tensile, compression, and flexure mechanical testing to measure strength, stiffness, and failure behavior. | Updated operating page |
-| [Innovatest Nemesis 5100G2 Hardness Tester](./hardness-tester.html) | Vickers, Rockwell, and Brinell hardness testing with an automated turret and patterned XY stage. | Updated operating page |
+| Instrument | Use this page for |
+| --- | --- |
+| [Olympus DSX-1000 Digital Optical Microscope](./optical.html) | Full-color optical imaging, 2D/3D capture, stitching, and basic measurement workflows. |
+| [Thermo Fisher Phenom SEMs](./sem.html) | Choose between the [Phenom XL](./phenom-xl.html) and [Phenom Pure](./phenom-pure.html), review shared SEM concepts, and find the correct operating page. |
 
-## Page Model
+## Chemical And Structural Identification
 
-Future instrument pages should follow the SEM pattern:
+| Instrument | Use this page for |
+| --- | --- |
+| [Horiba XploRA Confocal Raman Microscope](./raman.html) | Molecular identification and mapping of solids, powders, and liquids by confocal Raman spectroscopy. |
+| [Malvern Panalytical Aeris Research XRD](./xrd.html) | Phase identification and crystal-structure analysis of powder and solid samples by X-ray diffraction. |
+| [Thermo Scientific Nicolet iS5 FTIR Spectrometer](./ftir.html) | Molecular material identification and comparison using ATR infrared spectroscopy. |
 
-1. Start with a concise overview and quick actions for training, reservations, and operation.
-2. Add a short "What this instrument shows you" section for curious undergraduates before the SOP.
-3. Put the trained-user quick reference near the top.
-4. Keep detailed training instructions, troubleshooting, manuals, exercises, and to-do notes on the same page.
-5. Split instrument families into separate operating pages when mixed instructions could confuse users or damage equipment.
+## Optical And Fluorescence Spectroscopy
+
+| Instrument | Use this page for |
+| --- | --- |
+| [Horiba Duetta Fluorescence and Absorbance Spectrometer](./uv-vis.html) | Measuring absorbance, transmission, and staff-guided fluorescence workflows in cuvette samples. |
+
+## Mechanical And Physical Properties
+
+| Instrument | Use this page for |
+| --- | --- |
+| [Innovatest Nemesis 5100G2 Hardness Tester](./hardness-tester.html) | Vickers, Rockwell, and Brinell hardness testing with an automated turret and patterned XY stage. |
+| [Instron 68TM-50 Universal Testing System](./instron.html) | Tensile, compression, and flexure mechanical testing to measure strength, stiffness, and failure behavior. |
+
+## Particle And Size Analysis
+
+| Instrument | Use this page for |
+| --- | --- |
+| [Microtrac Sync Particle Size Analyzer](./psa.html) | Particle size distribution of dry powders (roughly 0.24-2,000 µm) by laser diffraction. |
+
+## Sample Preparation
+
+| Instrument | Use this page for |
+| --- | --- |
+| [Technoorg-Linda SEMPrep 2 Broad Beam Ion Mill](./ion-mill.html) | Preparing samples for SEM imaging with surface polishing, final cleaning, and slope cutting. |
+
+<p>Staff and contributors: see the <a href="./readme.html">instrument pages README</a> for the page model, standard section order, and authoring conventions.</p>
