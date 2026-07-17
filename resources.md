@@ -9,18 +9,14 @@ Use this page when something is not working, you cannot access the lab or your f
 
 For fire, smoke, a serious injury, a major spill or release, or another immediate danger, follow the [Breakerspace emergency instructions]({{ "/safety.html#emergency-or-immediate-danger" | relative_url }}). Do not use Slack or email for an emergency.
 
-## Start With The Problem
+## Quick Links
 
 | I need help with... | First action |
 | --- | --- |
-| An emergency or immediate danger | Follow [Emergency Or Immediate Danger]({{ "/safety.html#emergency-or-immediate-danger" | relative_url }}). |
 | An instrument warning, error, damaged part, spill, or unexpected behavior | Stop work and follow [Instrument Problems](#instrument-problems). |
 | Tap access, workstation login, Slack, Dropbox, or missing permissions | Go to [Access And Account Problems](#access-and-account-problems). |
 | Saving, locating, syncing, or transferring data | Go to [Files And Data](#files-and-data). |
 | Choosing an instrument, preparing an unusual sample, developing a method, or interpreting results | Go to [Project And Method Support](#project-and-method-support). |
-| Registering for training or understanding the training process | Start with [Get Trained]({{ "/training.html" | relative_url }}). |
-| Making, changing, or troubleshooting a reservation | Start with [Reserve Instrument Time]({{ "/reservations.html" | relative_url }}). |
-| Lounge access, hours, or lounge use | Go to [Use The Lounge]({{ "/lounge.html" | relative_url }}). |
 
 ## Instrument Problems
 
@@ -40,7 +36,7 @@ The normal access process is part of the [Breakerspace training pathway]({{ "/tr
 
 ### Tap Access
 
-Physical tap access is processed by the lab manager after your [one-time Qualtrics training record](https://mit.co1.qualtrics.com/jfe/form/SV_084N36wCErKsgjc) is complete. If you completed the record but cannot enter the lab, email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) with your name, MIT Kerberos username, and the approximate date of your first training.
+Physical tap access is processed by the lab manager after your [one-time Qualtrics training record](https://mit.co1.qualtrics.com/jfe/form/SV_084N36wCErKsgjc) is complete. If you completed the record but cannot enter the lab, email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) with your name, MIT Kerberos username, MIT ID number, and the approximate date of your first training.
 
 Lounge-only access is managed separately. Use the access information on the [Breakerspace Lounge page]({{ "/lounge.html" | relative_url }}).
 
