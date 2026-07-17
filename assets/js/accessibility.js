@@ -12,14 +12,33 @@
     return "Data";
   }
 
-  document.querySelectorAll("main table").forEach(function (table, index) {
+  var tables = Array.prototype.slice.call(document.querySelectorAll("main table"));
+  var tableHeadings = tables.map(function (table) {
+    return previousHeading(table);
+  });
+  var headingCounts = tableHeadings.reduce(function (counts, heading) {
+    counts[heading] = (counts[heading] || 0) + 1;
+    return counts;
+  }, {});
+  var headingPositions = {};
+  var tableWrappers = [];
+
+  tables.forEach(function (table, index) {
     if (table.parentElement.classList.contains("table-scroll")) return;
+
+    var heading = tableHeadings[index];
+    headingPositions[heading] = (headingPositions[heading] || 0) + 1;
 
     var wrapper = document.createElement("div");
     wrapper.className = "table-scroll";
-    wrapper.tabIndex = 0;
+    wrapper.tabIndex = -1;
     wrapper.setAttribute("role", "region");
-    wrapper.setAttribute("aria-label", previousHeading(table) + " table");
+    wrapper.setAttribute(
+      "aria-label",
+      headingCounts[heading] > 1
+        ? heading + " table " + headingPositions[heading] + " of " + headingCounts[heading]
+        : heading + " table"
+    );
     wrapper.setAttribute("aria-describedby", "table-scroll-help-" + index);
 
     var help = document.createElement("span");
@@ -30,13 +49,24 @@
     table.parentNode.insertBefore(wrapper, table);
     wrapper.appendChild(table);
     wrapper.appendChild(help);
+    tableWrappers.push(wrapper);
   });
+
+  function updateTableFocus() {
+    tableWrappers.forEach(function (wrapper) {
+      wrapper.tabIndex = wrapper.scrollWidth > wrapper.clientWidth + 1 ? 0 : -1;
+    });
+  }
+
+  if (window.requestAnimationFrame) window.requestAnimationFrame(updateTableFocus);
+  else updateTableFocus();
+  window.addEventListener("resize", updateTableFocus);
 
   var animatedImages = Array.prototype.filter.call(
     document.querySelectorAll("main img[src]"),
     function (image) {
       var src = image.getAttribute("src").toLowerCase();
-      return src.endsWith(".gif") && !src.endsWith("/eds.gif") && !src.endsWith("/liveeds.gif");
+      return src.endsWith(".gif");
     }
   );
 

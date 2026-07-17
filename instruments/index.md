@@ -34,5 +34,3 @@ The Breakerspace instrument pages are consolidated operating guides. Each one co
 ## Sample Preparation
 
 * **[Technoorg-Linda SEMPrep 2 Broad Beam Ion Mill:](./ion-mill.html)** Preparing samples for SEM imaging with surface polishing, final cleaning, and slope cutting.
-
-<p>Staff and contributors: see the <a href="./readme.html">instrument pages README</a> for the page model, standard section order, and authoring conventions.</p>

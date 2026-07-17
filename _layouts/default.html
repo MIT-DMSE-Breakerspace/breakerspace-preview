@@ -25,19 +25,19 @@
        
         <nav class="site-nav" aria-label="Primary">
           {% for item in site.data.navigation %}
-          <a href="{{ item.url | relative_url }}">{{ item.label }}</a>
+          <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
           {% endfor %}
         </nav>
         <br>
 
       </header>
-      <section class="content-shell">
+      <div class="content-shell">
       <main id="main-content" tabindex="-1">
 
       {{ content }}
 
       </main>
-      </section>
+      </div>
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>

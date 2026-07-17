@@ -42,7 +42,7 @@ Every item in this section is a launch gate. Do not waive a safety, onboarding, 
 * [ ] Review every high-consequence or operationally specific instrument claim with the appropriate staff owner. Resolve, remove, or clearly qualify unverified safety limits, interlock descriptions, sample restrictions, login requirements, and shutdown instructions. This includes the XRD enclosure/interlock description and the Instron questions above.
 * [ ] Review visible instrument-page to-do sections. Move internal maintenance and policy questions here; retain public items only when they are appropriate, clearly labeled contribution opportunities for trained users or student employees.
 * [ ] Remove the current duplicate sample-library placeholder from the production build until a real library is ready. The incomplete sample library is not a launch dependency.
-* [ ] Decide whether the 2024 and 2026 microscope-contest pages remain public at launch. Either provide meaningful image descriptions or temporarily unpublish the galleries so the site does not knowingly launch a large inaccessible image collection.
+* [x] Exclude the 2024 and 2026 microscope-contest pages and gallery assets from the launch build until meaningful image descriptions are written and reviewed.
 * [ ] Confirm that the former lab catalog, every legacy tutorial URL, workstation shortcut, posted QR code, LibCal description, and known course link resolves to the intended canonical page.
 * [ ] Test the final production configuration for navigation, internal links and fragments, external links, responsive layout, images, and the core Start Here, training, reservation, safety, help, teaching, and instrument paths.
 * [ ] Confirm current contact information, hours, room and arrival language, access instructions, reservation links, training links, and emergency numbers.
@@ -103,6 +103,7 @@ These are appropriate ongoing projects for undergraduate lab employees. Student 
 * [ ] Add captions, transcripts, and non-autoplaying video replacements for instructional GIFs and videos as source files become available.
 * [ ] Improve abbreviated alternative text and screenshot descriptions in consolidated instrument pages with review from an instrument trainer.
 * [ ] Inventory linked manuals and request accessible versions from manufacturers; record which operating information still needs an HTML equivalent.
+* [ ] Rebuild the excluded instrument handouts as accessible, reviewed companions before returning them to the public build.
 * [ ] Review the Help page after major instrument updates and move instrument-specific material back to the appropriate operating page.
 * [ ] Add a short screenshot or rendered example of the recommended Breakerspace Files folder structure.
 

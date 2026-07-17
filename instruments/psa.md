@@ -101,7 +101,7 @@ Finally, remember the measurement basis matters. A volume-based distribution is 
 * Remember that the analyzed sample is pulled into the shop vacuum and cannot be recovered, so do not run a powder you need to keep.
 * Very cohesive or clumping powders may be measured as larger particles than they really are; mention this to staff if it matters for your sample.
 
-##### _If you have any questions about whether a material is appropriate to characterize in the Breakerspace, please ask before bringing it to the lab._
+<p class="guidance-note"><em>If you have any questions about whether a material is appropriate to characterize in the Breakerspace, please ask before bringing it to the lab.</em></p>
 
 ### Quick Method Selection {#quick-method}
 
@@ -205,4 +205,3 @@ The data from this instrument is fairly straightforward, but please ask lab staf
 * Add an annotated example distribution plot showing D10/D50/D90 and a bimodal example.
 * Confirm approved standard/training powders for the exercises once the sample library is ready, including cabinet location.
 * Confirm the current workstation login details and default database/export conventions before publishing.
-* Consider replacing the embedded YouTube demonstrations with captioned versions or adding transcripts for accessibility (tracked in the site accessibility follow-up).

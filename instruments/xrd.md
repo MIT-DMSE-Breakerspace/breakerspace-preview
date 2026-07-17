@@ -237,7 +237,7 @@ This walkthrough ties the steps above together. Suppose you have an unknown whit
 6. **Account for every major peak.** Drag an accepted candidate into the Pattern List. Any peak still unmatched keeps a blue arrow, and the candidate list reorganizes to fit it. If one phase does not explain all the strong peaks, look for a second phase rather than forcing the first to fit.
 7. **Report.** Produce a labeled pattern with each major peak assigned to a phase, list the peak positions and matched phases, and note the instrument settings. Flag any peak you could not assign as possible contamination, a minor phase, or a holder/substrate peak.
 
-A confident result usually rests on a consistent set of matched peaks, not a single high-scoring line. A sample data file, `exercise_A_raw.csv`, is available in the [XRD handout material](../handouts/xrd/) if you want to practice this workflow.
+A confident result usually rests on a consistent set of matched peaks, not a single high-scoring line.
 
 #### Interpreting Results {#interpreting}
 
@@ -275,7 +275,7 @@ Advanced analysis such as quantitative phase fractions, crystallite size from pe
 
 ### Exercises {#exercises}
 
-* **Level 1 - Identify the mystery powder:** Prepare and run a provided unknown powder, determine the background and peaks in HighScore Plus, and use Search Match to identify the phase. Report the major peak positions and your matched phase. A sample data file, `exercise_A_raw.csv`, is available in the [XRD handout material](../handouts/xrd/).
+* **Level 1 - Identify the mystery powder:** Prepare and run a provided unknown powder, determine the background and peaks in HighScore Plus, and use Search Match to identify the phase. Report the major peak positions and your matched phase.
 * **Level 2 - Amorphous vs. crystalline:** Compare a crystalline polymer with an amorphous one and describe how the patterns differ (sharp peaks vs. broad humps).
 * **Level 2 - Polymorphs of calcium carbonate:** Distinguish two mineral forms of calcium carbonate, such as calcite and aragonite, by their diffraction patterns.
 * **Level 3 - Full phase ID with plane labeling:** Identify a mystery powder and label each major peak with the crystal plane (hkl) it results from.
@@ -288,5 +288,5 @@ Advanced analysis such as quantitative phase fractions, crystallite size from pe
 * Add a dedicated screenshot of the changer-position selection in the UI (the current step links the general `Queue.gif`; a still that highlights the position selector would be clearer).
 * Add one or two annotated example patterns showing background, labeled peaks, and an accepted Search Match candidate.
 * Add an attention-catching example diffraction pattern to the "What this instrument shows you" section (for example, a sharp crystalline pattern next to a broad amorphous one) to illustrate the educational text.
-* Cross-link the printed [XRD handout](../handouts/xrd/) once its cheat-sheet content is finalized.
+* Cross-link the XRD handout once its cheat-sheet content is finalized and the handout returns to the public build.
 * Add approved training powders and reference samples for the exercises once the sample library is ready.

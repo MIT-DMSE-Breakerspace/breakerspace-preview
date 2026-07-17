@@ -213,8 +213,7 @@ The video extensometer measures strain optically by tracking marks on the sample
 * **Level 2 - Compare a design variable:** Test several samples that differ in one way (for example, 3D-print infill percentage or orientation) and compare their curves.
 * **Level 3 - Compute properties from stress-strain:** Enter sample dimensions in the method, run a test, and extract modulus, strength, and strain to failure. Discuss how sample preparation affected the result.
 
-<a name="pumpkin"></a>
-#### Staff-Guided Event Example: Pumpkin Compression
+#### Staff-Guided Event Example: Pumpkin Compression {#pumpkin}
 
 For the Infinite Halloween trick-or-treating event, the Breakerspace has hosted a staff-planned pumpkin compression activity that turns an everyday object into a visible mechanical-testing example. Participants can compare load, displacement, cracking, and collapse across pumpkins with different shapes and carved features.
 

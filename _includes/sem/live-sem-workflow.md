@@ -61,8 +61,3 @@ Press the camera icon to acquire an image. Images are saved with the resolution 
 Higher averaging improves signal-to-noise but takes longer. If the sample is charging, drifting, vibrating, or degrading, longer acquisition can make the final image worse.
 
 The Gallery shows images in the active folder. You can add measurements and notes in the gallery. If you annotate an image, save the annotated version as a new file so the original remains unchanged.
-
-<figure style="margin-left:0; margin-right:0;">
-  <a href="../assets/img/tutorials/sem/AcgGal.PNG" target="_parent"><img src="../assets/img/tutorials/sem/AcgGal.PNG" alt="Phenom acquisition and gallery controls." style="width:80%; margin:0"></a>
-  <figcaption>Acquire images with the camera icon and review, measure, or annotate them in Gallery.</figcaption>
-</figure>

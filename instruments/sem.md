@@ -89,7 +89,7 @@ Use this quick chooser if you are not sure which SEM to reserve. The recommendat
   <p><label><input type="checkbox" id="sem-cold"> My sample is wet, frozen, heat-sensitive, or needs the cold stage.</label></p>
   <p><label><input type="checkbox" id="sem-routine"> I only need routine imaging of a small, dry, mounted sample.</label></p>
   <button type="button" id="sem-chooser-button">Recommend an SEM</button>
-  <div id="sem-chooser-result" style="margin-top:1em;"></div>
+  <div id="sem-chooser-result" role="status" aria-live="polite" aria-atomic="true" style="margin-top:1em;"></div>
 </div>
 
 <script>

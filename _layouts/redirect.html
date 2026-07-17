@@ -9,6 +9,7 @@
   </head>
   <body>
     <main>
+      <h1>{{ page.title }}</h1>
       <p>This page has moved to <a href="{{ page.redirect_to | relative_url }}">{{ page.link_label | default: page.title }}</a>.</p>
     </main>
   </body>
