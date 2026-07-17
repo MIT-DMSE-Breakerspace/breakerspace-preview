@@ -43,10 +43,6 @@ Student staff are central to daily Breakerspace operation. They provide hands-on
   <figcaption>Professor Jeffrey Grossman and Breakerspace manager Justin Lavallee.</figcaption>
 </figure>
 
-## Connect With Us
+## Contact Us
 
-| If you want to... | Start here |
-| --- | --- |
-| Learn to use an instrument | Follow the [Breakerspace training pathway]({{ "/training.html" | relative_url }}). |
-| Plan an undergraduate course activity | Review [Teach With The Breakerspace]({{ "/teaching.html" | relative_url }}). |
-| Ask about a sample, project, access issue, or instrument problem | Use [Get Help]({{ "/resources.html" | relative_url }}) or email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu). |
+We'd love to hear from you. To reach the Breakerspace team, please email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
