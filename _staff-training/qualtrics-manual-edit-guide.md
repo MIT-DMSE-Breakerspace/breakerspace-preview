@@ -147,11 +147,13 @@ Rewrite QID1 as display text:
 >
 > Complete this one-time online onboarding and access record before your first in-person Breakerspace instrument training. It introduces the lab-wide rules and support resources that apply across instruments and collects the information needed for physical tap access.
 >
+> Before continuing, review the Breakerspace Safety And Lab Use page. This survey records your acknowledgment of those lab-wide rules.
+>
 > Completing this record does not train you to use an instrument. You may operate an instrument independently only after attending its in-person training. Public training sessions currently prioritize MIT undergraduates; faculty, staff, instructors, and other MIT community members should coordinate with the Breakerspace team directly.
 >
 > The instrument lab is in Building 8, Room 8-102A, entered through the Breakerspace Lounge.
 
-Add visible links to the production Training and Safety pages after their final URLs are confirmed.
+Add visible links to the production Training and Safety pages after their final URLs are confirmed. The Safety link must be available before the respondent reaches the required acknowledgment on Page 5.
 
 ## Page 2: Training And Instrument Guides
 
@@ -212,6 +214,8 @@ Move QID19 to the unused block and add a new single-answer multiple-choice quest
 
 > ## Breakerspace Lab-Wide Rules
 >
+> Review the current Safety And Lab Use page before answering. By selecting the first response below, you confirm that you reviewed that page and agree to follow these rules:
+>
 > * I will use an instrument only after completing its required in-person training and will log in with my own account.
 > * I will not allow an untrained guest to operate or control an instrument. I will remain with guests I bring into the lab.
 > * I will bring only non-hazardous, compatible samples and will ask staff before bringing an unusual or uncertain sample.
@@ -222,7 +226,7 @@ Move QID19 to the unused block and add a new single-answer multiple-choice quest
 
 **Choices**
 
-1. I have read these rules and agree to follow them.
+1. I have reviewed the Safety And Lab Use page, read these rules, and agree to follow them.
 2. I cannot agree or need clarification.
 
 Force a response. Add a branch in Survey Flow: when choice 2 is selected, show Breakerspace contact information and end the survey while `ACCESS_READY` remains `0`.
@@ -298,6 +302,7 @@ Complete every path in the Qualtrics copy before editing the active survey:
 | Coordinated faculty/staff user | Confirms coordination and reaches identity fields. |
 | Uncoordinated non-undergraduate | Receives contact path and does not enter tap-access processing. |
 | Wrong answer on each knowledge check | Receives the specific explanatory message and cannot advance until corrected. |
+| Safety acknowledgment | Cannot enter tap-access processing without confirming review of the Safety And Lab Use page and agreement with the lab-wide rules. |
 | Policy clarification choice | Receives contact path and does not enter tap-access processing. |
 | Blank required field | Receives a clear, associated error. |
 | Back-button navigation | Retains valid answers and does not bypass logic. |

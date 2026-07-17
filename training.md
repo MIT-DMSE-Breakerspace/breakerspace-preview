@@ -5,9 +5,7 @@ title: Get Trained
 
 # Get Trained
 
-Breakerspace training connects the written instrument guides to hands-on practice in the lab. Complete the relevant training before reserving or using an instrument independently.
-
-Training is organized by instrument. You do not need to know the exact tool before you begin: start with the material or question you want to investigate, then use the instrument pages or ask the Breakerspace team for help choosing.
+Training is organized by instrument. You do not need to know the exact tool before you begin: start with the material or question you want to investigate, then use the instrument pages or ask the Breakerspace team for help choosing. Complete the relevant training before reserving or using an instrument independently.
 
 Public calendar sessions currently prioritize MIT undergraduates. MIT faculty, staff, and other community members interested in training should contact [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) directly to discuss their needs.
 
@@ -19,9 +17,6 @@ Public calendar sessions currently prioritize MIT undergraduates. MIT faculty, s
 | Choose an instrument | [Explore the instrument pages]({{ "/instruments/" | relative_url }}) or ask Breakerspace staff what measurement fits your question. |
 | Complete the one-time online training record | Open the [Breakerspace online training](https://mit.co1.qualtrics.com/jfe/form/SV_084N36wCErKsgjc) before your first in-person instrument training. |
 | Request training that is not currently scheduled | Email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) with the instrument and several times that work for you. |
-| Review lab-wide rules | Read [Safety And Lab Use]({{ "/safety.html" | relative_url }}) before your first independent instrument session. |
-| Reserve an instrument after training | Use the [Breakerspace reservation page]({{ "/reservations.html" | relative_url }}). |
-| Arrange training for a subject or teaching team | Review the [teaching and course collaboration pathways]({{ "/teaching.html" | relative_url }}). |
 
 ## Your Training Pathway
 
@@ -39,11 +34,11 @@ If your plans change, please cancel your registration when you can so another st
 
 ### 3. Prepare Before The Session
 
-Before your first in-person instrument training, complete the [one-time Breakerspace online training and training record](https://mit.co1.qualtrics.com/jfe/form/SV_084N36wCErKsgjc).
+Before your first in-person instrument training, complete the [one-time Breakerspace online training and training record](https://mit.co1.qualtrics.com/jfe/form/SV_084N36wCErKsgjc). It includes a review of [Safety And Lab Use]({{ "/safety.html" | relative_url }}) and collects the information needed for physical tap access.
 
-The online record also walks you through Breakerspace Dropbox access. If you do not yet have an MIT Dropbox for Business account, create one first; then request membership in the DMSE Breakerspace Team. This is a self-service request because team membership cannot be added until your MIT Dropbox account exists.
+If you have completed an in-person training but do not have tap access, confirm that you submitted this online record. If you submitted it and access is still missing, follow the steps under [Access And Account Problems]({{ "/resources.html#access-and-account-problems" | relative_url }}).
 
-Review the lab-wide [Safety And Lab Use]({{ "/safety.html" | relative_url }}) page before your first independent instrument session.
+The online record also walks you through Breakerspace Dropbox access. If needed, create an MIT Dropbox for Business account, then request membership in the DMSE Breakerspace Team. Staff cannot approve membership until the account exists.
 
 Before training, open the relevant instrument page and review:
 
@@ -56,11 +51,7 @@ Training normally uses a sample selected for the instrument workflow. If you req
 
 ### 4. Learn At The Instrument
 
-The hands-on session is where written guidance becomes physical practice. Training should connect the instrument controls and standard workflow to the measurement being made, the data being collected, and the mistakes most likely to affect safety or data quality.
-
-Written guides support training, but they do not replace completion of the relevant hands-on session for independent instrument use.
-
-To be formally recorded as trained, complete the one-time online training record and attend the in-person training for the instrument. There is currently no separate skills demonstration, required refresher, or training expiration. Users are always welcome to ask for additional help or repeat training when they would benefit from it.
+Complete the in-person training tasks at the instrument with guidance and oversight from Breakerspace staff or another designated trainer.
 
 ### 5. Confirm Your Access
 
@@ -69,24 +60,6 @@ After an in-person instrument training, the trainer should add you directly to t
 For Dropbox access, create an MIT Dropbox for Business account and request membership in the DMSE Breakerspace Team during the online onboarding process. Breakerspace staff approve the request after it is submitted. During training closeout, the trainer should send you an invitation to the Breakerspace Slack workspace.
 
 If you completed training but cannot enter the lab, log in to an instrument workstation, obtain the expected Slack invitation, or access the Dropbox Team after requesting membership, see [Access And Account Problems]({{ "/resources.html#access-and-account-problems" | relative_url }}) or email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
-
-### 6. Reserve And Keep Learning
-
-Once trained, use the [reservation page]({{ "/reservations.html" | relative_url }}) to schedule instrument time. Use the concise operating reference on the instrument page while you work, and return to the detailed guide when you need a fuller explanation.
-
-For an advanced characterization question, first ask a Breakerspace staff member in the lab if someone is available. Otherwise, ask in `#breakerspace-help` on Slack or email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu).
-
-## How Training Materials Are Organized
-
-Instrument pages are designed to support different moments in the learning process without making trained users search through a full tutorial during routine work.
-
-| When you are... | Use these materials |
-| --- | --- |
-| Choosing an instrument | Overview, what the instrument shows, compatible samples, and method-selection guidance. |
-| Preparing for training | Detailed training guide, annotated images or demonstrations, safety context, vocabulary, and the standard workflow. |
-| Operating after training | Concise standard operating protocol or quick reference near the top of the instrument page. |
-| Troubleshooting | Common failure modes, data-quality checks, sample-preparation guidance, and contact paths. |
-| Building advanced capability | Exercises, advanced workflows, supporting manuals, and staff-guided method development. |
 
 ## Types Of Training And Support
 

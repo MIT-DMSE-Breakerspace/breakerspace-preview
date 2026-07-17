@@ -18,6 +18,7 @@ The export is valid JSON and the active survey contains 16 question elements in 
 
 Highest-priority updates:
 
+* Require respondents to review the current Safety And Lab Use page and record an explicit acknowledgment before `ACCESS_READY` can be set to `1`.
 * Replace the retired `/sop.html` tutorial index with the new instrument catalog and integrated instrument pages.
 * Direct users to `/training.html` for the current training pathway and LibCal training calendar.
 * Replace old "tutorial" terminology with the final language used by the new site.

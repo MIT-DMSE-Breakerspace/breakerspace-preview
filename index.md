@@ -14,7 +14,6 @@ Choose the situation that best matches what you are trying to do. You do not nee
 <div class="intent-list">
   <article class="intent-item">
     <div class="intent-prompt">
-      <span class="intent-kicker">New lab user</span>
       <h3>I want to learn an instrument</h3>
     </div>
     <div class="intent-detail">
@@ -25,7 +24,6 @@ Choose the situation that best matches what you are trying to do. You do not nee
 
   <article class="intent-item">
     <div class="intent-prompt">
-      <span class="intent-kicker">Choosing a method</span>
       <h3>I need to find the right instrument</h3>
     </div>
     <div class="intent-detail">
@@ -36,7 +34,6 @@ Choose the situation that best matches what you are trying to do. You do not nee
 
   <article class="intent-item">
     <div class="intent-prompt">
-      <span class="intent-kicker">Trained user</span>
       <h3>I am ready to use an instrument</h3>
     </div>
     <div class="intent-detail">
@@ -47,7 +44,6 @@ Choose the situation that best matches what you are trying to do. You do not nee
 
   <article class="intent-item">
     <div class="intent-prompt">
-      <span class="intent-kicker">Instructor or teaching team</span>
       <h3>I want to use the lab in a subject</h3>
     </div>
     <div class="intent-detail">
@@ -58,7 +54,6 @@ Choose the situation that best matches what you are trying to do. You do not nee
 
   <article class="intent-item">
     <div class="intent-prompt">
-      <span class="intent-kicker">Help and troubleshooting</span>
       <h3>Something isn't working, or I need advice</h3>
     </div>
     <div class="intent-detail">
@@ -69,7 +64,6 @@ Choose the situation that best matches what you are trying to do. You do not nee
 
   <article class="intent-item">
     <div class="intent-prompt">
-      <span class="intent-kicker">Lounge access</span>
       <h3>I want to use the lounge</h3>
     </div>
     <div class="intent-detail">

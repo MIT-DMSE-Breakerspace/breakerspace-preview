@@ -40,7 +40,7 @@ The normal access process is part of the [Breakerspace training pathway]({{ "/tr
 
 ### Tap Access
 
-Physical tap access is processed by the lab manager after your one-time Qualtrics training record is complete. If you completed the record but cannot enter the lab, email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) with your name, MIT Kerberos username, and the approximate date of your first training.
+Physical tap access is processed by the lab manager after your [one-time Qualtrics training record](https://mit.co1.qualtrics.com/jfe/form/SV_084N36wCErKsgjc) is complete. If you completed the record but cannot enter the lab, email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) with your name, MIT Kerberos username, and the approximate date of your first training.
 
 Lounge-only access is managed separately. Use the access information on the [Breakerspace Lounge page]({{ "/lounge.html" | relative_url }}).
 
