@@ -29,6 +29,60 @@ The tutorial-to-instrument migration is complete: no instruments remain on legac
 
 The sample library and Materials Showcase are planned supporting systems. Level 1 exercises should eventually point to documented sample-library records with cabinet locations, expected results, data files where useful, and replenishment information. Approved example results should be reusable from instrument pages and educational showcases rather than copied into disconnected collections. The showcase concept and editorial model are documented in `../showcases/README.md`.
 
+## Detailed Operating Instruction Readiness
+
+This section is a durable status snapshot of the **Detailed Operating Instructions** section (`{#details}`) on each instrument page, so a new working session can pick up the levelling work without re-reading every page. Last full assessment: **2026-07-20**. Re-run the assessment (read each page's detailed section against the rubric below) whenever a page's detailed section is substantially edited, and update the table and date.
+
+**The bar we are levelling to.** Every detailed section should be a useful training guide for the *common* tasks on that instrument — startup context, sample loading, the routine measurement/acquisition workflow, and saving/exporting results — with practical context and media where available. It should **reference specific manual sections or pages for deep dives rather than reproduce the manufacturer manual.** Page-level manual citations (for example "sample-prep guide p. 1.4") are the target; a bare list of whole-PDF links is the weaker fallback. A short worked example (a real run from start to result) is the mark of the strongest pages.
+
+**Readiness rubric (0-5):** 0 = missing/stub; 1 = skeletal bullets; 2 = partial workflow with gaps; 3 = solid common-task walkthrough but text-light or software-light; 4 = thorough with context and some media; 5 = exemplary training guide with media and page-level manual references.
+
+| Page | Score | State of the detailed section |
+| --- | --- | --- |
+| `ion-mill.md` | 5 | Exemplary and fully self-contained (no includes): concepts, polishing, slope cutting, startup/purge, loading, semi-auto and automated recipes, data. Richest media set. Remaining to-dos are enhancement media, not content. |
+| `xrd.md` | 5 | Exemplary: loading, run a program, export (login/path/formats), HighScore analysis, and a 7-step worked unknown-powder example. **Only page with true page-level manual citations.** Best structural model for the priority pages. |
+| `ftir.md` | 5 | Exemplary: per-sample-type loading (solid/powder/liquid), ATR cleaning, setup, background, collection, all with embedded GIFs. Links whole manuals (not page-cited) and points to in-software Help. |
+| `optical.md` | 4 | Thorough with page-cited manuals (QRG p.11, app manual pp.52/63/106/112/132) and some GIFs; startup/loading light (deferred to SOP/prep) and several acquisition GIFs still to-do. |
+| `psa.md` | 4 | Video-rich workflow (cleaning, loading, software, collection). Manual references are whole-PDF only. Login/default-database details still need confirming before publish. |
+| `uv-vis.md` | 4 | Good routine-absorbance EZ Spec workflow; needs confirmed method settings and process screenshots. Fluorescence remains staff-guided. Manual references are whole-PDF only. |
+| `raman.md` | 4 | Strong text and conceptual depth (laser/grating choice, Si calibration, mapping, z-profiling) but **zero embedded media** and several control names/settings flagged for staff verification. |
+| `phenom-xl.md` | 4 | Solid; core LiveSEM imaging workflow lives in `_includes/sem/live-sem-workflow.md`. Instrument-specific loading/imaging GIFs still to-do. |
+| `phenom-pure.md` | 4 | Solid; **cold-stage section is the most developed of any page.** Standard NavCam-to-LiveSEM imaging delegated to the shared include; generic loading media still to-do. |
+| `sem.md` | 3 (hub) | Intentionally a hub with no operating walkthrough — startup/imaging/shutdown are delegated to the two Phenom pages. Strong science and shared sample-prep content. Do not add operation here. |
+| `hardness-tester.md` | 3 ⚠️ | **Priority.** Competent prose walkthrough (loading, focus, scale, run, patterns) but text-only, software-light, and the only linked manual is a marketing brochure for the wrong model (9100, not 5100G2). |
+| `instron.md` | 3 ⚠️ | **Priority.** Strong hardware setup (load cell, fixtures, extensometer) with real figures, but the Bluehill test-method/run half of the workflow is essentially absent from the detailed section. |
+
+**Best-practice exemplars to copy from:** `ion-mill.md`, `xrd.md`, `ftir.md`. When levelling another page, mirror their structure. For the two current priorities, `xrd.md` is the closest model — it shows the target shape: *run the routine measurement → save/export → a worked example → page-cited manual references for deep dives.*
+
+### Priority Work: Hardness Tester
+
+Current score 3. To reach 4-5, the detailed section needs:
+
+* An annotated **Impressions software** walkthrough: camera/focus view, the In Focus button, the top-left test-selection box, and the Pattern setup dialog (all currently only described in prose, no screenshots).
+* A walkthrough of **configuring load, dwell time, and scale** before a run (currently absent).
+* **Save/export the report** steps in the detailed section (only mentioned briefly under Data).
+* Coverage of the **9-position turret** behaviour and how objectives/indenters switch.
+* A **worked example** reading a well-formed vs. poor Vickers/Rockwell indent (currently only a to-do).
+* **Correct manuals:** replace the wrong-model Nemesis 9100 brochure with the Impressions software manual and the 5100G2 operator/reference manual, and cite sections. Confirm the exact available Rockwell/Vickers/Brinell scales and any lab limits, and add or link a conversion reference.
+
+### Priority Work: Instron
+
+Current score 3. The page is lopsided — hardware setup is strong, test execution is missing. To reach 4-5, the detailed section needs:
+
+* A **Bluehill Universal method walkthrough**: create/select from a template, enter sample dimensions, configure outputs (currently only referenced under Data/SOP, not walked through in the detailed section).
+* The **travel-limit prompt** and a **test-run walkthrough** (unlock / go / stop) written into the detailed section — currently these live only as SOP bullets.
+* **Shutdown / save / export** steps in the detailed section.
+* An **annotated example force-displacement (or stress-strain) curve** showing the stiff region, peak, and failure point.
+* **Bluehill screenshots** for the method screen, test screen, and travel-limit prompt; and **reshoot/standardize** the tensile (1 kN and 50 kN), compression, and flexure setup photos (figure blocks are already laid out and waiting).
+* Manuals are linked with good breadth but **not page-cited**; add "see section/page" pointers for grip torque, fixture changes, and extensometer setup.
+
+### Cross-Page Notes
+
+* Every page follows the same editorial pattern: quick reference above, `{#details}` training section below, manual links rather than manual replication. The main levelling axes are (a) page-level manual citations vs. whole-PDF links, (b) embedded media, and (c) a worked start-to-result example.
+* The SEM family shares content through `_includes/sem/` (notably `live-sem-workflow.md`, `data-and-analysis.md`, `common-failure-modes.md`). When judging or editing a Phenom page's detailed workflow, remember part of it lives in those includes, not the page.
+* Locally hosted manuals currently exist only for UV-Vis (Duetta/EZ Spec) and Raman (LabSpec 6 quick-start, AutoFocus, confocality tech note) under `assets/img/tutorials/`. Other instruments link manufacturer-hosted or Dropbox PDFs.
+* Media to-dos recur across nearly every page (gloved re-shoots, annotated example results). These are Tier 3 improvement work in `../_staff/site-todo.md` and are not launch blockers; missing *instruction text* on the two priority pages is the higher-value gap.
+
 ## Content Strategy
 
 Instrument pages should be complete enough to use at the instrument without requiring the user to click away for basic safety, setup, loading, shutdown, or troubleshooting steps.
