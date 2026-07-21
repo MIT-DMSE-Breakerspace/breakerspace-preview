@@ -1,6 +1,6 @@
 # MIT DMSE Breakerspace Website
 
-Last updated: 2026-07-15
+Last updated: 2026-07-21
 
 This repository holds the MIT DMSE Breakerspace website. This copy is the working preview used to develop and review the redesigned site before coordinated changes are released to the production site at `breakerspace.mit.edu`.
 
@@ -52,7 +52,7 @@ The homepage should remain concise. It routes users by intent and provides the l
 | Teaching | Implemented at `teaching.md`, with collaboration models, staffing guidance, planning timelines, student preparation, and established course examples. |
 | Lounge | Implemented at `lounge.md` for the current lounge, coffee equipment, access, food and drink boundary, teaching, and community use. Future accuracy depends on the unresolved space decision. |
 | About | Implemented at `about.md`, with the lab's educational purpose, a brief account of its development through undergraduate teaching and student use, the team model, and contact pathways. The current student-staff roster can be added when it is ready for ongoing maintenance. |
-| Sample library | A placeholder page exists, but it is not yet a usable inventory or training resource. This is a planned content system. |
+| Sample library | The public index, generated detail-page layout, versioned importer, search/filter controls, and screen-image conversion are implemented. The first package from the internal database still needs to be imported and reviewed before the library contains production records. |
 | Materials showcase | The proposed educational showcase system is documented in `showcases/README.md`, with an unlisted pumpkin strength-to-weight demonstration at `showcases/pumpkin-strength-to-weight.md`. It is not yet a populated archive or top-level navigation destination. |
 
 ## Instrument Page Migration
@@ -142,6 +142,21 @@ Before finishing a site change:
 * Check internal links and heading fragments when navigation or anchors change.
 * Check image dimensions, alternative text, and responsive behavior for new media.
 * Review the change against `_staff/site-todo.md` when it affects launch policy or more than one page.
+
+## Sample Library Publication
+
+The Windows-authenticated sample-library application is the operational system of record. This public repository receives only a reviewed, allowlisted export snapshot; it must never receive the SQLite database, upload directory, internal notes, staff identities, or internal-only fields and files.
+
+After an administrator reviews approved records and downloads a publication ZIP, import it from the repository root:
+
+```sh
+script/import-sample-library /path/to/breakerspace-sample-library-EXPORT_ID.zip
+bundle exec jekyll build
+```
+
+The importer validates schema version 1, rejects unexpected data fields and unsafe archive paths, verifies each file's SHA-256 hash and size, generates `_samples/*.md`, and places public files under `assets/sample-library/`. Image assets are converted with macOS `sips` to quality-82 JPEGs bounded to 1,800 pixels. Full-resolution image sources remain in the internal application.
+
+Review the generated index, each detail page, the optimized images, and `git diff` before committing. Generated `_samples/` and `assets/sample-library/` directories carry marker files; the importer refuses to replace an unmarked directory.
 
 ## Repository Context
 

@@ -21,6 +21,7 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .sass-cache/
+.sample-library-import-*/
 
 # Local Qualtrics exports contain internal survey metadata and are not site assets
 assets/survey/*.qsf

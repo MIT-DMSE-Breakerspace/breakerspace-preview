@@ -109,11 +109,15 @@ These are appropriate ongoing projects for undergraduate lab employees. Student 
 
 ### Sample Library
 
-* [ ] With staff approval, finalize the record schema for sample identity, package, photograph, safe handling, compatible instruments, cabinet/bin location, preparation, expected results, files, consumption status, and replenishment.
+* [x] Establish the internal record model, stable sample/specimen IDs, physical-location hierarchy, availability states, per-field and per-file visibility, review workflow, and audit history.
+* [x] Implement the administrator publication preview, versioned allowlisted export package, public-site importer, generated sample pages, and screen-sized JPEG conversion.
+* [ ] Import and review the first package containing the two approved test records; confirm all intended images were marked publishable and have accurate captions.
 * [ ] Inventory the physical sample cabinet, assign stable identifiers and locations, and photograph each approved sample.
 * [ ] Extend the Level 1 collection beyond the pre-fall minimum and connect additional exercises and observations to the same records.
 * [ ] Define and test a simple way for users to report a missing, damaged, contaminated, or nearly depleted sample.
-* [ ] Replace the unpublished placeholder with the production sample-library page only after records and physical locations have been checked.
+* [ ] Add confirmed public URLs and publication completion to the internal audit workflow.
+* [ ] Add a revision model so the current public version remains available while a changed record is reviewed.
+* [ ] Link the sample library from appropriate public task pages once enough checked records make it useful; do not add it to top-level navigation solely to expose a sparse pilot.
 
 ### Materials Showcase
 

@@ -310,6 +310,321 @@ main table a:focus-visible {
   color: #3f454a;
 }
 
+.sample-library-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(10rem, 0.42fr) max-content;
+  gap: 0.85rem;
+  align-items: end;
+  margin: 1.5rem 0;
+  padding: 1rem 0;
+  border-top: 3px solid #009de6;
+  border-bottom: 1px solid #d8dde2;
+}
+
+.sample-library-controls label {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #17242a;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.sample-library-controls input,
+.sample-library-controls select {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 2.6rem;
+  padding: 0.55rem 0.65rem;
+  border: 1px solid #8a979e;
+  border-radius: 4px;
+  background: #fff;
+  color: #17242a;
+  font: inherit;
+}
+
+.sample-library-count {
+  min-width: 5.5rem;
+  margin: 0 0 0.7rem;
+  color: #555f65;
+  text-align: right;
+}
+
+.sample-library-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0 0 1.75rem;
+}
+
+.sample-library-card {
+  overflow: hidden;
+  border: 1px solid #ccd3d7;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.sample-library-card:hover {
+  border-color: #7b8b93;
+  background: #f8fbfc;
+}
+
+.sample-card-image,
+.sample-card-placeholder {
+  display: block;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-bottom: 1px solid #ccd3d7;
+  background: #eef2f3;
+}
+
+.sample-card-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sample-card-placeholder {
+  display: grid;
+  place-items: center;
+  color: #647078;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.sample-card-body {
+  padding: 0.9rem;
+}
+
+.sample-card-meta {
+  display: flex;
+  gap: 0.55rem;
+  align-items: center;
+  justify-content: space-between;
+  color: #657178;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sample-card-body h2 {
+  margin: 0.7rem 0 0.45rem;
+  font-size: 1.12rem;
+  line-height: 1.3;
+}
+
+.sample-card-body p {
+  margin: 0;
+  color: #3f494e;
+  line-height: 1.5;
+}
+
+.sample-card-facts {
+  margin: 0.85rem 0 0;
+  padding-top: 0.7rem;
+  border-top: 1px solid #d8dde2;
+}
+
+.sample-card-facts > div {
+  display: grid;
+  grid-template-columns: 3.3rem minmax(0, 1fr);
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.sample-card-facts dt {
+  color: #657178;
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.sample-card-facts dd {
+  margin: 0;
+  color: #303a3f;
+  font-size: 0.82rem;
+}
+
+.sample-availability {
+  display: inline-block;
+  padding: 0.2rem 0.4rem;
+  border: 1px solid #9ca8ae;
+  border-radius: 3px;
+  background: #fff;
+  color: #465158;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.sample-availability-available {
+  border-color: #8ebd9e;
+  background: #eaf5ee;
+  color: #1f663b;
+}
+
+.sample-availability-limited {
+  border-color: #d2b563;
+  background: #fff6dd;
+  color: #725000;
+}
+
+.sample-availability-unavailable {
+  border-color: #d6a0aa;
+  background: #faecee;
+  color: #861327;
+}
+
+.sample-library-empty,
+.sample-library-empty-state {
+  padding: 1.25rem 0;
+  border-top: 1px solid #d8dde2;
+  border-bottom: 1px solid #d8dde2;
+  color: #4d585e;
+}
+
+.sample-library-card[hidden],
+.sample-library-empty[hidden] {
+  display: none;
+}
+
+.sample-breadcrumb {
+  display: flex;
+  gap: 0.45rem;
+  margin-bottom: 1.2rem;
+  color: #657178;
+  font-size: 0.84rem;
+}
+
+.sample-page-header {
+  position: static;
+  float: none;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  gap: 1rem;
+  align-items: start;
+  width: auto;
+  padding-bottom: 1.5rem;
+  border-bottom: 3px solid #009de6;
+}
+
+.sample-page-id {
+  margin: 0 0 0.25rem;
+  color: #ae0721;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.sample-page-header h1 {
+  margin-bottom: 0.65rem;
+}
+
+.sample-page-description {
+  max-width: 42rem;
+  margin: 0;
+  color: #3f494e;
+  font-size: 1.05rem;
+  line-height: 1.55;
+}
+
+.sample-page-section {
+  padding: 1.6rem 0;
+  border-bottom: 1px solid #d8dde2;
+}
+
+.sample-page-section h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.sample-detail-list {
+  margin: 0;
+}
+
+.sample-detail-list > div {
+  display: grid;
+  grid-template-columns: minmax(8rem, 0.42fr) minmax(0, 1fr);
+  gap: 1rem;
+  padding: 0.65rem 0;
+  border-top: 1px solid #e2e6e8;
+}
+
+.sample-detail-list dt {
+  color: #384349;
+  font-weight: 700;
+}
+
+.sample-detail-list dd {
+  margin: 0;
+  color: #3f494e;
+}
+
+.sample-specimen-list {
+  border-top: 1px solid #d8dde2;
+}
+
+.sample-specimen-list > div {
+  display: grid;
+  grid-template-columns: minmax(8rem, 0.42fr) minmax(0, 1fr);
+  gap: 1rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid #d8dde2;
+}
+
+.sample-asset-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.sample-asset-grid figure {
+  margin: 0;
+}
+
+.sample-asset-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background: #f1f4f5;
+}
+
+.sample-asset-grid figcaption {
+  padding: 0.6rem 0;
+  color: #3f494e;
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
+.sample-asset-grid figcaption span,
+.sample-file-list span {
+  display: block;
+  margin-top: 0.2rem;
+  color: #657178;
+  font-size: 0.78rem;
+}
+
+.sample-file-list {
+  margin: 1rem 0 0;
+  padding: 0;
+  border-top: 1px solid #d8dde2;
+  list-style: none;
+}
+
+.sample-file-list li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #d8dde2;
+}
+
+.sample-page-back {
+  margin-top: 1.5rem;
+}
+
 .reservation-list {
   margin: 1rem 0 1.25rem;
   padding: 0;
@@ -410,5 +725,35 @@ main table a:focus-visible {
   .safety-rule {
     grid-template-columns: 1fr;
     gap: 0.25rem;
+  }
+
+  .sample-library-controls {
+    grid-template-columns: 1fr;
+    align-items: stretch;
+  }
+
+  .sample-library-count {
+    margin: 0;
+    text-align: left;
+  }
+
+  .sample-library-grid,
+  .sample-asset-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sample-page-header {
+    grid-template-columns: 1fr;
+  }
+
+  .sample-page-header .sample-availability {
+    width: max-content;
+  }
+
+  .sample-detail-list > div,
+  .sample-specimen-list > div,
+  .sample-file-list li {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
   }
 }
