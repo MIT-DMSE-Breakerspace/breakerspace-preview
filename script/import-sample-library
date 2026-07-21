@@ -194,21 +194,23 @@ def replace_targets(targets, backup_root)
 end
 
 package = ARGV.first
-abort("Usage: script/import-sample-library PATH_TO_EXPORT.zip") unless package
+abort("Usage: script/import-sample-library PATH_TO_EXPORT.zip_OR_EXTRACTED_FOLDER") unless package
 package = File.expand_path(package)
-abort("Export package not found: #{package}") unless File.file?(package)
+abort("Export package not found: #{package}") unless File.file?(package) || File.directory?(package)
 
-stage_root = Dir.mktmpdir(".sample-library-import-", ROOT)
-extract_root = File.join(stage_root, "extracted")
+stage_root = Dir.mktmpdir(".sample-library-import-", File.dirname(ROOT))
+extract_root = File.directory?(package) ? package : File.join(stage_root, "extracted")
 generated_samples = File.join(stage_root, "samples")
 generated_assets = File.join(stage_root, "assets")
 generated_data = File.join(stage_root, "sample-library-publication.yml")
 backup_root = File.join(stage_root, "backups")
 
 begin
-  validate_archive_entries(package)
-  FileUtils.mkdir_p(extract_root)
-  run_command("unzip", "-qq", package, "-d", extract_root)
+  if File.file?(package)
+    validate_archive_entries(package)
+    FileUtils.mkdir_p(extract_root)
+    run_command("unzip", "-qq", package, "-d", extract_root)
+  end
 
   manifest_path = File.join(extract_root, "manifest.json")
   fail_import("The export package has no manifest.json") unless File.file?(manifest_path)

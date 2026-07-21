@@ -111,7 +111,8 @@ These are appropriate ongoing projects for undergraduate lab employees. Student 
 
 * [x] Establish the internal record model, stable sample/specimen IDs, physical-location hierarchy, availability states, per-field and per-file visibility, review workflow, and audit history.
 * [x] Implement the administrator publication preview, versioned allowlisted export package, public-site importer, generated sample pages, and screen-sized JPEG conversion.
-* [ ] Import and review the first package containing the two approved test records; confirm all intended images were marked publishable and have accurate captions.
+* [x] Import the first package containing the two approved test records and verify the generated pages, JPEG conversion, and file integrity checks.
+* [ ] Editorially review the imported test records before commit: correct the coffee-bean wording and captions in the internal system, and decide whether the generic `BS-000002` test record should be published at all.
 * [ ] Inventory the physical sample cabinet, assign stable identifiers and locations, and photograph each approved sample.
 * [ ] Extend the Level 1 collection beyond the pre-fall minimum and connect additional exercises and observations to the same records.
 * [ ] Define and test a simple way for users to report a missing, damaged, contaminated, or nearly depleted sample.
