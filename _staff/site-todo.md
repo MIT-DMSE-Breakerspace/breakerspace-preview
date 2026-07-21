@@ -41,7 +41,7 @@ Every item in this section is a launch gate. Do not waive a safety, onboarding, 
 
 * [ ] Review every high-consequence or operationally specific instrument claim with the appropriate staff owner. Resolve, remove, or clearly qualify unverified safety limits, interlock descriptions, sample restrictions, login requirements, and shutdown instructions. This includes the XRD enclosure/interlock description and the Instron questions above.
 * [ ] Review visible instrument-page to-do sections. Move internal maintenance and policy questions here; retain public items only when they are appropriate, clearly labeled contribution opportunities for trained users or student employees.
-* [ ] Remove the current duplicate sample-library placeholder from the production build until a real library is ready. The incomplete sample library is not a launch dependency.
+* [x] Replace the former sample-library placeholder with the generated public index and reviewed sample pages. The library can remain visible in preview and is not a production-launch dependency.
 * [x] Exclude the 2024 and 2026 microscope-contest pages and gallery assets from the launch build until meaningful image descriptions are written and reviewed.
 * [ ] Confirm that the former lab catalog, every legacy tutorial URL, workstation shortcut, posted QR code, LibCal description, and known course link resolves to the intended canonical page.
 * [ ] Test the final production configuration for navigation, internal links and fragments, external links, responsive layout, images, and the core Start Here, training, reservation, safety, help, teaching, and instrument paths.
@@ -93,6 +93,11 @@ These items should be complete before the first major fall training push or cour
 * [ ] If the lounge configuration will change before or during the fall term, make the decision and coordinate the homepage, Lounge, Safety, Teaching, 3.000, Help, and access language before students return. If no change is imminent, retain the accurate current-state page and schedule a later review.
 * [ ] Confirm which coffee and roasting equipment will remain available for the fall and update operating or cleanup guidance if needed.
 
+### Sample Library Pilot
+
+* [ ] Publish at least **25 reviewed sample records before the fall academic term**, prioritizing useful coverage of Level 1 exercises, common material classes, and multiple instruments. Treat **50 records as a stretch target**, not a reason to publish weak or incomplete entries.
+* [ ] Review the initial collection as a whole for useful photographs, captions, search terms, material-class coverage, availability states, and links to relevant instrument pages or exercises.
+
 ## 3. Non-Urgent Fall Improvement Work
 
 These are appropriate ongoing projects for undergraduate lab employees. Student employees may inventory, photograph, test, draft, annotate, and propose edits. Breakerspace staff must approve changes involving policy, safety, instrument limits, official training, publication permission, or scientific interpretation.
@@ -112,13 +117,14 @@ These are appropriate ongoing projects for undergraduate lab employees. Student 
 * [x] Establish the internal record model, stable sample/specimen IDs, physical-location hierarchy, availability states, per-field and per-file visibility, review workflow, and audit history.
 * [x] Implement the administrator publication preview, versioned allowlisted export package, public-site importer, generated sample pages, and screen-sized JPEG conversion.
 * [x] Import the first package containing the two approved test records and verify the generated pages, JPEG conversion, and file integrity checks.
-* [ ] Editorially review the imported test records before commit: correct the coffee-bean wording and captions in the internal system, and decide whether the generic `BS-000002` test record should be published at all.
+* [x] Editorially review the initial records, correct the coffee-bean entry, omit the generic `BS-000002` test record, and publish the first two useful records (`BS-000001` and `BS-000003`).
 * [ ] Inventory the physical sample cabinet, assign stable identifiers and locations, and photograph each approved sample.
 * [ ] Extend the Level 1 collection beyond the pre-fall minimum and connect additional exercises and observations to the same records.
 * [ ] Define and test a simple way for users to report a missing, damaged, contaminated, or nearly depleted sample.
 * [ ] Add confirmed public URLs and publication completion to the internal audit workflow.
 * [ ] Add a revision model so the current public version remains available while a changed record is reviewed.
-* [ ] Link the sample library from appropriate public task pages once enough checked records make it useful; do not add it to top-level navigation solely to expose a sparse pilot.
+* [x] Link the preview sample library from top-level navigation so staff and early users can find it and provide feedback while the collection grows.
+* [ ] Replace free-text instrument association fields in the internal catalog with checkbox or multi-select controls backed by the canonical instrument list, while preserving support for records and assets associated with multiple instruments.
 
 ### Materials Showcase
 

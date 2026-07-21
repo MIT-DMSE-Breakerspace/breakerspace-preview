@@ -29,12 +29,13 @@ The current top-level navigation is defined in `_data/navigation.yml`:
 1. Start Here
 2. Reserve Time
 3. Find an Instrument
-4. Get Trained
-5. Get Help
-6. Safety & Lab Use
-7. Use the Lounge
-8. Teach With Us
-9. About
+4. Sample Library
+5. Get Trained
+6. Get Help
+7. Safety & Lab Use
+8. Use the Lounge
+9. Teach With Us
+10. About
 
 The homepage should remain concise. It routes users by intent and provides the lab location, arrival route, hours, and access distinction. Detailed policies and workflows belong on their task-specific pages.
 
@@ -52,7 +53,7 @@ The homepage should remain concise. It routes users by intent and provides the l
 | Teaching | Implemented at `teaching.md`, with collaboration models, staffing guidance, planning timelines, student preparation, and established course examples. |
 | Lounge | Implemented at `lounge.md` for the current lounge, coffee equipment, access, food and drink boundary, teaching, and community use. Future accuracy depends on the unresolved space decision. |
 | About | Implemented at `about.md`, with the lab's educational purpose, a brief account of its development through undergraduate teaching and student use, the team model, and contact pathways. The current student-staff roster can be added when it is ready for ongoing maintenance. |
-| Sample library | The public index, generated detail-page layout, versioned importer, search/filter controls, and screen-image conversion are implemented. The first two approved test records have been imported into the working tree; their wording and continued public inclusion still need editorial approval before commit. |
+| Sample library | The public index, generated detail-page layout, versioned importer, search/filter controls, and screen-image conversion are implemented. Two reviewed records currently populate the preview library, which is linked from top-level navigation for feedback. The pre-fall collection goal is 25 publishable samples, with 50 as a stretch target. |
 | Materials showcase | The proposed educational showcase system is documented in `showcases/README.md`, with an unlisted pumpkin strength-to-weight demonstration at `showcases/pumpkin-strength-to-weight.md`. It is not yet a populated archive or top-level navigation destination. |
 
 ## Instrument Page Migration
