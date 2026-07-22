@@ -8,7 +8,7 @@ Cross-site launch and maintenance work is tracked in [`../_staff/site-todo.md`](
 
 ## Current Status
 
-The public training pathway is implemented in [`../training.md`](../training.md), but no instrument-specific staff training guides have yet been completed in this directory. The guide template reflects the current operating model:
+The public training pathway is implemented in [`../training.md`](../training.md). Pilot instrument-specific guides now exist for the optical microscope and FTIR. Both require operational-owner review, an approved training sample or kit and location, the exact Moira group, an assigned guide owner, and a practice training before they are marked ready for routine use. The guide template reflects the current operating model:
 
 * Standard sessions are 60 minutes with a maximum of three participants.
 * Participants may divide the Level 1 workflow, provided the trainer makes the full sequence visible and involves everyone meaningfully.
@@ -23,6 +23,8 @@ The current Qualtrics survey remains coordinated with the active production webs
 ## Files In This Directory
 
 * `instrument-training-template.md` is the starting point for each instrument-specific staff guide.
+* `optical.md` is the pilot DSX-1000 optical-microscope curriculum and completion checklist.
+* `ftir.md` is the pilot Nicolet iS5 FTIR ATR curriculum and completion checklist.
 * `qualtrics-launch-review.md` tracks updates that should be coordinated with the launch of the redesigned website.
 * `qualtrics-manual-edit-guide.md` is the canonical page-by-page copy deck and Qualtrics editing checklist.
 * `qualtrics-survey-audit.md` inventories the current QSF and records the rationale behind the revision.

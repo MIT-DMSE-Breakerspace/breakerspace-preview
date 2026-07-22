@@ -87,7 +87,18 @@ Current score 3. The page is lopsided — hardware setup is strong, test executi
 
 Instrument pages should be complete enough to use at the instrument without requiring the user to click away for basic safety, setup, loading, shutdown, or troubleshooting steps.
 
-The top of each operating page should work as a quick reference for trained users. The detailed operating instructions should work as a training guide for new users, with images, GIFs, and practical context.
+The top of each operating page should work as a quick reference for trained users. Where a two-page workstation handout exists, it should be included on that same canonical page through `_includes/quick-guides/`, with `print_quick_guide: true` in the page front matter. The screen version remains part of the accessible operating page; the shared print stylesheet hides the surrounding site and prints the component as exactly two US Letter pages for duplex printing. Do not maintain an independent PDF source. Generate a PDF from the page's print view only when a fixed release artifact is needed.
+
+Every Quick Guide should:
+
+* Identify itself as a trained-user reference that does not replace training.
+* Use Side 1 for what the instrument shows, routine method selection, compatibility, interpretation, and stop conditions.
+* Use Side 2 for the routine startup, operation, saving, cleanup, shutdown, and help workflow.
+* Include the canonical page URL, document owner or review responsibility, and last-reviewed date.
+* Remain understandable in grayscale and without printed background colors.
+* Draw technical claims and operating steps from the same instrument page rather than introducing an alternate workflow.
+
+The pilot Quick Guides are `_includes/quick-guides/optical.html` and `_includes/quick-guides/ftir.html`. Use their markup and the shared `quick-guide-*` CSS classes as the pattern for later instruments.
 
 Each page should also include a short educational section near the top, after Quick Actions and before the SOP, aimed at curious undergraduates from any major. Assume students have completed high-school science but may not have taken university-level physics, chemistry, biology, or materials science. This section should answer what the instrument reveals, why scientists use it, what typical results look like, and what the instrument cannot tell you. Keep it satisfying but not textbook-length.
 
@@ -100,17 +111,18 @@ Use this order unless an instrument family needs a hub/split structure:
 1. Title and instrument name.
 2. Overview: what it does and what it is good for.
 3. Quick actions: reserve, get trained, open manuals, find exercises.
-4. What this instrument shows you: accessible educational context, use cases, example results, and limits.
-5. Page index.
-6. Standard operating protocol: startup, operation, shutdown.
-7. Compatible materials and sample preparation.
-8. Quick method, mode, or settings selection where useful.
-9. Detailed operating instructions for new users.
-10. Data processing and analysis.
-11. Common failure modes.
-12. Manufacturer manuals and links.
-13. Exercises.
-14. Tutorial to-do list.
+4. Two-page Quick Guide for trained users, when available.
+5. What this instrument shows you: accessible educational context, use cases, example results, and limits.
+6. Page index.
+7. Standard operating protocol: startup, operation, shutdown.
+8. Compatible materials and sample preparation.
+9. Quick method, mode, or settings selection where useful.
+10. Detailed operating instructions for new users.
+11. Data processing and analysis.
+12. Common failure modes.
+13. Manufacturer manuals and links.
+14. Exercises.
+15. Tutorial to-do list.
 
 ## Educational Section Format
 

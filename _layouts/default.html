@@ -12,7 +12,7 @@
     <![endif]-->
     {% include head-custom.html %}
   </head>
-  <body>
+  <body{% if page.print_quick_guide %} class="has-print-quick-guide"{% endif %}>
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="wrapper">
       <header>

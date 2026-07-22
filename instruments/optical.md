@@ -1,6 +1,7 @@
 ---
 layout: default
 title: DSX-1000 Digital Optical Microscope
+print_quick_guide: true
 ---
 # Olympus DSX-1000 Digital Optical Microscope
 
@@ -22,11 +23,14 @@ This page is the operating page for the optical microscope. It combines the quic
 | --- | --- |
 | New lab user or untrained optical microscope user | [Register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) |
 | Reserve instrument time | [Open optical microscope reservations](https://breakerspace.libcal.com/seat/174788) |
+| Trained user who wants the two-page workstation guide | [Open or print the Quick Guide](#quick-guide) |
 | Trained user operating the microscope now | [Standard operating protocol](#sop) |
 | New user learning the full workflow | [Detailed operating instructions](#details) |
 | Need help choosing an imaging mode | [Quick observation mode selection](#quick-modes) |
 | Need manufacturer documentation | [Manufacturer manuals](#manuals) |
 | Need practice tasks | [Exercises](#exercises) |
+
+{% include quick-guides/optical.html %}
 
 ### What This Instrument Shows You {#science}
 
