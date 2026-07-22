@@ -1063,8 +1063,18 @@ main table a:focus-visible {
     flex-direction: column;
   }
 
-  .quick-guide-screen-bar button {
+  .quick-guide-screen-actions {
     width: 100%;
+    min-width: 0;
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .quick-guide-screen-actions a,
+  .quick-guide-screen-bar button {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
   }
 
   .quick-guide-header,
@@ -1265,6 +1275,10 @@ main table a:focus-visible {
     margin-top: 0;
     padding-top: 0.07in;
     font-size: 6.8pt;
+  }
+
+  body.has-print-quick-guide .quick-guide-back .quick-guide-footer {
+    bottom: calc(0.28in - 1px);
   }
 
   body.has-print-quick-guide a {
