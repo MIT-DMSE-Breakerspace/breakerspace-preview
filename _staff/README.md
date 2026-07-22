@@ -10,6 +10,7 @@ Use [`site-todo.md`](site-todo.md) as the canonical list for work that crosses p
 
 * [`../README.md`](../README.md) summarizes the current public architecture, implementation status, and planned direction.
 * [`site-todo.md`](site-todo.md) separates launch blockers, work due before the fall term, and supervised ongoing projects for student employees.
+* [`whole-lab-reservations.md`](whole-lab-reservations.md) defines the staff-mediated whole-lab reservation policy, intake requirements, calendar-blocking workflow, and remaining LibCal configuration tests.
 * [`../_staff-training/`](../_staff-training/) contains trainer-facing guide materials and the coordinated Qualtrics review.
 * [`../instruments/readme.md`](../instruments/readme.md) defines the instrument-page model and migration process.
 * Instrument-page to-do sections track technical work that applies only to that instrument while its page is under active development.

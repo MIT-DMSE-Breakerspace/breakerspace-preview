@@ -21,6 +21,26 @@ Use this page when you are ready to work independently on an instrument for whic
 | Cancel time you will not use | Use the management link in your LibCal confirmation and cancel as soon as you know you cannot attend. If you cannot find it, email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu). |
 | Guests may observe, but may not operate instruments | Remain with your guests and ensure they follow lab rules. Guests who want hands-on access should complete the relevant training. |
 
+## Whole-Lab Reservations For Teaching And Organized Activities {#whole-lab-reservations}
+
+Formal teaching exercises, orientations, organized group activities, maintenance, and other approved activities may require the entire instrument lab to be unavailable for ordinary reservations. Whole-lab reservations are arranged by Breakerspace staff; they are not self-service bookings.
+
+Request a whole-lab reservation at least **one week in advance** by emailing [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu). Earlier planning is strongly encouraged for recurring sessions, large groups, activities using several instruments, or sessions requiring staff support, sample review, or participant training.
+
+Include:
+
+* the course, program, or activity;
+* the requested date and time, including setup and cleanup;
+* expected attendance;
+* the instruments or parts of the lab involved;
+* the responsible instructor or organizer and participating teaching staff;
+* any training, access, staffing, sample, or safety needs; and
+* reasonable alternative dates or times, when available.
+
+Staff will review existing reservations, staffing, safety, and the proposed activity before approving the request. A request is not confirmed until the organizer receives written confirmation from the Breakerspace. Staff will add the activity to the appropriate calendar and make affected instrument times unavailable.
+
+Whole-lab reservations are intended for activities that genuinely require coordinated or exclusive use of the lab. Individual project work and routine instrument use should continue through the normal instrument-reservation process.
+
 ## Before You Book
 
 * Confirm that you have completed in-person training for the specific instrument and reviewed [Safety And Lab Use]({{ "/safety.html" | relative_url }}).

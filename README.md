@@ -47,7 +47,7 @@ The homepage should remain concise. It routes users by intent and provides the l
 | Location and arrival | Implemented on the homepage: Building 8, Room 8-102A, entered through the Breakerspace Lounge. Physical emergency-route details still require an on-site launch check. |
 | Instrument catalog | Implemented at `instruments/index.md`. All eleven instruments have consolidated operating pages, grouped by capability. |
 | Training | Implemented at `training.md`, including the one-time Qualtrics record, one-hour in-person sessions, access follow-up, advanced support, and the LibCal training calendar. The Qualtrics survey itself must be updated with launch. |
-| Reservations | Implemented at `reservations.md`, including direct calendars, the one-hour initial norm, reservation ownership, the 10-minute late rule, cancellations, handoffs, guests, and problem routing. |
+| Reservations | Implemented at `reservations.md`, including direct calendars, the one-hour initial norm, reservation ownership, the 10-minute late rule, cancellations, handoffs, guests, problem routing, and staff-mediated whole-lab reservations for teaching and organized activities. |
 | Safety and lab use | Implemented at `safety.md`, including emergency response, PPE, food and drink, samples, guests, working alone, cleanup, damage, and incident reporting. Field verification and DMSE EHS review remain launch work. |
 | Help and support | Implemented at `resources.md`, covering instrument problems, access, workstation permissions, files, Dropbox, Slack, project support, and contact paths. |
 | Teaching | Implemented at `teaching.md`, with collaboration models, staffing guidance, planning timelines, student preparation, and established course examples. |

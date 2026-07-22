@@ -50,6 +50,7 @@ Questions and course-planning inquiries can be sent to [dmse-breakerspace@mit.ed
 | --- | --- |
 | Discuss a possible course collaboration | Email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) with the course number, enrollment, term, learning goals, and any instruments or samples you have in mind. |
 | Arrange a brief visit or exploration session | Contact the Breakerspace team at least one to two weeks ahead when possible, with the preferred date, class size, and what you hope students will encounter. |
+| Reserve the whole lab for a formal teaching exercise | Email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) at least one week in advance with the requested time, setup and cleanup needs, enrollment, instruments, staffing, and alternative times. The request is not confirmed until the Breakerspace responds in writing. |
 | Have students become independent Breakerspace users | Ask students to follow the [Breakerspace training pathway](./training.html). |
 | Choose instruments for a course activity | Browse the [instrument pages](./instruments/) or contact the Breakerspace team for help matching questions to tools. |
 | See a course example | Read about [3.000 Coffee Matters](./3000.html), a first-year subject built around coffee, materials, measurement, and the Breakerspace. |
@@ -110,6 +111,12 @@ Teaching assistants and teaching fellows are valuable partners in developing and
 * Contact us at least one to two weeks before a brief visit when possible. Plan designed modules, cohort training, repeated use, and larger engagements before the semester begins.
 * Sessions work best with no more than five or six students at one instrument. Larger groups can rotate or use instruments in parallel, with one trained instructor assigned to each active instrument.
 * Students need the relevant training before independent use. Unusual samples and any safety or compatibility questions should be discussed in advance.
+
+### Reserving The Whole Lab {#whole-lab-reservations}
+
+Formal exercises that need coordinated or exclusive use of the instrument lab require a staff-approved whole-lab reservation. These reservations are not self-service. Email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) at least **one week in advance** with the course or activity, requested time including setup and cleanup, enrollment, instruments, responsible teaching staff, training or access needs, and possible alternative times.
+
+Earlier requests are important for recurring sessions, larger groups, multi-instrument rotations, or activities that require Breakerspace staffing or sample review. Staff will check existing reservations and operational constraints before confirming the session, adding it to the calendar, and making the affected instrument times unavailable. Do not announce the lab reservation to participants until the Breakerspace has confirmed it in writing.
 
 Email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) with the course, enrollment, learning goal, likely timing, and the activity you have in mind. Early ideas are welcome.
 
