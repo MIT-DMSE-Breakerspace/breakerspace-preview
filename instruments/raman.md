@@ -18,18 +18,26 @@ This page is the operating page for the Raman microscope. It combines the quick 
 
 ### Quick Actions {#quick-actions}
 
-| Need | Use this link |
-| --- | --- |
-| New lab user or untrained Raman user | [Register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) |
-| Reserve instrument time | [Open Raman microscope reservations](https://breakerspace.libcal.com/seat/174794) |
-| Trained user operating the Raman now | [Standard operating protocol](#sop) |
-| New user learning the full workflow | [Detailed operating instructions](#details) |
-| Learning what Raman is used for | [What this instrument shows you](#science) |
-| Choosing a laser and grating | [Laser and grating selection](#laser-grating) |
-| Mapping across an area | [Mapping and area scanning](#mapping) |
-| Measuring depth in a clear sample | [Confocal z-depth profiling](#z-profiling) |
-| Analyzing your data | [Data processing and analysis](#data) |
-| Need practice tasks | [Exercises](#exercises) |
+<div class="quick-actions-grid">
+<section markdown="1">
+#### Get started
+
+* [New to the Raman microscope? Register for training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0)
+* [Reserve time on the Raman microscope](https://breakerspace.libcal.com/seat/174794)
+* [Operating the Raman now? Follow the standard operating protocol](#sop)
+* [Learn the complete operating workflow](#details)
+</section>
+<section markdown="1">
+#### Learn and reference
+
+* [Learn what Raman spectroscopy can show you](#science)
+* [Choose a laser and grating](#laser-grating)
+* [Map measurements across an area](#mapping)
+* [Measure depth in a clear sample with confocal z-depth profiling](#z-profiling)
+* [Analyze and process your data](#data)
+* [Try the practice exercises](#exercises)
+</section>
+</div>
 
 ### What This Instrument Shows You {#science}
 

@@ -21,17 +21,25 @@ This page is the operating page for the FTIR. It combines the quick reference fo
 
 ### Quick Actions {#quick-actions}
 
-| Need | Use this link |
-| --- | --- |
-| New lab user or untrained FTIR user | [Register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) |
-| Reserve instrument time | [Open FTIR reservations](https://breakerspace.libcal.com/seat/174791) |
-| Trained user who wants the two-page workstation guide | [Open or print the Quick Guide]({{ page.url | relative_url }}?view=quick-guide#quick-guide) |
-| Trained user operating the FTIR now | [Standard operating protocol](#sop) |
-| New user learning the full workflow | [Detailed operating instructions](#details) |
-| Need help choosing a sampling method | [Quick method selection](#quick-method) |
-| Learning what FTIR is used for | [What this instrument shows you](#science) |
-| Need manufacturer documentation | [Manufacturer manuals](#manuals) |
-| Need practice tasks | [Exercises](#exercises) |
+<div class="quick-actions-grid">
+<section markdown="1">
+#### Get started
+
+* [New to FTIR? Register for training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0)
+* [Reserve time on the FTIR](https://breakerspace.libcal.com/seat/174791)
+* [Trained users: open or print the two-page Quick Guide]({{ page.url | relative_url }}?view=quick-guide#quick-guide)
+* [Operating the FTIR now? Follow the standard operating protocol](#sop)
+* [Learn the complete operating workflow](#details)
+</section>
+<section markdown="1">
+#### Learn and reference
+
+* [Choose an FTIR sampling method](#quick-method)
+* [Learn what FTIR can show you](#science)
+* [View manufacturer manuals](#manuals)
+* [Try the practice exercises](#exercises)
+</section>
+</div>
 
 {% include quick-guides/ftir.html %}
 

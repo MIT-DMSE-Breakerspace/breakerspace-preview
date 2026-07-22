@@ -18,17 +18,25 @@ This page is the operating page for the hardness tester. It combines the quick r
 
 ### Quick Actions {#quick-actions}
 
-| Need | Use this link |
-| --- | --- |
-| New lab user or untrained hardness-tester user | [Register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) |
-| Reserve instrument time | [Open hardness tester reservations](https://breakerspace.libcal.com/seat/181543) |
-| Trained user operating the tester now | [Standard operating protocol](#sop) |
-| New user learning the full workflow | [Detailed operating instructions](#details) |
-| Learning what hardness testing shows you | [What this instrument shows you](#science) |
-| Choosing a test method | [Test method selection](#test-method) |
-| Analyzing your data | [Data processing and analysis](#data) |
-| Need manufacturer documentation | [Manufacturer manuals](#manuals) |
-| Need practice tasks | [Exercises](#exercises) |
+<div class="quick-actions-grid">
+<section markdown="1">
+#### Get started
+
+* [New to the hardness tester? Register for training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0)
+* [Reserve time on the hardness tester](https://breakerspace.libcal.com/seat/181543)
+* [Operating the tester now? Follow the standard operating protocol](#sop)
+* [Learn the complete operating workflow](#details)
+</section>
+<section markdown="1">
+#### Learn and reference
+
+* [Learn what hardness testing can show you](#science)
+* [Choose a hardness test method](#test-method)
+* [Analyze and process your data](#data)
+* [View manufacturer manuals](#manuals)
+* [Try the practice exercises](#exercises)
+</section>
+</div>
 
 ### What This Instrument Shows You {#science}
 

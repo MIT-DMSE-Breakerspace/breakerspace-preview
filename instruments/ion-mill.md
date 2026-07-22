@@ -18,16 +18,24 @@ This page is the operating page for the ion mill. It combines the quick referenc
 
 ### Quick Actions {#quick-actions}
 
-| Need | Use this link |
-| --- | --- |
-| New lab user or untrained ion mill user | [Register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) |
-| Reserve instrument time | [Open ion mill reservations](https://breakerspace.libcal.com/seat/181542) |
-| Trained user operating the ion mill now | [Standard operating protocol](#sop) |
-| New user learning the full workflow | [Detailed operating instructions](#details) |
-| Need help choosing a method | [Quick method selection](#quick-method) |
-| Learning what ion milling is used for | [What this instrument is used for](#science) |
-| Need manufacturer documentation | [Manufacturer manuals](#manuals) |
-| Need practice tasks | [Exercises](#exercises) |
+<div class="quick-actions-grid">
+<section markdown="1">
+#### Get started
+
+* [New to the ion mill? Register for training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0)
+* [Reserve time on the ion mill](https://breakerspace.libcal.com/seat/181542)
+* [Operating the ion mill now? Follow the standard operating protocol](#sop)
+* [Learn the complete operating workflow](#details)
+</section>
+<section markdown="1">
+#### Learn and reference
+
+* [Choose an ion-milling method](#quick-method)
+* [Learn what ion milling is used for](#science)
+* [View manufacturer manuals](#manuals)
+* [Try the practice exercises](#exercises)
+</section>
+</div>
 
 ### What This Instrument Is Used For {#science}
 

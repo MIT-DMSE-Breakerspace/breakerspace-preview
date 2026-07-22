@@ -11,12 +11,14 @@ Public calendar sessions currently prioritize MIT undergraduates. MIT faculty, s
 
 ## Quick Actions
 
-| If you want to... | Start here |
-| --- | --- |
-| Find an upcoming session | [View the training calendar](#upcoming-training-sessions). |
-| Choose an instrument | [Explore the instrument pages]({{ "/instruments/" | relative_url }}) or ask Breakerspace staff what measurement fits your question. |
-| Complete the one-time online training record | Open the [Breakerspace online training](https://mit.co1.qualtrics.com/jfe/form/SV_084N36wCErKsgjc) before your first in-person instrument training. |
-| Request training that is not currently scheduled | Email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) with the instrument and several times that work for you. |
+<div class="quick-actions-list" markdown="1">
+
+* [View upcoming training sessions](#upcoming-training-sessions)
+* [Explore the instrument pages]({{ "/instruments/" | relative_url }}) or ask Breakerspace staff which measurement fits your question.
+* Before your first in-person instrument training, [complete the one-time online training and training record](https://mit.co1.qualtrics.com/jfe/form/SV_084N36wCErKsgjc).
+* If the training you need is not scheduled, email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) with the instrument and several times that work for you.
+
+</div>
 
 ## Your Training Pathway
 

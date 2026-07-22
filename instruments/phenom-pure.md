@@ -16,18 +16,26 @@ This page is the operating page for the Phenom Pure only. For the Phenom XL, use
 
 ### Quick Actions {#quick-actions}
 
-| Need | Use this link |
-| --- | --- |
-| New lab user or untrained SEM user | [Register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) |
-| Reserve instrument time | [Open Phenom Pure SEM reservations](https://breakerspace.libcal.com/seat/174787) |
-| Compare XL and Pure | [Open the shared SEM hub](./sem.html) |
-| Trained user operating the Phenom Pure now | [Standard operating protocol](#sop) |
-| New user learning the full workflow | [Detailed operating instructions](#details) |
-| Learning what is distinctive about this lab's Phenom Pure | [What makes this Phenom Pure different](#pure-different) |
-| Need sample size or loading limits | [Phenom Pure sample limits](#pure-limits) |
-| Need cold-stage guidance | [Phenom Pure cold stage](#cold-stage) |
-| Need manufacturer documentation | [Phenom Pure manuals](#manuals) |
-| Need practice tasks | [Exercises](#exercises) |
+<div class="quick-actions-grid">
+<section markdown="1">
+#### Get started
+
+* [New to SEM? Register for training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0)
+* [Reserve time on the Phenom Pure SEM](https://breakerspace.libcal.com/seat/174787)
+* [Operating the Phenom Pure now? Follow the standard operating protocol](#sop)
+* [Learn the complete operating workflow](#details)
+</section>
+<section markdown="1">
+#### Learn and reference
+
+* [Compare the Phenom Pure and XL](./sem.html)
+* [Learn what makes this Phenom Pure different](#pure-different)
+* [Check Phenom Pure sample and loading limits](#pure-limits)
+* [Learn about the Phenom Pure cold stage](#cold-stage)
+* [View Phenom Pure manuals](#manuals)
+* [Try the practice exercises](#exercises)
+</section>
+</div>
 
 ### What Makes This Phenom Pure Different {#pure-different}
 

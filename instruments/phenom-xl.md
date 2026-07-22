@@ -16,18 +16,26 @@ This page is the operating page for the Phenom XL only. For the Phenom Pure, use
 
 ### Quick Actions {#quick-actions}
 
-| Need | Use this link |
-| --- | --- |
-| New lab user or untrained SEM user | [Register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) |
-| Reserve instrument time | [Open Phenom XL SEM reservations](https://breakerspace.libcal.com/seat/174786) |
-| Compare XL and Pure | [Open the shared SEM hub](./sem.html) |
-| Trained user operating the Phenom XL now | [Standard operating protocol](#sop) |
-| New user learning the full workflow | [Detailed operating instructions](#details) |
-| Learning what is distinctive about this lab's Phenom XL | [What makes this Phenom XL different](#xl-different) |
-| Need sample size or loading limits | [Phenom XL sample limits](#xl-limits) |
-| Need EDS guidance | [EDS and Live EDS](#eds) |
-| Need manufacturer documentation | [Phenom XL manuals](#manuals) |
-| Need practice tasks | [Exercises](#exercises) |
+<div class="quick-actions-grid">
+<section markdown="1">
+#### Get started
+
+* [New to SEM? Register for training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0)
+* [Reserve time on the Phenom XL SEM](https://breakerspace.libcal.com/seat/174786)
+* [Operating the Phenom XL now? Follow the standard operating protocol](#sop)
+* [Learn the complete operating workflow](#details)
+</section>
+<section markdown="1">
+#### Learn and reference
+
+* [Compare the Phenom XL and Pure](./sem.html)
+* [Learn what makes this Phenom XL different](#xl-different)
+* [Check Phenom XL sample and loading limits](#xl-limits)
+* [Learn about EDS and Live EDS](#eds)
+* [View Phenom XL manuals](#manuals)
+* [Try the practice exercises](#exercises)
+</section>
+</div>
 
 ### What Makes This Phenom XL Different {#xl-different}
 

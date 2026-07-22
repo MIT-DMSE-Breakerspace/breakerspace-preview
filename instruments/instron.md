@@ -18,17 +18,25 @@ This page is the operating page for the Instron. It combines the quick reference
 
 ### Quick Actions {#quick-actions}
 
-| Need | Use this link |
-| --- | --- |
-| New lab user or untrained Instron user | [Register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) |
-| Reserve instrument time | [Open Instron reservations](https://breakerspace.libcal.com/seat/174792) |
-| Trained user operating the Instron now | [Standard operating protocol](#sop) |
-| New user learning the full workflow | [Detailed operating instructions](#details) |
-| Learning what mechanical testing shows you | [What this instrument shows you](#science) |
-| Choosing a test type | [Test type selection](#test-type) |
-| Analyzing your data | [Data processing and analysis](#data) |
-| Need manufacturer documentation | [Manufacturer manuals](#manuals) |
-| Need practice tasks | [Exercises](#exercises) |
+<div class="quick-actions-grid">
+<section markdown="1">
+#### Get started
+
+* [New to the Instron? Register for training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0)
+* [Reserve time on the Instron](https://breakerspace.libcal.com/seat/174792)
+* [Operating the Instron now? Follow the standard operating protocol](#sop)
+* [Learn the complete operating workflow](#details)
+</section>
+<section markdown="1">
+#### Learn and reference
+
+* [Learn what mechanical testing can show you](#science)
+* [Choose a mechanical test type](#test-type)
+* [Analyze and process your data](#data)
+* [View manufacturer manuals](#manuals)
+* [Try the practice exercises](#exercises)
+</section>
+</div>
 
 ### What This Instrument Shows You {#science}
 

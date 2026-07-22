@@ -358,6 +358,60 @@ main table a:focus-visible {
   color: #3f454a;
 }
 
+.quick-actions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0.5rem 0 1.75rem;
+}
+
+.quick-actions-grid > section {
+  min-width: 0;
+  padding: 0.85rem 1rem;
+  border-top: 3px solid #009de6;
+  background: #f5f8fa;
+}
+
+.quick-actions-grid h4 {
+  margin: 0 0 0.55rem;
+  color: #17242a;
+  font-size: 1rem;
+}
+
+.quick-actions-grid ul,
+.quick-actions-list ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.quick-actions-grid li,
+.quick-actions-list li {
+  line-height: 1.35;
+}
+
+.quick-actions-grid li + li,
+.quick-actions-list li + li {
+  margin-top: 0.42rem;
+}
+
+.quick-actions-grid a,
+.quick-actions-list a {
+  font-weight: 600;
+}
+
+.quick-actions-list {
+  margin: 0.5rem 0 1.75rem;
+  padding: 0.85rem 1rem;
+  border-left: 3px solid #009de6;
+  background: #f5f8fa;
+}
+
+@media screen and (max-width: 720px) {
+  .quick-actions-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .sample-library-controls {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(10rem, 0.42fr) max-content;

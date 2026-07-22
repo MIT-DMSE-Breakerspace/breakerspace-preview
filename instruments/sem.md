@@ -23,18 +23,26 @@ This page is the shared SEM hub. Use it to choose an instrument, review common S
 
 ### Quick Actions {#quick-actions}
 
-| Need | Use this link |
-| --- | --- |
-| New lab user or untrained SEM user | [Register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) |
-| Reserve the Phenom XL SEM | [Open Phenom XL SEM reservations](https://breakerspace.libcal.com/seat/174786) |
-| Reserve the Phenom Pure SEM | [Open Phenom Pure SEM reservations](https://breakerspace.libcal.com/seat/174787) |
-| Operate the Phenom XL | [Open the Phenom XL operating page](./phenom-xl.html) |
-| Operate the Phenom Pure | [Open the Phenom Pure operating page](./phenom-pure.html) |
-| Need help choosing which SEM | [Interactive SEM chooser](#chooser) |
-| Learning what SEM can show you | [What this instrument shows you](#science) |
-| Need shared sample-prep guidance | [Sample prep at a glance](#prep) |
-| Need manufacturer documentation | [Manufacturer manuals](#manuals) |
-| Need practice tasks | [Exercises](#exercises) |
+<div class="quick-actions-grid">
+<section markdown="1">
+#### Get started
+
+* [New to SEM? Register for training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0)
+* [Reserve time on the Phenom XL SEM](https://breakerspace.libcal.com/seat/174786)
+* [Reserve time on the Phenom Pure SEM](https://breakerspace.libcal.com/seat/174787)
+* [Open the Phenom XL operating page](./phenom-xl.html)
+* [Open the Phenom Pure operating page](./phenom-pure.html)
+</section>
+<section markdown="1">
+#### Learn and reference
+
+* [Use the interactive chooser to select an SEM](#chooser)
+* [Learn what SEM can show you](#science)
+* [Review shared sample preparation guidance](#prep)
+* [View manufacturer manuals](#manuals)
+* [Try the practice exercises](#exercises)
+</section>
+</div>
 
 ### What This Instrument Shows You {#science}
 

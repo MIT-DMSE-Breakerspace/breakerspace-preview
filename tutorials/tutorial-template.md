@@ -37,7 +37,7 @@ Lab-wide training, reservations, safety, access, files, and contact guidance sho
 When moving a tutorial into `instruments/`:
 
 * [ ] Preserve and improve the substantive operating guidance rather than wrapping old text in a new page.
-* [ ] Add Quick Actions for training, direct reservations, trained operation, detailed learning, manuals, and exercises.
+* [ ] Add concise, fully linked Quick Actions for training, direct reservations, trained operation, detailed learning, manuals, and exercises; group instrument-page actions under **Get started** and **Learn and reference**.
 * [ ] Add accessible educational context explaining what the instrument shows, common uses, result interpretation, and limits.
 * [ ] Keep the trained-user reference concise and place the detailed training guide below it.
 * [ ] Review compatible samples, unusual-sample routing, PPE, cleanup, and stop conditions against current lab-wide policy.

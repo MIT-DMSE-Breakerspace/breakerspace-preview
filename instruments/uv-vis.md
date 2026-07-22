@@ -18,16 +18,24 @@ This page is the operating page for the Duetta. It combines the quick reference 
 
 ### Quick Actions {#quick-actions}
 
-| Need | Use this link |
-| --- | --- |
-| New lab user or untrained Duetta user | [Register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) |
-| Reserve instrument time | [Open Duetta reservations](https://breakerspace.libcal.com/seat/174790) |
-| Trained user operating the Duetta now | [Standard operating protocol](#sop) |
-| New user learning the full workflow | [Detailed operating instructions](#details) |
-| Need help choosing a measurement type | [Quick method selection](#quick-method) |
-| Learning what UV-Vis and fluorescence can show you | [What this instrument shows you](#science) |
-| Need manufacturer documentation | [Manufacturer manuals](#manuals) |
-| Need practice tasks | [Exercises](#exercises) |
+<div class="quick-actions-grid">
+<section markdown="1">
+#### Get started
+
+* [New to the Duetta? Register for training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0)
+* [Reserve time on the Duetta](https://breakerspace.libcal.com/seat/174790)
+* [Operating the Duetta now? Follow the standard operating protocol](#sop)
+* [Learn the complete operating workflow](#details)
+</section>
+<section markdown="1">
+#### Learn and reference
+
+* [Choose a UV-Vis or fluorescence measurement](#quick-method)
+* [Learn what UV-Vis and fluorescence can show you](#science)
+* [View manufacturer manuals](#manuals)
+* [Try the practice exercises](#exercises)
+</section>
+</div>
 
 ### What This Instrument Shows You {#science}
 

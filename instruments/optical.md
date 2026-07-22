@@ -21,16 +21,24 @@ This page is the operating page for the optical microscope. It combines the quic
 
 ### Quick Actions {#quick-actions}
 
-| Need | Use this link |
-| --- | --- |
-| New lab user or untrained optical microscope user | [Register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) |
-| Reserve instrument time | [Open optical microscope reservations](https://breakerspace.libcal.com/seat/174788) |
-| Trained user who wants the two-page workstation guide | [Open or print the Quick Guide]({{ page.url | relative_url }}?view=quick-guide#quick-guide) |
-| Trained user operating the microscope now | [Standard operating protocol](#sop) |
-| New user learning the full workflow | [Detailed operating instructions](#details) |
-| Need help choosing an imaging mode | [Quick observation mode selection](#quick-modes) |
-| Need manufacturer documentation | [Manufacturer manuals](#manuals) |
-| Need practice tasks | [Exercises](#exercises) |
+<div class="quick-actions-grid">
+<section markdown="1">
+#### Get started
+
+* [New to the optical microscope? Register for training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0)
+* [Reserve time on the optical microscope](https://breakerspace.libcal.com/seat/174788)
+* [Trained users: open or print the two-page Quick Guide]({{ page.url | relative_url }}?view=quick-guide#quick-guide)
+* [Operating the microscope now? Follow the standard operating protocol](#sop)
+* [Learn the complete operating workflow](#details)
+</section>
+<section markdown="1">
+#### Learn and reference
+
+* [Choose an observation mode](#quick-modes)
+* [View manufacturer manuals](#manuals)
+* [Try the practice exercises](#exercises)
+</section>
+</div>
 
 {% include quick-guides/optical.html %}
 

@@ -14,11 +14,13 @@ The Breakerspace Lounge is the shared seating and food-and-drink area immediatel
 
 ## Quick Actions
 
-| If you want to... | Start here |
-| --- | --- |
-| Request lounge access | Complete the [Breakerspace Lounge access form](https://forms.gle/1pd59bjGXiPnehDL9). |
-| Check when and who can use the lounge | Review [Hours And Access](#hours-and-access). |
-| Bring food or a drink | Review [Using The Shared Space](#using-the-shared-space) and keep all food and drink out of the instrument lab. |
+<div class="quick-actions-list" markdown="1">
+
+* [Request Breakerspace Lounge access](https://forms.gle/1pd59bjGXiPnehDL9)
+* [Check Lounge hours and who can use the space](#hours-and-access)
+* [Review the shared-space rules before bringing food or drink](#using-the-shared-space). Keep all food and drink out of the instrument lab.
+
+</div>
 
 ## Hours And Access
 

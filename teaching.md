@@ -46,7 +46,7 @@ Questions and course-planning inquiries can be sent to [dmse-breakerspace@mit.ed
 
 ## Quick Actions
 
-| If you want to... | Start here |
+| Goal | What to do |
 | --- | --- |
 | Discuss a possible course collaboration | Email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) with the course number, enrollment, term, learning goals, and any instruments or samples you have in mind. |
 | Arrange a brief visit or exploration session | Contact the Breakerspace team at least one to two weeks ahead when possible, with the preferred date, class size, and what you hope students will encounter. |

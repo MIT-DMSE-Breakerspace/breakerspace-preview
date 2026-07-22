@@ -20,41 +20,41 @@ Every item in this section is a launch gate. Do not waive a safety, onboarding, 
 
 ### Physical Safety And Policy Sign-Off
 
-* [ ] Complete one on-site safety and arrival walk. Confirm the public arrival route, room signage, the complete egress path, the nearest campus phone, fire alarm pull, fire extinguisher, emergency and first-aid cabinet, shower and eyewash, spill kit, sharps container, and ordinary waste locations.
-* [ ] Confirm that the website and posted emergency signs use the correct emergency numbers: dial **100** from a campus phone or **617-253-1212** from a mobile or other phone.
-* [ ] Confirm that the public emergency-equipment and egress wording matches the physical space. Correct any inaccurate location or route before launch; the full annotated visual can follow in Tier 2.
-* [ ] Review Safety And Lab Use, the incident-reporting workflow, and the relevant instrument safety language with the DMSE EHS contact.
-* [ ] Assign the Breakerspace staff role responsible for helping with or following up on Non-Employee Incident Reports.
-* [ ] Resolve the open Instron policy questions: whether any operation should not be performed alone and whether heavy tooling requires protective footwear, handling aids, or a stricter transfer procedure. Update the Safety and Instron pages together.
-* [ ] Compare posted lab signs with the website for PPE, food and drink, samples, guests, emergencies, incident reporting, and working alone. Resolve contradictory instructions before launch.
+* [x] Complete one on-site safety and arrival walk. Confirm the public arrival route, room signage, the complete egress path, the nearest campus phone, fire alarm pull, fire extinguisher, emergency and first-aid cabinet, shower and eyewash, spill kit, sharps container, and ordinary waste locations.
+* [x] Confirm that the website and posted emergency signs use the correct emergency numbers: dial **100** from a campus phone or **617-253-1212** from a mobile or other phone.
+* [x] Confirm that the public emergency-equipment and egress wording matches the physical space. Correct any inaccurate location or route before launch; the full annotated visual can follow in Tier 2.
+* [x] Review Safety And Lab Use, the incident-reporting workflow, and the relevant instrument safety language with the DMSE EHS contact.
+* [x] Assign the Breakerspace staff role responsible for helping with or following up on Non-Employee Incident Reports.
+* [x] Resolve the open Instron policy questions: whether any operation should not be performed alone and whether heavy tooling requires protective footwear, handling aids, or a stricter transfer procedure. Update the Safety and Instron pages together.
+* [x] Compare posted lab signs with the website for PPE, food and drink, samples, guests, emergencies, incident reporting, and working alone. Resolve contradictory instructions before launch.
 
 ### Training, Access, And External Systems
 
 * [ ] Complete the coordinated Qualtrics work in [qualtrics-launch-review.md](../_staff-training/qualtrics-launch-review.md), using [qualtrics-manual-edit-guide.md](../_staff-training/qualtrics-manual-edit-guide.md) for the page-by-page revision, display logic, validation, and test paths. The current QSF extraction and rationale remain in [qualtrics-survey-audit.md](../_staff-training/qualtrics-survey-audit.md); four production decisions, Qualtrics editing, and testing remain.
-* [ ] Confirm that LibCal training and reservation descriptions, public calendars, participant limits, cancellation links, and instrument names match the redesigned site.
-* [ ] Confirm the complete access handoff: trainers add the correct Moira groups and send Slack invitations during training closeout, the lab manager receives the required Qualtrics information and processes tap access, and users can create an MIT Dropbox for Business account and request DMSE Breakerspace Team membership.
-* [ ] Run one end-to-end new-user test of the public path: choose an instrument, complete the survey test path, locate or request training, understand the access handoff, find the reservation calendar, locate the operating page, and find help.
+* [x] Confirm that LibCal training and reservation descriptions, public calendars, participant limits, cancellation links, and instrument names match the redesigned site.
+* [x] Confirm the complete access handoff: trainers add the correct Moira groups and send Slack invitations during training closeout, the lab manager receives the required Qualtrics information and processes tap access, and users can create an MIT Dropbox for Business account and request DMSE Breakerspace Team membership.
+* [x] Run one end-to-end new-user test of the public path: choose an instrument, complete the survey test path, locate or request training, understand the access handoff, find the reservation calendar, locate the operating page, and find help.
 * [ ] Test the core Qualtrics and LibCal workflows with keyboard-only navigation and VoiceOver. Treat an inability to register, understand an error, review a response, submit, or cancel as a launch blocker.
-* [ ] Confirm current lounge hours, undergraduate eligibility, access-form URL, typical processing time, food-and-drink boundary, and the equipment actually available.
+* [x] Confirm current lounge hours, undergraduate eligibility, access-form URL, typical processing time, food-and-drink boundary, and the equipment actually available.
 
 ### Public Content And Release Hygiene
 
-* [ ] Review every high-consequence or operationally specific instrument claim with the appropriate staff owner. Resolve, remove, or clearly qualify unverified safety limits, interlock descriptions, sample restrictions, login requirements, and shutdown instructions. This includes the XRD enclosure/interlock description and the Instron questions above.
-* [ ] Review visible instrument-page to-do sections. Move internal maintenance and policy questions here; retain public items only when they are appropriate, clearly labeled contribution opportunities for trained users or student employees.
+* [x] Review every high-consequence or operationally specific instrument claim with the appropriate staff owner. Resolve, remove, or clearly qualify unverified safety limits, interlock descriptions, sample restrictions, login requirements, and shutdown instructions. This includes the XRD enclosure/interlock description and the Instron questions above.
+* [x] Review visible instrument-page to-do sections. Move internal maintenance and policy questions here; retain public items only when they are appropriate, clearly labeled contribution opportunities for trained users or student employees.
 * [x] Replace the former sample-library placeholder with the generated public index and reviewed sample pages. The library can remain visible in preview and is not a production-launch dependency.
 * [x] Exclude the 2024 and 2026 microscope-contest pages and gallery assets from the launch build until meaningful image descriptions are written and reviewed.
-* [ ] Confirm that the former lab catalog, every legacy tutorial URL, workstation shortcut, posted QR code, LibCal description, and known course link resolves to the intended canonical page.
-* [ ] Test the final production configuration for navigation, internal links and fragments, external links, responsive layout, images, and the core Start Here, training, reservation, safety, help, teaching, and instrument paths.
-* [ ] Confirm current contact information, hours, room and arrival language, access instructions, reservation links, training links, and emergency numbers.
+* [x] Confirm that the former lab catalog, every legacy tutorial URL, workstation shortcut, posted QR code, LibCal description, and known course link resolves to the intended canonical page.
+* [x] Test the final production configuration for navigation, internal links and fragments, external links, responsive layout, images, and the core Start Here, training, reservation, safety, help, teaching, and instrument paths.
+* [x] Confirm current contact information, hours, room and arrival language, access instructions, reservation links, training links, and emergency numbers.
 * [ ] Complete a focused keyboard and VoiceOver smoke test on the homepage, training, reservations, safety, Help, instrument catalog, and at least one representative instrument page.
-* [ ] Have the operational owner review each high-consequence public page before release.
+* [x] Have the operational owner review each high-consequence public page before release.
 
 ### Controlled Cutover
 
-* [ ] Name a launch owner, choose a release window, and briefly freeze policy and navigation edits while the launch checks are completed.
-* [ ] Preserve a deployable snapshot or tag of the current production site and write down the rollback procedure before changing the production domain.
+* [x] Name a launch owner, choose a release window, and briefly freeze policy and navigation edits while the launch checks are completed.
+* [x] Preserve a deployable snapshot or tag of the current production site and write down the rollback procedure before changing the production domain.
 * [ ] Release the redesigned site and updated Qualtrics survey in the same window. Preserve old URLs through redirects rather than leaving two conflicting sets of instructions.
-* [ ] Assign someone to monitor email, #breakerspace-help, access failures, broken links, and instrument-page reports for the first week after launch. Correct operational errors immediately and record lower-priority improvements in Tier 2 or Tier 3.
+* [x] Assign someone to monitor email, #breakerspace-help, access failures, broken links, and instrument-page reports for the first week after launch. Correct operational errors immediately and record lower-priority improvements in Tier 2 or Tier 3.
 
 ## 2. Urgent Before The Fall Academic Term
 

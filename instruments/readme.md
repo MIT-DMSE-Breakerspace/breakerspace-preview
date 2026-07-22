@@ -110,7 +110,7 @@ Use this order unless an instrument family needs a hub/split structure:
 
 1. Title and instrument name.
 2. Overview: what it does and what it is good for.
-3. Quick actions: reserve, get trained, open manuals, find exercises.
+3. Quick actions: concise, fully linked actions grouped under **Get started** and **Learn and reference**. Use a two-column goal/guidance table only when the guidance adds a meaningful condition, choice, or preparation step rather than restating the goal.
 4. Two-page Quick Guide for trained users, when available.
 5. What this instrument shows you: accessible educational context, use cases, example results, and limits.
 6. Page index.
