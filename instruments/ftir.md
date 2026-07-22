@@ -5,6 +5,8 @@ print_quick_guide: true
 ---
 # Thermo Scientific Nicolet iS5 FTIR Spectrometer
 
+{% include instrument-page-actions.html %}
+
 ## Overview
 
 <img src="../assets/img/ftir.JPG" alt="Nicolet iS5 FTIR spectrometer." style="width:45%; float:right; margin-left:10px; margin-bottom:1.4em;">
@@ -23,7 +25,7 @@ This page is the operating page for the FTIR. It combines the quick reference fo
 | --- | --- |
 | New lab user or untrained FTIR user | [Register for a Breakerspace lab training](https://breakerspace.libcal.com/calendar?cid=19408&t=w&d=0000-00-00&cal=19408&ct=69558&inc=0) |
 | Reserve instrument time | [Open FTIR reservations](https://breakerspace.libcal.com/seat/174791) |
-| Trained user who wants the two-page workstation guide | [Open or print the Quick Guide](#quick-guide) |
+| Trained user who wants the two-page workstation guide | [Open or print the Quick Guide]({{ page.url | relative_url }}?view=quick-guide#quick-guide) |
 | Trained user operating the FTIR now | [Standard operating protocol](#sop) |
 | New user learning the full workflow | [Detailed operating instructions](#details) |
 | Need help choosing a sampling method | [Quick method selection](#quick-method) |

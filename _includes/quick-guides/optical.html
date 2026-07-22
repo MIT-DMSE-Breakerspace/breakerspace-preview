@@ -4,7 +4,10 @@
       <strong>Two-page Quick Guide</strong>
       <span>For trained users. Print on Letter paper at 100%, two-sided, flipping on the long edge.</span>
     </div>
-    <button type="button" onclick="window.print()">Print front and back</button>
+    <div class="quick-guide-screen-actions">
+      <a href="{{ page.url | relative_url }}">Full instrument page</a>
+      <button type="button" onclick="window.print()">Print front and back</button>
+    </div>
   </div>
 
   <section class="quick-guide-sheet quick-guide-front" aria-labelledby="optical-quick-guide-title">

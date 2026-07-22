@@ -87,7 +87,7 @@ Current score 3. The page is lopsided — hardware setup is strong, test executi
 
 Instrument pages should be complete enough to use at the instrument without requiring the user to click away for basic safety, setup, loading, shutdown, or troubleshooting steps.
 
-The top of each operating page should work as a quick reference for trained users. Where a two-page workstation handout exists, it should be included on that same canonical page through `_includes/quick-guides/`, with `print_quick_guide: true` in the page front matter. The screen version remains part of the accessible operating page; the shared print stylesheet hides the surrounding site and prints the component as exactly two US Letter pages for duplex printing. Do not maintain an independent PDF source. Generate a PDF from the page's print view only when a fixed release artifact is needed.
+The top of each operating page should work as a quick reference for trained users. Where a two-page workstation handout exists, it should be included on that same canonical page through `_includes/quick-guides/`, with `print_quick_guide: true` in the page front matter. A prominent action beside the animation control opens the same page in a focused Quick Guide view; the normal operating page does not duplicate the full handout onscreen. The shared print stylesheet hides the surrounding site and prints the component as exactly two US Letter pages for duplex printing. Do not maintain an independent PDF source. Generate a PDF from the page's print view only when a fixed release artifact is needed.
 
 Every Quick Guide should:
 

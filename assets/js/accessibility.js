@@ -92,7 +92,9 @@
 
   var main = document.querySelector("main");
   var firstHeading = main.querySelector("h1");
-  if (firstHeading) firstHeading.insertAdjacentElement("afterend", button);
+  var actionBar = main.querySelector(".instrument-page-actions");
+  if (actionBar) actionBar.appendChild(button);
+  else if (firstHeading) firstHeading.insertAdjacentElement("afterend", button);
   else main.insertAdjacentElement("afterbegin", button);
 
   function showPausedFrame(item) {
