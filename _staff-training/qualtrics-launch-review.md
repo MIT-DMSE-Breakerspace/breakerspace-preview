@@ -10,6 +10,8 @@ The redesigned preview now has stable task pages for instrument selection, train
 
 The survey itself has not yet been updated. Continue treating the changes below as a coordinated launch dependency rather than changing the active survey piecemeal while it still serves the old production site.
 
+The remaining operating decisions were resolved July 23, 2026. The final manual guide now specifies nine-digit MIT ID handling, access-ready response filtering, a no-PII staff notification, 30-day deletion of unfinished responses, duplicate handling, restricted response access, need-based retention with annual review, and use of the custom completion page without an email receipt.
+
 ## Completed Survey Audit
 
 The QSF exported on July 15, 2026 has now been fully extracted and reviewed. Make the revision from the [Qualtrics Manual Editing Guide](qualtrics-manual-edit-guide.md). See [Qualtrics Survey Audit And Revision Plan](qualtrics-survey-audit.md) for the current question order, response fields, validation, survey settings, and rationale.
@@ -34,6 +36,8 @@ Highest-priority updates:
 * Add a specific completion message explaining that the online record does not itself authorize independent instrument use.
 * Add a short privacy and operational-use notice for the name, Kerberos username, and MIT ID number collected for tap access.
 * Change MIT ID validation from a generic number to a nine-character text pattern so a leading zero cannot be lost.
+* Delete responses that remain unfinished for 30 days and clean up existing unfinished records only after exporting the current response data.
+* Notify `dmse-breakerspace@mit.edu` when a response is access-ready without putting names, MIT IDs, response reports, or other survey answers in email.
 * Leave MIT authentication out of the launch revision because the public, unindexed survey has not received inappropriate responses during its first year. Evaluate SSO later as optional hardening with the MIT Qualtrics brand administrator.
 
 ## Recommended Survey Structure
@@ -54,7 +58,7 @@ The exact question text, choices, data export tags, custom-validation messages, 
 
 Preserve the current survey ID and public link by making the approved changes in the existing Qualtrics survey. First export the current responses and QSF, then build and test the revision in a Qualtrics copy. Apply the tested changes manually to the active survey and publish them in the website launch window.
 
-Do not delete response-bearing questions until the historical response export and retention plan have been confirmed. Move retired questions to the existing unused block outside the survey flow, and add new question IDs for checks whose meaning has changed. Keep the current tap-access fields only if their response columns and validation remain semantically consistent.
+Do not delete response-bearing questions during this revision. Move retired questions to the existing unused block outside the survey flow so historical response columns remain interpretable, and add new question IDs for checks whose meaning has changed. Keep QID2 for the same three tap-access fields, but change the MIT ID field from generic numeric validation to the confirmed nine-digit text pattern.
 
 ## Coordinated Launch Checklist
 
@@ -62,6 +66,8 @@ Do not delete response-bearing questions until the historical response export an
 * [ ] Every survey link has been updated and tested against the production site.
 * [ ] Survey language matches the published training, resources, safety, and access policies.
 * [ ] Required questions and display logic have been reviewed.
+* [ ] The 30-day unfinished-response deletion setting and one-time cleanup of exported unfinished records have been verified.
+* [ ] The access-ready staff notification sends no personal data or response report and does not fire on non-ready or unfinished paths.
 * [ ] A complete clean test response has been submitted and checked.
 * [ ] Tap-access information arrives in the format needed by the lab manager.
 * [ ] Moira and Slack closeout responsibilities are clear to instrument trainers.

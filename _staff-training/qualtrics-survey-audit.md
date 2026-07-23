@@ -297,23 +297,23 @@ Do not promise a processing time until staff have confirmed one they can meet co
 3. **Authentication:** Keep the survey public and unindexed for launch. There has been no observed inappropriate use during its first year. Investigate MIT SSO later as optional hardening rather than introducing a new launch dependency.
 4. **Slack:** The trainer sends every attendee an invitation during training closeout. Do not require Slack membership to submit the one-time online record.
 
-## Decisions Still Required Before Editing
+## Remaining Decisions Resolved July 23, 2026
 
-1. **MIT ID:** Confirm that tap access requires all nine digits and that leading zeroes must be preserved.
-2. **Response handling:** Who receives a completed response, what marks it ready for tap-access processing, and how are incomplete or duplicate responses handled?
-3. **Privacy and retention:** Who can access survey responses, how long are identity records retained, and what notice does MIT require?
-4. **Confirmation:** Should users receive a submission receipt by email, and would that require collecting an MIT email address?
+1. **MIT ID:** Collect exactly nine digits as text so a leading zero is preserved.
+2. **Response handling:** The lab manager is the primary owner and a designated full-time Breakerspace staff member is the backup. Process only records with `Finished = 1` and `ACCESS_READY = 1`. Send a no-PII notification to `dmse-breakerspace@mit.edu` when one is ready. Delete unfinished responses after 30 days; the newest complete, access-ready duplicate controls current follow-up.
+3. **Privacy and retention:** Limit identifiable-response access to the lab manager and designated full-time staff responsible for onboarding and access. Retain records only while operationally needed, review them at least annually, and follow MIT records and privacy requirements.
+4. **Confirmation:** Use the custom completion page. Do not collect an email address solely to send a receipt.
 
 ## Safe In-Place Editing Procedure
 
 1. Export a fresh QSF and all existing response data immediately before editing.
 2. Create a Qualtrics copy of the active survey and build the proposed flow there first.
 3. Keep a mapping from current question IDs to retained, retired, and new questions.
-4. Do not delete response-bearing questions. Move retired questions into the existing unused block outside the displayed flow until historical response retention is confirmed.
+4. Do not delete response-bearing questions during this revision. Move retired questions into the existing unused block outside the displayed flow so historical response columns remain interpretable.
 5. Preserve QID2 only if the same three fields retain the same meaning. Add new IDs for role, acknowledgment, and scenario checks.
-6. Resolve the four remaining decisions above, then test every display branch, validation message, link, and completion path in Preview.
+6. Implement the resolved response-handling, privacy, retention, and confirmation decisions in the manual editing guide, then test every display branch, validation message, link, notification, and completion path in Preview.
 7. Submit test responses for an undergraduate, a directly coordinated non-undergraduate, a user without Dropbox, an uncertain-policy response, and an incomplete response.
-8. Verify the staff-side response export and tap-access workflow using completed responses only.
+8. Verify the staff-side response export, no-PII notification, and tap-access workflow using only responses with `Finished = 1` and `ACCESS_READY = 1`.
 9. Test keyboard-only completion, visible focus, screen-reader labels and errors, zoom, small-screen layout, color contrast, and link behavior.
 10. Apply the tested changes manually to the active survey. Use Qualtrics version history and publish in the same release window as the redesigned website.
 11. Submit one clean production response, verify its staff-side handling, and export a new QSF as the post-launch baseline.
@@ -328,6 +328,8 @@ Do not use an imported experimental survey as production unless the team intenti
 
 * [Import and Export Surveys](https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/) explains that QSF import creates a new survey and warns against editing QSF contents.
 * [Testing and Editing Active Surveys](https://www.qualtrics.com/support/survey-platform/survey-module/testing-and-editing-an-active-survey/) covers publishing changes and cautions about edits that can affect collected response data.
+* [Incomplete Survey Responses](https://www.qualtrics.com/support/survey-platform/survey-module/survey-options/partial-completion/) covers recording or deleting unfinished responses.
+* [Email Tasks](https://www.qualtrics.com/support/survey-platform/actions-module/email-task/) covers response-triggered staff notifications.
 * [Saving and Restoring](https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/saving-and-restoring/) describes Qualtrics survey versions and restoration.
 * [Anonymous Link](https://www.qualtrics.com/support/survey-platform/distributions-module/web-distribution/anonymous-link/) confirms that editing and publishing the existing survey does not change its anonymous link.
 * [SSO Authenticator](https://www.qualtrics.com/support/survey-platform/survey-module/survey-flow/advanced-elements/authenticator/sso-authenticator/) describes SSO options and notes that a university SSO connection requires coordination with the institution's IT or Qualtrics brand administrator.

@@ -1,6 +1,6 @@
 # Breakerspace Website To-Do
 
-Last reviewed: 2026-07-15
+Last reviewed: 2026-07-23
 
 This is the canonical unlisted list for cross-site launch work, policy decisions, and ongoing maintenance. It is organized by operational deadline rather than by page.
 
@@ -30,7 +30,7 @@ Every item in this section is a launch gate. Do not waive a safety, onboarding, 
 
 ### Training, Access, And External Systems
 
-* [ ] Complete the coordinated Qualtrics work in [qualtrics-launch-review.md](../_staff-training/qualtrics-launch-review.md), using [qualtrics-manual-edit-guide.md](../_staff-training/qualtrics-manual-edit-guide.md) for the page-by-page revision, display logic, validation, and test paths. The current QSF extraction and rationale remain in [qualtrics-survey-audit.md](../_staff-training/qualtrics-survey-audit.md); four production decisions, Qualtrics editing, and testing remain.
+* [ ] Complete the coordinated Qualtrics work in [qualtrics-launch-review.md](../_staff-training/qualtrics-launch-review.md), using [qualtrics-manual-edit-guide.md](../_staff-training/qualtrics-manual-edit-guide.md) for the final page-by-page revision, display logic, validation, notification, response handling, and test paths. The policy decisions were resolved July 23, 2026; Qualtrics editing and testing remain. The current QSF extraction and rationale remain in [qualtrics-survey-audit.md](../_staff-training/qualtrics-survey-audit.md).
 * [x] Confirm that LibCal training and reservation descriptions, public calendars, participant limits, cancellation links, and instrument names match the redesigned site.
 * [x] Confirm the complete access handoff: trainers add the correct Moira groups and send Slack invitations during training closeout, the lab manager receives the required Qualtrics information and processes tap access, and users can create an MIT Dropbox for Business account and request DMSE Breakerspace Team membership.
 * [x] Run one end-to-end new-user test of the public path: choose an instrument, complete the survey test path, locate or request training, understand the access handoff, find the reservation calendar, locate the operating page, and find help.
