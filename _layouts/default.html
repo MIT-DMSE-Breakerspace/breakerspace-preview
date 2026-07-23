@@ -12,7 +12,7 @@
     <![endif]-->
     {% include head-custom.html %}
   </head>
-  <body{% if page.print_quick_guide %} class="has-print-quick-guide"{% endif %}>
+  <body{% if page.print_quick_guide or page.data_tool_workspace %} class="{% if page.print_quick_guide %}has-print-quick-guide{% endif %}{% if page.print_quick_guide and page.data_tool_workspace %} {% endif %}{% if page.data_tool_workspace %}data-tool-workspace{% endif %}"{% endif %}>
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="wrapper">
       <header>

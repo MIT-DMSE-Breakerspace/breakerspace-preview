@@ -406,6 +406,193 @@ main table a:focus-visible {
   background: #f5f8fa;
 }
 
+.data-tools-status {
+  padding: 0.75rem 0.9rem;
+  border-left: 4px solid #ae0721;
+  background: #fff4f5;
+  color: #3f454a;
+}
+
+.data-tool-device-note {
+  margin: 1.25rem 0 1.75rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid #b9d9e7;
+  border-left: 4px solid #009de6;
+  background: #f3f9fc;
+  color: #3f454a;
+}
+
+.data-tool-device-note strong {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #17242a;
+  font-size: 1.05rem;
+}
+
+.data-tool-device-note p {
+  margin: 0;
+}
+
+.data-tool-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0.75rem 0 2rem;
+}
+
+.data-tool-card {
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid #d8dde2;
+  border-top: 4px solid #009de6;
+  background: #fff;
+}
+
+.data-tool-card-future {
+  border-top-color: #87929a;
+  background: #f6f7f8;
+}
+
+.data-tool-card h2 {
+  margin-bottom: 0.65rem;
+  font-size: 1.25rem;
+}
+
+.data-tool-technique {
+  margin-bottom: 0.25rem;
+  color: #5d6870;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.data-tool-facts {
+  margin: 1rem 0;
+  border-top: 1px solid #d8dde2;
+}
+
+.data-tool-facts > div {
+  display: grid;
+  grid-template-columns: 5.5rem minmax(0, 1fr);
+  gap: 0.65rem;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid #e4e7ea;
+}
+
+.data-tool-facts dt {
+  font-weight: 700;
+}
+
+.data-tool-facts dd {
+  min-width: 0;
+  margin: 0;
+}
+
+.data-tool-primary-link {
+  display: inline-flex;
+  gap: 0.4rem;
+  align-items: center;
+  padding: 0.62rem 0.8rem;
+  border: 2px solid #007aa8;
+  border-radius: 4px;
+  background: #007aa8;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.data-tool-primary-link:visited {
+  color: #fff;
+}
+
+.data-tool-primary-link:hover,
+.data-tool-primary-link:focus {
+  background: #005f7f;
+  color: #fff;
+  text-decoration: none;
+}
+
+.data-tool-breadcrumb {
+  margin-bottom: 1rem;
+}
+
+.data-tool-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  margin: 1.25rem 0 2rem;
+  background: #cdd5da;
+  border: 1px solid #cdd5da;
+}
+
+.data-tool-summary > div {
+  min-width: 0;
+  padding: 0.75rem 0.85rem;
+  background: #f5f8fa;
+}
+
+.data-tool-summary strong,
+.data-tool-summary span {
+  display: block;
+}
+
+.data-tool-summary strong {
+  margin-bottom: 0.25rem;
+}
+
+.data-tool-launch-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 1rem;
+  align-items: center;
+  margin: 1.25rem 0 2rem;
+}
+
+.data-tool-frame-wrap {
+  overflow: hidden;
+  width: 100%;
+  height: min(78vh, 56rem);
+  min-height: 42rem;
+  margin: 0.75rem 0 2rem;
+  border: 1px solid #aab4ba;
+  border-radius: 6px;
+  background: #f8f9fa;
+}
+
+.data-tool-frame {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media screen and (min-width: 961px) {
+  body.data-tool-workspace .wrapper {
+    width: min(1500px, calc(100vw - 5rem));
+  }
+
+  body.data-tool-workspace .content-shell {
+    width: calc(100% - 320px);
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .data-tool-grid,
+  .data-tool-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .data-tool-facts > div {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+  }
+
+  .data-tool-frame-wrap {
+    min-height: 48rem;
+  }
+}
+
 @media screen and (max-width: 720px) {
   .quick-actions-grid {
     grid-template-columns: 1fr;

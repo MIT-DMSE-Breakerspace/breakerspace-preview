@@ -15,6 +15,7 @@ Use this page when you are ready to work independently on an instrument for whic
 
 | Rule | What it means |
 | --- | --- |
+| Reservations open three days ahead | LibCal allows instrument reservations up to three calendar days before the session. At midnight, the next eligible date becomes available. |
 | The trained reservation holder must be present | Make the reservation under your own Kerberos account and remain in the lab for the entire session. Only trained users may operate instruments. Do not share credentials or log in for another person. |
 | A reservation is held for 10 minutes | If the instrument is unoccupied 10 minutes after the reservation begins, the holder forfeits priority and the instrument becomes available first come, first served. A late holder may use it only if it remains available. |
 | The next reservation starts on time | Finish data export, cleanup, and shutdown or handoff before the next reservation begins. Turn over the instrument on time and reserve additional time later if needed. |
@@ -52,7 +53,7 @@ Whole-lab reservations are intended for activities that genuinely require coordi
 
 ## How To Book In LibCal
 
-1. Open the calendar for the instrument you need.
+1. Open the calendar for the instrument you need. Bookable dates extend through three calendar days ahead, with the next date becoming available at midnight.
 2. Select a start time, then choose the end time. LibCal displays availability in 15-minute blocks.
 3. Select **Submit Times** and sign in through MIT Touchstone with your Kerberos account.
 4. Review the instrument, date, and full time range before completing the booking.

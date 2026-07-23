@@ -1,6 +1,6 @@
 # Whole-Lab Reservation Policy And Staff Workflow
 
-Last reviewed: 2026-07-22
+Last reviewed: 2026-07-23
 
 This is the internal operating procedure for teaching exercises, orientations, organized group activities, maintenance, and other approved activities that require coordinated or exclusive use of the Breakerspace instrument lab.
 
@@ -49,14 +49,14 @@ The remaining collision behavior must be tested before relying on the room hiera
 
 Until that test is complete, always inspect existing seat reservations before creating or confirming the room reservation. Resolve any overlap directly rather than relying on LibCal to decide what should happen.
 
-## Seat-Reservation Horizon Option
+## Active Seat-Reservation Horizon
 
-A short public seat-booking horizon can prevent most conflicts if whole-lab requests are handled before the seat window opens. One workable model is:
+LibCal is configured so public instrument-seat reservations open three calendar days ahead, with the next eligible day becoming available at midnight. The coordinated planning model is:
 
 * whole-lab requests are due at least seven calendar days ahead;
 * staff review and enter approved room reservations promptly, ideally no later than four days ahead; and
 * public instrument-seat reservations open three days ahead.
 
-This creates a planning gap in which the room can be reserved before users can claim its instrument seats. It does not eliminate the need to check for conflicts from older bookings, late whole-lab requests, maintenance closures, or any manually created future reservation.
+This creates a planning gap in which the room can be reserved before users can claim its instrument seats. Staff should process an on-time whole-lab request promptly and enter the approved room reservation before the three-day seat window opens.
 
-Before adopting a three-day limit, review how far ahead ordinary users currently book and whether short-horizon access would make planned experiments, project deadlines, or coordination with collaborators unnecessarily difficult. If three days is too restrictive, use a longer seat horizon and require correspondingly earlier whole-lab requests; preserve a clear gap between the staff planning deadline and the public booking window.
+The setting does not eliminate the need to check for conflicts from older bookings, late whole-lab requests, maintenance closures, or manually created future reservations. Review reservation patterns after launch to confirm that three days gives ordinary users enough time for planned experiments and project coordination.
