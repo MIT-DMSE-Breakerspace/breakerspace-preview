@@ -4,21 +4,26 @@ Use this document while revising the **DMSE Breakerspace Lab intro** survey in Q
 
 ## Readiness
 
-**Ready now:** Export the current responses and QSF, then build and test this revision in a Qualtrics copy of the active survey. The production-policy decisions were resolved on July 23, 2026.
+**Ready now:** Export the current responses and QSF, confirm that the original survey uses Qualtrics publishing, and build the revision as an unpublished draft in the original survey. The production-policy decisions were resolved on July 23, 2026.
 
-**Not ready yet:** Publish these changes to the active survey. The copy must first pass the final production-link check, accessibility test, response-export test, notification test, and the complete test matrix below. Apply the tested revision to the active survey in the coordinated website release window.
+**Not ready yet:** Publish the draft. It must first pass the final production-link check, accessibility test, response-export test, notification test, and the complete test matrix below. Publish in the coordinated website release window.
 
-Do not hand-edit the production QSF. Preserve the current survey ID and public link by applying the tested revision manually to the existing survey only after the copy passes review.
+The working copy cannot be converted back to production survey ID `SV_084N36wCErKsgjc`, and importing its QSF would create another new survey. A complete duplicate build would therefore create unnecessary manual work. Preserve the current survey ID and public link by editing and publishing the original project. Use a copy only as a disposable sandbox or as a release candidate for tests that Preview cannot perform. Do not hand-edit a QSF.
 
 ## Before Editing
 
 1. Export all current response data.
 2. Export a fresh QSF and record its date.
-3. Create a Qualtrics copy of the active survey for this build.
-4. Confirm that the copy has a different survey ID from production survey `SV_084N36wCErKsgjc` and that neither its title nor link appears on the production website.
-5. Use the copy's full-survey **Preview** for content, logic, validation, and accessibility testing. Never use the production anonymous link for testing.
-6. Preview cannot create a response in progress. When testing Save and Continue, unfinished-response deletion, or a workflow that requires a live response, activate only the working copy and use that copy's new anonymous link. Share it only with the named testers, never place it on the website, and close response collection when those tests are complete.
-7. Verify the current question IDs and data export tags against the exported QSF before moving or revising questions. The July 15 baseline is already recorded in the survey audit and repository QSF.
+3. Open the original survey and check its status at the top of the Survey editor:
+   * **Published:** proceed. Survey-builder changes become a **Draft Version** and do not reach new respondents until Publish.
+   * **Changes Live:** stop before editing. This legacy state sends edits live immediately. Publish the unchanged current survey once to establish a published baseline, then confirm subsequent edits create a Draft Version.
+4. In **Tools → Versions**, create a named baseline version if Qualtrics permits it in the current state.
+5. Verify the current question IDs and data export tags against the exported QSF before moving or revising questions. The July 15 baseline is already recorded in the survey audit and repository QSF.
+6. Edit the original survey but do not click Publish. Use its full-survey **Preview** for content, logic, validation, and accessibility testing. Never use the production anonymous link for draft testing.
+7. Because the current response data has been fully exported and changes to the historical Qualtrics dataset have been accepted as operationally inconsequential, retire replaced questions by deleting them into Qualtrics' **Trash / Unused Questions** container. Do not permanently empty the Trash during this revision. Create new questions when meaning or validation changes.
+8. Leave immediately effective features until final cutover. These include the Back Button, project name, survey availability, scoring, recode values, base language, and changes outside the Survey tab such as Workflows.
+
+Preview cannot create a response in progress. After the original draft passes Preview, export its current-draft QSF and import that file as a new release-candidate survey. Activate only that release candidate to test Save and Continue, unfinished-response deletion, the anonymous-link path, and the staff notification workflow. Share its link only with named testers and close it after testing. Correct any findings in the original draft, Preview again, export the original responses and QSF once more, configure the immediately effective items, and publish the original. Publishing the original does not change its anonymous link.
 
 After preserving the response export, clean up existing unfinished records:
 
@@ -26,27 +31,42 @@ After preserving the response export, clean up existing unfinished records:
 2. Inspect the filtered records and delete the blank or unfinished responses from Qualtrics. Keep the exported baseline as the historical record of this cleanup.
 3. Do not delete a suspicious blank record marked `Finished = True` merely because it looks incomplete. Investigate its survey path and fields first; an End of Survey branch can create a finished response with `ACCESS_READY = 0`.
 
-Do not delete response-bearing questions. Move retired questions to the existing **Trash / Unused Questions** block outside the survey flow so historical columns remain available while retention is reviewed.
+**Trash / Unused Questions is not a normal move destination.** To retire a question, use **Delete Question** or the red minus control. Qualtrics moves it into the expandable Trash at the bottom of the Survey tab. This removes its column from the current Data & Analysis view, but the pre-edit export preserves the historical record and the question remains restorable until the Trash is permanently emptied. Do not select **Permanently Delete** or **Empty Trash** during this revision.
 
 ## Survey-Level Settings
 
-| Setting | Draft revision |
-| --- | --- |
-| Survey name | `DMSE Breakerspace lab onboarding and access record` |
-| Browser title | `DMSE Breakerspace Lab Onboarding And Access Record` |
-| Protection | Keep public for launch. |
-| Search indexing | Keep disabled. |
-| Back button | Enable. |
-| Progress bar | Enable a simple progress bar. |
-| Save and continue | Keep enabled while the survey remains unauthenticated. |
-| Incomplete survey responses | Select **Delete after 30 days**. The period is measured from the respondent's last activity. |
-| Choice randomization | Disable for all three knowledge checks. |
-| End message | Replace the Qualtrics default with the completion message below. |
-| Respondent receipt | Do not collect an email address or send an email receipt. Use the custom completion message as the respondent's confirmation. |
+The current Qualtrics interface divides these controls among Project actions, Survey Options, Look and Feel, individual questions, and Survey Flow. It is normal not to find them in one settings panel.
+
+| Setting | Location | Revision |
+| --- | --- | --- |
+| Project name | **Projects** page → project dropdown → **Rename project** | `DMSE Breakerspace lab onboarding and access record` |
+| Browser-tab display name | **Survey** → **Survey Options** → **General** → **Display name** | `DMSE Breakerspace Lab Onboarding And Access Record` |
+| Protection and search indexing | **Survey** → **Survey Options** → **Security** | Keep open/public for launch and keep search indexing disabled. |
+| Back button | **Survey** → **Survey Options** → **Responses** | Enable. |
+| Save and continue | **Survey** → **Survey Options** → **Responses** → **Allow respondents to finish later** | Keep enabled while the survey remains unauthenticated. |
+| Incomplete survey responses | **Survey** → **Survey Options** → **Responses** → **Incomplete survey responses** | Select **Delete after 30 days**. The period is measured from the respondent's last activity. |
+| Progress bar | **Survey** → **Look and feel** → **General** → **Progress Bar** | Select **Without Text** and apply the change. |
+| Choice randomization | Select each new knowledge-check question → **Choice randomization** | Select **No Randomization**. This is the default; if there is no randomization icon on the question, no change may be needed. |
+| End messages | **Survey Flow** → the applicable **End of Survey** element → **Customize** | Configure after all questions and branches exist, using the messages below. |
+| Respondent receipt | End-of-survey options and Workflows | Do not enable a thank-you email or collect an email address for a receipt. Use the custom completion message as confirmation. |
 
 MIT SSO is not part of the launch revision. It can be evaluated later with the MIT Qualtrics brand administrator.
 
-## Target Survey Flow
+## Recommended Build Order
+
+Do not work through this document from top to bottom as though every section were an immediate editing step. Use this order:
+
+1. Complete **Before Editing** and only the settings that are held in the unpublished draft. Leave settings identified as immediately effective until final cutover.
+2. Work through **Pages 1–6 linearly** in the survey editor. Rename each retained block, revise its copy, delete retired questions into **Trash / Unused Questions**, and create the new questions. Add each question's display logic, validation, export tag, and No Randomization setting as you encounter it.
+3. When Page 2 calls for Checks 1 and 2 and Page 3 calls for Check 3, use **Implementing The Three Knowledge Checks** for their exact configuration, then return to the page sequence.
+4. After every block, question, answer choice, and validation rule exists, build **Target Survey Flow**. Add `ACCESS_READY`, reorder the six blocks, create both early-exit branches, and configure their End of Survey messages. Building branches last is easier because their referenced questions and choices already exist.
+5. Configure the normal completion message and the staff email workflow.
+6. Set or verify Look and Feel, including the progress bar.
+7. Run the complete Test Matrix using Preview and, for the exceptions described above, a release-candidate copy. Do not publish the original draft until testing passes.
+
+Editing and arranging blocks in the Survey tab does not, by itself, guarantee that Survey Flow is correct. Survey Flow is a separate final assembly and logic step.
+
+## Target Survey Flow — Build After Pages 1–6
 
 At the beginning of Survey Flow, add embedded data named `ACCESS_READY` with a default value of `0`. Use six displayed blocks followed by the Breakerspace completion message:
 
@@ -68,13 +88,13 @@ Recommended reuse of the existing survey:
 | Intro | Rename to **Welcome And Scope** and rewrite QID1. |
 | SOP | Rename to **Training And Instrument Guides**. Rewrite display text, retire QID9 and QID11, and add Checks 1 and 2 as new questions. |
 | Block 4 | Rename to **Samples, Problems, And Help**. Rewrite QID14 and add Check 3 as a new question. |
-| File management | Rename to **Files, Accounts, And Support**. Retain QID3, QID5, QID12, QID6, and QID13 with the display logic below; rewrite QID4 and move rewritten QID15 into this block. |
-| Policies | Rename to **Lab-Wide Rules**. Move QID19 to the unused block and add a new acknowledgment question. |
-| Tap access info | Rename to **Identity And Access Record**. Add the new MIT-role question before retained QID2. |
+| File management | Rename to **Files, Accounts, And Support**. Rewrite QID4, retire the old Dropbox questions and instructions, add the simpler optional Dropbox path below, and move rewritten QID15 into this block. |
+| Policies | Rename to **Lab-Wide Rules**. Delete QID19 into Trash / Unused Questions and add a new acknowledgment question. |
+| Tap access info | Rename to **Identity And Access Record**. Add the new MIT-role and identity questions. Delete response-bearing QID2 into Trash / Unused Questions rather than changing its validation. |
 | Slack | Move QID15 into Files, Accounts, And Support; remove the empty block from the displayed flow. |
-| Trash / Unused Questions | Keep outside the displayed flow. Move retired response-bearing questions here. |
+| Trash / Unused Questions | This is Qualtrics' automatic destination for deleted questions, not a normal block. Do not permanently empty it during the revision. |
 
-## Staff Response Handling
+## Staff Response Handling — Configure After Survey Flow
 
 Use the following operating model:
 
@@ -103,18 +123,18 @@ All three checks use the same Qualtrics configuration:
 1. Add a new **Multiple Choice** question.
 2. Choose **Single Answer** and a vertical answer list.
 3. Enter the data export tag listed below.
-4. Keep answer randomization off. The goal is guided retrieval, not a difficult test.
+4. Select the question's **Choice randomization** control and confirm **No Randomization**. The goal is guided retrieval, not a difficult test.
 5. Under **Response requirements**, add **Custom validation**.
 6. Set the validation condition to the correct choice **Is Selected**. Qualtrics custom validation requires a valid response before the respondent can continue, so do not also use Request Response.
 7. Create and select the check-specific validation message below.
 8. Preview the blank, incorrect, corrected, Back-button, keyboard-only, and screen-reader paths.
 
-Do not reuse QID9 or QID11. Those IDs already contain responses to optical-microscope questions. Move them to the unused block and let Qualtrics assign new IDs to the durable checks.
+Do not reuse QID9 or QID11. Delete them into Trash / Unused Questions and let Qualtrics assign new IDs to the durable checks.
 
 ### Check 1: Training Is Still Required
 
 **Block:** Training And Instrument Guides  
-**Data export tag:** `CHECK_TRAINING_REQUIRED`
+**Data export tag:** `CHECK_TRAIN_REQUIRED`
 
 **Question**
 
@@ -199,7 +219,7 @@ Rewrite the current display text in the SOP block. QID7 and QID8 may be combined
 >
 > Browse the [Breakerspace instrument catalog](https://breakerspace.mit.edu/instruments/) to find the relevant instrument page.
 
-Place Checks 1 and 2 after this text. Move QID9 and QID11 to the unused block. Move QID10 to the unused block if its content has been incorporated into the revised display text.
+Place Checks 1 and 2 after this text. Delete QID9 and QID11 into Trash / Unused Questions. Delete QID10 into Trash as well if its content has been incorporated into the revised display text.
 
 ## Page 3: Samples, Problems, And Help
 
@@ -227,14 +247,35 @@ Rewrite QID4 as display text:
 
 Configure the current Dropbox questions as follows:
 
-1. Retain QID3: **Do you already have an MIT Dropbox for Business account associated with your MIT email address?**
-2. When QID3 is **No**, display QID5 with the enrollment instruction: **Visit [dropbox.mit.edu](https://dropbox.mit.edu) to create or activate your MIT Dropbox for Business account. Return here after completing enrollment.** Then display QID12 asking whether enrollment was completed.
-3. When QID3 is **Yes** or QID12 is **Yes**, display QID6: **Visit [Dropbox Teams](https://www.dropbox.com/team), sign in with your MIT Dropbox account, find the DMSE Breakerspace Team, and select Ask to join. Breakerspace staff normally approve submitted requests within one business day.** Then display QID13.
-4. Update QID13 to: **Are you already a member of the DMSE Breakerspace Team, or have you submitted a request to join?** Use Yes and No choices.
-5. When QID13 is **No**, display: **Return to [Dropbox Teams](https://www.dropbox.com/team) and search for DMSE Breakerspace. If you cannot find or request the team, email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu). You may continue this survey; staff will follow up on the unresolved Dropbox step.** Do not block completion of the survey.
-6. When QID12 is **No**, let the respondent continue and record the unresolved Dropbox step for follow-up.
+1. Delete QID3, QID5, QID12, QID6, and QID13 into Trash / Unused Questions. The old retained choice identities and logic are not worth debugging, and the pre-edit response export preserves their historical data.
+2. Add a required single-answer Yes/No question with data export tag `DROPBOX_ACCOUNT`:
 
-Preserve QID3, QID5, QID12, QID6, QID13, and their current export tags so existing response columns retain their meaning.
+   > Do you already have an MIT Dropbox for Business account associated with your MIT email address?
+
+3. Immediately after it, add Text / Graphic content:
+
+   > ## Optional MIT Dropbox Setup
+   >
+   > MIT Dropbox is optional. It is not required to complete this onboarding record or receive Breakerspace access. Many users find it helpful because files saved through `Breakerspace Files` can be synced to their MIT Dropbox.
+   >
+   > If you would like to set it up, visit [dropbox.mit.edu](https://dropbox.mit.edu) to create or activate your MIT Dropbox for Business account. You may also do this later.
+
+4. On `DROPBOX_ACCOUNT`, add Skip Logic: when **Yes** is selected, skip to the `DROPBOX_TEAM` question below. When **No** is selected, use the normal next-question path so the optional setup text appears.
+5. Add a required single-answer Yes/No question with data export tag `DROPBOX_TEAM`:
+
+   > Are you already a member of, or have you requested to join, the DMSE Breakerspace Dropbox Team?
+
+6. Immediately after it, add Text / Graphic content:
+
+   > ## Optional Breakerspace Dropbox Team Access
+   >
+   > Team membership is optional and a **No** answer does not block survey completion or lab access. If you would like files from the Breakerspace file system synced to your MIT Dropbox, first make sure your MIT Dropbox for Business account is active. Then visit [Dropbox Teams](https://www.dropbox.com/team), find the **DMSE Breakerspace Team**, and select **Ask to join**.
+   >
+   > Breakerspace staff normally approve submitted requests within one business day. If you cannot find or request the team, email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu). You may complete these steps later.
+
+7. On `DROPBOX_TEAM`, add Skip Logic: when **Yes** is selected, skip to **Slack And Workstation Access** below. When **No** is selected, use the normal next-question path so the optional team-access text appears.
+
+Neither No answer is an error and neither path requires Dropbox enrollment, team membership, or staff follow-up before submission.
 
 Move QID15 into this block and rewrite it as display text:
 
@@ -244,7 +285,7 @@ Move QID15 into this block and rewrite it as display text:
 
 ## Page 5: Lab-Wide Rules
 
-Move QID19 to the unused block and add a new single-answer multiple-choice question with data export tag `ACK_LAB_RULES`.
+Delete QID19 into Trash / Unused Questions and add a new single-answer multiple-choice question with data export tag `ACK_LAB_RULES`.
 
 **Question text**
 
@@ -285,7 +326,7 @@ Choices:
 4. Staff
 5. Other MIT affiliate
 
-For every choice other than undergraduate student, display a required single-answer confirmation with data export tag `COORDINATED_WITH_TEAM`:
+For every choice other than undergraduate student, display a required single-answer confirmation with data export tag `TEAM_COORDINATED`:
 
 > Have you coordinated your Breakerspace training with the Breakerspace team?
 
@@ -294,25 +335,29 @@ Choices:
 1. Yes, I have coordinated with the Breakerspace team.
 2. No, I have not yet coordinated with the Breakerspace team.
 
-Display QID2 when the role is undergraduate student or the coordination response is Yes. If the coordination response is No, show the following message and end the survey while `ACCESS_READY` remains `0`:
+Display the new identity questions when the role is undergraduate student or the coordination response is Yes. If the coordination response is No, show the following message and end the survey while `ACCESS_READY` remains `0`:
 
 > ## Coordinate Training Before Access Processing
 >
 > Your response is not marked ready for access processing. Public Breakerspace training sessions prioritize MIT undergraduates. Email [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) to coordinate your intended use and training. After coordination, return to this survey or submit it again as directed by Breakerspace staff.
 
-Set `ACCESS_READY` to `1` only after an eligible respondent completes QID2.
+Set `ACCESS_READY` to `1` only after an eligible respondent completes all three new identity questions.
 
-Retain QID2 with the same three operational fields:
+Delete response-bearing QID2 into **Trash / Unused Questions** rather than changing its existing validation. Do not permanently empty the Trash; the pre-edit response export remains the historical record.
 
-* **Full name as it appears in MIT records**
-* **MIT Kerberos username (without `@mit.edu`)**
-* **9-digit MIT ID number**
+Add three required single-line Text Entry questions:
 
-Add this notice above QID2:
+| Data export tag | Question |
+| --- | --- |
+| `FULL_NAME` | **Full name as it appears in MIT records** |
+| `MIT_KERBEROS` | **MIT Kerberos username (without `@mit.edu`)** |
+| `MIT_ID` | **9-digit MIT ID number** |
+
+Add this notice above the new identity questions:
 
 > The Breakerspace collects your full name, Kerberos username, MIT ID number, and MIT role to maintain the lab onboarding record, process physical access, and resolve access problems. Without complete information, physical tap access cannot be processed. Identifiable responses are available only to the lab manager and designated full-time Breakerspace staff responsible for these functions. Records are retained only as long as needed for these purposes and handled under MIT records policy. Contact [dmse-breakerspace@mit.edu](mailto:dmse-breakerspace@mit.edu) with questions or corrections.
 
-Keep QID2 and its export tag so the three historical fields remain associated with the same response columns. Configure all three fields as required text. For the MIT ID field, replace generic number validation with text-pattern validation that matches exactly nine digits: `^\d{9}$`. Use this custom error:
+For the new MIT ID question, use text-pattern validation that matches exactly nine digits: `^\d{9}$`. Use this custom error:
 
 > Enter all nine digits of your MIT ID number, including a leading zero if present.
 
@@ -349,12 +394,13 @@ These decisions were confirmed July 23, 2026:
 
 ## Test Matrix
 
-Complete every path in the Qualtrics copy before editing the active survey:
+Complete every path against the original draft in Preview or, where specifically noted, the activated release candidate:
 
 | Test user/path | Expected result |
 | --- | --- |
-| Undergraduate with existing Dropbox account | Skips enrollment, sees team request, completes all checks and identity fields. |
-| Undergraduate without Dropbox account | Sees enrollment; can continue if setup remains unresolved. |
+| Existing Dropbox account and team member/request submitted | Skips both optional instruction panels and continues. |
+| No Dropbox account | Sees optional account setup, then reaches the team-status question; can continue without enrolling. |
+| Not a team member and no request submitted | Sees optional team-access instructions and continues without being blocked. |
 | Coordinated faculty/staff user | Confirms coordination and reaches identity fields. |
 | Uncoordinated non-undergraduate | Receives contact path and does not enter tap-access processing. |
 | Wrong answer on each knowledge check | Receives the specific explanatory message and cannot advance until corrected. |
@@ -367,12 +413,12 @@ Complete every path in the Qualtrics copy before editing the active survey:
 | Completed response export | Contains role, three check fields, acknowledgment, Dropbox status, name, Kerberos, MIT ID, `ACCESS_READY = 1`, and Finished status. |
 | Access-ready notification | Sends one no-PII email to `dmse-breakerspace@mit.edu` for an access-ready completion; the authenticated project or view link works for authorized staff. |
 | Non-ready and unfinished notifications | Sends no access-ready email for either early contact branch or an unfinished response. |
-| Incomplete-response deletion | Using only the activated working copy's anonymous link, a test response left incomplete follows the 30-day deletion rule; when a test response is manually closed with deletion configured, it is deleted rather than recorded as a blank completion. Preview cannot perform this test. |
+| Incomplete-response deletion | Using only the activated release candidate's anonymous link, a test response left incomplete follows the 30-day deletion rule; when a test response is manually closed with deletion configured, it is deleted rather than recorded as a blank completion. Preview cannot perform this test. |
 | Duplicate response | Staff view shows both completed records and uses the newest complete, access-ready response for current follow-up. |
 | Response permissions | Only the lab manager and designated full-time staff can open identifiable response data. |
 | Respondent confirmation | Shows the custom completion message and sends no respondent email receipt. |
 
-After the copy passes this matrix, close response collection on the working copy, export its QSF as a test artifact, apply the same edits manually to the active survey, publish during the coordinated website release, and submit one clean production response.
+After the release candidate passes this matrix, close its response collection, apply any final findings to the original draft, Preview the original again, and export the original responses and current-draft QSF. Configure immediately effective settings and the staff workflow during the cutover, publish the original, and submit one clean production response.
 
 ## Qualtrics Configuration References
 

@@ -29,7 +29,7 @@ Highest-priority updates:
 * Correct "paper cheet sheets" to "paper cheat sheets" or remove the reference if printed copies are no longer maintained.
 * Retire both optical-microscope knowledge checks. Replace them with durable scenario checks about independent-use eligibility, unexpected instrument behavior, and uncertain samples.
 * Confirm that Slack links use the intended workspace and `#breakerspace-help` destination, and explain that the trainer sends the invitation during training closeout.
-* Retain the confirmed self-service Dropbox workflow: users create an MIT Dropbox for Business account when needed, then request membership in the DMSE Breakerspace Team. Add display logic so existing account holders skip enrollment and users who need help can still complete the survey.
+* Present Dropbox as an optional convenience rather than an onboarding gate. Use fresh Yes/No questions and simple forward skip logic: existing account holders skip optional enrollment information; existing team members or people who already requested membership skip optional team-request information. Neither No answer blocks completion or access.
 * Explain that instrument trainers add trainees to the appropriate Moira group after the in-person session.
 * Explain that the lab manager processes physical tap access after the one-time Qualtrics record is complete.
 * Confirm that the survey identifies the Breakerspace instrument lab as Building 8, Room 8-102A, entered through the Breakerspace Lounge, wherever arrival information is needed.
@@ -56,9 +56,9 @@ The exact question text, choices, data export tags, custom-validation messages, 
 
 ## Preferred Production Editing Strategy
 
-Preserve the current survey ID and public link by making the approved changes in the existing Qualtrics survey. First export the current responses and QSF, then build and test the revision in a Qualtrics copy. Apply the tested changes manually to the active survey and publish them in the website launch window.
+Preserve the current survey ID and public link by making the approved changes as an unpublished draft in the existing Qualtrics survey. A copied project receives a different survey ID and cannot be converted back to the production ID; importing its QSF also creates a new project. First export the current responses and QSF and confirm that the original survey shows **Published**, not legacy **Changes Live**. Build and Preview the original draft without publishing. Afterward, export the current-draft QSF and import it as a release candidate for the limited live-link tests that Preview cannot perform. Apply any findings to the original draft and publish the original in the website launch window.
 
-Do not delete response-bearing questions during this revision. Move retired questions to the existing unused block outside the survey flow so historical response columns remain interpretable, and add new question IDs for checks whose meaning has changed. Keep QID2 for the same three tap-access fields, but change the MIT ID field from generic numeric validation to the confirmed nine-digit text pattern.
+The current responses have been fully exported, and changes to their presentation inside Qualtrics have been accepted as operationally and administratively inconsequential. Retire replaced questions by deleting them into Qualtrics' restorable Trash / Unused Questions container, but do not permanently empty the Trash during the revision. Delete QID2 into Trash rather than changing its validation in place; add new, separately tagged full-name, Kerberos, and MIT ID questions, with the new MIT ID field using the confirmed nine-digit text pattern.
 
 ## Coordinated Launch Checklist
 

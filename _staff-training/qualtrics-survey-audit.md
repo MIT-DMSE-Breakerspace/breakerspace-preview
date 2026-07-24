@@ -110,7 +110,7 @@ Assessment:
 * The self-service join process is operationally correct: students must first create their own MIT Dropbox for Business account, then request membership in the DMSE Breakerspace Team.
 * Display logic should skip enrollment for existing MIT Dropbox users and show the team-request step only after an account exists.
 * The shared nature of the drive and prohibition on private or sensitive data should be stated.
-* An unresolved Dropbox setup should be recorded for follow-up but should not prevent submission of the safety and tap-access record.
+* Dropbox is an optional convenience, not an access prerequisite. Account and team status may be recorded for context, but an unresolved setup does not require follow-up and must not prevent submission of the safety and tap-access record.
 
 ### 5. Slack
 
@@ -235,11 +235,10 @@ Suggested content:
 
 Retain the current Dropbox questions with the following flow:
 
-1. Retain **QID3**: ask whether the trainee already has an MIT Dropbox for Business account.
-2. When QID3 is **No**, display **QID5** with the MIT enrollment link and then **QID12** asking whether enrollment was completed.
-3. When QID3 is **Yes** or QID12 is **Yes**, display **QID6** with the DMSE Breakerspace Team membership-request instructions.
-4. Update **QID13** to ask whether the trainee is already a member or submitted the request. Accept both Yes and No; when No is selected, explain how to request help without blocking survey completion.
-5. Users who cannot complete Dropbox setup should still reach the policy acknowledgment and tap-access record. Their response can identify the unresolved step for follow-up.
+1. Retire QID3, QID5, QID12, QID6, and QID13 into Trash / Unused Questions rather than debugging their inherited choice identities and logic.
+2. Add a fresh Yes/No account-status question. **Yes** skips optional enrollment information; **No** shows how to activate MIT Dropbox and then continues.
+3. Add a fresh Yes/No team-status question. **Yes** skips optional membership-request information; **No** shows how to find the DMSE Breakerspace Team and request membership, then continues.
+4. State explicitly that Dropbox and team membership are optional and neither No answer blocks survey completion, training, or lab access.
 
 ### Page 5: Lab-Wide Rules And Acknowledgment
 
@@ -309,8 +308,8 @@ Do not promise a processing time until staff have confirmed one they can meet co
 1. Export a fresh QSF and all existing response data immediately before editing.
 2. Create a Qualtrics copy of the active survey and build the proposed flow there first.
 3. Keep a mapping from current question IDs to retained, retired, and new questions.
-4. Do not delete response-bearing questions during this revision. Move retired questions into the existing unused block outside the displayed flow so historical response columns remain interpretable.
-5. Preserve QID2 only if the same three fields retain the same meaning. Add new IDs for role, acknowledgment, and scenario checks.
+4. The current responses have been fully exported and changes to the historical Qualtrics dataset have been accepted as operationally inconsequential. Retire replaced questions by deleting them into Qualtrics' restorable Trash / Unused Questions container; do not permanently empty the Trash during the revision.
+5. Delete QID2 into Trash rather than changing its validation in place. Add new IDs and descriptive export tags for full name, Kerberos username, MIT ID, role, acknowledgment, and scenario checks.
 6. Implement the resolved response-handling, privacy, retention, and confirmation decisions in the manual editing guide, then test every display branch, validation message, link, notification, and completion path in Preview.
 7. Submit test responses for an undergraduate, a directly coordinated non-undergraduate, a user without Dropbox, an uncertain-policy response, and an incomplete response.
 8. Verify the staff-side response export, no-PII notification, and tap-access workflow using only responses with `Finished = 1` and `ACCESS_READY = 1`.
