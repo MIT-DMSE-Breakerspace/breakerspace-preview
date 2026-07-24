@@ -1,22 +1,13 @@
 # MIT DMSE Breakerspace Website
 
-Last updated: 2026-07-21
+> [!IMPORTANT]
+> This repository is inactive. Continued development, issue tracking, and releases have moved to the [production repository](https://github.com/MIT-DMSE-Breakerspace/MIT-DMSE-Breakerspace.github.io). The live site is [breakerspace.mit.edu](https://breakerspace.mit.edu/).
 
-This repository holds the MIT DMSE Breakerspace website. This copy is the working preview used to develop and review the redesigned site before coordinated changes are released to the production site at `breakerspace.mit.edu`.
+Last updated: 2026-07-24
 
-Working folder:
+This repository preserves the former redesign preview for historical reference. The final source transferred to production is tagged `preview-final-2026-07-24`; do not continue development here.
 
-```text
-/Users/justinlavallee/Documents/GitHub/breakerspace-preview
-```
-
-Original production working folder:
-
-```text
-/Users/justinlavallee/Library/CloudStorage/Dropbox-MIT/DMSE Breakerspace/admin/MIT-DMSE-Breakerspace
-```
-
-Work in the preview repository unless a production-site change is explicitly requested. The preview has no `CNAME`, so it does not claim the production domain.
+The remainder of this README describes the release snapshot and is retained as historical context. Current operational and development guidance lives in the production repository.
 
 This README is the top-level orientation for the site: its direction, content status, planning files, and local build instructions. It replaced an earlier `CODEx_HANDOFF.md` of the same content.
 
@@ -161,12 +152,18 @@ The importer validates schema version 1, rejects unexpected data fields and unsa
 
 Review the generated index, each detail page, the optimized images, and `git diff` before committing. Generated `_samples/` and `assets/sample-library/` directories carry marker files; the importer refuses to replace an unmarked directory.
 
-## Repository Context
+## Archived Repository Context
 
-The preview repository uses the `gh-pages` branch and the remote:
+The former preview repository used the `gh-pages` branch and the remote:
 
 ```text
 https://github.com/MIT-DMSE-Breakerspace/breakerspace-preview.git
+```
+
+Its final transferred source is tagged `preview-final-2026-07-24`. All later work belongs in:
+
+```text
+https://github.com/MIT-DMSE-Breakerspace/MIT-DMSE-Breakerspace.github.io.git
 ```
 
 The user prefers practical, polished content that students and lab staff can maintain. Favor established site patterns over clever abstractions, and keep unrelated refactors out of focused content changes.
