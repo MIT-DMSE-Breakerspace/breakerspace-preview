@@ -87,8 +87,8 @@ Use one source of truth for each kind of work:
 * `_staff/site-todo.md`: the three-tier launch plan, cross-site policy decisions, accessibility follow-up, and ongoing operational maintenance.
 * `_staff-training/`: trainer-facing guide model and the coordinated Qualtrics launch review.
 * `instruments/readme.md`: instrument-page architecture, migration status, shared includes, and authoring conventions.
+* `instruments/staff-todo.md`: unpublished instrument-specific missing images, workflows, examples, exercises, and technical review items.
 * `showcases/README.md`: Materials Showcase purpose, source model, editorial workflow, cadence, automation boundaries, and authoring contract.
-* Instrument-page to-do sections: instrument-specific missing images, workflows, examples, exercises, and technical review items for that page.
 
 Public pages should state current policy clearly. Do not expose unresolved policy questions on public pages merely to track them; place those decisions in `_staff/site-todo.md`.
 

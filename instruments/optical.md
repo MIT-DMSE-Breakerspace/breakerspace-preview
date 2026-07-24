@@ -15,7 +15,7 @@ The Olympus DSX-1000 digital optical microscope is the Breakerspace instrument f
 
 The microscope can use brightfield, oblique, darkfield, brightfield/darkfield mix, simple polarization, and differential interference contrast observation modes. It also has motorized imaging features for 3D capture, image stitching, time-lapse capture, movies, and measurement tools.
 
-This page is the operating page for the optical microscope. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, exercises, and staff to-do list.
+This page is the operating page for the optical microscope. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, and exercises.
 
 <div style="clear:both;"></div>
 
@@ -279,15 +279,3 @@ For useful records:
 * **Level 2 - 3D capture:** Use a sample with visible surface relief to acquire a 3D image, generate a profile, and report the measured height difference between two points.
 * **Level 2 - Stitching:** Capture a stitched image of a larger sample region and compare the stitched result with a single-frame image.
 * **Level 3 - Specialist training:** Develop a repeatable imaging workflow for a recurring sample type, including sample prep, objective, observation mode, acquisition type, measurement outputs, and export settings.
-
-### Tutorial To-Do List {#todo}
-
-* Add a complete level 1 training example using a specific sample-library item, including bin number/location once the cabinet is organized.
-* Add photos or GIFs showing the correct startup sequence: power switch, Guest login, stage/head movement acknowledgement, lowering the stage, and tilt position.
-* Add photos or GIFs showing objective exchange and how to choose between long-working-distance and extra-long-working-distance objectives.
-* Add a screenshot or GIF showing the recommended save-location workflow.
-* Add example image sets comparing brightfield, oblique, darkfield, brightfield/darkfield mix, polarization, and DIC on the same sample.
-* Add more annotated example results for stitched imaging and measurement/profile workflows.
-* Add a GIF of 2D acquisition, 3D acquisition, and stitching setup.
-* Add example measurement outputs for profile, volume, roughness, and STL export.
-* Add common sample-prep examples for flat samples, tall samples, fragile samples, and liquid-containing samples.

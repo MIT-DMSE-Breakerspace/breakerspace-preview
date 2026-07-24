@@ -10,7 +10,7 @@ title: Aeris Research X-Ray Diffractometer
 
 The [Panalytical Aeris Research XRD](https://www.malvernpanalytical.com/en/products/product-range/aeris-range) is a benchtop [X-ray diffractometer](https://www.malvernpanalytical.com/en/products/technology/xray-analysis/x-ray-diffraction) used to analyze the phase composition, crystal structure, and orientation of solid and powder samples. A full scan can produce useful results in less than five minutes, and the six-position sample changer lets you queue several samples in a row.
 
-This page is the operating page for the XRD. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, exercises, and staff to-do list.
+This page is the operating page for the XRD. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, and exercises.
 
 <div style="clear:both;"></div>
 
@@ -288,13 +288,3 @@ Advanced analysis such as quantitative phase fractions, crystallite size from pe
 * **Level 2 - Polymorphs of calcium carbonate:** Distinguish two mineral forms of calcium carbonate, such as calcite and aragonite, by their diffraction patterns.
 * **Level 3 - Full phase ID with plane labeling:** Identify a mystery powder and label each major peak with the crystal plane (hkl) it results from.
 * **Level 3 - Sample-prep effect:** Run the same powder coarse and finely ground, or front-loaded and back-loaded, and compare peak sharpness and relative intensities to show the effect of preferred orientation.
-
-### Tutorial To-Do List {#todo}
-
-* Add a labeled overview photo of the instrument showing the mains switch, power button, and HT keyswitch locations.
-* Reshoot the loading, queue, and export GIFs with appropriate glove use if handling guidance calls for it.
-* Add a dedicated screenshot of the changer-position selection in the UI (the current step links the general `Queue.gif`; a still that highlights the position selector would be clearer).
-* Add one or two annotated example patterns showing background, labeled peaks, and an accepted Search Match candidate.
-* Add an attention-catching example diffraction pattern to the "What this instrument shows you" section (for example, a sharp crystalline pattern next to a broad amorphous one) to illustrate the educational text.
-* Cross-link the XRD handout once its cheat-sheet content is finalized and the handout returns to the public build.
-* Add approved training powders and reference samples for the exercises once the sample library is ready.

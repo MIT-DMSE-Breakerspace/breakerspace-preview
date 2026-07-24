@@ -12,7 +12,7 @@ The Horiba XploRA is a confocal Raman microscope: it combines an optical microsc
 
 The Breakerspace system is configured with three lasers (532 nm, 638 nm, and 785 nm) and four diffraction gratings (600, 1200, 1800, and 2400 grooves/mm), which let you trade off signal strength, spectral resolution, and fluorescence to suit different samples.
 
-This page is the operating page for the Raman microscope. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, exercises, and staff to-do list.
+This page is the operating page for the Raman microscope. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, and exercises.
 
 <div style="clear:both;"></div>
 
@@ -284,37 +284,3 @@ Data processing beyond these basics is best learned at the instrument; please as
 * **Level 2 - Combination-tablet mapping:** Perform a spatial map on an [aspirin/paracetamol/caffeine tablet](https://en.wikipedia.org/wiki/Aspirin/paracetamol/caffeine) and identify the different compounds present.
 * **Level 3 - Confocal depth profiling:** Use the confocal capability to collect spectra at different depths within a layered material, such as a snack-bag film, and identify the layers.
 * **Level 3 - Fluorescence troubleshooting:** Take a sample that fluoresces under the 532 nm laser and work through the laser choices to recover a usable Raman spectrum, or determine that the sample is not suitable.
-
-### Tutorial To-Do List {#todo}
-
-This page was substantially expanded from a thin original and still needs verification and images. Items are grouped by type.
-
-**Verify with staff (technical accuracy):**
-
-* Confirm the exact LabSpec 6 control names used on the page match the interface: "stop all," RTD, AutoCalibration (Maintenance tab), the Acquisition-tab parameter labels (spectro, Range, acquisition time, accumulations, ND filter, slit, hole), and the Map section.
-* Confirm the silicon reference peak position (page states ~520 cm<sup>-1</sup>) and the recommended starting acquisition time, accumulations, and ND filter/power for a first measurement.
-* Confirm the confocal hole and slit values to recommend for routine surface work and for z-depth profiling, and add them where the page currently flags them as staff-confirm.
-* Confirm the startup/interlock description (door interlock, interlock key, internal-camera laser check) matches the actual hardware and the intended laser-safety procedure.
-* Confirm that AutoAlignment is staff-only and that the staff-only note reflects lab policy.
-
-**Screenshots and photos (standard workflow):**
-
-* Startup: the laser emission remote-control power and the powered-on indicator.
-* Objectives: the 5x (wayfinding), 10x, and 100x, and where the objective is selected in the software.
-* Focusing: top-camera view, the joystick focus control, and the slide/sample on the stage.
-* Laser verification: the internal-camera view showing the laser spot, plus the interlock door/key locations to check when no laser appears.
-* Live setup: the RTD spectrum, and the AutoCalibration routine with a passing result.
-* Acquisition: the collection-parameters screen with the key fields labeled.
-* Mapping: a video image with a map area drawn, and an example chemical map (for example, a combination tablet).
-* Z-profiling: a diagram or example depth profile showing layers resolved at different confocal hole sizes.
-
-**Content and examples:**
-
-* Add an annotated example spectrum showing labeled peaks, and a fluorescence-dominated spectrum for comparison.
-* Expand Data Processing with a LabSpec 6 baseline-correction and peak-search walkthrough, ideally with screenshots.
-* Confirm approved standard/training samples (polystyrene, combination tablet, a layered film for z-profiling) for the exercises once the sample library is ready.
-
-**Manuals and links:**
-
-* The core manuals are now hosted on the page (LabSpec 6 general use, AutoFocus, the confocality tech note, and the spectral-resolution note), plus a link to the full Dropbox documentation folder. Add the XploRA hardware manual or an AutoCalibration guide if a user-facing need comes up.
-* Consider adding real student-project or example-result links to the Links section.

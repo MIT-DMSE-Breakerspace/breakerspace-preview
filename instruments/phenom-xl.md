@@ -187,12 +187,3 @@ For EDS data:
 * **Level 2 - EDS practice:** Prepare salt and sugar on the same stub. Use morphology first, then EDS on the Phenom XL, to decide which is which.
 * **Level 2 - Non-conductive sample comparison:** Image an uncoated non-conductive sample in low vacuum, then sputter coat a similar sample and compare resolution, charging, and surface contrast.
 * **Level 3 - Specialist training:** Prepare a powder sample sparse enough for particle sizing. Acquire images suitable for measuring particle diameter and compare the result with a poorly dispersed sample.
-
-### Tutorial To-Do List {#todo}
-
-* Add a complete XL level 1 training example using a specific sample-library item, including bin number/location once the cabinet is organized.
-* Add photos or GIFs showing XL tray removal, stub loading, and the correct 5-7 mm below-tray height check.
-* Add a GIF of setting the image label and save location in the Phenom software.
-* Add a GIF of moving from NavCam to LiveSEM, focusing, and acquiring the first image.
-* Add a GIF of starting and stopping Live EDS, emphasizing the stop button before navigating away.
-* Add screenshots of a complete EDS report/export workflow and example CSV/raw-data export.

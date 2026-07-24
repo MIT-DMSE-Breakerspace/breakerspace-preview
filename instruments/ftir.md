@@ -15,7 +15,7 @@ The Thermo Scientific Nicolet iS5 Fourier-transform infrared (FTIR) spectrometer
 
 Most Breakerspace FTIR work uses the iD7 attenuated total reflectance (ATR) accessory, which is left on the instrument by default. ATR makes it straightforward to collect spectra from many solids, semi-solids, powders, pastes, and liquids with minimal sample preparation. The lab also has an iD1 transmission accessory and a Pike Technologies EasiDiff diffuse reflection accessory for less common workflows.
 
-This page is the operating page for the FTIR. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, exercises, and staff to-do list.
+This page is the operating page for the FTIR. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, and exercises.
 
 <div style="clear:both;"></div>
 
@@ -320,13 +320,3 @@ When comparing spectra:
 * **Level 2 - Sample-contact comparison:** Collect the same solid sample with weak contact and with proper pressure. Compare signal strength and peak quality.
 * **Level 2 - Unknown comparison:** Collect an unknown non-hazardous polymer or residue and compare it with a known reference or database result. Report the evidence for and against the proposed identification.
 * **Level 3 - Accessory comparison:** With staff guidance, compare ATR with transmission or diffuse reflectance for a sample where the method choice changes the spectrum.
-
-### Tutorial To-Do List {#todo}
-
-* Replace hand/sample-loading photos, GIFs, or videos with versions showing appropriate glove use.
-* Replace or reshoot the solid sample, powder sample, liquid sample, crystal cleaning, volatiles cover, and pressure-tip GIFs with gloved versions.
-* Add one or two annotated example spectra showing major peaks and how to compare an unknown with a known reference.
-* Add a teaching example contrasting a pure or simple sample with a complex mixture such as coffee, emphasizing when FTIR supports identification and when it mainly supports comparison.
-* Add a short database-search walkthrough using Wiley KnowItAll or another approved reference workflow.
-* Add a concise accessory-change note for iD1 transmission and EasiDiff diffuse reflectance, or mark those as staff-guided until a dedicated workflow is written.
-* Add a small set of approved training samples for repeatable FTIR exercises once the sample library is ready.

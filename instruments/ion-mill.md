@@ -12,7 +12,7 @@ The Technoorg-Linda SEMPrep 2 broad beam ion mill prepares samples for SEM imagi
 
 The Breakerspace system has a high-energy ion source for faster milling, a focused low-energy ion source for gentle final cleaning, polishing and slope-cutting holders, a sample alignment microscope, and liquid nitrogen cooling for heat-sensitive samples.
 
-This page is the operating page for the ion mill. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, exercises, and staff to-do list.
+This page is the operating page for the ion mill. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, and exercises.
 
 <div style="clear:both;"></div>
 
@@ -400,18 +400,3 @@ For useful before/after comparisons:
 * **Level 2 - Slope cutting:** Mount a layered or coated sample on a carrier plate, align it with the 30&deg; slope-cutting holder, run a staff-approved slope-cutting recipe, and image the cross section in the SEM.
 * **Level 2 - Method comparison:** Compare two polishing times or two final-cleaning conditions on similar samples. Use before/after SEM images to decide which method produced the better surface.
 * **Level 3 - Specialist training:** Develop a documented automated recipe for a recurring sample type, including sample prep, holder choice, ion-source sequence, milling times, and before/after image criteria.
-
-### Tutorial To-Do List {#todo}
-
-* Add a photo or GIF of a trained user opening the argon cylinder and confirming the correct regulator state.
-* Add a short screen-capture GIF of the startup purge sequence and semi-automatic needle-valve setup.
-* Add a screen-capture GIF of the software-guided sample loading/removal procedure.
-* Add photos of the actual Breakerspace polishing holders labeled by name and use case.
-* Add photos of a gloved hand loading a polishing holder with the correct tool.
-* Add photos or GIFs showing sample height adjustment for the polishing holder.
-* Add photos or GIFs showing a sample being bonded to a carrier plate in the gluing jig.
-* Add photos or GIFs showing 30&deg; and 90&deg; alignment under the sample alignment microscope, including what the target mask gap looks like on screen.
-* Add a screenshot of the automated recipe library with a safe example recipe highlighted.
-* Add one complete level 1 training example using a specific sample-library item, including bin number/location once the cabinet is organized.
-* Add one level 2 slope-cutting exercise using a specific layered or coated sample-library item, including bin number/location once available.
-* Add before/after SEM image pairs showing successful polishing, insufficient polishing, redeposition, and sample damage.

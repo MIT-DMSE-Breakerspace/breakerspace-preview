@@ -12,7 +12,7 @@ The Horiba Duetta is the Breakerspace spectrometer for measuring how liquid samp
 
 Routine Breakerspace training currently focuses on absorbance and transmission spectra using cuvette samples in EZ Spec. The lab also has a transmission sample holder for flat transparent samples, such as quartz slides with controlled thin films. Fluorescence and combined molecular-fingerprint workflows are useful, but should be treated as staff-guided until the full lab workflow is documented.
 
-This page is the operating page for the Duetta. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, exercises, and staff to-do list.
+This page is the operating page for the Duetta. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, and exercises.
 
 <div style="clear:both;"></div>
 
@@ -337,16 +337,3 @@ Close EZ Spec, log out of the workstation, and push and hold the front power but
 * **Level 2 - Transmission holder comparison:** With staff guidance, compare transmission through a clean quartz slide and a prepared thin-film or sunscreen-coated slide. Explain how the blank/reference choice affects interpretation.
 * **Level 3 - Fluorescence workflow:** With staff guidance, collect fluorescence data from a known fluorescent standard or safe fluorescent sample, then compare how excitation wavelength, concentration, or inner-filter correction changes the result.
 * **Level 3 - Method development:** With staff guidance, create a repeatable absorbance or fluorescence method for a recurring sample type, including sample prep, blank choice, method settings, export format, and acceptance checks.
-
-### Tutorial To-Do List {#todo}
-
-* Confirm the current preferred EZ Spec method settings for routine absorbance training, including wavelength range, increment, integration/acquisition settings, and save/export workflow.
-* Add screenshots for New Method, Absorbance and Transmission, Spectra, wavelength-range setup, sample naming, save location, blank prompt, and export options.
-* Replace or supplement the cuvette-loading GIFs with versions showing appropriate glove use and clearer cuvette orientation.
-* Add photos showing clean vs dirty cuvette optical faces, bubbles in the beam path, and the correct liquid fill height.
-* Add photos of the transmission sample holder and a correctly loaded quartz slide.
-* Add a short absorbance example using a safe training dye, including the expected peak region and a dilution-series plot.
-* Add an annotated sunscreen-on-quartz-slide example showing how absorbance/transmission changes across wavelength for different formulations.
-* Add a fluorescence example using a safe, robust training sample if fluorescence becomes part of routine training.
-* Add a combined absorbance/fluorescence inner-filter-effect example or mark that workflow as staff-guided until documented.
-* Add a complete level 1 exercise using a specific sample-library item or training-kit sample, including bin number/location once the cabinet is organized.

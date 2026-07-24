@@ -5,7 +5,7 @@ title: Breakerspace Instruments
 
 # Instruments
 
-The Breakerspace instrument pages are consolidated operating guides. Each one combines the instrument overview, reservation links, quick reference, detailed training guide, manuals, exercises, and active improvement notes in one place.
+The Breakerspace instrument pages are consolidated operating guides. Each one combines the instrument overview, reservation links, quick reference, detailed training guide, manuals, and exercises in one place.
 
 ## Imaging And Microscopy
 

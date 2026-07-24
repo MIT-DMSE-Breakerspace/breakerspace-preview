@@ -1,6 +1,6 @@
 # Instrument Pages README
 
-This folder is for integrated instrument pages. These pages are intended to become the main user-facing destination for each lab instrument, combining the instrument overview, educational context, short operational reference, training/tutorial material, reservation links, manuals, exercises, and instrument-specific to-do lists.
+This folder is for integrated instrument pages. These pages are intended to become the main user-facing destination for each lab instrument, combining the instrument overview, educational context, short operational reference, training/tutorial material, reservation links, manuals, and exercises. Instrument-specific improvement work is tracked in the unpublished [`staff-todo.md`](staff-todo.md).
 
 The older `tutorials/` pages can remain in place during the transition. The working model is:
 
@@ -39,15 +39,15 @@ This section is a durable status snapshot of the **Detailed Operating Instructio
 
 | Page | Score | State of the detailed section |
 | --- | --- | --- |
-| `ion-mill.md` | 5 | Exemplary and fully self-contained (no includes): concepts, polishing, slope cutting, startup/purge, loading, semi-auto and automated recipes, data. Richest media set. Remaining to-dos are enhancement media, not content. |
+| `ion-mill.md` | 5 | Exemplary and fully self-contained (no includes): concepts, polishing, slope cutting, startup/purge, loading, semi-auto and automated recipes, data. Richest media set. Remaining tasks are enhancement media, not content. |
 | `xrd.md` | 5 | Exemplary: loading, run a program, export (login/path/formats), HighScore analysis, and a 7-step worked unknown-powder example. **Only page with true page-level manual citations.** Best structural model for the priority pages. |
 | `ftir.md` | 5 | Exemplary: per-sample-type loading (solid/powder/liquid), ATR cleaning, setup, background, collection, all with embedded GIFs. Links whole manuals (not page-cited) and points to in-software Help. |
-| `optical.md` | 4 | Thorough with page-cited manuals (QRG p.11, app manual pp.52/63/106/112/132) and some GIFs; startup/loading light (deferred to SOP/prep) and several acquisition GIFs still to-do. |
+| `optical.md` | 4 | Thorough with page-cited manuals (QRG p.11, app manual pp.52/63/106/112/132) and some GIFs; startup/loading light (deferred to SOP/prep) and several acquisition GIFs remain on the staff checklist. |
 | `psa.md` | 4 | Video-rich workflow (cleaning, loading, software, collection). Manual references are whole-PDF only. Login/default-database details still need confirming before publish. |
 | `uv-vis.md` | 4 | Good routine-absorbance EZ Spec workflow; needs confirmed method settings and process screenshots. Fluorescence remains staff-guided. Manual references are whole-PDF only. |
 | `raman.md` | 4 | Strong text and conceptual depth (laser/grating choice, Si calibration, mapping, z-profiling) but **zero embedded media** and several control names/settings flagged for staff verification. |
-| `phenom-xl.md` | 4 | Solid; core LiveSEM imaging workflow lives in `_includes/sem/live-sem-workflow.md`. Instrument-specific loading/imaging GIFs still to-do. |
-| `phenom-pure.md` | 4 | Solid; **cold-stage section is the most developed of any page.** Standard NavCam-to-LiveSEM imaging delegated to the shared include; generic loading media still to-do. |
+| `phenom-xl.md` | 4 | Solid; core LiveSEM imaging workflow lives in `_includes/sem/live-sem-workflow.md`. Instrument-specific loading/imaging GIFs remain on the staff checklist. |
+| `phenom-pure.md` | 4 | Solid; **cold-stage section is the most developed of any page.** Standard NavCam-to-LiveSEM imaging delegated to the shared include; generic loading media remain on the staff checklist. |
 | `sem.md` | 3 (hub) | Intentionally a hub with no operating walkthrough — startup/imaging/shutdown are delegated to the two Phenom pages. Strong science and shared sample-prep content. Do not add operation here. |
 | `hardness-tester.md` | 3 ⚠️ | **Priority.** Competent prose walkthrough (loading, focus, scale, run, patterns) but text-only, software-light, and the only linked manual is a marketing brochure for the wrong model (9100, not 5100G2). |
 | `instron.md` | 3 ⚠️ | **Priority.** Strong hardware setup (load cell, fixtures, extensometer) with real figures, but the Bluehill test-method/run half of the workflow is essentially absent from the detailed section. |
@@ -62,7 +62,7 @@ Current score 3. To reach 4-5, the detailed section needs:
 * A walkthrough of **configuring load, dwell time, and scale** before a run (currently absent).
 * **Save/export the report** steps in the detailed section (only mentioned briefly under Data).
 * Coverage of the **9-position turret** behaviour and how objectives/indenters switch.
-* A **worked example** reading a well-formed vs. poor Vickers/Rockwell indent (currently only a to-do).
+* A **worked example** reading a well-formed vs. poor Vickers/Rockwell indent (currently only on the staff checklist).
 * **Correct manuals:** replace the wrong-model Nemesis 9100 brochure with the Impressions software manual and the 5100G2 operator/reference manual, and cite sections. Confirm the exact available Rockwell/Vickers/Brinell scales and any lab limits, and add or link a conversion reference.
 
 ### Priority Work: Instron
@@ -81,7 +81,7 @@ Current score 3. The page is lopsided — hardware setup is strong, test executi
 * Every page follows the same editorial pattern: quick reference above, `{#details}` training section below, manual links rather than manual replication. The main levelling axes are (a) page-level manual citations vs. whole-PDF links, (b) embedded media, and (c) a worked start-to-result example.
 * The SEM family shares content through `_includes/sem/` (notably `live-sem-workflow.md`, `data-and-analysis.md`, `common-failure-modes.md`). When judging or editing a Phenom page's detailed workflow, remember part of it lives in those includes, not the page.
 * Locally hosted manuals currently exist only for UV-Vis (Duetta/EZ Spec) and Raman (LabSpec 6 quick-start, AutoFocus, confocality tech note) under `assets/img/tutorials/`. Other instruments link manufacturer-hosted or Dropbox PDFs.
-* Media to-dos recur across nearly every page (gloved re-shoots, annotated example results). These are Tier 3 improvement work in `../_staff/site-todo.md` and are not launch blockers; missing *instruction text* on the two priority pages is the higher-value gap.
+* Media tasks recur across nearly every page (gloved re-shoots, annotated example results). They are consolidated in [`staff-todo.md`](staff-todo.md), align with Tier 3 improvement work in `../_staff/site-todo.md`, and are not launch blockers; missing *instruction text* on the two priority pages is the higher-value gap.
 
 ## Content Strategy
 
@@ -122,7 +122,6 @@ Use this order unless an instrument family needs a hub/split structure:
 12. Common failure modes.
 13. Manufacturer manuals and links.
 14. Exercises.
-15. Tutorial to-do list.
 
 ## Educational Section Format
 
@@ -133,7 +132,7 @@ The educational section should usually be 500-900 words total, plus images or ex
 * **What to look for in the results:** 2-4 annotated examples or plain-language descriptions of typical images, spectra, maps, curves, or measurements.
 * **What this instrument cannot tell you:** a short list of limits and common misconceptions.
 
-Use annotated images or example data when they exist, but do not block publishing a useful educational section while waiting for perfect examples. Add missing examples to the page to-do list.
+Use annotated images or example data when they exist, but do not block publishing a useful educational section while waiting for perfect examples. Add missing examples to [`staff-todo.md`](staff-todo.md).
 
 ## Shared Includes
 
@@ -188,7 +187,7 @@ layout: default
 ---
 ```
 
-3. Follow the standard page order above: overview, quick actions, educational context, page index, standard operating protocol, compatible materials, detailed operating instructions, data processing, common failure modes, manuals, exercises, and to-do list.
+3. Follow the standard page order above: overview, quick actions, educational context, page index, standard operating protocol, compatible materials, detailed operating instructions, data processing, common failure modes, manuals, and exercises.
 4. If several pages need the same text, create a small include under `_includes/<instrument-or-family>/`.
 5. Keep instrument-specific safety-critical steps on the instrument page itself.
 6. Validate local links and image paths before making the page live.
@@ -206,4 +205,4 @@ The intended pattern is that instrument workstations open the relevant instrumen
 
 The shared hub, such as `instruments/sem.html`, is best linked from the instrument catalog and used by users who are deciding which instrument to reserve.
 
-Instrument-specific to-do sections are useful while a page is being actively developed in preview. Before production launch, review visible to-do sections and retain only items that are genuinely useful to student contributors or public collaborators; move internal maintenance work to `_staff/site-todo.md`.
+Keep instrument-specific improvement work in the unpublished [`staff-todo.md`](staff-todo.md), not on public operating pages. Move cross-site maintenance or policy work to `../_staff/site-todo.md`.

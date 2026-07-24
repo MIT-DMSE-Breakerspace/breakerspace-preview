@@ -194,12 +194,3 @@ If the image flickers, bright bands streak across the field of view, or the samp
 * **Level 2 - Non-conductive sample comparison:** Image an uncoated non-conductive sample in low vacuum, then sputter coat a similar sample and compare resolution, charging, and surface contrast.
 * **Level 2 - Cold-stage observation:** Use a staff-approved small wet or heat-sensitive sample. Document the freezing temperature, imaging behavior, and signs of frost, outgassing, or beam damage.
 * **Level 3 - Specialist training:** Prepare a beam-sensitive sample and compare image quality at different voltage/intensity combinations.
-
-### Tutorial To-Do List {#todo}
-
-* Add a complete Pure level 1 training example using a specific sample-library item, including bin number/location once the cabinet is organized.
-* Add photos or GIFs showing Phenom Pure holder selection, stub loading, and the correct below-holder-edge height check.
-* Add a GIF of setting the image label and save location in the Phenom software.
-* Add a GIF of moving from NavCam to LiveSEM, focusing, and acquiring the first image.
-* Add cold-stage photos or GIFs showing cryo gel turning fully white, acceptable vs excessive frost, and black wire/connector placement during loading.
-* Add before/after image examples of cold-stage drift, frost, and sample outgassing.

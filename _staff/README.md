@@ -4,7 +4,7 @@ This underscore-prefixed directory contains unlisted staff planning material tha
 
 The repository may still be publicly readable. Do not store credentials, private student information, access codes, sensitive physical-security details, or other confidential information here.
 
-Use [`site-todo.md`](site-todo.md) as the canonical list for work that crosses pages or affects launch and ongoing site operations. Instrument-specific tutorial and migration tasks may remain on the relevant instrument page while those pages are actively being developed.
+Use [`site-todo.md`](site-todo.md) as the canonical list for work that crosses pages or affects launch and ongoing site operations. Use [`../instruments/staff-todo.md`](../instruments/staff-todo.md) for instrument-specific page improvements.
 
 ## Sources Of Truth
 
@@ -13,7 +13,7 @@ Use [`site-todo.md`](site-todo.md) as the canonical list for work that crosses p
 * [`whole-lab-reservations.md`](whole-lab-reservations.md) defines the staff-mediated whole-lab reservation policy, intake requirements, calendar-blocking workflow, and remaining LibCal configuration tests.
 * [`../_staff-training/`](../_staff-training/) contains trainer-facing guide materials and the coordinated Qualtrics review.
 * [`../instruments/readme.md`](../instruments/readme.md) defines the instrument-page model and migration process.
-* Instrument-page to-do sections track technical work that applies only to that instrument while its page is under active development.
+* [`../instruments/staff-todo.md`](../instruments/staff-todo.md) tracks technical work that applies only to a specific instrument page.
 
 ## Current Priorities
 

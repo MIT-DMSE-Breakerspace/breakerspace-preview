@@ -104,7 +104,7 @@ These are appropriate ongoing projects for undergraduate lab employees. Student 
 
 ### Instrument Pages And Training Media
 
-* [ ] Work through the remaining instrument-page to-do sections: standardized setup photography, software screenshots, annotated controls, example data, troubleshooting detail, and clearer data-export instructions.
+* [ ] Work through the instrument-specific checklist in [`../instruments/staff-todo.md`](../instruments/staff-todo.md): standardized setup photography, software screenshots, annotated controls, example data, troubleshooting detail, and clearer data-export instructions.
 * [ ] Add captions, transcripts, and non-autoplaying video replacements for instructional GIFs and videos as source files become available.
 * [ ] Improve abbreviated alternative text and screenshot descriptions in consolidated instrument pages with review from an instrument trainer.
 * [ ] Inventory linked manuals and request accessible versions from manufacturers; record which operating information still needs an HTML equivalent.
@@ -149,7 +149,7 @@ These are appropriate ongoing projects for undergraduate lab employees. Student 
 
 * [ ] Check contact details, hours, access forms, training links, reservation links, emergency references, and external services at least once each term.
 * [ ] Re-run the internal-link, fragment, responsive-layout, keyboard, and representative screen-reader checks after major structural changes.
-* [ ] Review public contribution notes and instrument to-do sections each term so completed or internal tasks do not accumulate on operating pages.
+* [ ] Review public contribution notes and [`../instruments/staff-todo.md`](../instruments/staff-todo.md) each term so completed tasks do not accumulate and internal planning stays off operating pages.
 * [ ] Route operational reports from email and #breakerspace-help into the appropriate page task, staff training guide, sample record, or policy review.
 
 ## Implemented Foundation

@@ -12,7 +12,7 @@ The Instron 68TM-50 is a universal testing machine (UTM): it pulls, pushes, or b
 
 The Breakerspace system is equipped with 50 kN and 5 kN load cells and fixtures for tensile (pulling), compression (pushing), and flexure (bending) testing. A video extensometer is available for measuring strain optically.
 
-This page is the operating page for the Instron. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, exercises, and staff to-do list.
+This page is the operating page for the Instron. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, and exercises.
 
 <div style="clear:both;"></div>
 
@@ -142,7 +142,7 @@ Most parts attach the same way: align the internal holes, insert a clevis pin, a
 
 #### Setup Diagrams
 
-Each test type uses a different fixture arrangement. The annotated setups below are current reference photos; they are slated to be reshot and standardized (see the [to-do list](#todo)).
+Each test type uses a different fixture arrangement. The annotated setups below are current reference photos.
 
 <figure class="page-figure" style="max-width:32rem;">
   <img src="../assets/img/tutorials/instron/FIXED_1kN_set_up.jpg" alt="Instron tensile setup using mini wedge grips for low-force testing, rated to a maximum load of 1 kN." width="3024" height="4032" loading="lazy">
@@ -241,13 +241,3 @@ This is a supervised event demonstration, not a standard independent-user workfl
     <figcaption>During the test, visible cracking and collapse can be connected to the force-displacement response.</figcaption>
   </figure>
 </div>
-
-### Tutorial To-Do List {#todo}
-
-* The setup diagrams and extensometer software screen are now embedded as captioned figures; reshoot/standardize those images and swap them into the existing figure blocks (the layout is ready).
-* Reshoot or standardize the setup photos for tensile (1 kN and 50 kN), compression, and flexure so each test type has a clear, consistent figure.
-* Add clean Bluehill Universal screenshots for the method screen, test screen, and travel-limit prompt.
-* Add an annotated example force-displacement (or stress-strain) curve showing the stiff region, peak, and failure point.
-* Confirm the operational safety guidance with staff: whether any Instron task should not be done alone, and whether heavy tooling calls for protective footwear or handling aids (tracked in the site to-do).
-* Add the pumpkin-compression results figure and, if useful, a labeled force-displacement curve from the event.
-* Confirm approved training samples for the exercises once the sample library is ready.

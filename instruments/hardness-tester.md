@@ -12,7 +12,7 @@ The Innovatest Nemesis 5100G2 measures the hardness of a material by pressing a 
 
 The Breakerspace system has a 9-position turret that automatically switches between indenters and objectives, a load cell to apply and measure the test force, and a motorized XY stage that can run programmed test patterns. It is equipped with indenters for Vickers, Rockwell, and Brinell tests and can run a range of scales.
 
-This page is the operating page for the hardness tester. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, exercises, and staff to-do list.
+This page is the operating page for the hardness tester. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, and exercises.
 
 <div style="clear:both;"></div>
 
@@ -234,13 +234,3 @@ The two manuals that matter for operation are the **Impressions 4 software user 
 * **Level 2 - Method comparison:** Measure the same sample with two methods or scales and use a conversion table to compare, discussing why the raw numbers differ.
 * **Level 3 - Processing effect:** Compare the hardness of a metal before and after cold-working or a heat treatment, and relate the change to what happened to the material.
 * **Level 3 - Hardness across a feature:** Map hardness across a weld, heat-affected zone, or case-hardened surface with a pattern, and interpret how hardness varies.
-
-### Tutorial To-Do List {#todo}
-
-* Add photos of the power switch, sample on the stage, and the turret with indenters and objectives.
-* Add annotated Impressions software screenshots: the camera/focus view, the **IN FOCUS** button, the **SCALE SELECT** test button, and the **TEST PATTERN** editor.
-* Add an example result showing a well-formed Vickers indent with its measured diagonals (crosslines on the corners), and a poor indent with a red diagonal box for comparison.
-* Add page-level manual citations to the detailed steps now that the [manuals](#manuals) are hosted.
-* Confirm which indenters and objectives are actually fitted in the turret and note the exact scales offered, so the [available scales](#scales) list can be made specific to this machine.
-* Add or link a hardness conversion table for the common scales used in the lab.
-* Confirm approved training samples (a standard hardness block and example alloys) for the exercises once the sample library is ready.

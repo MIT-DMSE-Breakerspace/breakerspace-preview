@@ -12,7 +12,7 @@ The Microtrac Sync particle size analyzer measures the particle size distributio
 
 In the Breakerspace configuration, the sample is carried on a vibrating tray, pulled through the measurement zone, and collected in a shop vacuum below the instrument. That means cleanup is minimal, but the analyzed powder cannot be recovered afterward.
 
-This page is the operating page for the particle size analyzer. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, exercises, and staff to-do list.
+This page is the operating page for the particle size analyzer. It combines the quick reference for trained users, detailed training notes, reservation link, manuals, and exercises.
 
 <div style="clear:both;"></div>
 
@@ -206,10 +206,3 @@ The data from this instrument is fairly straightforward, but please ask lab staf
 * **Level 2 - Compare two powders:** Measure a fine powder and a coarse powder and compare their distributions, describing the difference in D50 and spread.
 * **Level 3 - Volume vs. number basis:** Take one measurement and recalculate it on volume and number bases. Explain why the same sample looks different and when each basis is appropriate.
 * **Level 3 - Size and shape together:** Measure a powder here, then image the same powder on the optical microscope or SEM, and discuss what the equivalent-diameter distribution does and does not capture about the real particle shapes.
-
-### Tutorial To-Do List {#todo}
-
-* Add labeled photos or annotated stills of the sample trays (shallow vs. deep), the fill line, and evenly distributed vs. compressed loading.
-* Add an annotated example distribution plot showing D10/D50/D90 and a bimodal example.
-* Confirm approved standard/training powders for the exercises once the sample library is ready, including cabinet location.
-* Confirm the current workstation login details and default database/export conventions before publishing.
